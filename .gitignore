@@ -1,0 +1,7 @@
+log.txt
+scratch/
+__pycache__/
+*.pyc
+.env
+.idea/
+.vscode/
