@@ -120,11 +120,11 @@ class SafetyCalculator:
                 state,
                 request_date_str,
                 [(cand_date, requested_amount)],
-                spending_changes=None,
-                max_eval_date=cand_date
+                spending_changes=None
             )
             if res["is_safe"]:
                 return cand_date
 
         return None
+
 
