@@ -4,8 +4,8 @@
 
 * **Execution Mode**: Hybrid Deterministic Engine + Structured Evidence Extractor
 * **Total Requests Evaluated**: 250
-* **Total Execution Time**: 59.08 seconds
-* **Average Time per Request**: 0.2363 seconds
+* **Total Execution Time**: 321.01 seconds
+* **Average Time per Request**: 1.2840 seconds
 
 ## Model Call Breakdown
 

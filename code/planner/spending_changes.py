@@ -56,13 +56,14 @@ class SpendingChangesExplorer:
 
                 savings = exp["amount"] - target_amt
                 if savings > 0:
+                    amt_text = f"{int(round(target_amt))}" if abs(target_amt - round(target_amt)) < 1e-4 else f"{target_amt:.2f}"
                     candidate_actions.append({
                         "type": "reduce_to",
                         "event_id": ev_id,
                         "category": cat,
                         "amount": target_amt,
                         "savings": savings,
-                        "text": f"reduce_to:{ev_id}:{target_amt:.2f}".rstrip('0').rstrip('.') if target_amt == int(target_amt) else f"reduce_to:{ev_id}:{target_amt}"
+                        "text": f"reduce_to:{ev_id}:{amt_text}"
                     })
 
         if not candidate_actions:

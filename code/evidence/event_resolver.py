@@ -82,19 +82,23 @@ class EventResolver:
             category = str(ev.get("category", "other")).lower()
             flexibility = str(ev.get("flexibility", "fixed")).lower()
             min_allowed = ev.get("minimum_allowed_amount")
+
+            # Check message amendments
+            if event_id in message_updates_by_event:
+                for msg in message_updates_by_event[event_id]:
+                    text = str(msg.get("message_text", "")).lower()
+                    if any(w in text for w in ["cancel", "dibatalkan", "void", "failed", "gagal"]):
+                        status = "cancelled"
+                    elif any(w in text for w in ["settle", "paid", "lunas", "completed", "selesai"]):
+                        status = "settled"
+
+            # Convert amount to home_currency using dated FX rate
+            amt_home = self.fx.convert(amt, ev_curr, home_currency, ref_date)
+
             if pd.notna(min_allowed):
                 min_allowed_home = self.fx.convert(float(min_allowed), ev_curr, home_currency, ref_date)
             else:
                 min_allowed_home = None
-
-            # Apply message amendments if any
-            if event_id in message_updates_by_event:
-                for msg in message_updates_by_event[event_id]:
-                    text = str(msg.get("message_text", "")).lower()
-                    if "cancel" in text or "dibatalkan" in text or "void" in text:
-                        status = "cancelled"
-                    elif "settle" in text or "paid" in text or "lunas" in text:
-                        status = "settled"
 
             resolved_events.append({
                 "event_id": event_id,

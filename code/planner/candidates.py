@@ -42,11 +42,10 @@ class CandidatePlan:
         parts = []
         for d, a in sorted_sched:
             d_str = str(d).split()[0]
-            # Format amount cleanly
-            if a == int(a):
-                amt_str = f"{int(a)}"
+            if abs(a - round(a)) < 1e-4:
+                amt_str = f"{int(round(a))}"
             else:
-                amt_str = f"{a:.2f}".rstrip('0').rstrip('.')
+                amt_str = f"{a:.2f}"
             parts.append(f"{d_str}:{amt_str}")
         return "|".join(parts)
 

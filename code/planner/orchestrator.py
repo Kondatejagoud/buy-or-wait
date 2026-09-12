@@ -54,7 +54,7 @@ class DecisionEngine:
         )
 
         # 3. Detect recurrence
-        recurring_streams = self.recurrence_engine.detect_recurring_patterns(resolved_events, req_date)
+        recurring_streams = self.recurrence_engine.detect_recurring_patterns(resolved_events, req_date, user_msgs)
 
         # 4. Build user state
         state = self.state_builder.build_state(profile, resolved_events, recurring_streams)
@@ -78,15 +78,19 @@ class DecisionEngine:
         # 8. Evaluate candidates & spending changes
         safe_candidates: List[CandidatePlan] = []
         for cand in candidates:
-            res_base = self.simulator.simulate(state, req_date, cand.schedule, spending_changes=None)
+            cand_max_date = max(desired_deadline, cand.end_date) if cand.end_date != "9999-12-31" else desired_deadline
+            res_base = self.simulator.simulate(state, req_date, cand.schedule, spending_changes=None, max_eval_date=cand_max_date)
             if res_base["is_safe"]:
                 cand.spending_changes = []
                 safe_candidates.append(cand)
             else:
                 sp_changes = self.spending_explorer.find_spending_changes_for_plan(state, req_date, cand.schedule)
                 if sp_changes is not None:
-                    cand.spending_changes = sp_changes
-                    safe_candidates.append(cand)
+                    # Re-verify safety with spending changes
+                    res_sp = self.simulator.simulate(state, req_date, cand.schedule, spending_changes=sp_changes, max_eval_date=cand_max_date)
+                    if res_sp["is_safe"]:
+                        cand.spending_changes = sp_changes
+                        safe_candidates.append(cand)
 
         # 9. Rank safe plans
         best_plan = self.ranker.rank_plans(safe_candidates, desired_deadline)
@@ -100,17 +104,20 @@ class DecisionEngine:
 
             if rec_method == "full_payment" and best_plan.start_date == req_date and len(best_plan.spending_changes) == 0:
                 aff_status = "affordable_now"
-            elif rec_method in ["partial_payment", "installments"] or len(best_plan.spending_changes) > 0:
-                aff_status = "affordable_with_plan"
-            elif rec_method == "wait":
+                final_earliest_date = req_date
+            elif rec_method == "wait" and len(best_plan.spending_changes) == 0:
                 aff_status = "affordable_later"
+                final_earliest_date = earliest_full_date_str
             else:
                 aff_status = "affordable_with_plan"
+                final_earliest_date = earliest_full_date_str
         else:
             rec_method = "not_recommended"
             aff_status = "not_affordable"
             plan_str = "none"
             sp_changes_str = "none"
+            final_earliest_date = ""
+
 
         rec_dict = {
             "request_id": req_id,
@@ -118,7 +125,7 @@ class DecisionEngine:
             "affordability_status": aff_status,
             "recommended_payment_method": rec_method,
             "payment_plan": plan_str,
-            "earliest_date_for_full_payment": earliest_full_date_str,
+            "earliest_date_for_full_payment": final_earliest_date,
             "spending_changes_needed": sp_changes_str,
             "currency": home_curr,
             "requested_amount": req_amt,

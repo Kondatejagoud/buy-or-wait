@@ -12,11 +12,18 @@ class CashFlowSimulator:
         state: UserFinancialState,
         request_date_str: str,
         payment_schedule: List[Tuple[str, float]],
-        spending_changes: Optional[List[Dict[str, Any]]] = None
+        spending_changes: Optional[List[Dict[str, Any]]] = None,
+        max_eval_date: Optional[str] = None
     ) -> Dict[str, Any]:
         req_dt = pd.to_datetime(request_date_str)
         curr_bal = state.current_available_balance
         min_keep = state.minimum_balance_to_keep
+
+        if max_eval_date:
+            max_eval_dt = pd.to_datetime(str(max_eval_date).split()[0])
+            eval_days = max(1, min(self.horizon_days, (max_eval_dt - req_dt).days + 1))
+        else:
+            eval_days = self.horizon_days
 
         stopped_events: Set[str] = set()
         stopped_categories: Set[str] = set()
@@ -44,17 +51,29 @@ class CashFlowSimulator:
 
         # Pre-group resolved events by date
         events_by_date: Dict[str, List[Dict[str, Any]]] = {}
+        pending_debits_before_req: List[Dict[str, Any]] = []
+
         for ev in state.resolved_events:
             status = ev["status"]
             if status in ["cancelled", "failed", "unrealized"]:
                 continue
             sdate = str(ev.get("settlement_date", ev.get("event_date", ""))).split()[0]
             if sdate:
-                if sdate not in events_by_date:
-                    events_by_date[sdate] = []
-                events_by_date[sdate].append(ev)
+                if sdate < request_date_str:
+                    if status == "pending" and ev["direction"] == "debit":
+                        pending_debits_before_req.append(ev)
+                else:
+                    if sdate not in events_by_date:
+                        events_by_date[sdate] = []
+                    events_by_date[sdate].append(ev)
 
-        # Pre-compute recurring stream dates for the 90-day horizon ONCE
+        # Include un-settled pending debits before request_date on request_date_str
+        if pending_debits_before_req:
+            if request_date_str not in events_by_date:
+                events_by_date[request_date_str] = []
+            events_by_date[request_date_str].extend(pending_debits_before_req)
+
+        # Pre-compute recurring stream dates for the horizon
         rec_income = state.recurring_streams.get("income", [])
         rec_expenses = state.recurring_streams.get("expenses", [])
 
@@ -63,7 +82,7 @@ class CashFlowSimulator:
         for inc in rec_income:
             freq = inc["frequency"]
             last_dt = pd.to_datetime(inc["last_event_date"])
-            for i in range(self.horizon_days):
+            for i in range(0, eval_days):
                 day_dt = req_dt + pd.Timedelta(days=i)
                 day_str = day_dt.strftime("%Y-%m-%d")
                 is_due = False
@@ -87,7 +106,7 @@ class CashFlowSimulator:
         for exp in rec_expenses:
             freq = exp["frequency"]
             last_dt = pd.to_datetime(exp["last_event_date"])
-            for i in range(self.horizon_days):
+            for i in range(0, eval_days):
                 day_dt = req_dt + pd.Timedelta(days=i)
                 day_str = day_dt.strftime("%Y-%m-%d")
                 is_due = False
@@ -114,7 +133,8 @@ class CashFlowSimulator:
         min_bal_date = request_date_str
         is_safe = True
 
-        for i in range(self.horizon_days):
+        for i in range(eval_days):
+
             day_dt = req_dt + pd.Timedelta(days=i)
             day_str = day_dt.strftime("%Y-%m-%d")
 
