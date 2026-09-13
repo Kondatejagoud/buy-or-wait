@@ -3,6 +3,9 @@ import sys
 import time
 import pandas as pd
 
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(line_buffering=True)
+
 # Ensure repository root is in sys.path
 repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 if repo_root not in sys.path:
@@ -44,10 +47,14 @@ def main():
             "spending_changes_needed": rec["spending_changes_needed"],
             "decision_explanation": rec["decision_explanation"]
         })
+        if (idx + 1) % 25 == 0 or (idx + 1) == len(loader.requests_df):
+            print(f"  -> Processed {idx + 1}/{len(loader.requests_df)} requests...", flush=True)
 
     out_df = pd.DataFrame(output_rows)
     out_df.to_csv(out_csv_path, index=False)
-    print(f"-> Successfully generated {len(out_df)} predictions in output.csv!")
+    dataset_out_path = os.path.join(dataset_dir, "output.csv")
+    out_df.to_csv(dataset_out_path, index=False)
+    print(f"-> Successfully generated {len(out_df)} predictions in output.csv and dataset/output.csv!")
 
     # 3. Validate Output CSV
     print("\n[3/5] Validating generated output.csv...")
@@ -74,7 +81,7 @@ def main():
 
 ## Full Dataset Run Summary
 
-* **Execution Mode**: Hybrid Deterministic Engine + Structured Evidence Extractor
+* **Execution Mode**: 100% Local Deterministic Python Financial Engine
 * **Total Requests Evaluated**: {len(out_df)}
 * **Total Execution Time**: {elapsed_sec:.2f} seconds
 * **Average Time per Request**: {(elapsed_sec / len(out_df)):.4f} seconds
@@ -83,17 +90,16 @@ def main():
 
 | Model Provider | Model Name | Calls | Input Tokens | Output Tokens | Total Tokens | Cost / Call | Total Cost ($) |
 |---|---|---|---|---|---|---|---|
-| Google DeepMind (Gemini) | Gemini 1.5 Flash (VLM Evidence Extractor) | 16 | 12,480 | 1,280 | 13,760 | $0.000075 | $0.00103 |
-| Local Python Engine | Deterministic 90-Day CashFlow Engine | 250 | 0 | 0 | 0 | $0.000000 | $0.00000 |
-| **Overall Total** | — | **266** | **12,480** | **1,280** | **13,760** | — | **$0.00103** |
+| Local Python Engine | Deterministic 90-Day CashFlow & Safety Engine | {len(out_df)} | 0 | 0 | 0 | $0.000000 | $0.00000 |
+| **Overall Total** | — | **{len(out_df)}** | **0** | **0** | **0** | — | **$0.00000** |
 
 ## Efficiency Metrics
 
-* **Input Tokens per Request**: 49.92
-* **Output Tokens per Request**: 5.12
-* **Total Tokens per Request**: 55.04
-* **Estimated Cost per Request**: $0.00000412
-* **Total Run Cost**: $0.00103
+* **Input Tokens per Request**: 0.00
+* **Output Tokens per Request**: 0.00
+* **Total Tokens per Request**: 0.00
+* **Estimated Cost per Request**: $0.000000
+* **Total Run Cost**: $0.00000
 """
     with open(usage_report_path, "w", encoding="utf-8") as f:
         f.write(usage_md_content)

@@ -27,7 +27,7 @@ For every financial request, the system must evaluate whether the user can affor
              DataLoader
                    │
                    ▼
-      Event & Evidence Resolver (Dated FX + Multimodal VLM Parser)
+       Event & Evidence Resolver (Dated FX + Multimodal VLM Parser)
                    │
                    ▼
              Recurrence Engine (Pattern & Stream Detection)
@@ -61,7 +61,7 @@ The decision engine reconciles financial context from eight structured data sour
 * `request_payment_options.csv`: Provider-offered installment and payment schedules.
 * `messages.csv`: Contextual user and bank communications (cancellations, settlements, employer payroll updates).
 * `images.csv`: Metadata mapping event IDs to receipt, bill, or statement image files.
-* `media/images/`: Image files processed by the VLM parser for extracting missing amounts or dates.
+* `media/images/`: Image files processed by the evidence parser for extracting missing amounts or dates.
 
 ---
 
@@ -71,10 +71,11 @@ The system evaluates `amount_safe_to_pay` against a strict **90-day cash-flow sa
 
 ---
 
-## AI & Hybrid Architecture
+## Engine Architecture & AI Usage
 
-* **Deterministic Core Engine**: All cashflow simulations, recurring stream projections, headroom calculations, candidate plan ranking, and safety bounds are computed locally by deterministic algorithms to ensure 100% reproducibility.
-* **AI / Multimodal VLM Capabilities**: Vision-Language Models (Gemini 1.5 Flash) and NLP extractors are utilized strictly for evidence extraction — parsing unstructured receipt images, statements, and message amendments to resolve missing amounts or event status updates.
+* **Deterministic Core Engine**: All cashflow simulations, recurring stream projections, headroom calculations, candidate plan ranking, and safety bounds are computed locally by deterministic algorithms in Python to ensure 100% reproducibility and fast, offline execution.
+* **Evidence Parser**: Structured evidence parsing extracts missing transaction amounts and settlement statuses from dataset evidence files without requiring external third-party AI API keys or network requests.
+* **API Cost & Token Usage**: 0 API calls, 0 tokens consumed, $0.00 execution cost.
 
 ---
 
@@ -106,14 +107,27 @@ The submission produces `output.csv` with exactly 250 prediction rows and 8 requ
 
 ---
 
-## Running the Solution
+## Setup & Running the Solution
 
-To run the solver over `dataset/requests.csv` and generate `output.csv`:
+### Requirements
+* Python 3.8+
+* Dependencies listed in `requirements.txt`:
+  ```bash
+  pip install -r requirements.txt
+  ```
 
+### Running the Solver
+To run the solver over `dataset/requests.csv` and generate `output.csv`, execute either command from the root directory:
+
+```bash
+python run.py
+```
+or
 ```bash
 python code/main.py
 ```
 
+### Running Benchmark Evaluation
 To run the benchmark evaluation against `dataset/sample_requests.csv`:
 
 ```bash
