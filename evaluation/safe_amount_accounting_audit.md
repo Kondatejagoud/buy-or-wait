@@ -1,0 +1,2868 @@
+# Safe Amount Accounting Audit Report
+
+## 1. Full 25-Case Safe-Amount & Expense Contribution Trace
+
+### request_01
+- **Request Date**: `2024-03-03` | **Deadline**: `2024-03-20`
+- **Next Payday**: `2024-03-15` (Amount: `23320.00`)
+- **Starting Balance**: `58481.10` | **Min Keep**: `18000.00` | **Requested Amount**: `25256.00`
+- **GT Safe**: `25256.00` | **Current Computed Safe**: `25256.00`
+- **Implied E_pre**: `None` | **Computed E_pre**: `9984.89` | **Diff**: `0.00`
+- **Candidate Expenses (Pre-Payday)**:
+  - `event_01` \| Cat: `rent` \| Amt: `5148.00` \| Status: `settled` \| Date: `2023-10-02` \| Counted: `False`
+  - `event_02` \| Cat: `utilities` \| Amt: `1475.46` \| Status: `settled` \| Date: `2023-10-06` \| Counted: `False`
+  - `event_03` \| Cat: `education` \| Amt: `1821.60` \| Status: `settled` \| Date: `2023-10-08` \| Counted: `False`
+  - `event_04` \| Cat: `debt_repayment` \| Amt: `3487.00` \| Status: `settled` \| Date: `2023-10-11` \| Counted: `False`
+  - `event_05` \| Cat: `music_subscription` \| Amt: `235.40` \| Status: `settled` \| Date: `2023-10-11` \| Counted: `False`
+  - `event_06` \| Cat: `delivery_membership` \| Amt: `306.90` \| Status: `settled` \| Date: `2023-10-13` \| Counted: `False`
+  - `event_07` \| Cat: `rent` \| Amt: `5148.00` \| Status: `settled` \| Date: `2023-11-02` \| Counted: `False`
+  - `event_08` \| Cat: `utilities` \| Amt: `1483.81` \| Status: `settled` \| Date: `2023-11-06` \| Counted: `False`
+  - `event_09` \| Cat: `education` \| Amt: `1821.60` \| Status: `settled` \| Date: `2023-11-08` \| Counted: `False`
+  - `event_10` \| Cat: `debt_repayment` \| Amt: `3487.00` \| Status: `settled` \| Date: `2023-11-11` \| Counted: `False`
+  - `event_11` \| Cat: `music_subscription` \| Amt: `235.40` \| Status: `settled` \| Date: `2023-11-11` \| Counted: `False`
+  - `event_12` \| Cat: `delivery_membership` \| Amt: `306.90` \| Status: `settled` \| Date: `2023-11-13` \| Counted: `False`
+  - `event_13` \| Cat: `rent` \| Amt: `5148.00` \| Status: `settled` \| Date: `2023-12-02` \| Counted: `False`
+  - `event_14` \| Cat: `utilities` \| Amt: `1541.75` \| Status: `settled` \| Date: `2023-12-06` \| Counted: `False`
+  - `event_15` \| Cat: `education` \| Amt: `1821.60` \| Status: `settled` \| Date: `2023-12-08` \| Counted: `False`
+  - `event_16` \| Cat: `debt_repayment` \| Amt: `3487.00` \| Status: `settled` \| Date: `2023-12-11` \| Counted: `False`
+  - `event_17` \| Cat: `music_subscription` \| Amt: `235.40` \| Status: `settled` \| Date: `2023-12-11` \| Counted: `False`
+  - `event_18` \| Cat: `delivery_membership` \| Amt: `306.90` \| Status: `settled` \| Date: `2023-12-13` \| Counted: `False`
+  - `event_19` \| Cat: `rent` \| Amt: `5148.00` \| Status: `settled` \| Date: `2024-01-02` \| Counted: `False`
+  - `event_20` \| Cat: `utilities` \| Amt: `1651.81` \| Status: `settled` \| Date: `2024-01-06` \| Counted: `False`
+  - `event_21` \| Cat: `education` \| Amt: `1821.60` \| Status: `settled` \| Date: `2024-01-08` \| Counted: `False`
+  - `event_22` \| Cat: `debt_repayment` \| Amt: `3487.00` \| Status: `settled` \| Date: `2024-01-11` \| Counted: `False`
+  - `event_23` \| Cat: `music_subscription` \| Amt: `235.40` \| Status: `settled` \| Date: `2024-01-11` \| Counted: `False`
+  - `event_24` \| Cat: `delivery_membership` \| Amt: `306.90` \| Status: `settled` \| Date: `2024-01-13` \| Counted: `False`
+  - `event_26` \| Cat: `rent` \| Amt: `5148.00` \| Status: `settled` \| Date: `2024-02-02` \| Counted: `False`
+  - `event_27` \| Cat: `utilities` \| Amt: `1386.17` \| Status: `settled` \| Date: `2024-02-06` \| Counted: `False`
+  - `event_28` \| Cat: `education` \| Amt: `1821.60` \| Status: `settled` \| Date: `2024-02-08` \| Counted: `False`
+  - `event_29` \| Cat: `debt_repayment` \| Amt: `3487.00` \| Status: `settled` \| Date: `2024-02-11` \| Counted: `False`
+  - `event_30` \| Cat: `music_subscription` \| Amt: `235.40` \| Status: `settled` \| Date: `2024-02-11` \| Counted: `False`
+  - `event_31` \| Cat: `delivery_membership` \| Amt: `306.90` \| Status: `settled` \| Date: `2024-02-13` \| Counted: `False`
+  - `event_32` \| Cat: `rent` \| Amt: `5148.00` \| Status: `settled` \| Date: `2024-03-02` \| Counted: `False`
+  - `event_33` \| Cat: `groceries` \| Amt: `925.62` \| Status: `settled` \| Date: `2023-09-08` \| Counted: `False`
+  - `event_34` \| Cat: `groceries` \| Amt: `939.13` \| Status: `settled` \| Date: `2023-09-15` \| Counted: `False`
+  - `event_35` \| Cat: `groceries` \| Amt: `707.36` \| Status: `settled` \| Date: `2023-09-22` \| Counted: `False`
+  - `event_36` \| Cat: `groceries` \| Amt: `629.96` \| Status: `settled` \| Date: `2023-09-29` \| Counted: `False`
+  - `event_37` \| Cat: `groceries` \| Amt: `873.17` \| Status: `settled` \| Date: `2023-10-06` \| Counted: `False`
+  - `event_38` \| Cat: `groceries` \| Amt: `915.12` \| Status: `settled` \| Date: `2023-10-13` \| Counted: `False`
+  - `event_39` \| Cat: `groceries` \| Amt: `644.30` \| Status: `settled` \| Date: `2023-10-20` \| Counted: `False`
+  - `event_40` \| Cat: `groceries` \| Amt: `663.27` \| Status: `settled` \| Date: `2023-10-27` \| Counted: `False`
+  - `event_41` \| Cat: `groceries` \| Amt: `1030.10` \| Status: `settled` \| Date: `2023-11-03` \| Counted: `False`
+  - `event_42` \| Cat: `groceries` \| Amt: `672.37` \| Status: `settled` \| Date: `2023-11-10` \| Counted: `False`
+  - `event_43` \| Cat: `groceries` \| Amt: `803.55` \| Status: `settled` \| Date: `2023-11-17` \| Counted: `False`
+  - `event_44` \| Cat: `groceries` \| Amt: `644.43` \| Status: `settled` \| Date: `2023-11-24` \| Counted: `False`
+  - `event_45` \| Cat: `groceries` \| Amt: `882.48` \| Status: `settled` \| Date: `2023-12-01` \| Counted: `False`
+  - `event_46` \| Cat: `groceries` \| Amt: `602.87` \| Status: `settled` \| Date: `2023-12-08` \| Counted: `False`
+  - `event_47` \| Cat: `groceries` \| Amt: `765.64` \| Status: `settled` \| Date: `2023-12-15` \| Counted: `False`
+  - `event_48` \| Cat: `groceries` \| Amt: `651.12` \| Status: `settled` \| Date: `2023-12-22` \| Counted: `False`
+  - `event_49` \| Cat: `groceries` \| Amt: `899.04` \| Status: `settled` \| Date: `2023-12-29` \| Counted: `False`
+  - `event_50` \| Cat: `groceries` \| Amt: `961.46` \| Status: `settled` \| Date: `2024-01-05` \| Counted: `False`
+  - `event_51` \| Cat: `groceries` \| Amt: `875.35` \| Status: `settled` \| Date: `2024-01-12` \| Counted: `False`
+  - `event_52` \| Cat: `groceries` \| Amt: `756.39` \| Status: `settled` \| Date: `2024-01-19` \| Counted: `False`
+  - `event_53` \| Cat: `groceries` \| Amt: `624.94` \| Status: `settled` \| Date: `2024-01-26` \| Counted: `False`
+  - `event_54` \| Cat: `groceries` \| Amt: `719.51` \| Status: `settled` \| Date: `2024-02-02` \| Counted: `False`
+  - `event_55` \| Cat: `groceries` \| Amt: `755.11` \| Status: `settled` \| Date: `2024-02-09` \| Counted: `False`
+  - `event_56` \| Cat: `groceries` \| Amt: `881.22` \| Status: `settled` \| Date: `2024-02-16` \| Counted: `False`
+  - `event_57` \| Cat: `groceries` \| Amt: `626.01` \| Status: `settled` \| Date: `2024-02-23` \| Counted: `False`
+  - `event_58` \| Cat: `groceries` \| Amt: `964.05` \| Status: `settled` \| Date: `2024-03-01` \| Counted: `False`
+  - `event_59` \| Cat: `transport` \| Amt: `399.02` \| Status: `settled` \| Date: `2023-09-09` \| Counted: `False`
+  - `event_60` \| Cat: `transport` \| Amt: `549.80` \| Status: `settled` \| Date: `2023-09-16` \| Counted: `False`
+  - `event_61` \| Cat: `transport` \| Amt: `468.47` \| Status: `settled` \| Date: `2023-09-23` \| Counted: `False`
+  - `event_62` \| Cat: `transport` \| Amt: `428.92` \| Status: `settled` \| Date: `2023-09-30` \| Counted: `False`
+  - `event_63` \| Cat: `transport` \| Amt: `373.05` \| Status: `settled` \| Date: `2023-10-07` \| Counted: `False`
+  - `event_64` \| Cat: `transport` \| Amt: `503.02` \| Status: `settled` \| Date: `2023-10-14` \| Counted: `False`
+  - `event_65` \| Cat: `transport` \| Amt: `351.49` \| Status: `settled` \| Date: `2023-10-21` \| Counted: `False`
+  - `event_66` \| Cat: `transport` \| Amt: `553.74` \| Status: `settled` \| Date: `2023-10-28` \| Counted: `False`
+  - `event_67` \| Cat: `transport` \| Amt: `421.89` \| Status: `settled` \| Date: `2023-11-04` \| Counted: `False`
+  - `event_68` \| Cat: `transport` \| Amt: `347.86` \| Status: `settled` \| Date: `2023-11-11` \| Counted: `False`
+  - `event_69` \| Cat: `transport` \| Amt: `518.04` \| Status: `settled` \| Date: `2023-11-18` \| Counted: `False`
+  - `event_70` \| Cat: `transport` \| Amt: `444.56` \| Status: `settled` \| Date: `2023-11-25` \| Counted: `False`
+  - `event_71` \| Cat: `transport` \| Amt: `323.58` \| Status: `settled` \| Date: `2023-12-02` \| Counted: `False`
+  - `event_72` \| Cat: `transport` \| Amt: `478.16` \| Status: `settled` \| Date: `2023-12-09` \| Counted: `False`
+  - `event_73` \| Cat: `transport` \| Amt: `534.56` \| Status: `settled` \| Date: `2023-12-16` \| Counted: `False`
+  - `event_74` \| Cat: `transport` \| Amt: `411.07` \| Status: `settled` \| Date: `2023-12-23` \| Counted: `False`
+  - `event_75` \| Cat: `transport` \| Amt: `374.60` \| Status: `settled` \| Date: `2023-12-30` \| Counted: `False`
+  - `event_76` \| Cat: `transport` \| Amt: `358.85` \| Status: `settled` \| Date: `2024-01-06` \| Counted: `False`
+  - `event_77` \| Cat: `transport` \| Amt: `434.69` \| Status: `settled` \| Date: `2024-01-13` \| Counted: `False`
+  - `event_78` \| Cat: `transport` \| Amt: `375.73` \| Status: `settled` \| Date: `2024-01-20` \| Counted: `False`
+  - `event_79` \| Cat: `transport` \| Amt: `560.21` \| Status: `settled` \| Date: `2024-01-27` \| Counted: `False`
+  - `event_80` \| Cat: `transport` \| Amt: `406.54` \| Status: `settled` \| Date: `2024-02-03` \| Counted: `False`
+  - `event_81` \| Cat: `transport` \| Amt: `488.36` \| Status: `settled` \| Date: `2024-02-10` \| Counted: `False`
+  - `event_82` \| Cat: `transport` \| Amt: `424.56` \| Status: `settled` \| Date: `2024-02-17` \| Counted: `False`
+  - `event_83` \| Cat: `transport` \| Amt: `549.05` \| Status: `settled` \| Date: `2024-02-24` \| Counted: `False`
+  - `event_84` \| Cat: `transport` \| Amt: `339.29` \| Status: `settled` \| Date: `2024-03-02` \| Counted: `False`
+  - `event_85` \| Cat: `dining` \| Amt: `1213.78` \| Status: `settled` \| Date: `2023-09-10` \| Counted: `False`
+  - `event_86` \| Cat: `dining` \| Amt: `1243.56` \| Status: `settled` \| Date: `2023-09-24` \| Counted: `False`
+  - `event_87` \| Cat: `dining` \| Amt: `1128.35` \| Status: `settled` \| Date: `2023-10-08` \| Counted: `False`
+  - `event_88` \| Cat: `dining` \| Amt: `1027.06` \| Status: `settled` \| Date: `2023-10-22` \| Counted: `False`
+  - `event_89` \| Cat: `dining` \| Amt: `1070.17` \| Status: `settled` \| Date: `2023-11-05` \| Counted: `False`
+  - `event_90` \| Cat: `dining` \| Amt: `956.70` \| Status: `settled` \| Date: `2023-11-19` \| Counted: `False`
+  - `event_91` \| Cat: `dining` \| Amt: `1160.42` \| Status: `settled` \| Date: `2023-12-03` \| Counted: `False`
+  - `event_92` \| Cat: `dining` \| Amt: `972.88` \| Status: `settled` \| Date: `2023-12-17` \| Counted: `False`
+  - `event_93` \| Cat: `dining` \| Amt: `914.64` \| Status: `settled` \| Date: `2023-12-31` \| Counted: `False`
+  - `event_94` \| Cat: `dining` \| Amt: `1017.11` \| Status: `settled` \| Date: `2024-01-14` \| Counted: `False`
+  - `event_95` \| Cat: `dining` \| Amt: `1222.49` \| Status: `settled` \| Date: `2024-01-28` \| Counted: `False`
+  - `event_96` \| Cat: `dining` \| Amt: `1016.12` \| Status: `settled` \| Date: `2024-02-11` \| Counted: `False`
+  - `event_97` \| Cat: `dining` \| Amt: `1216.17` \| Status: `settled` \| Date: `2024-02-25` \| Counted: `False`
+  - `event_98` \| Cat: `shopping` \| Amt: `583.00` \| Status: `settled` \| Date: `2024-01-26` \| Counted: `False`
+  - `event_101` \| Cat: `shopping` \| Amt: `816.20` \| Status: `settled` \| Date: `2024-02-17` \| Counted: `False`
+  - `event_102` \| Cat: `transport` \| Amt: `567.60` \| Status: `pending` \| Date: `2024-03-05` \| Counted: `True`
+  - `event_27` \| Cat: `utilities` \| Amt: `1386.17` \| Status: `recurring_projected` \| Date: `2024-03-06` \| Counted: `True`
+  - `event_28` \| Cat: `education` \| Amt: `1821.60` \| Status: `recurring_projected` \| Date: `2024-03-08` \| Counted: `True`
+  - `event_58` \| Cat: `groceries` \| Amt: `964.05` \| Status: `recurring_projected` \| Date: `2024-03-08` \| Counted: `True`
+  - `event_102` \| Cat: `transport` \| Amt: `567.60` \| Status: `recurring_projected` \| Date: `2024-03-09` \| Counted: `False`
+  - `event_97` \| Cat: `dining` \| Amt: `1216.17` \| Status: `recurring_projected` \| Date: `2024-03-10` \| Counted: `True`
+  - `event_29` \| Cat: `debt_repayment` \| Amt: `3487.00` \| Status: `recurring_projected` \| Date: `2024-03-11` \| Counted: `True`
+  - `event_30` \| Cat: `music_subscription` \| Amt: `235.40` \| Status: `recurring_projected` \| Date: `2024-03-11` \| Counted: `True`
+  - `event_31` \| Cat: `delivery_membership` \| Amt: `306.90` \| Status: `recurring_projected` \| Date: `2024-03-13` \| Counted: `True`
+
+### request_02
+- **Request Date**: `2025-08-05` | **Deadline**: `2025-10-10`
+- **Next Payday**: `2025-08-15` (Amount: `33345000.00`)
+- **Starting Balance**: `60383889.20` | **Min Keep**: `29158400.00` | **Requested Amount**: `46018000.00`
+- **GT Safe**: `17229139.20` | **Current Computed Safe**: `17171288.69`
+- **Implied E_pre**: `13996350.0` | **Computed E_pre**: `14054200.51` | **Diff**: `57850.51`
+- **Candidate Expenses (Pre-Payday)**:
+  - `event_105` \| Cat: `housing` \| Amt: `3534000.00` \| Status: `settled` \| Date: `2025-03-04` \| Counted: `False`
+  - `event_106` \| Cat: `utilities` \| Amt: `2143659.02` \| Status: `settled` \| Date: `2025-03-07` \| Counted: `False`
+  - `event_107` \| Cat: `insurance` \| Amt: `1132400.00` \| Status: `settled` \| Date: `2025-03-08` \| Counted: `False`
+  - `event_108` \| Cat: `education` \| Amt: `3040000.00` \| Status: `settled` \| Date: `2025-03-09` \| Counted: `False`
+  - `event_109` \| Cat: `healthcare` \| Amt: `1594883.08` \| Status: `settled` \| Date: `2025-03-11` \| Counted: `False`
+  - `event_110` \| Cat: `entertainment` \| Amt: `1289187.40` \| Status: `settled` \| Date: `2025-03-15` \| Counted: `False`
+  - `event_111` \| Cat: `cloud_storage` \| Amt: `369550.00` \| Status: `settled` \| Date: `2025-03-13` \| Counted: `False`
+  - `event_113` \| Cat: `housing` \| Amt: `3534000.00` \| Status: `settled` \| Date: `2025-04-04` \| Counted: `False`
+  - `event_114` \| Cat: `utilities` \| Amt: `2081730.85` \| Status: `settled` \| Date: `2025-04-07` \| Counted: `False`
+  - `event_115` \| Cat: `insurance` \| Amt: `1132400.00` \| Status: `settled` \| Date: `2025-04-08` \| Counted: `False`
+  - `event_116` \| Cat: `education` \| Amt: `3040000.00` \| Status: `settled` \| Date: `2025-04-09` \| Counted: `False`
+  - `event_117` \| Cat: `healthcare` \| Amt: `1467514.81` \| Status: `settled` \| Date: `2025-04-11` \| Counted: `False`
+  - `event_118` \| Cat: `entertainment` \| Amt: `1367779.89` \| Status: `settled` \| Date: `2025-04-15` \| Counted: `False`
+  - `event_119` \| Cat: `cloud_storage` \| Amt: `369550.00` \| Status: `settled` \| Date: `2025-04-13` \| Counted: `False`
+  - `event_121` \| Cat: `housing` \| Amt: `3534000.00` \| Status: `settled` \| Date: `2025-05-04` \| Counted: `False`
+  - `event_122` \| Cat: `utilities` \| Amt: `1830311.06` \| Status: `settled` \| Date: `2025-05-07` \| Counted: `False`
+  - `event_123` \| Cat: `insurance` \| Amt: `1132400.00` \| Status: `settled` \| Date: `2025-05-08` \| Counted: `False`
+  - `event_124` \| Cat: `education` \| Amt: `3040000.00` \| Status: `settled` \| Date: `2025-05-09` \| Counted: `False`
+  - `event_125` \| Cat: `healthcare` \| Amt: `1452405.16` \| Status: `settled` \| Date: `2025-05-11` \| Counted: `False`
+  - `event_126` \| Cat: `entertainment` \| Amt: `1287628.28` \| Status: `settled` \| Date: `2025-05-15` \| Counted: `False`
+  - `event_127` \| Cat: `cloud_storage` \| Amt: `369550.00` \| Status: `settled` \| Date: `2025-05-13` \| Counted: `False`
+  - `event_129` \| Cat: `housing` \| Amt: `3534000.00` \| Status: `settled` \| Date: `2025-06-04` \| Counted: `False`
+  - `event_130` \| Cat: `utilities` \| Amt: `1981601.61` \| Status: `settled` \| Date: `2025-06-07` \| Counted: `False`
+  - `event_131` \| Cat: `insurance` \| Amt: `1132400.00` \| Status: `settled` \| Date: `2025-06-08` \| Counted: `False`
+  - `event_132` \| Cat: `education` \| Amt: `3040000.00` \| Status: `settled` \| Date: `2025-06-09` \| Counted: `False`
+  - `event_133` \| Cat: `healthcare` \| Amt: `1641668.72` \| Status: `settled` \| Date: `2025-06-11` \| Counted: `False`
+  - `event_134` \| Cat: `entertainment` \| Amt: `1193699.10` \| Status: `settled` \| Date: `2025-06-15` \| Counted: `False`
+  - `event_135` \| Cat: `cloud_storage` \| Amt: `369550.00` \| Status: `settled` \| Date: `2025-06-13` \| Counted: `False`
+  - `event_137` \| Cat: `housing` \| Amt: `3534000.00` \| Status: `settled` \| Date: `2025-07-04` \| Counted: `False`
+  - `event_138` \| Cat: `utilities` \| Amt: `2141849.94` \| Status: `settled` \| Date: `2025-07-07` \| Counted: `False`
+  - `event_139` \| Cat: `insurance` \| Amt: `1132400.00` \| Status: `settled` \| Date: `2025-07-08` \| Counted: `False`
+  - `event_140` \| Cat: `education` \| Amt: `3040000.00` \| Status: `settled` \| Date: `2025-07-09` \| Counted: `False`
+  - `event_141` \| Cat: `healthcare` \| Amt: `1538498.10` \| Status: `settled` \| Date: `2025-07-11` \| Counted: `False`
+  - `event_142` \| Cat: `entertainment` \| Amt: `1352563.79` \| Status: `settled` \| Date: `2025-07-15` \| Counted: `False`
+  - `event_143` \| Cat: `cloud_storage` \| Amt: `369550.00` \| Status: `settled` \| Date: `2025-07-13` \| Counted: `False`
+  - `event_144` \| Cat: `housing` \| Amt: `3534000.00` \| Status: `settled` \| Date: `2025-08-04` \| Counted: `False`
+  - `event_145` \| Cat: `groceries` \| Amt: `2477697.53` \| Status: `settled` \| Date: `2025-02-10` \| Counted: `False`
+  - `event_146` \| Cat: `groceries` \| Amt: `1667911.86` \| Status: `settled` \| Date: `2025-02-20` \| Counted: `False`
+  - `event_147` \| Cat: `groceries` \| Amt: `1418745.34` \| Status: `settled` \| Date: `2025-03-02` \| Counted: `False`
+  - `event_148` \| Cat: `groceries` \| Amt: `1455258.76` \| Status: `settled` \| Date: `2025-03-12` \| Counted: `False`
+  - `event_149` \| Cat: `groceries` \| Amt: `1920485.70` \| Status: `settled` \| Date: `2025-03-22` \| Counted: `False`
+  - `event_150` \| Cat: `groceries` \| Amt: `1630631.42` \| Status: `settled` \| Date: `2025-04-01` \| Counted: `False`
+  - `event_151` \| Cat: `groceries` \| Amt: `1664708.05` \| Status: `settled` \| Date: `2025-04-11` \| Counted: `False`
+  - `event_152` \| Cat: `groceries` \| Amt: `1478895.05` \| Status: `settled` \| Date: `2025-04-21` \| Counted: `False`
+  - `event_153` \| Cat: `groceries` \| Amt: `2192475.45` \| Status: `settled` \| Date: `2025-05-01` \| Counted: `False`
+  - `event_154` \| Cat: `groceries` \| Amt: `1852958.27` \| Status: `settled` \| Date: `2025-05-11` \| Counted: `False`
+  - `event_155` \| Cat: `groceries` \| Amt: `2030400.43` \| Status: `settled` \| Date: `2025-05-21` \| Counted: `False`
+  - `event_156` \| Cat: `groceries` \| Amt: `1611886.08` \| Status: `settled` \| Date: `2025-05-31` \| Counted: `False`
+  - `event_157` \| Cat: `groceries` \| Amt: `2158165.32` \| Status: `settled` \| Date: `2025-06-10` \| Counted: `False`
+  - `event_158` \| Cat: `groceries` \| Amt: `2222527.88` \| Status: `settled` \| Date: `2025-06-20` \| Counted: `False`
+  - `event_159` \| Cat: `groceries` \| Amt: `2079368.25` \| Status: `settled` \| Date: `2025-06-30` \| Counted: `False`
+  - `event_160` \| Cat: `groceries` \| Amt: `2218141.61` \| Status: `settled` \| Date: `2025-07-10` \| Counted: `False`
+  - `event_161` \| Cat: `groceries` \| Amt: `2365919.60` \| Status: `settled` \| Date: `2025-07-20` \| Counted: `False`
+  - `event_162` \| Cat: `groceries` \| Amt: `1913686.86` \| Status: `settled` \| Date: `2025-07-30` \| Counted: `False`
+  - `event_163` \| Cat: `transport` \| Amt: `1373039.34` \| Status: `settled` \| Date: `2025-02-11` \| Counted: `False`
+  - `event_164` \| Cat: `transport` \| Amt: `995704.83` \| Status: `settled` \| Date: `2025-02-25` \| Counted: `False`
+  - `event_165` \| Cat: `transport` \| Amt: `1062246.98` \| Status: `settled` \| Date: `2025-03-11` \| Counted: `False`
+  - `event_166` \| Cat: `transport` \| Amt: `1053078.61` \| Status: `settled` \| Date: `2025-03-25` \| Counted: `False`
+  - `event_167` \| Cat: `transport` \| Amt: `1294200.86` \| Status: `settled` \| Date: `2025-04-08` \| Counted: `False`
+  - `event_168` \| Cat: `transport` \| Amt: `1440242.94` \| Status: `settled` \| Date: `2025-04-22` \| Counted: `False`
+  - `event_169` \| Cat: `transport` \| Amt: `1021628.43` \| Status: `settled` \| Date: `2025-05-06` \| Counted: `False`
+  - `event_170` \| Cat: `transport` \| Amt: `1374936.26` \| Status: `settled` \| Date: `2025-05-20` \| Counted: `False`
+  - `event_171` \| Cat: `transport` \| Amt: `1329347.44` \| Status: `settled` \| Date: `2025-06-03` \| Counted: `False`
+  - `event_172` \| Cat: `transport` \| Amt: `1309608.46` \| Status: `settled` \| Date: `2025-06-17` \| Counted: `False`
+  - `event_173` \| Cat: `transport` \| Amt: `1111352.32` \| Status: `settled` \| Date: `2025-07-01` \| Counted: `False`
+  - `event_174` \| Cat: `transport` \| Amt: `1327886.54` \| Status: `settled` \| Date: `2025-07-15` \| Counted: `False`
+  - `event_175` \| Cat: `transport` \| Amt: `1062310.27` \| Status: `settled` \| Date: `2025-07-29` \| Counted: `False`
+  - `event_176` \| Cat: `dining` \| Amt: `1166644.88` \| Status: `settled` \| Date: `2025-02-12` \| Counted: `False`
+  - `event_177` \| Cat: `dining` \| Amt: `1101709.76` \| Status: `settled` \| Date: `2025-03-05` \| Counted: `False`
+  - `event_178` \| Cat: `dining` \| Amt: `935929.08` \| Status: `settled` \| Date: `2025-03-26` \| Counted: `False`
+  - `event_179` \| Cat: `dining` \| Amt: `1271076.93` \| Status: `settled` \| Date: `2025-04-16` \| Counted: `False`
+  - `event_180` \| Cat: `dining` \| Amt: `971169.92` \| Status: `settled` \| Date: `2025-05-07` \| Counted: `False`
+  - `event_181` \| Cat: `dining` \| Amt: `1111388.15` \| Status: `settled` \| Date: `2025-05-28` \| Counted: `False`
+  - `event_182` \| Cat: `dining` \| Amt: `947892.35` \| Status: `settled` \| Date: `2025-06-18` \| Counted: `False`
+  - `event_183` \| Cat: `dining` \| Amt: `1043758.65` \| Status: `settled` \| Date: `2025-07-09` \| Counted: `False`
+  - `event_184` \| Cat: `dining` \| Amt: `1204805.34` \| Status: `settled` \| Date: `2025-07-30` \| Counted: `False`
+  - `event_185` \| Cat: `shopping` \| Amt: `1651100.00` \| Status: `pending` \| Date: `2025-08-08` \| Counted: `True`
+  - `event_184` \| Cat: `dining` \| Amt: `1204805.34` \| Status: `recurring_projected` \| Date: `2025-08-05` \| Counted: `True`
+  - `event_138` \| Cat: `utilities` \| Amt: `2141849.94` \| Status: `recurring_projected` \| Date: `2025-08-07` \| Counted: `True`
+  - `event_139` \| Cat: `insurance` \| Amt: `1132400.00` \| Status: `recurring_projected` \| Date: `2025-08-08` \| Counted: `True`
+  - `event_140` \| Cat: `education` \| Amt: `3040000.00` \| Status: `recurring_projected` \| Date: `2025-08-09` \| Counted: `True`
+  - `event_162` \| Cat: `groceries` \| Amt: `1913686.86` \| Status: `recurring_projected` \| Date: `2025-08-10` \| Counted: `True`
+  - `event_141` \| Cat: `healthcare` \| Amt: `1538498.10` \| Status: `recurring_projected` \| Date: `2025-08-11` \| Counted: `True`
+  - `event_175` \| Cat: `transport` \| Amt: `1062310.27` \| Status: `recurring_projected` \| Date: `2025-08-12` \| Counted: `True`
+  - `event_143` \| Cat: `cloud_storage` \| Amt: `369550.00` \| Status: `recurring_projected` \| Date: `2025-08-13` \| Counted: `True`
+
+### request_03
+- **Request Date**: `2019-09-03` | **Deadline**: `2019-11-15`
+- **Next Payday**: `2019-09-15` (Amount: `4365000.00`)
+- **Starting Balance**: `5810300.00` | **Min Keep**: `2668700.00` | **Requested Amount**: `5491000.00`
+- **GT Safe**: `873000.00` | **Current Computed Safe**: `1218926.70`
+- **Implied E_pre**: `2268600.0` | **Computed E_pre**: `1922673.30` | **Diff**: `-345926.70`
+- **Candidate Expenses (Pre-Payday)**:
+  - `event_187` \| Cat: `rent` \| Amt: `1140000.00` \| Status: `settled` \| Date: `2019-04-04` \| Counted: `False`
+  - `event_188` \| Cat: `utilities` \| Amt: `295330.29` \| Status: `settled` \| Date: `2019-04-08` \| Counted: `False`
+  - `event_189` \| Cat: `cloud_storage` \| Amt: `20900.00` \| Status: `settled` \| Date: `2019-04-14` \| Counted: `False`
+  - `event_190` \| Cat: `streaming` \| Amt: `117800.00` \| Status: `settled` \| Date: `2019-04-11` \| Counted: `False`
+  - `event_191` \| Cat: `shopping` \| Amt: `151493.37` \| Status: `settled` \| Date: `2019-04-14` \| Counted: `False`
+  - `event_193` \| Cat: `rent` \| Amt: `1140000.00` \| Status: `settled` \| Date: `2019-05-04` \| Counted: `False`
+  - `event_194` \| Cat: `utilities` \| Amt: `290684.15` \| Status: `settled` \| Date: `2019-05-08` \| Counted: `False`
+  - `event_195` \| Cat: `cloud_storage` \| Amt: `20900.00` \| Status: `settled` \| Date: `2019-05-14` \| Counted: `False`
+  - `event_196` \| Cat: `streaming` \| Amt: `117800.00` \| Status: `settled` \| Date: `2019-05-11` \| Counted: `False`
+  - `event_197` \| Cat: `shopping` \| Amt: `184274.02` \| Status: `settled` \| Date: `2019-05-14` \| Counted: `False`
+  - `event_199` \| Cat: `rent` \| Amt: `1140000.00` \| Status: `settled` \| Date: `2019-06-04` \| Counted: `False`
+  - `event_200` \| Cat: `utilities` \| Amt: `270537.63` \| Status: `settled` \| Date: `2019-06-08` \| Counted: `False`
+  - `event_201` \| Cat: `cloud_storage` \| Amt: `20900.00` \| Status: `settled` \| Date: `2019-06-14` \| Counted: `False`
+  - `event_202` \| Cat: `streaming` \| Amt: `117800.00` \| Status: `settled` \| Date: `2019-06-11` \| Counted: `False`
+  - `event_203` \| Cat: `shopping` \| Amt: `153395.26` \| Status: `settled` \| Date: `2019-06-14` \| Counted: `False`
+  - `event_205` \| Cat: `rent` \| Amt: `1140000.00` \| Status: `settled` \| Date: `2019-07-04` \| Counted: `False`
+  - `event_206` \| Cat: `utilities` \| Amt: `303042.45` \| Status: `settled` \| Date: `2019-07-08` \| Counted: `False`
+  - `event_207` \| Cat: `cloud_storage` \| Amt: `20900.00` \| Status: `settled` \| Date: `2019-07-14` \| Counted: `False`
+  - `event_208` \| Cat: `streaming` \| Amt: `117800.00` \| Status: `settled` \| Date: `2019-07-11` \| Counted: `False`
+  - `event_209` \| Cat: `shopping` \| Amt: `173930.81` \| Status: `settled` \| Date: `2019-07-14` \| Counted: `False`
+  - `event_212` \| Cat: `rent` \| Amt: `1140000.00` \| Status: `settled` \| Date: `2019-08-04` \| Counted: `False`
+  - `event_213` \| Cat: `utilities` \| Amt: `262344.55` \| Status: `settled` \| Date: `2019-08-08` \| Counted: `False`
+  - `event_214` \| Cat: `cloud_storage` \| Amt: `20900.00` \| Status: `settled` \| Date: `2019-08-14` \| Counted: `False`
+  - `event_215` \| Cat: `streaming` \| Amt: `117800.00` \| Status: `settled` \| Date: `2019-08-11` \| Counted: `False`
+  - `event_216` \| Cat: `shopping` \| Amt: `180395.29` \| Status: `settled` \| Date: `2019-08-14` \| Counted: `False`
+  - `event_217` \| Cat: `groceries` \| Amt: `159576.52` \| Status: `settled` \| Date: `2019-03-12` \| Counted: `False`
+  - `event_218` \| Cat: `groceries` \| Amt: `234390.87` \| Status: `settled` \| Date: `2019-03-22` \| Counted: `False`
+  - `event_219` \| Cat: `groceries` \| Amt: `230312.98` \| Status: `settled` \| Date: `2019-04-01` \| Counted: `False`
+  - `event_220` \| Cat: `groceries` \| Amt: `234602.65` \| Status: `settled` \| Date: `2019-04-11` \| Counted: `False`
+  - `event_221` \| Cat: `groceries` \| Amt: `209875.85` \| Status: `settled` \| Date: `2019-04-21` \| Counted: `False`
+  - `event_222` \| Cat: `groceries` \| Amt: `178469.49` \| Status: `settled` \| Date: `2019-05-01` \| Counted: `False`
+  - `event_223` \| Cat: `groceries` \| Amt: `180577.99` \| Status: `settled` \| Date: `2019-05-11` \| Counted: `False`
+  - `event_224` \| Cat: `groceries` \| Amt: `155851.46` \| Status: `settled` \| Date: `2019-05-21` \| Counted: `False`
+  - `event_225` \| Cat: `groceries` \| Amt: `188355.72` \| Status: `settled` \| Date: `2019-05-31` \| Counted: `False`
+  - `event_226` \| Cat: `groceries` \| Amt: `166710.61` \| Status: `settled` \| Date: `2019-06-10` \| Counted: `False`
+  - `event_227` \| Cat: `groceries` \| Amt: `171495.67` \| Status: `settled` \| Date: `2019-06-20` \| Counted: `False`
+  - `event_228` \| Cat: `groceries` \| Amt: `145691.38` \| Status: `settled` \| Date: `2019-06-30` \| Counted: `False`
+  - `event_229` \| Cat: `groceries` \| Amt: `171259.18` \| Status: `settled` \| Date: `2019-07-10` \| Counted: `False`
+  - `event_230` \| Cat: `groceries` \| Amt: `173004.74` \| Status: `settled` \| Date: `2019-07-20` \| Counted: `False`
+  - `event_231` \| Cat: `groceries` \| Amt: `214266.98` \| Status: `settled` \| Date: `2019-07-30` \| Counted: `False`
+  - `event_232` \| Cat: `groceries` \| Amt: `221578.88` \| Status: `settled` \| Date: `2019-08-09` \| Counted: `False`
+  - `event_233` \| Cat: `groceries` \| Amt: `240706.45` \| Status: `settled` \| Date: `2019-08-19` \| Counted: `False`
+  - `event_234` \| Cat: `groceries` \| Amt: `200238.72` \| Status: `settled` \| Date: `2019-08-29` \| Counted: `False`
+  - `event_235` \| Cat: `transport` \| Amt: `81510.25` \| Status: `settled` \| Date: `2019-03-13` \| Counted: `False`
+  - `event_236` \| Cat: `transport` \| Amt: `116319.21` \| Status: `settled` \| Date: `2019-04-03` \| Counted: `False`
+  - `event_237` \| Cat: `transport` \| Amt: `71790.29` \| Status: `settled` \| Date: `2019-04-24` \| Counted: `False`
+  - `event_238` \| Cat: `transport` \| Amt: `73531.06` \| Status: `settled` \| Date: `2019-05-15` \| Counted: `False`
+  - `event_239` \| Cat: `transport` \| Amt: `106806.88` \| Status: `settled` \| Date: `2019-06-05` \| Counted: `False`
+  - `event_240` \| Cat: `transport` \| Amt: `79693.97` \| Status: `settled` \| Date: `2019-06-26` \| Counted: `False`
+  - `event_241` \| Cat: `transport` \| Amt: `83523.33` \| Status: `settled` \| Date: `2019-07-17` \| Counted: `False`
+  - `event_242` \| Cat: `transport` \| Amt: `99961.13` \| Status: `settled` \| Date: `2019-08-07` \| Counted: `False`
+  - `event_243` \| Cat: `transport` \| Amt: `106233.46` \| Status: `settled` \| Date: `2019-08-28` \| Counted: `False`
+  - `event_244` \| Cat: `dining` \| Amt: `117456.78` \| Status: `settled` \| Date: `2019-03-09` \| Counted: `False`
+  - `event_245` \| Cat: `dining` \| Amt: `141412.46` \| Status: `settled` \| Date: `2019-03-30` \| Counted: `False`
+  - `event_246` \| Cat: `dining` \| Amt: `146236.28` \| Status: `settled` \| Date: `2019-04-20` \| Counted: `False`
+  - `event_247` \| Cat: `dining` \| Amt: `132247.64` \| Status: `settled` \| Date: `2019-05-11` \| Counted: `False`
+  - `event_248` \| Cat: `dining` \| Amt: `158476.50` \| Status: `settled` \| Date: `2019-06-01` \| Counted: `False`
+  - `event_249` \| Cat: `dining` \| Amt: `175170.67` \| Status: `settled` \| Date: `2019-06-22` \| Counted: `False`
+  - `event_250` \| Cat: `dining` \| Amt: `171303.21` \| Status: `settled` \| Date: `2019-07-13` \| Counted: `False`
+  - `event_251` \| Cat: `dining` \| Amt: `171191.99` \| Status: `settled` \| Date: `2019-08-03` \| Counted: `False`
+  - `event_252` \| Cat: `dining` \| Amt: `135718.35` \| Status: `settled` \| Date: `2019-08-24` \| Counted: `False`
+  - `event_254` \| Cat: `healthcare` \| Amt: `95000.00` \| Status: `pending` \| Date: `2019-09-07` \| Counted: `True`
+  - `event_243` \| Cat: `transport` \| Amt: `106233.46` \| Status: `recurring_projected` \| Date: `2019-09-03` \| Counted: `True`
+  - `event_212` \| Cat: `rent` \| Amt: `1140000.00` \| Status: `recurring_projected` \| Date: `2019-09-04` \| Counted: `True`
+  - `event_213` \| Cat: `utilities` \| Amt: `262344.55` \| Status: `recurring_projected` \| Date: `2019-09-08` \| Counted: `True`
+  - `event_215` \| Cat: `streaming` \| Amt: `117800.00` \| Status: `recurring_projected` \| Date: `2019-09-11` \| Counted: `True`
+  - `event_214` \| Cat: `cloud_storage` \| Amt: `20900.00` \| Status: `recurring_projected` \| Date: `2019-09-14` \| Counted: `True`
+  - `event_216` \| Cat: `shopping` \| Amt: `180395.29` \| Status: `recurring_projected` \| Date: `2019-09-14` \| Counted: `True`
+
+### request_04
+- **Request Date**: `2024-06-04` | **Deadline**: `2024-06-19`
+- **Next Payday**: `2024-06-15` (Amount: `38190000.00`)
+- **Starting Balance**: `52206950.00` | **Min Keep**: `30686600.00` | **Requested Amount**: `12693000.00`
+- **GT Safe**: `8401800.00` | **Current Computed Safe**: `10283912.77`
+- **Implied E_pre**: `13118550.0` | **Computed E_pre**: `11236437.22` | **Diff**: `-1882112.78`
+- **Candidate Expenses (Pre-Payday)**:
+  - `event_256` \| Cat: `rent` \| Amt: `12293000.00` \| Status: `settled` \| Date: `2024-01-01` \| Counted: `False`
+  - `event_257` \| Cat: `utilities` \| Amt: `2017103.37` \| Status: `settled` \| Date: `2024-01-05` \| Counted: `False`
+  - `event_258` \| Cat: `music_subscription` \| Amt: `332500.00` \| Status: `settled` \| Date: `2024-01-10` \| Counted: `False`
+  - `event_259` \| Cat: `delivery_membership` \| Amt: `377150.00` \| Status: `settled` \| Date: `2024-01-12` \| Counted: `False`
+  - `event_260` \| Cat: `gym` \| Amt: `1027900.00` \| Status: `settled` \| Date: `2024-01-09` \| Counted: `False`
+  - `event_261` \| Cat: `entertainment` \| Amt: `1484369.68` \| Status: `settled` \| Date: `2024-01-13` \| Counted: `False`
+  - `event_263` \| Cat: `rent` \| Amt: `12293000.00` \| Status: `settled` \| Date: `2024-02-01` \| Counted: `False`
+  - `event_264` \| Cat: `utilities` \| Amt: `1981052.47` \| Status: `settled` \| Date: `2024-02-05` \| Counted: `False`
+  - `event_265` \| Cat: `music_subscription` \| Amt: `332500.00` \| Status: `settled` \| Date: `2024-02-10` \| Counted: `False`
+  - `event_266` \| Cat: `delivery_membership` \| Amt: `377150.00` \| Status: `settled` \| Date: `2024-02-12` \| Counted: `False`
+  - `event_267` \| Cat: `gym` \| Amt: `1027900.00` \| Status: `settled` \| Date: `2024-02-09` \| Counted: `False`
+  - `event_268` \| Cat: `entertainment` \| Amt: `1375854.05` \| Status: `settled` \| Date: `2024-02-13` \| Counted: `False`
+  - `event_271` \| Cat: `rent` \| Amt: `12293000.00` \| Status: `settled` \| Date: `2024-03-01` \| Counted: `False`
+  - `event_272` \| Cat: `utilities` \| Amt: `2033868.83` \| Status: `settled` \| Date: `2024-03-05` \| Counted: `False`
+  - `event_273` \| Cat: `music_subscription` \| Amt: `332500.00` \| Status: `settled` \| Date: `2024-03-10` \| Counted: `False`
+  - `event_274` \| Cat: `delivery_membership` \| Amt: `377150.00` \| Status: `settled` \| Date: `2024-03-12` \| Counted: `False`
+  - `event_275` \| Cat: `gym` \| Amt: `1027900.00` \| Status: `settled` \| Date: `2024-03-09` \| Counted: `False`
+  - `event_276` \| Cat: `entertainment` \| Amt: `1542620.00` \| Status: `settled` \| Date: `2024-03-13` \| Counted: `False`
+  - `event_278` \| Cat: `rent` \| Amt: `12293000.00` \| Status: `settled` \| Date: `2024-04-01` \| Counted: `False`
+  - `event_279` \| Cat: `utilities` \| Amt: `1980834.82` \| Status: `settled` \| Date: `2024-04-05` \| Counted: `False`
+  - `event_280` \| Cat: `music_subscription` \| Amt: `332500.00` \| Status: `settled` \| Date: `2024-04-10` \| Counted: `False`
+  - `event_281` \| Cat: `delivery_membership` \| Amt: `377150.00` \| Status: `settled` \| Date: `2024-04-12` \| Counted: `False`
+  - `event_282` \| Cat: `gym` \| Amt: `1027900.00` \| Status: `settled` \| Date: `2024-04-09` \| Counted: `False`
+  - `event_283` \| Cat: `entertainment` \| Amt: `1291303.65` \| Status: `settled` \| Date: `2024-04-13` \| Counted: `False`
+  - `event_285` \| Cat: `rent` \| Amt: `12293000.00` \| Status: `settled` \| Date: `2024-05-01` \| Counted: `False`
+  - `event_286` \| Cat: `utilities` \| Amt: `2004118.60` \| Status: `settled` \| Date: `2024-05-05` \| Counted: `False`
+  - `event_287` \| Cat: `music_subscription` \| Amt: `332500.00` \| Status: `settled` \| Date: `2024-05-10` \| Counted: `False`
+  - `event_288` \| Cat: `delivery_membership` \| Amt: `377150.00` \| Status: `settled` \| Date: `2024-05-12` \| Counted: `False`
+  - `event_289` \| Cat: `gym` \| Amt: `1027900.00` \| Status: `settled` \| Date: `2024-05-09` \| Counted: `False`
+  - `event_290` \| Cat: `entertainment` \| Amt: `1231859.39` \| Status: `settled` \| Date: `2024-05-13` \| Counted: `False`
+  - `event_291` \| Cat: `rent` \| Amt: `12293000.00` \| Status: `settled` \| Date: `2024-06-01` \| Counted: `False`
+  - `event_292` \| Cat: `groceries` \| Amt: `1685953.79` \| Status: `settled` \| Date: `2023-12-09` \| Counted: `False`
+  - `event_293` \| Cat: `groceries` \| Amt: `1749986.60` \| Status: `settled` \| Date: `2023-12-16` \| Counted: `False`
+  - `event_294` \| Cat: `groceries` \| Amt: `1383275.31` \| Status: `settled` \| Date: `2023-12-23` \| Counted: `False`
+  - `event_295` \| Cat: `groceries` \| Amt: `1482897.31` \| Status: `settled` \| Date: `2023-12-30` \| Counted: `False`
+  - `event_296` \| Cat: `groceries` \| Amt: `1818044.76` \| Status: `settled` \| Date: `2024-01-06` \| Counted: `False`
+  - `event_297` \| Cat: `groceries` \| Amt: `1413898.40` \| Status: `settled` \| Date: `2024-01-13` \| Counted: `False`
+  - `event_298` \| Cat: `groceries` \| Amt: `1351288.83` \| Status: `settled` \| Date: `2024-01-20` \| Counted: `False`
+  - `event_299` \| Cat: `groceries` \| Amt: `1178544.55` \| Status: `settled` \| Date: `2024-01-27` \| Counted: `False`
+  - `event_300` \| Cat: `groceries` \| Amt: `1697006.55` \| Status: `settled` \| Date: `2024-02-03` \| Counted: `False`
+  - `event_301` \| Cat: `groceries` \| Amt: `1087788.82` \| Status: `settled` \| Date: `2024-02-10` \| Counted: `False`
+  - `event_302` \| Cat: `groceries` \| Amt: `1753801.95` \| Status: `settled` \| Date: `2024-02-17` \| Counted: `False`
+  - `event_303` \| Cat: `groceries` \| Amt: `1203621.92` \| Status: `settled` \| Date: `2024-02-24` \| Counted: `False`
+  - `event_304` \| Cat: `groceries` \| Amt: `1674003.66` \| Status: `settled` \| Date: `2024-03-02` \| Counted: `False`
+  - `event_305` \| Cat: `groceries` \| Amt: `1347842.61` \| Status: `settled` \| Date: `2024-03-09` \| Counted: `False`
+  - `event_306` \| Cat: `groceries` \| Amt: `1453711.32` \| Status: `settled` \| Date: `2024-03-16` \| Counted: `False`
+  - `event_307` \| Cat: `groceries` \| Amt: `1447770.09` \| Status: `settled` \| Date: `2024-03-23` \| Counted: `False`
+  - `event_308` \| Cat: `groceries` \| Amt: `1261462.72` \| Status: `settled` \| Date: `2024-03-30` \| Counted: `False`
+  - `event_309` \| Cat: `groceries` \| Amt: `1825667.28` \| Status: `settled` \| Date: `2024-04-06` \| Counted: `False`
+  - `event_310` \| Cat: `groceries` \| Amt: `1184189.40` \| Status: `settled` \| Date: `2024-04-13` \| Counted: `False`
+  - `event_311` \| Cat: `groceries` \| Amt: `1617937.79` \| Status: `settled` \| Date: `2024-04-20` \| Counted: `False`
+  - `event_312` \| Cat: `groceries` \| Amt: `1519414.73` \| Status: `settled` \| Date: `2024-04-27` \| Counted: `False`
+  - `event_313` \| Cat: `groceries` \| Amt: `1831437.58` \| Status: `settled` \| Date: `2024-05-04` \| Counted: `False`
+  - `event_314` \| Cat: `groceries` \| Amt: `1698278.31` \| Status: `settled` \| Date: `2024-05-11` \| Counted: `False`
+  - `event_315` \| Cat: `groceries` \| Amt: `1075064.04` \| Status: `settled` \| Date: `2024-05-18` \| Counted: `False`
+  - `event_316` \| Cat: `groceries` \| Amt: `1809752.54` \| Status: `settled` \| Date: `2024-05-25` \| Counted: `False`
+  - `event_317` \| Cat: `groceries` \| Amt: `1433695.50` \| Status: `settled` \| Date: `2024-06-01` \| Counted: `False`
+  - `event_318` \| Cat: `transport` \| Amt: `649231.24` \| Status: `settled` \| Date: `2023-12-10` \| Counted: `False`
+  - `event_319` \| Cat: `transport` \| Amt: `876705.51` \| Status: `settled` \| Date: `2023-12-17` \| Counted: `False`
+  - `event_320` \| Cat: `transport` \| Amt: `825832.49` \| Status: `settled` \| Date: `2023-12-24` \| Counted: `False`
+  - `event_321` \| Cat: `transport` \| Amt: `769694.20` \| Status: `settled` \| Date: `2023-12-31` \| Counted: `False`
+  - `event_322` \| Cat: `transport` \| Amt: `841811.01` \| Status: `settled` \| Date: `2024-01-07` \| Counted: `False`
+  - `event_323` \| Cat: `transport` \| Amt: `820888.17` \| Status: `settled` \| Date: `2024-01-14` \| Counted: `False`
+  - `event_324` \| Cat: `transport` \| Amt: `870102.58` \| Status: `settled` \| Date: `2024-01-21` \| Counted: `False`
+  - `event_325` \| Cat: `transport` \| Amt: `1011616.29` \| Status: `settled` \| Date: `2024-01-28` \| Counted: `False`
+  - `event_326` \| Cat: `transport` \| Amt: `596927.82` \| Status: `settled` \| Date: `2024-02-04` \| Counted: `False`
+  - `event_327` \| Cat: `transport` \| Amt: `595968.94` \| Status: `settled` \| Date: `2024-02-11` \| Counted: `False`
+  - `event_328` \| Cat: `transport` \| Amt: `954666.65` \| Status: `settled` \| Date: `2024-02-18` \| Counted: `False`
+  - `event_329` \| Cat: `transport` \| Amt: `843406.32` \| Status: `settled` \| Date: `2024-02-25` \| Counted: `False`
+  - `event_330` \| Cat: `transport` \| Amt: `589707.32` \| Status: `settled` \| Date: `2024-03-03` \| Counted: `False`
+  - `event_331` \| Cat: `transport` \| Amt: `997182.25` \| Status: `settled` \| Date: `2024-03-10` \| Counted: `False`
+  - `event_332` \| Cat: `transport` \| Amt: `677221.86` \| Status: `settled` \| Date: `2024-03-17` \| Counted: `False`
+  - `event_333` \| Cat: `transport` \| Amt: `889762.96` \| Status: `settled` \| Date: `2024-03-24` \| Counted: `False`
+  - `event_334` \| Cat: `transport` \| Amt: `842011.07` \| Status: `settled` \| Date: `2024-03-31` \| Counted: `False`
+  - `event_335` \| Cat: `transport` \| Amt: `1000668.29` \| Status: `settled` \| Date: `2024-04-07` \| Counted: `False`
+  - `event_336` \| Cat: `transport` \| Amt: `935850.82` \| Status: `settled` \| Date: `2024-04-14` \| Counted: `False`
+  - `event_337` \| Cat: `transport` \| Amt: `874634.88` \| Status: `settled` \| Date: `2024-04-21` \| Counted: `False`
+  - `event_338` \| Cat: `transport` \| Amt: `766019.04` \| Status: `settled` \| Date: `2024-04-28` \| Counted: `False`
+  - `event_339` \| Cat: `transport` \| Amt: `1030376.90` \| Status: `settled` \| Date: `2024-05-05` \| Counted: `False`
+  - `event_340` \| Cat: `transport` \| Amt: `912938.95` \| Status: `settled` \| Date: `2024-05-12` \| Counted: `False`
+  - `event_341` \| Cat: `transport` \| Amt: `853091.62` \| Status: `settled` \| Date: `2024-05-19` \| Counted: `False`
+  - `event_342` \| Cat: `transport` \| Amt: `602450.01` \| Status: `settled` \| Date: `2024-05-26` \| Counted: `False`
+  - `event_343` \| Cat: `transport` \| Amt: `1016425.58` \| Status: `settled` \| Date: `2024-06-02` \| Counted: `False`
+  - `event_344` \| Cat: `dining` \| Amt: `2111827.25` \| Status: `settled` \| Date: `2023-12-11` \| Counted: `False`
+  - `event_345` \| Cat: `dining` \| Amt: `1839656.04` \| Status: `settled` \| Date: `2023-12-25` \| Counted: `False`
+  - `event_346` \| Cat: `dining` \| Amt: `1279029.86` \| Status: `settled` \| Date: `2024-01-08` \| Counted: `False`
+  - `event_347` \| Cat: `dining` \| Amt: `2067659.14` \| Status: `settled` \| Date: `2024-01-22` \| Counted: `False`
+  - `event_348` \| Cat: `dining` \| Amt: `1650545.96` \| Status: `settled` \| Date: `2024-02-05` \| Counted: `False`
+  - `event_349` \| Cat: `dining` \| Amt: `1931412.81` \| Status: `settled` \| Date: `2024-02-19` \| Counted: `False`
+  - `event_350` \| Cat: `dining` \| Amt: `1551598.07` \| Status: `settled` \| Date: `2024-03-04` \| Counted: `False`
+  - `event_351` \| Cat: `dining` \| Amt: `2102251.18` \| Status: `settled` \| Date: `2024-03-18` \| Counted: `False`
+  - `event_352` \| Cat: `dining` \| Amt: `1282286.60` \| Status: `settled` \| Date: `2024-04-01` \| Counted: `False`
+  - `event_353` \| Cat: `dining` \| Amt: `1259307.64` \| Status: `settled` \| Date: `2024-04-15` \| Counted: `False`
+  - `event_354` \| Cat: `dining` \| Amt: `1661337.11` \| Status: `settled` \| Date: `2024-04-29` \| Counted: `False`
+  - `event_355` \| Cat: `dining` \| Amt: `1886856.10` \| Status: `settled` \| Date: `2024-05-13` \| Counted: `False`
+  - `event_356` \| Cat: `dining` \| Amt: `2108488.15` \| Status: `settled` \| Date: `2024-05-27` \| Counted: `False`
+  - `event_357` \| Cat: `education` \| Amt: `1704300.00` \| Status: `scheduled` \| Date: `2024-06-11` \| Counted: `True`
+  - `event_286` \| Cat: `utilities` \| Amt: `2004118.60` \| Status: `recurring_projected` \| Date: `2024-06-05` \| Counted: `True`
+  - `event_317` \| Cat: `groceries` \| Amt: `1433695.50` \| Status: `recurring_projected` \| Date: `2024-06-08` \| Counted: `True`
+  - `event_289` \| Cat: `gym` \| Amt: `1027900.00` \| Status: `recurring_projected` \| Date: `2024-06-09` \| Counted: `True`
+  - `event_343` \| Cat: `transport` \| Amt: `1016425.58` \| Status: `recurring_projected` \| Date: `2024-06-09` \| Counted: `True`
+  - `event_287` \| Cat: `music_subscription` \| Amt: `332500.00` \| Status: `recurring_projected` \| Date: `2024-06-10` \| Counted: `True`
+  - `event_356` \| Cat: `dining` \| Amt: `2108488.15` \| Status: `recurring_projected` \| Date: `2024-06-10` \| Counted: `True`
+  - `event_288` \| Cat: `delivery_membership` \| Amt: `377150.00` \| Status: `recurring_projected` \| Date: `2024-06-12` \| Counted: `True`
+  - `event_290` \| Cat: `entertainment` \| Amt: `1231859.39` \| Status: `recurring_projected` \| Date: `2024-06-13` \| Counted: `True`
+
+### request_05
+- **Request Date**: `2025-11-06` | **Deadline**: `2026-01-12`
+- **Next Payday**: `2026-02-04` (Amount: `0.00`)
+- **Starting Balance**: `46475.10` | **Min Keep**: `13100.00` | **Requested Amount**: `15488.00`
+- **GT Safe**: `737.00` | **Current Computed Safe**: `0.00`
+- **Implied E_pre**: `32638.1` | **Computed E_pre**: `37774.68` | **Diff**: `5136.58`
+- **Candidate Expenses (Pre-Payday)**:
+  - `event_359` \| Cat: `rent` \| Amt: `4972.00` \| Status: `settled` \| Date: `2025-06-02` \| Counted: `False`
+  - `event_360` \| Cat: `utilities` \| Amt: `604.15` \| Status: `settled` \| Date: `2025-06-06` \| Counted: `False`
+  - `event_361` \| Cat: `debt_repayment` \| Amt: `968.00` \| Status: `settled` \| Date: `2025-06-11` \| Counted: `False`
+  - `event_362` \| Cat: `healthcare` \| Amt: `777.27` \| Status: `settled` \| Date: `2025-06-10` \| Counted: `False`
+  - `event_363` \| Cat: `family_support` \| Amt: `840.40` \| Status: `settled` \| Date: `2025-06-13` \| Counted: `False`
+  - `event_364` \| Cat: `cloud_storage` \| Amt: `113.30` \| Status: `settled` \| Date: `2025-06-12` \| Counted: `False`
+  - `event_365` \| Cat: `shopping` \| Amt: `379.94` \| Status: `settled` \| Date: `2025-06-12` \| Counted: `False`
+  - `event_367` \| Cat: `rent` \| Amt: `4972.00` \| Status: `settled` \| Date: `2025-07-02` \| Counted: `False`
+  - `event_368` \| Cat: `utilities` \| Amt: `658.41` \| Status: `settled` \| Date: `2025-07-06` \| Counted: `False`
+  - `event_369` \| Cat: `debt_repayment` \| Amt: `968.00` \| Status: `settled` \| Date: `2025-07-11` \| Counted: `False`
+  - `event_370` \| Cat: `healthcare` \| Amt: `641.37` \| Status: `settled` \| Date: `2025-07-10` \| Counted: `False`
+  - `event_371` \| Cat: `family_support` \| Amt: `840.40` \| Status: `settled` \| Date: `2025-07-13` \| Counted: `False`
+  - `event_372` \| Cat: `cloud_storage` \| Amt: `113.30` \| Status: `settled` \| Date: `2025-07-12` \| Counted: `False`
+  - `event_373` \| Cat: `shopping` \| Amt: `404.24` \| Status: `settled` \| Date: `2025-07-12` \| Counted: `False`
+  - `event_375` \| Cat: `rent` \| Amt: `4972.00` \| Status: `settled` \| Date: `2025-08-02` \| Counted: `False`
+  - `event_376` \| Cat: `utilities` \| Amt: `750.89` \| Status: `settled` \| Date: `2025-08-06` \| Counted: `False`
+  - `event_377` \| Cat: `debt_repayment` \| Amt: `968.00` \| Status: `settled` \| Date: `2025-08-11` \| Counted: `False`
+  - `event_378` \| Cat: `healthcare` \| Amt: `632.59` \| Status: `settled` \| Date: `2025-08-10` \| Counted: `False`
+  - `event_379` \| Cat: `family_support` \| Amt: `840.40` \| Status: `settled` \| Date: `2025-08-13` \| Counted: `False`
+  - `event_380` \| Cat: `cloud_storage` \| Amt: `113.30` \| Status: `settled` \| Date: `2025-08-12` \| Counted: `False`
+  - `event_381` \| Cat: `shopping` \| Amt: `422.67` \| Status: `settled` \| Date: `2025-08-12` \| Counted: `False`
+  - `event_383` \| Cat: `rent` \| Amt: `4972.00` \| Status: `settled` \| Date: `2025-09-02` \| Counted: `False`
+  - `event_384` \| Cat: `utilities` \| Amt: `706.37` \| Status: `settled` \| Date: `2025-09-06` \| Counted: `False`
+  - `event_385` \| Cat: `debt_repayment` \| Amt: `968.00` \| Status: `settled` \| Date: `2025-09-11` \| Counted: `False`
+  - `event_386` \| Cat: `healthcare` \| Amt: `721.44` \| Status: `settled` \| Date: `2025-09-10` \| Counted: `False`
+  - `event_387` \| Cat: `family_support` \| Amt: `840.40` \| Status: `settled` \| Date: `2025-09-13` \| Counted: `False`
+  - `event_388` \| Cat: `cloud_storage` \| Amt: `113.30` \| Status: `settled` \| Date: `2025-09-12` \| Counted: `False`
+  - `event_389` \| Cat: `shopping` \| Amt: `420.31` \| Status: `settled` \| Date: `2025-09-12` \| Counted: `False`
+  - `event_391` \| Cat: `rent` \| Amt: `4972.00` \| Status: `settled` \| Date: `2025-10-02` \| Counted: `False`
+  - `event_392` \| Cat: `utilities` \| Amt: `713.71` \| Status: `settled` \| Date: `2025-10-06` \| Counted: `False`
+  - `event_393` \| Cat: `debt_repayment` \| Amt: `968.00` \| Status: `settled` \| Date: `2025-10-11` \| Counted: `False`
+  - `event_394` \| Cat: `healthcare` \| Amt: `722.37` \| Status: `settled` \| Date: `2025-10-10` \| Counted: `False`
+  - `event_395` \| Cat: `family_support` \| Amt: `840.40` \| Status: `settled` \| Date: `2025-10-13` \| Counted: `False`
+  - `event_396` \| Cat: `cloud_storage` \| Amt: `113.30` \| Status: `settled` \| Date: `2025-10-12` \| Counted: `False`
+  - `event_397` \| Cat: `shopping` \| Amt: `362.09` \| Status: `settled` \| Date: `2025-10-12` \| Counted: `False`
+  - `event_398` \| Cat: `rent` \| Amt: `4972.00` \| Status: `settled` \| Date: `2025-11-02` \| Counted: `False`
+  - `event_399` \| Cat: `groceries` \| Amt: `784.81` \| Status: `settled` \| Date: `2025-05-13` \| Counted: `False`
+  - `event_400` \| Cat: `groceries` \| Amt: `818.16` \| Status: `settled` \| Date: `2025-05-20` \| Counted: `False`
+  - `event_401` \| Cat: `groceries` \| Amt: `680.15` \| Status: `settled` \| Date: `2025-05-27` \| Counted: `False`
+  - `event_402` \| Cat: `groceries` \| Amt: `530.44` \| Status: `settled` \| Date: `2025-06-03` \| Counted: `False`
+  - `event_403` \| Cat: `groceries` \| Amt: `695.96` \| Status: `settled` \| Date: `2025-06-10` \| Counted: `False`
+  - `event_404` \| Cat: `groceries` \| Amt: `835.00` \| Status: `settled` \| Date: `2025-06-17` \| Counted: `False`
+  - `event_405` \| Cat: `groceries` \| Amt: `635.23` \| Status: `settled` \| Date: `2025-06-24` \| Counted: `False`
+  - `event_406` \| Cat: `groceries` \| Amt: `661.93` \| Status: `settled` \| Date: `2025-07-01` \| Counted: `False`
+  - `event_407` \| Cat: `groceries` \| Amt: `567.19` \| Status: `settled` \| Date: `2025-07-08` \| Counted: `False`
+  - `event_408` \| Cat: `groceries` \| Amt: `767.92` \| Status: `settled` \| Date: `2025-07-15` \| Counted: `False`
+  - `event_409` \| Cat: `groceries` \| Amt: `807.31` \| Status: `settled` \| Date: `2025-07-22` \| Counted: `False`
+  - `event_410` \| Cat: `groceries` \| Amt: `800.63` \| Status: `settled` \| Date: `2025-07-29` \| Counted: `False`
+  - `event_411` \| Cat: `groceries` \| Amt: `813.64` \| Status: `settled` \| Date: `2025-08-05` \| Counted: `False`
+  - `event_412` \| Cat: `groceries` \| Amt: `853.42` \| Status: `settled` \| Date: `2025-08-12` \| Counted: `False`
+  - `event_413` \| Cat: `groceries` \| Amt: `773.83` \| Status: `settled` \| Date: `2025-08-19` \| Counted: `False`
+  - `event_414` \| Cat: `groceries` \| Amt: `845.02` \| Status: `settled` \| Date: `2025-08-26` \| Counted: `False`
+  - `event_415` \| Cat: `groceries` \| Amt: `762.65` \| Status: `settled` \| Date: `2025-09-02` \| Counted: `False`
+  - `event_416` \| Cat: `groceries` \| Amt: `515.40` \| Status: `settled` \| Date: `2025-09-09` \| Counted: `False`
+  - `event_417` \| Cat: `groceries` \| Amt: `682.39` \| Status: `settled` \| Date: `2025-09-16` \| Counted: `False`
+  - `event_418` \| Cat: `groceries` \| Amt: `675.81` \| Status: `settled` \| Date: `2025-09-23` \| Counted: `False`
+  - `event_419` \| Cat: `groceries` \| Amt: `547.60` \| Status: `settled` \| Date: `2025-09-30` \| Counted: `False`
+  - `event_420` \| Cat: `groceries` \| Amt: `826.66` \| Status: `settled` \| Date: `2025-10-07` \| Counted: `False`
+  - `event_421` \| Cat: `groceries` \| Amt: `768.64` \| Status: `settled` \| Date: `2025-10-14` \| Counted: `False`
+  - `event_422` \| Cat: `groceries` \| Amt: `709.62` \| Status: `settled` \| Date: `2025-10-21` \| Counted: `False`
+  - `event_423` \| Cat: `groceries` \| Amt: `684.39` \| Status: `settled` \| Date: `2025-10-28` \| Counted: `False`
+  - `event_424` \| Cat: `groceries` \| Amt: `720.51` \| Status: `settled` \| Date: `2025-11-04` \| Counted: `False`
+  - `event_425` \| Cat: `transport` \| Amt: `489.31` \| Status: `settled` \| Date: `2025-05-14` \| Counted: `False`
+  - `event_426` \| Cat: `transport` \| Amt: `424.26` \| Status: `settled` \| Date: `2025-05-28` \| Counted: `False`
+  - `event_427` \| Cat: `transport` \| Amt: `504.23` \| Status: `settled` \| Date: `2025-06-11` \| Counted: `False`
+  - `event_428` \| Cat: `transport` \| Amt: `492.86` \| Status: `settled` \| Date: `2025-06-25` \| Counted: `False`
+  - `event_429` \| Cat: `transport` \| Amt: `363.28` \| Status: `settled` \| Date: `2025-07-09` \| Counted: `False`
+  - `event_430` \| Cat: `transport` \| Amt: `311.00` \| Status: `settled` \| Date: `2025-07-23` \| Counted: `False`
+  - `event_431` \| Cat: `transport` \| Amt: `431.81` \| Status: `settled` \| Date: `2025-08-06` \| Counted: `False`
+  - `event_432` \| Cat: `transport` \| Amt: `354.20` \| Status: `settled` \| Date: `2025-08-20` \| Counted: `False`
+  - `event_433` \| Cat: `transport` \| Amt: `485.59` \| Status: `settled` \| Date: `2025-09-03` \| Counted: `False`
+  - `event_434` \| Cat: `transport` \| Amt: `411.47` \| Status: `settled` \| Date: `2025-09-17` \| Counted: `False`
+  - `event_435` \| Cat: `transport` \| Amt: `377.26` \| Status: `settled` \| Date: `2025-10-01` \| Counted: `False`
+  - `event_436` \| Cat: `transport` \| Amt: `352.46` \| Status: `settled` \| Date: `2025-10-15` \| Counted: `False`
+  - `event_437` \| Cat: `transport` \| Amt: `388.74` \| Status: `settled` \| Date: `2025-10-29` \| Counted: `False`
+  - `event_392` \| Cat: `utilities` \| Amt: `713.71` \| Status: `recurring_projected` \| Date: `2025-11-06` \| Counted: `True`
+  - `event_394` \| Cat: `healthcare` \| Amt: `722.37` \| Status: `recurring_projected` \| Date: `2025-11-10` \| Counted: `True`
+  - `event_393` \| Cat: `debt_repayment` \| Amt: `968.00` \| Status: `recurring_projected` \| Date: `2025-11-11` \| Counted: `True`
+  - `event_424` \| Cat: `groceries` \| Amt: `720.51` \| Status: `recurring_projected` \| Date: `2025-11-11` \| Counted: `True`
+  - `event_396` \| Cat: `cloud_storage` \| Amt: `113.30` \| Status: `recurring_projected` \| Date: `2025-11-12` \| Counted: `True`
+  - `event_397` \| Cat: `shopping` \| Amt: `362.09` \| Status: `recurring_projected` \| Date: `2025-11-12` \| Counted: `True`
+  - `event_437` \| Cat: `transport` \| Amt: `388.74` \| Status: `recurring_projected` \| Date: `2025-11-12` \| Counted: `True`
+  - `event_395` \| Cat: `family_support` \| Amt: `840.40` \| Status: `recurring_projected` \| Date: `2025-11-13` \| Counted: `True`
+  - `event_424` \| Cat: `groceries` \| Amt: `720.51` \| Status: `recurring_projected` \| Date: `2025-11-18` \| Counted: `True`
+  - `event_424` \| Cat: `groceries` \| Amt: `720.51` \| Status: `recurring_projected` \| Date: `2025-11-25` \| Counted: `True`
+  - `event_437` \| Cat: `transport` \| Amt: `388.74` \| Status: `recurring_projected` \| Date: `2025-11-26` \| Counted: `True`
+  - `event_398` \| Cat: `rent` \| Amt: `4972.00` \| Status: `recurring_projected` \| Date: `2025-12-02` \| Counted: `True`
+  - `event_424` \| Cat: `groceries` \| Amt: `720.51` \| Status: `recurring_projected` \| Date: `2025-12-02` \| Counted: `True`
+  - `event_392` \| Cat: `utilities` \| Amt: `713.71` \| Status: `recurring_projected` \| Date: `2025-12-06` \| Counted: `True`
+  - `event_424` \| Cat: `groceries` \| Amt: `720.51` \| Status: `recurring_projected` \| Date: `2025-12-09` \| Counted: `True`
+  - `event_394` \| Cat: `healthcare` \| Amt: `722.37` \| Status: `recurring_projected` \| Date: `2025-12-10` \| Counted: `True`
+  - `event_437` \| Cat: `transport` \| Amt: `388.74` \| Status: `recurring_projected` \| Date: `2025-12-10` \| Counted: `True`
+  - `event_393` \| Cat: `debt_repayment` \| Amt: `968.00` \| Status: `recurring_projected` \| Date: `2025-12-11` \| Counted: `True`
+  - `event_396` \| Cat: `cloud_storage` \| Amt: `113.30` \| Status: `recurring_projected` \| Date: `2025-12-12` \| Counted: `True`
+  - `event_397` \| Cat: `shopping` \| Amt: `362.09` \| Status: `recurring_projected` \| Date: `2025-12-12` \| Counted: `True`
+  - `event_395` \| Cat: `family_support` \| Amt: `840.40` \| Status: `recurring_projected` \| Date: `2025-12-13` \| Counted: `True`
+  - `event_424` \| Cat: `groceries` \| Amt: `720.51` \| Status: `recurring_projected` \| Date: `2025-12-16` \| Counted: `True`
+  - `event_424` \| Cat: `groceries` \| Amt: `720.51` \| Status: `recurring_projected` \| Date: `2025-12-23` \| Counted: `True`
+  - `event_437` \| Cat: `transport` \| Amt: `388.74` \| Status: `recurring_projected` \| Date: `2025-12-24` \| Counted: `True`
+  - `event_424` \| Cat: `groceries` \| Amt: `720.51` \| Status: `recurring_projected` \| Date: `2025-12-30` \| Counted: `True`
+  - `event_398` \| Cat: `rent` \| Amt: `4972.00` \| Status: `recurring_projected` \| Date: `2026-01-02` \| Counted: `True`
+  - `event_392` \| Cat: `utilities` \| Amt: `713.71` \| Status: `recurring_projected` \| Date: `2026-01-06` \| Counted: `True`
+  - `event_424` \| Cat: `groceries` \| Amt: `720.51` \| Status: `recurring_projected` \| Date: `2026-01-06` \| Counted: `True`
+  - `event_437` \| Cat: `transport` \| Amt: `388.74` \| Status: `recurring_projected` \| Date: `2026-01-07` \| Counted: `True`
+  - `event_394` \| Cat: `healthcare` \| Amt: `722.37` \| Status: `recurring_projected` \| Date: `2026-01-10` \| Counted: `True`
+  - `event_393` \| Cat: `debt_repayment` \| Amt: `968.00` \| Status: `recurring_projected` \| Date: `2026-01-11` \| Counted: `True`
+  - `event_396` \| Cat: `cloud_storage` \| Amt: `113.30` \| Status: `recurring_projected` \| Date: `2026-01-12` \| Counted: `True`
+  - `event_397` \| Cat: `shopping` \| Amt: `362.09` \| Status: `recurring_projected` \| Date: `2026-01-12` \| Counted: `True`
+  - `event_395` \| Cat: `family_support` \| Amt: `840.40` \| Status: `recurring_projected` \| Date: `2026-01-13` \| Counted: `True`
+  - `event_424` \| Cat: `groceries` \| Amt: `720.51` \| Status: `recurring_projected` \| Date: `2026-01-13` \| Counted: `True`
+  - `event_424` \| Cat: `groceries` \| Amt: `720.51` \| Status: `recurring_projected` \| Date: `2026-01-20` \| Counted: `True`
+  - `event_437` \| Cat: `transport` \| Amt: `388.74` \| Status: `recurring_projected` \| Date: `2026-01-21` \| Counted: `True`
+  - `event_424` \| Cat: `groceries` \| Amt: `720.51` \| Status: `recurring_projected` \| Date: `2026-01-27` \| Counted: `True`
+  - `event_398` \| Cat: `rent` \| Amt: `4972.00` \| Status: `recurring_projected` \| Date: `2026-02-02` \| Counted: `True`
+  - `event_424` \| Cat: `groceries` \| Amt: `720.51` \| Status: `recurring_projected` \| Date: `2026-02-03` \| Counted: `True`
+
+### request_06
+- **Request Date**: `2026-01-03` | **Deadline**: `2026-01-14`
+- **Next Payday**: `2026-01-15` (Amount: `1037.52`)
+- **Starting Balance**: `1942.40` | **Min Keep**: `800.00` | **Requested Amount**: `620.40`
+- **GT Safe**: `603.30` | **Current Computed Safe**: `551.35`
+- **Implied E_pre**: `539.1` | **Computed E_pre**: `591.05` | **Diff**: `51.95`
+- **Candidate Expenses (Pre-Payday)**:
+  - `event_440` \| Cat: `rent` \| Amt: `254.10` \| Status: `settled` \| Date: `2025-08-03` \| Counted: `False`
+  - `event_441` \| Cat: `utilities` \| Amt: `58.34` \| Status: `settled` \| Date: `2025-08-07` \| Counted: `False`
+  - `event_442` \| Cat: `insurance` \| Amt: `26.00` \| Status: `settled` \| Date: `2025-08-08` \| Counted: `False`
+  - `event_443` \| Cat: `cloud_storage` \| Amt: `5.00` \| Status: `settled` \| Date: `2025-08-13` \| Counted: `False`
+  - `event_444` \| Cat: `streaming` \| Amt: `19.00` \| Status: `settled` \| Date: `2025-08-10` \| Counted: `False`
+  - `event_445` \| Cat: `shopping` \| Amt: `41.44` \| Status: `settled` \| Date: `2025-08-13` \| Counted: `False`
+  - `event_446` \| Cat: `entertainment` \| Amt: `32.10` \| Status: `settled` \| Date: `2025-08-15` \| Counted: `False`
+  - `event_448` \| Cat: `rent` \| Amt: `254.10` \| Status: `settled` \| Date: `2025-09-03` \| Counted: `False`
+  - `event_449` \| Cat: `utilities` \| Amt: `52.62` \| Status: `settled` \| Date: `2025-09-07` \| Counted: `False`
+  - `event_450` \| Cat: `insurance` \| Amt: `26.00` \| Status: `settled` \| Date: `2025-09-08` \| Counted: `False`
+  - `event_451` \| Cat: `cloud_storage` \| Amt: `5.00` \| Status: `settled` \| Date: `2025-09-13` \| Counted: `False`
+  - `event_452` \| Cat: `streaming` \| Amt: `19.00` \| Status: `settled` \| Date: `2025-09-10` \| Counted: `False`
+  - `event_453` \| Cat: `shopping` \| Amt: `46.25` \| Status: `settled` \| Date: `2025-09-13` \| Counted: `False`
+  - `event_454` \| Cat: `entertainment` \| Amt: `35.10` \| Status: `settled` \| Date: `2025-09-15` \| Counted: `False`
+  - `event_456` \| Cat: `rent` \| Amt: `254.10` \| Status: `settled` \| Date: `2025-10-03` \| Counted: `False`
+  - `event_457` \| Cat: `utilities` \| Amt: `58.98` \| Status: `settled` \| Date: `2025-10-07` \| Counted: `False`
+  - `event_458` \| Cat: `insurance` \| Amt: `26.00` \| Status: `settled` \| Date: `2025-10-08` \| Counted: `False`
+  - `event_459` \| Cat: `cloud_storage` \| Amt: `5.00` \| Status: `settled` \| Date: `2025-10-13` \| Counted: `False`
+  - `event_460` \| Cat: `streaming` \| Amt: `19.00` \| Status: `settled` \| Date: `2025-10-10` \| Counted: `False`
+  - `event_461` \| Cat: `shopping` \| Amt: `39.46` \| Status: `settled` \| Date: `2025-10-13` \| Counted: `False`
+  - `event_462` \| Cat: `entertainment` \| Amt: `32.18` \| Status: `settled` \| Date: `2025-10-15` \| Counted: `False`
+  - `event_464` \| Cat: `rent` \| Amt: `254.10` \| Status: `settled` \| Date: `2025-11-03` \| Counted: `False`
+  - `event_465` \| Cat: `utilities` \| Amt: `56.71` \| Status: `settled` \| Date: `2025-11-07` \| Counted: `False`
+  - `event_466` \| Cat: `insurance` \| Amt: `26.00` \| Status: `settled` \| Date: `2025-11-08` \| Counted: `False`
+  - `event_467` \| Cat: `cloud_storage` \| Amt: `5.00` \| Status: `settled` \| Date: `2025-11-13` \| Counted: `False`
+  - `event_468` \| Cat: `streaming` \| Amt: `19.00` \| Status: `settled` \| Date: `2025-11-10` \| Counted: `False`
+  - `event_469` \| Cat: `shopping` \| Amt: `37.96` \| Status: `settled` \| Date: `2025-11-13` \| Counted: `False`
+  - `event_470` \| Cat: `entertainment` \| Amt: `37.36` \| Status: `settled` \| Date: `2025-11-15` \| Counted: `False`
+  - `event_472` \| Cat: `rent` \| Amt: `254.10` \| Status: `settled` \| Date: `2025-12-03` \| Counted: `False`
+  - `event_473` \| Cat: `utilities` \| Amt: `51.86` \| Status: `settled` \| Date: `2025-12-07` \| Counted: `False`
+  - `event_474` \| Cat: `insurance` \| Amt: `26.00` \| Status: `settled` \| Date: `2025-12-08` \| Counted: `False`
+  - `event_475` \| Cat: `cloud_storage` \| Amt: `5.00` \| Status: `settled` \| Date: `2025-12-13` \| Counted: `False`
+  - `event_476` \| Cat: `streaming` \| Amt: `19.00` \| Status: `settled` \| Date: `2025-12-10` \| Counted: `False`
+  - `event_477` \| Cat: `shopping` \| Amt: `39.88` \| Status: `settled` \| Date: `2025-12-13` \| Counted: `False`
+  - `event_478` \| Cat: `entertainment` \| Amt: `38.33` \| Status: `settled` \| Date: `2025-12-15` \| Counted: `False`
+  - `event_479` \| Cat: `groceries` \| Amt: `43.16` \| Status: `settled` \| Date: `2025-07-11` \| Counted: `False`
+  - `event_480` \| Cat: `groceries` \| Amt: `53.56` \| Status: `settled` \| Date: `2025-07-21` \| Counted: `False`
+  - `event_481` \| Cat: `groceries` \| Amt: `49.49` \| Status: `settled` \| Date: `2025-07-31` \| Counted: `False`
+  - `event_482` \| Cat: `groceries` \| Amt: `43.57` \| Status: `settled` \| Date: `2025-08-10` \| Counted: `False`
+  - `event_483` \| Cat: `groceries` \| Amt: `31.69` \| Status: `settled` \| Date: `2025-08-20` \| Counted: `False`
+  - `event_484` \| Cat: `groceries` \| Amt: `50.53` \| Status: `settled` \| Date: `2025-08-30` \| Counted: `False`
+  - `event_485` \| Cat: `groceries` \| Amt: `51.97` \| Status: `settled` \| Date: `2025-09-09` \| Counted: `False`
+  - `event_486` \| Cat: `groceries` \| Amt: `48.32` \| Status: `settled` \| Date: `2025-09-19` \| Counted: `False`
+  - `event_487` \| Cat: `groceries` \| Amt: `51.55` \| Status: `settled` \| Date: `2025-09-29` \| Counted: `False`
+  - `event_488` \| Cat: `groceries` \| Amt: `46.22` \| Status: `settled` \| Date: `2025-10-09` \| Counted: `False`
+  - `event_489` \| Cat: `groceries` \| Amt: `32.96` \| Status: `settled` \| Date: `2025-10-19` \| Counted: `False`
+  - `event_490` \| Cat: `groceries` \| Amt: `51.40` \| Status: `settled` \| Date: `2025-10-29` \| Counted: `False`
+  - `event_491` \| Cat: `groceries` \| Amt: `34.00` \| Status: `settled` \| Date: `2025-11-08` \| Counted: `False`
+  - `event_492` \| Cat: `groceries` \| Amt: `45.40` \| Status: `settled` \| Date: `2025-11-18` \| Counted: `False`
+  - `event_493` \| Cat: `groceries` \| Amt: `51.23` \| Status: `settled` \| Date: `2025-11-28` \| Counted: `False`
+  - `event_494` \| Cat: `groceries` \| Amt: `40.91` \| Status: `settled` \| Date: `2025-12-08` \| Counted: `False`
+  - `event_495` \| Cat: `groceries` \| Amt: `52.76` \| Status: `settled` \| Date: `2025-12-18` \| Counted: `False`
+  - `event_496` \| Cat: `groceries` \| Amt: `32.69` \| Status: `settled` \| Date: `2025-12-28` \| Counted: `False`
+  - `event_497` \| Cat: `transport` \| Amt: `23.68` \| Status: `settled` \| Date: `2025-07-12` \| Counted: `False`
+  - `event_498` \| Cat: `transport` \| Amt: `23.83` \| Status: `settled` \| Date: `2025-07-17` \| Counted: `False`
+  - `event_499` \| Cat: `transport` \| Amt: `24.21` \| Status: `settled` \| Date: `2025-07-22` \| Counted: `False`
+  - `event_500` \| Cat: `transport` \| Amt: `19.73` \| Status: `settled` \| Date: `2025-07-27` \| Counted: `False`
+  - `event_501` \| Cat: `transport` \| Amt: `32.17` \| Status: `settled` \| Date: `2025-08-01` \| Counted: `False`
+  - `event_502` \| Cat: `transport` \| Amt: `27.80` \| Status: `settled` \| Date: `2025-08-06` \| Counted: `False`
+  - `event_503` \| Cat: `transport` \| Amt: `28.03` \| Status: `settled` \| Date: `2025-08-11` \| Counted: `False`
+  - `event_504` \| Cat: `transport` \| Amt: `26.82` \| Status: `settled` \| Date: `2025-08-16` \| Counted: `False`
+  - `event_505` \| Cat: `transport` \| Amt: `27.29` \| Status: `settled` \| Date: `2025-08-21` \| Counted: `False`
+  - `event_506` \| Cat: `transport` \| Amt: `31.89` \| Status: `settled` \| Date: `2025-08-26` \| Counted: `False`
+  - `event_507` \| Cat: `transport` \| Amt: `27.65` \| Status: `settled` \| Date: `2025-08-31` \| Counted: `False`
+  - `event_508` \| Cat: `transport` \| Amt: `29.46` \| Status: `settled` \| Date: `2025-09-05` \| Counted: `False`
+  - `event_509` \| Cat: `transport` \| Amt: `21.32` \| Status: `settled` \| Date: `2025-09-10` \| Counted: `False`
+  - `event_510` \| Cat: `transport` \| Amt: `29.47` \| Status: `settled` \| Date: `2025-09-15` \| Counted: `False`
+  - `event_511` \| Cat: `transport` \| Amt: `28.08` \| Status: `settled` \| Date: `2025-09-20` \| Counted: `False`
+  - `event_512` \| Cat: `transport` \| Amt: `31.87` \| Status: `settled` \| Date: `2025-09-25` \| Counted: `False`
+  - `event_513` \| Cat: `transport` \| Amt: `21.10` \| Status: `settled` \| Date: `2025-09-30` \| Counted: `False`
+  - `event_514` \| Cat: `transport` \| Amt: `28.87` \| Status: `settled` \| Date: `2025-10-05` \| Counted: `False`
+  - `event_515` \| Cat: `transport` \| Amt: `28.61` \| Status: `settled` \| Date: `2025-10-10` \| Counted: `False`
+  - `event_516` \| Cat: `transport` \| Amt: `22.14` \| Status: `settled` \| Date: `2025-10-15` \| Counted: `False`
+  - `event_517` \| Cat: `transport` \| Amt: `28.65` \| Status: `settled` \| Date: `2025-10-20` \| Counted: `False`
+  - `event_518` \| Cat: `transport` \| Amt: `23.31` \| Status: `settled` \| Date: `2025-10-25` \| Counted: `False`
+  - `event_519` \| Cat: `transport` \| Amt: `29.32` \| Status: `settled` \| Date: `2025-10-30` \| Counted: `False`
+  - `event_520` \| Cat: `transport` \| Amt: `24.50` \| Status: `settled` \| Date: `2025-11-04` \| Counted: `False`
+  - `event_521` \| Cat: `transport` \| Amt: `31.69` \| Status: `settled` \| Date: `2025-11-09` \| Counted: `False`
+  - `event_522` \| Cat: `transport` \| Amt: `30.82` \| Status: `settled` \| Date: `2025-11-14` \| Counted: `False`
+  - `event_523` \| Cat: `transport` \| Amt: `27.59` \| Status: `settled` \| Date: `2025-11-19` \| Counted: `False`
+  - `event_524` \| Cat: `transport` \| Amt: `32.36` \| Status: `settled` \| Date: `2025-11-24` \| Counted: `False`
+  - `event_525` \| Cat: `transport` \| Amt: `27.97` \| Status: `settled` \| Date: `2025-11-29` \| Counted: `False`
+  - `event_526` \| Cat: `transport` \| Amt: `29.57` \| Status: `settled` \| Date: `2025-12-04` \| Counted: `False`
+  - `event_527` \| Cat: `transport` \| Amt: `19.18` \| Status: `settled` \| Date: `2025-12-09` \| Counted: `False`
+  - `event_528` \| Cat: `transport` \| Amt: `25.90` \| Status: `settled` \| Date: `2025-12-14` \| Counted: `False`
+  - `event_529` \| Cat: `transport` \| Amt: `24.92` \| Status: `settled` \| Date: `2025-12-19` \| Counted: `False`
+  - `event_530` \| Cat: `transport` \| Amt: `21.46` \| Status: `settled` \| Date: `2025-12-24` \| Counted: `False`
+  - `event_531` \| Cat: `transport` \| Amt: `32.90` \| Status: `settled` \| Date: `2025-12-29` \| Counted: `False`
+  - `event_532` \| Cat: `dining` \| Amt: `53.26` \| Status: `settled` \| Date: `2025-07-13` \| Counted: `False`
+  - `event_533` \| Cat: `dining` \| Amt: `50.79` \| Status: `settled` \| Date: `2025-07-20` \| Counted: `False`
+  - `event_534` \| Cat: `dining` \| Amt: `34.99` \| Status: `settled` \| Date: `2025-07-27` \| Counted: `False`
+  - `event_535` \| Cat: `dining` \| Amt: `42.10` \| Status: `settled` \| Date: `2025-08-03` \| Counted: `False`
+  - `event_536` \| Cat: `dining` \| Amt: `48.98` \| Status: `settled` \| Date: `2025-08-10` \| Counted: `False`
+  - `event_537` \| Cat: `dining` \| Amt: `46.84` \| Status: `settled` \| Date: `2025-08-17` \| Counted: `False`
+  - `event_538` \| Cat: `dining` \| Amt: `38.44` \| Status: `settled` \| Date: `2025-08-24` \| Counted: `False`
+  - `event_539` \| Cat: `dining` \| Amt: `37.25` \| Status: `settled` \| Date: `2025-08-31` \| Counted: `False`
+  - `event_540` \| Cat: `dining` \| Amt: `40.23` \| Status: `settled` \| Date: `2025-09-07` \| Counted: `False`
+  - `event_541` \| Cat: `dining` \| Amt: `43.95` \| Status: `settled` \| Date: `2025-09-14` \| Counted: `False`
+  - `event_542` \| Cat: `dining` \| Amt: `56.60` \| Status: `settled` \| Date: `2025-09-21` \| Counted: `False`
+  - `event_543` \| Cat: `dining` \| Amt: `48.14` \| Status: `settled` \| Date: `2025-09-28` \| Counted: `False`
+  - `event_544` \| Cat: `dining` \| Amt: `37.02` \| Status: `settled` \| Date: `2025-10-05` \| Counted: `False`
+  - `event_545` \| Cat: `dining` \| Amt: `47.33` \| Status: `settled` \| Date: `2025-10-12` \| Counted: `False`
+  - `event_546` \| Cat: `dining` \| Amt: `54.09` \| Status: `settled` \| Date: `2025-10-19` \| Counted: `False`
+  - `event_547` \| Cat: `dining` \| Amt: `53.71` \| Status: `settled` \| Date: `2025-10-26` \| Counted: `False`
+  - `event_548` \| Cat: `dining` \| Amt: `32.90` \| Status: `settled` \| Date: `2025-11-02` \| Counted: `False`
+  - `event_549` \| Cat: `dining` \| Amt: `43.17` \| Status: `settled` \| Date: `2025-11-09` \| Counted: `False`
+  - `event_550` \| Cat: `dining` \| Amt: `37.42` \| Status: `settled` \| Date: `2025-11-16` \| Counted: `False`
+  - `event_551` \| Cat: `dining` \| Amt: `55.16` \| Status: `settled` \| Date: `2025-11-23` \| Counted: `False`
+  - `event_552` \| Cat: `dining` \| Amt: `57.57` \| Status: `settled` \| Date: `2025-11-30` \| Counted: `False`
+  - `event_553` \| Cat: `dining` \| Amt: `45.39` \| Status: `settled` \| Date: `2025-12-07` \| Counted: `False`
+  - `event_554` \| Cat: `dining` \| Amt: `36.00` \| Status: `settled` \| Date: `2025-12-14` \| Counted: `False`
+  - `event_555` \| Cat: `dining` \| Amt: `57.28` \| Status: `settled` \| Date: `2025-12-21` \| Counted: `False`
+  - `event_556` \| Cat: `dining` \| Amt: `48.36` \| Status: `settled` \| Date: `2025-12-28` \| Counted: `False`
+  - `event_472` \| Cat: `rent` \| Amt: `254.10` \| Status: `recurring_projected` \| Date: `2026-01-03` \| Counted: `True`
+  - `event_556` \| Cat: `dining` \| Amt: `48.36` \| Status: `recurring_projected` \| Date: `2026-01-04` \| Counted: `True`
+  - `event_531` \| Cat: `transport` \| Amt: `32.90` \| Status: `recurring_projected` \| Date: `2026-01-05` \| Counted: `True`
+  - `event_473` \| Cat: `utilities` \| Amt: `51.86` \| Status: `recurring_projected` \| Date: `2026-01-07` \| Counted: `True`
+  - `event_474` \| Cat: `insurance` \| Amt: `26.00` \| Status: `recurring_projected` \| Date: `2026-01-08` \| Counted: `True`
+  - `event_496` \| Cat: `groceries` \| Amt: `32.69` \| Status: `recurring_projected` \| Date: `2026-01-08` \| Counted: `True`
+  - `event_476` \| Cat: `streaming` \| Amt: `19.00` \| Status: `recurring_projected` \| Date: `2026-01-10` \| Counted: `True`
+  - `event_556` \| Cat: `dining` \| Amt: `48.36` \| Status: `recurring_projected` \| Date: `2026-01-11` \| Counted: `True`
+  - `event_531` \| Cat: `transport` \| Amt: `32.90` \| Status: `recurring_projected` \| Date: `2026-01-12` \| Counted: `True`
+  - `event_475` \| Cat: `cloud_storage` \| Amt: `5.00` \| Status: `recurring_projected` \| Date: `2026-01-13` \| Counted: `True`
+  - `event_477` \| Cat: `shopping` \| Amt: `39.88` \| Status: `recurring_projected` \| Date: `2026-01-13` \| Counted: `True`
+
+### request_07
+- **Request Date**: `2024-09-05` | **Deadline**: `2024-11-14`
+- **Next Payday**: `2024-09-15` (Amount: `149000.00`)
+- **Starting Balance**: `218945.56` | **Min Keep**: `93000.00` | **Requested Amount**: `197400.00`
+- **GT Safe**: `87170.56` | **Current Computed Safe**: `94224.72`
+- **Implied E_pre**: `38775.0` | **Computed E_pre**: `31720.84` | **Diff**: `-7054.16`
+- **Candidate Expenses (Pre-Payday)**:
+  - `event_559` \| Cat: `rent` \| Amt: `34200.00` \| Status: `settled` \| Date: `2024-04-04` \| Counted: `False`
+  - `event_560` \| Cat: `utilities` \| Amt: `7219.31` \| Status: `settled` \| Date: `2024-04-08` \| Counted: `False`
+  - `event_561` \| Cat: `debt_repayment` \| Amt: `15650.00` \| Status: `settled` \| Date: `2024-04-13` \| Counted: `False`
+  - `event_562` \| Cat: `music_subscription` \| Amt: `1005.00` \| Status: `settled` \| Date: `2024-04-13` \| Counted: `False`
+  - `event_564` \| Cat: `rent` \| Amt: `34200.00` \| Status: `settled` \| Date: `2024-05-04` \| Counted: `False`
+  - `event_565` \| Cat: `utilities` \| Amt: `7049.68` \| Status: `settled` \| Date: `2024-05-08` \| Counted: `False`
+  - `event_566` \| Cat: `debt_repayment` \| Amt: `15650.00` \| Status: `settled` \| Date: `2024-05-13` \| Counted: `False`
+  - `event_567` \| Cat: `music_subscription` \| Amt: `1005.00` \| Status: `settled` \| Date: `2024-05-13` \| Counted: `False`
+  - `event_569` \| Cat: `rent` \| Amt: `34200.00` \| Status: `settled` \| Date: `2024-06-04` \| Counted: `False`
+  - `event_570` \| Cat: `utilities` \| Amt: `7387.41` \| Status: `settled` \| Date: `2024-06-08` \| Counted: `False`
+  - `event_571` \| Cat: `debt_repayment` \| Amt: `15650.00` \| Status: `settled` \| Date: `2024-06-13` \| Counted: `False`
+  - `event_572` \| Cat: `music_subscription` \| Amt: `1005.00` \| Status: `settled` \| Date: `2024-06-13` \| Counted: `False`
+  - `event_574` \| Cat: `rent` \| Amt: `34200.00` \| Status: `settled` \| Date: `2024-07-04` \| Counted: `False`
+  - `event_575` \| Cat: `utilities` \| Amt: `6081.25` \| Status: `settled` \| Date: `2024-07-08` \| Counted: `False`
+  - `event_576` \| Cat: `debt_repayment` \| Amt: `15650.00` \| Status: `settled` \| Date: `2024-07-13` \| Counted: `False`
+  - `event_577` \| Cat: `music_subscription` \| Amt: `1005.00` \| Status: `settled` \| Date: `2024-07-13` \| Counted: `False`
+  - `event_579` \| Cat: `rent` \| Amt: `34200.00` \| Status: `settled` \| Date: `2024-08-04` \| Counted: `False`
+  - `event_580` \| Cat: `utilities` \| Amt: `6209.57` \| Status: `settled` \| Date: `2024-08-08` \| Counted: `False`
+  - `event_581` \| Cat: `debt_repayment` \| Amt: `15650.00` \| Status: `settled` \| Date: `2024-08-13` \| Counted: `False`
+  - `event_582` \| Cat: `music_subscription` \| Amt: `1005.00` \| Status: `settled` \| Date: `2024-08-13` \| Counted: `False`
+  - `event_583` \| Cat: `rent` \| Amt: `34200.00` \| Status: `settled` \| Date: `2024-09-04` \| Counted: `False`
+  - `event_584` \| Cat: `groceries` \| Amt: `8380.73` \| Status: `settled` \| Date: `2024-03-14` \| Counted: `False`
+  - `event_585` \| Cat: `groceries` \| Amt: `6433.29` \| Status: `settled` \| Date: `2024-03-28` \| Counted: `False`
+  - `event_586` \| Cat: `groceries` \| Amt: `6022.17` \| Status: `settled` \| Date: `2024-04-11` \| Counted: `False`
+  - `event_587` \| Cat: `groceries` \| Amt: `6789.05` \| Status: `settled` \| Date: `2024-04-25` \| Counted: `False`
+  - `event_588` \| Cat: `groceries` \| Amt: `8280.58` \| Status: `settled` \| Date: `2024-05-09` \| Counted: `False`
+  - `event_589` \| Cat: `groceries` \| Amt: `7329.91` \| Status: `settled` \| Date: `2024-05-23` \| Counted: `False`
+  - `event_590` \| Cat: `groceries` \| Amt: `7849.54` \| Status: `settled` \| Date: `2024-06-06` \| Counted: `False`
+  - `event_591` \| Cat: `groceries` \| Amt: `7968.39` \| Status: `settled` \| Date: `2024-06-20` \| Counted: `False`
+  - `event_592` \| Cat: `groceries` \| Amt: `6889.87` \| Status: `settled` \| Date: `2024-07-04` \| Counted: `False`
+  - `event_593` \| Cat: `groceries` \| Amt: `5665.77` \| Status: `settled` \| Date: `2024-07-18` \| Counted: `False`
+  - `event_594` \| Cat: `groceries` \| Amt: `7913.81` \| Status: `settled` \| Date: `2024-08-01` \| Counted: `False`
+  - `event_595` \| Cat: `groceries` \| Amt: `7280.22` \| Status: `settled` \| Date: `2024-08-15` \| Counted: `False`
+  - `event_596` \| Cat: `groceries` \| Amt: `5710.65` \| Status: `settled` \| Date: `2024-08-29` \| Counted: `False`
+  - `event_597` \| Cat: `transport` \| Amt: `3690.82` \| Status: `settled` \| Date: `2024-03-15` \| Counted: `False`
+  - `event_598` \| Cat: `transport` \| Amt: `3465.99` \| Status: `settled` \| Date: `2024-04-05` \| Counted: `False`
+  - `event_599` \| Cat: `transport` \| Amt: `2786.58` \| Status: `settled` \| Date: `2024-04-26` \| Counted: `False`
+  - `event_600` \| Cat: `transport` \| Amt: `3104.36` \| Status: `settled` \| Date: `2024-05-17` \| Counted: `False`
+  - `event_601` \| Cat: `transport` \| Amt: `2439.43` \| Status: `settled` \| Date: `2024-06-07` \| Counted: `False`
+  - `event_602` \| Cat: `transport` \| Amt: `3822.62` \| Status: `settled` \| Date: `2024-06-28` \| Counted: `False`
+  - `event_603` \| Cat: `transport` \| Amt: `2751.86` \| Status: `settled` \| Date: `2024-07-19` \| Counted: `False`
+  - `event_604` \| Cat: `transport` \| Amt: `3773.92` \| Status: `settled` \| Date: `2024-08-09` \| Counted: `False`
+  - `event_605` \| Cat: `transport` \| Amt: `3145.62` \| Status: `settled` \| Date: `2024-08-30` \| Counted: `False`
+  - `event_606` \| Cat: `dining` \| Amt: `7246.72` \| Status: `settled` \| Date: `2024-03-11` \| Counted: `False`
+  - `event_607` \| Cat: `dining` \| Amt: `4111.12` \| Status: `settled` \| Date: `2024-04-01` \| Counted: `False`
+  - `event_608` \| Cat: `dining` \| Amt: `6371.55` \| Status: `settled` \| Date: `2024-04-22` \| Counted: `False`
+  - `event_609` \| Cat: `dining` \| Amt: `6313.91` \| Status: `settled` \| Date: `2024-05-13` \| Counted: `False`
+  - `event_610` \| Cat: `dining` \| Amt: `5802.49` \| Status: `settled` \| Date: `2024-06-03` \| Counted: `False`
+  - `event_611` \| Cat: `dining` \| Amt: `4541.62` \| Status: `settled` \| Date: `2024-06-24` \| Counted: `False`
+  - `event_612` \| Cat: `dining` \| Amt: `6664.90` \| Status: `settled` \| Date: `2024-07-15` \| Counted: `False`
+  - `event_613` \| Cat: `dining` \| Amt: `5799.66` \| Status: `settled` \| Date: `2024-08-05` \| Counted: `False`
+  - `event_614` \| Cat: `dining` \| Amt: `6493.86` \| Status: `settled` \| Date: `2024-08-26` \| Counted: `False`
+  - `event_605` \| Cat: `transport` \| Amt: `3145.62` \| Status: `recurring_projected` \| Date: `2024-09-05` \| Counted: `True`
+  - `event_580` \| Cat: `utilities` \| Amt: `6209.57` \| Status: `recurring_projected` \| Date: `2024-09-08` \| Counted: `True`
+  - `event_596` \| Cat: `groceries` \| Amt: `5710.65` \| Status: `recurring_projected` \| Date: `2024-09-12` \| Counted: `True`
+  - `event_581` \| Cat: `debt_repayment` \| Amt: `15650.00` \| Status: `recurring_projected` \| Date: `2024-09-13` \| Counted: `True`
+  - `event_582` \| Cat: `music_subscription` \| Amt: `1005.00` \| Status: `recurring_projected` \| Date: `2024-09-13` \| Counted: `True`
+
+### request_08
+- **Request Date**: `2025-02-07` | **Deadline**: `2025-04-15`
+- **Next Payday**: `2025-02-15` (Amount: `782.57`)
+- **Starting Balance**: `1536.57` | **Min Keep**: `800.00` | **Requested Amount**: `996.60`
+- **GT Safe**: `284.57` | **Current Computed Safe**: `270.64`
+- **Implied E_pre**: `452.0` | **Computed E_pre**: `465.92` | **Diff**: `13.92`
+- **Candidate Expenses (Pre-Payday)**:
+  - `event_616` \| Cat: `rent` \| Amt: `467.50` \| Status: `settled` \| Date: `2024-09-01` \| Counted: `False`
+  - `event_617` \| Cat: `utilities` \| Amt: `79.19` \| Status: `settled` \| Date: `2024-09-05` \| Counted: `False`
+  - `event_618` \| Cat: `education` \| Amt: `89.00` \| Status: `settled` \| Date: `2024-09-07` \| Counted: `False`
+  - `event_619` \| Cat: `debt_repayment` \| Amt: `177.00` \| Status: `settled` \| Date: `2024-09-10` \| Counted: `False`
+  - `event_620` \| Cat: `music_subscription` \| Amt: `14.00` \| Status: `settled` \| Date: `2024-09-10` \| Counted: `False`
+  - `event_621` \| Cat: `delivery_membership` \| Amt: `24.00` \| Status: `settled` \| Date: `2024-09-12` \| Counted: `False`
+  - `event_623` \| Cat: `rent` \| Amt: `467.50` \| Status: `settled` \| Date: `2024-10-01` \| Counted: `False`
+  - `event_624` \| Cat: `utilities` \| Amt: `80.90` \| Status: `settled` \| Date: `2024-10-05` \| Counted: `False`
+  - `event_625` \| Cat: `education` \| Amt: `89.00` \| Status: `settled` \| Date: `2024-10-07` \| Counted: `False`
+  - `event_626` \| Cat: `debt_repayment` \| Amt: `177.00` \| Status: `settled` \| Date: `2024-10-10` \| Counted: `False`
+  - `event_627` \| Cat: `music_subscription` \| Amt: `14.00` \| Status: `settled` \| Date: `2024-10-10` \| Counted: `False`
+  - `event_628` \| Cat: `delivery_membership` \| Amt: `24.00` \| Status: `settled` \| Date: `2024-10-12` \| Counted: `False`
+  - `event_630` \| Cat: `rent` \| Amt: `467.50` \| Status: `settled` \| Date: `2024-11-01` \| Counted: `False`
+  - `event_631` \| Cat: `utilities` \| Amt: `68.44` \| Status: `settled` \| Date: `2024-11-05` \| Counted: `False`
+  - `event_632` \| Cat: `education` \| Amt: `89.00` \| Status: `settled` \| Date: `2024-11-07` \| Counted: `False`
+  - `event_633` \| Cat: `debt_repayment` \| Amt: `177.00` \| Status: `settled` \| Date: `2024-11-10` \| Counted: `False`
+  - `event_634` \| Cat: `music_subscription` \| Amt: `14.00` \| Status: `settled` \| Date: `2024-11-10` \| Counted: `False`
+  - `event_635` \| Cat: `delivery_membership` \| Amt: `24.00` \| Status: `settled` \| Date: `2024-11-12` \| Counted: `False`
+  - `event_637` \| Cat: `rent` \| Amt: `467.50` \| Status: `settled` \| Date: `2024-12-01` \| Counted: `False`
+  - `event_638` \| Cat: `utilities` \| Amt: `82.61` \| Status: `settled` \| Date: `2024-12-05` \| Counted: `False`
+  - `event_639` \| Cat: `education` \| Amt: `89.00` \| Status: `settled` \| Date: `2024-12-07` \| Counted: `False`
+  - `event_640` \| Cat: `debt_repayment` \| Amt: `177.00` \| Status: `settled` \| Date: `2024-12-10` \| Counted: `False`
+  - `event_641` \| Cat: `music_subscription` \| Amt: `14.00` \| Status: `settled` \| Date: `2024-12-10` \| Counted: `False`
+  - `event_642` \| Cat: `delivery_membership` \| Amt: `24.00` \| Status: `settled` \| Date: `2024-12-12` \| Counted: `False`
+  - `event_644` \| Cat: `rent` \| Amt: `467.50` \| Status: `settled` \| Date: `2025-01-01` \| Counted: `False`
+  - `event_645` \| Cat: `utilities` \| Amt: `69.28` \| Status: `settled` \| Date: `2025-01-05` \| Counted: `False`
+  - `event_646` \| Cat: `education` \| Amt: `89.00` \| Status: `settled` \| Date: `2025-01-07` \| Counted: `False`
+  - `event_647` \| Cat: `debt_repayment` \| Amt: `177.00` \| Status: `settled` \| Date: `2025-01-10` \| Counted: `False`
+  - `event_648` \| Cat: `music_subscription` \| Amt: `14.00` \| Status: `settled` \| Date: `2025-01-10` \| Counted: `False`
+  - `event_649` \| Cat: `delivery_membership` \| Amt: `24.00` \| Status: `settled` \| Date: `2025-01-12` \| Counted: `False`
+  - `event_650` \| Cat: `rent` \| Amt: `467.50` \| Status: `settled` \| Date: `2025-02-01` \| Counted: `False`
+  - `event_651` \| Cat: `utilities` \| Amt: `80.55` \| Status: `settled` \| Date: `2025-02-05` \| Counted: `False`
+  - `event_652` \| Cat: `groceries` \| Amt: `78.42` \| Status: `settled` \| Date: `2024-08-13` \| Counted: `False`
+  - `event_653` \| Cat: `groceries` \| Amt: `77.07` \| Status: `settled` \| Date: `2024-08-20` \| Counted: `False`
+  - `event_654` \| Cat: `groceries` \| Amt: `51.01` \| Status: `settled` \| Date: `2024-08-27` \| Counted: `False`
+  - `event_655` \| Cat: `groceries` \| Amt: `52.28` \| Status: `settled` \| Date: `2024-09-03` \| Counted: `False`
+  - `event_656` \| Cat: `groceries` \| Amt: `68.00` \| Status: `settled` \| Date: `2024-09-10` \| Counted: `False`
+  - `event_657` \| Cat: `groceries` \| Amt: `54.35` \| Status: `settled` \| Date: `2024-09-17` \| Counted: `False`
+  - `event_658` \| Cat: `groceries` \| Amt: `46.71` \| Status: `settled` \| Date: `2024-09-24` \| Counted: `False`
+  - `event_659` \| Cat: `groceries` \| Amt: `74.35` \| Status: `settled` \| Date: `2024-10-01` \| Counted: `False`
+  - `event_660` \| Cat: `groceries` \| Amt: `48.16` \| Status: `settled` \| Date: `2024-10-08` \| Counted: `False`
+  - `event_661` \| Cat: `groceries` \| Amt: `68.99` \| Status: `settled` \| Date: `2024-10-15` \| Counted: `False`
+  - `event_662` \| Cat: `groceries` \| Amt: `57.01` \| Status: `settled` \| Date: `2024-10-22` \| Counted: `False`
+  - `event_663` \| Cat: `groceries` \| Amt: `47.78` \| Status: `settled` \| Date: `2024-10-29` \| Counted: `False`
+  - `event_664` \| Cat: `groceries` \| Amt: `51.60` \| Status: `settled` \| Date: `2024-11-05` \| Counted: `False`
+  - `event_665` \| Cat: `groceries` \| Amt: `76.07` \| Status: `settled` \| Date: `2024-11-12` \| Counted: `False`
+  - `event_666` \| Cat: `groceries` \| Amt: `69.32` \| Status: `settled` \| Date: `2024-11-19` \| Counted: `False`
+  - `event_667` \| Cat: `groceries` \| Amt: `60.11` \| Status: `settled` \| Date: `2024-11-26` \| Counted: `False`
+  - `event_668` \| Cat: `groceries` \| Amt: `51.00` \| Status: `settled` \| Date: `2024-12-03` \| Counted: `False`
+  - `event_669` \| Cat: `groceries` \| Amt: `56.62` \| Status: `settled` \| Date: `2024-12-10` \| Counted: `False`
+  - `event_670` \| Cat: `groceries` \| Amt: `55.02` \| Status: `settled` \| Date: `2024-12-17` \| Counted: `False`
+  - `event_671` \| Cat: `groceries` \| Amt: `53.11` \| Status: `settled` \| Date: `2024-12-24` \| Counted: `False`
+  - `event_672` \| Cat: `groceries` \| Amt: `51.85` \| Status: `settled` \| Date: `2024-12-31` \| Counted: `False`
+  - `event_673` \| Cat: `groceries` \| Amt: `48.00` \| Status: `settled` \| Date: `2025-01-07` \| Counted: `False`
+  - `event_674` \| Cat: `groceries` \| Amt: `45.99` \| Status: `settled` \| Date: `2025-01-14` \| Counted: `False`
+  - `event_675` \| Cat: `groceries` \| Amt: `53.96` \| Status: `settled` \| Date: `2025-01-21` \| Counted: `False`
+  - `event_676` \| Cat: `groceries` \| Amt: `65.92` \| Status: `settled` \| Date: `2025-01-28` \| Counted: `False`
+  - `event_677` \| Cat: `groceries` \| Amt: `72.38` \| Status: `settled` \| Date: `2025-02-04` \| Counted: `False`
+  - `event_678` \| Cat: `transport` \| Amt: `34.09` \| Status: `settled` \| Date: `2024-08-14` \| Counted: `False`
+  - `event_679` \| Cat: `transport` \| Amt: `36.65` \| Status: `settled` \| Date: `2024-08-21` \| Counted: `False`
+  - `event_680` \| Cat: `transport` \| Amt: `41.53` \| Status: `settled` \| Date: `2024-08-28` \| Counted: `False`
+  - `event_681` \| Cat: `transport` \| Amt: `40.21` \| Status: `settled` \| Date: `2024-09-04` \| Counted: `False`
+  - `event_682` \| Cat: `transport` \| Amt: `37.62` \| Status: `settled` \| Date: `2024-09-11` \| Counted: `False`
+  - `event_683` \| Cat: `transport` \| Amt: `43.53` \| Status: `settled` \| Date: `2024-09-18` \| Counted: `False`
+  - `event_684` \| Cat: `transport` \| Amt: `30.47` \| Status: `settled` \| Date: `2024-09-25` \| Counted: `False`
+  - `event_685` \| Cat: `transport` \| Amt: `36.94` \| Status: `settled` \| Date: `2024-10-02` \| Counted: `False`
+  - `event_686` \| Cat: `transport` \| Amt: `38.07` \| Status: `settled` \| Date: `2024-10-09` \| Counted: `False`
+  - `event_687` \| Cat: `transport` \| Amt: `26.69` \| Status: `settled` \| Date: `2024-10-16` \| Counted: `False`
+  - `event_688` \| Cat: `transport` \| Amt: `46.08` \| Status: `settled` \| Date: `2024-10-23` \| Counted: `False`
+  - `event_689` \| Cat: `transport` \| Amt: `45.56` \| Status: `settled` \| Date: `2024-10-30` \| Counted: `False`
+  - `event_690` \| Cat: `transport` \| Amt: `39.38` \| Status: `settled` \| Date: `2024-11-06` \| Counted: `False`
+  - `event_691` \| Cat: `transport` \| Amt: `37.00` \| Status: `settled` \| Date: `2024-11-13` \| Counted: `False`
+  - `event_692` \| Cat: `transport` \| Amt: `40.22` \| Status: `settled` \| Date: `2024-11-20` \| Counted: `False`
+  - `event_693` \| Cat: `transport` \| Amt: `35.69` \| Status: `settled` \| Date: `2024-11-27` \| Counted: `False`
+  - `event_694` \| Cat: `transport` \| Amt: `29.03` \| Status: `settled` \| Date: `2024-12-04` \| Counted: `False`
+  - `event_695` \| Cat: `transport` \| Amt: `35.98` \| Status: `settled` \| Date: `2024-12-11` \| Counted: `False`
+  - `event_696` \| Cat: `transport` \| Amt: `43.51` \| Status: `settled` \| Date: `2024-12-18` \| Counted: `False`
+  - `event_697` \| Cat: `transport` \| Amt: `43.20` \| Status: `settled` \| Date: `2024-12-25` \| Counted: `False`
+  - `event_698` \| Cat: `transport` \| Amt: `31.50` \| Status: `settled` \| Date: `2025-01-01` \| Counted: `False`
+  - `event_699` \| Cat: `transport` \| Amt: `41.57` \| Status: `settled` \| Date: `2025-01-08` \| Counted: `False`
+  - `event_700` \| Cat: `transport` \| Amt: `32.95` \| Status: `settled` \| Date: `2025-01-15` \| Counted: `False`
+  - `event_701` \| Cat: `transport` \| Amt: `31.67` \| Status: `settled` \| Date: `2025-01-22` \| Counted: `False`
+  - `event_702` \| Cat: `transport` \| Amt: `28.33` \| Status: `settled` \| Date: `2025-01-29` \| Counted: `False`
+  - `event_703` \| Cat: `transport` \| Amt: `47.21` \| Status: `settled` \| Date: `2025-02-05` \| Counted: `False`
+  - `event_704` \| Cat: `dining` \| Amt: `51.75` \| Status: `settled` \| Date: `2024-08-15` \| Counted: `False`
+  - `event_705` \| Cat: `dining` \| Amt: `59.94` \| Status: `settled` \| Date: `2024-08-29` \| Counted: `False`
+  - `event_706` \| Cat: `dining` \| Amt: `46.25` \| Status: `settled` \| Date: `2024-09-12` \| Counted: `False`
+  - `event_707` \| Cat: `dining` \| Amt: `60.66` \| Status: `settled` \| Date: `2024-09-26` \| Counted: `False`
+  - `event_708` \| Cat: `dining` \| Amt: `48.98` \| Status: `settled` \| Date: `2024-10-10` \| Counted: `False`
+  - `event_709` \| Cat: `dining` \| Amt: `41.50` \| Status: `settled` \| Date: `2024-10-24` \| Counted: `False`
+  - `event_710` \| Cat: `dining` \| Amt: `58.15` \| Status: `settled` \| Date: `2024-11-07` \| Counted: `False`
+  - `event_711` \| Cat: `dining` \| Amt: `45.50` \| Status: `settled` \| Date: `2024-11-21` \| Counted: `False`
+  - `event_712` \| Cat: `dining` \| Amt: `46.75` \| Status: `settled` \| Date: `2024-12-05` \| Counted: `False`
+  - `event_713` \| Cat: `dining` \| Amt: `49.45` \| Status: `settled` \| Date: `2024-12-19` \| Counted: `False`
+  - `event_714` \| Cat: `dining` \| Amt: `56.05` \| Status: `settled` \| Date: `2025-01-02` \| Counted: `False`
+  - `event_715` \| Cat: `dining` \| Amt: `53.65` \| Status: `settled` \| Date: `2025-01-16` \| Counted: `False`
+  - `event_716` \| Cat: `dining` \| Amt: `42.33` \| Status: `settled` \| Date: `2025-01-30` \| Counted: `False`
+  - `event_646` \| Cat: `education` \| Amt: `89.00` \| Status: `recurring_projected` \| Date: `2025-02-07` \| Counted: `True`
+  - `event_647` \| Cat: `debt_repayment` \| Amt: `177.00` \| Status: `recurring_projected` \| Date: `2025-02-10` \| Counted: `True`
+  - `event_648` \| Cat: `music_subscription` \| Amt: `14.00` \| Status: `recurring_projected` \| Date: `2025-02-10` \| Counted: `True`
+  - `event_677` \| Cat: `groceries` \| Amt: `72.38` \| Status: `recurring_projected` \| Date: `2025-02-11` \| Counted: `True`
+  - `event_649` \| Cat: `delivery_membership` \| Amt: `24.00` \| Status: `recurring_projected` \| Date: `2025-02-12` \| Counted: `True`
+  - `event_703` \| Cat: `transport` \| Amt: `47.21` \| Status: `recurring_projected` \| Date: `2025-02-12` \| Counted: `True`
+  - `event_716` \| Cat: `dining` \| Amt: `42.33` \| Status: `recurring_projected` \| Date: `2025-02-13` \| Counted: `True`
+
+### request_09
+- **Request Date**: `2026-07-04` | **Deadline**: `2026-07-23`
+- **Next Payday**: `2026-07-20` (Amount: `361.45`)
+- **Starting Balance**: `2231.10` | **Min Keep**: `600.00` | **Requested Amount**: `166.61`
+- **GT Safe**: `166.61` | **Current Computed Safe**: `166.61`
+- **Implied E_pre**: `None` | **Computed E_pre**: `191.86` | **Diff**: `0.00`
+- **Candidate Expenses (Pre-Payday)**:
+  - `event_719` \| Cat: `rent` \| Amt: `211.20` \| Status: `settled` \| Date: `2026-02-02` \| Counted: `False`
+  - `event_720` \| Cat: `utilities` \| Amt: `66.84` \| Status: `settled` \| Date: `2026-02-06` \| Counted: `False`
+  - `event_721` \| Cat: `cloud_storage` \| Amt: `5.00` \| Status: `settled` \| Date: `2026-02-12` \| Counted: `False`
+  - `event_722` \| Cat: `streaming` \| Amt: `20.00` \| Status: `settled` \| Date: `2026-02-09` \| Counted: `False`
+  - `event_723` \| Cat: `shopping` \| Amt: `25.50` \| Status: `settled` \| Date: `2026-02-12` \| Counted: `False`
+  - `event_726` \| Cat: `rent` \| Amt: `211.20` \| Status: `settled` \| Date: `2026-03-02` \| Counted: `False`
+  - `event_727` \| Cat: `utilities` \| Amt: `59.39` \| Status: `settled` \| Date: `2026-03-06` \| Counted: `False`
+  - `event_728` \| Cat: `cloud_storage` \| Amt: `5.00` \| Status: `settled` \| Date: `2026-03-12` \| Counted: `False`
+  - `event_729` \| Cat: `streaming` \| Amt: `20.00` \| Status: `settled` \| Date: `2026-03-09` \| Counted: `False`
+  - `event_730` \| Cat: `shopping` \| Amt: `29.14` \| Status: `settled` \| Date: `2026-03-12` \| Counted: `False`
+  - `event_733` \| Cat: `rent` \| Amt: `211.20` \| Status: `settled` \| Date: `2026-04-02` \| Counted: `False`
+  - `event_734` \| Cat: `utilities` \| Amt: `71.04` \| Status: `settled` \| Date: `2026-04-06` \| Counted: `False`
+  - `event_735` \| Cat: `cloud_storage` \| Amt: `5.00` \| Status: `settled` \| Date: `2026-04-12` \| Counted: `False`
+  - `event_736` \| Cat: `streaming` \| Amt: `20.00` \| Status: `settled` \| Date: `2026-04-09` \| Counted: `False`
+  - `event_737` \| Cat: `shopping` \| Amt: `28.32` \| Status: `settled` \| Date: `2026-04-12` \| Counted: `False`
+  - `event_740` \| Cat: `rent` \| Amt: `211.20` \| Status: `settled` \| Date: `2026-05-02` \| Counted: `False`
+  - `event_741` \| Cat: `utilities` \| Amt: `63.66` \| Status: `settled` \| Date: `2026-05-06` \| Counted: `False`
+  - `event_742` \| Cat: `cloud_storage` \| Amt: `5.00` \| Status: `settled` \| Date: `2026-05-12` \| Counted: `False`
+  - `event_743` \| Cat: `streaming` \| Amt: `20.00` \| Status: `settled` \| Date: `2026-05-09` \| Counted: `False`
+  - `event_744` \| Cat: `shopping` \| Amt: `24.68` \| Status: `settled` \| Date: `2026-05-12` \| Counted: `False`
+  - `event_747` \| Cat: `rent` \| Amt: `211.20` \| Status: `settled` \| Date: `2026-06-02` \| Counted: `False`
+  - `event_748` \| Cat: `utilities` \| Amt: `60.88` \| Status: `settled` \| Date: `2026-06-06` \| Counted: `False`
+  - `event_749` \| Cat: `cloud_storage` \| Amt: `5.00` \| Status: `settled` \| Date: `2026-06-12` \| Counted: `False`
+  - `event_750` \| Cat: `streaming` \| Amt: `20.00` \| Status: `settled` \| Date: `2026-06-09` \| Counted: `False`
+  - `event_751` \| Cat: `shopping` \| Amt: `25.52` \| Status: `settled` \| Date: `2026-06-12` \| Counted: `False`
+  - `event_752` \| Cat: `rent` \| Amt: `211.20` \| Status: `settled` \| Date: `2026-07-02` \| Counted: `False`
+  - `event_753` \| Cat: `groceries` \| Amt: `47.44` \| Status: `settled` \| Date: `2026-01-08` \| Counted: `False`
+  - `event_754` \| Cat: `groceries` \| Amt: `38.34` \| Status: `settled` \| Date: `2026-01-18` \| Counted: `False`
+  - `event_755` \| Cat: `groceries` \| Amt: `47.60` \| Status: `settled` \| Date: `2026-01-28` \| Counted: `False`
+  - `event_756` \| Cat: `groceries` \| Amt: `41.29` \| Status: `settled` \| Date: `2026-02-07` \| Counted: `False`
+  - `event_757` \| Cat: `groceries` \| Amt: `54.90` \| Status: `settled` \| Date: `2026-02-17` \| Counted: `False`
+  - `event_758` \| Cat: `groceries` \| Amt: `37.29` \| Status: `settled` \| Date: `2026-02-27` \| Counted: `False`
+  - `event_759` \| Cat: `groceries` \| Amt: `36.79` \| Status: `settled` \| Date: `2026-03-09` \| Counted: `False`
+  - `event_760` \| Cat: `groceries` \| Amt: `53.14` \| Status: `settled` \| Date: `2026-03-19` \| Counted: `False`
+  - `event_761` \| Cat: `groceries` \| Amt: `50.12` \| Status: `settled` \| Date: `2026-03-29` \| Counted: `False`
+  - `event_762` \| Cat: `groceries` \| Amt: `31.82` \| Status: `settled` \| Date: `2026-04-08` \| Counted: `False`
+  - `event_763` \| Cat: `groceries` \| Amt: `48.93` \| Status: `settled` \| Date: `2026-04-18` \| Counted: `False`
+  - `event_764` \| Cat: `groceries` \| Amt: `34.17` \| Status: `settled` \| Date: `2026-04-28` \| Counted: `False`
+  - `event_765` \| Cat: `groceries` \| Amt: `53.82` \| Status: `settled` \| Date: `2026-05-08` \| Counted: `False`
+  - `event_766` \| Cat: `groceries` \| Amt: `34.74` \| Status: `settled` \| Date: `2026-05-18` \| Counted: `False`
+  - `event_767` \| Cat: `groceries` \| Amt: `46.49` \| Status: `settled` \| Date: `2026-05-28` \| Counted: `False`
+  - `event_768` \| Cat: `groceries` \| Amt: `51.03` \| Status: `settled` \| Date: `2026-06-07` \| Counted: `False`
+  - `event_769` \| Cat: `groceries` \| Amt: `43.00` \| Status: `settled` \| Date: `2026-06-17` \| Counted: `False`
+  - `event_770` \| Cat: `groceries` \| Amt: `51.30` \| Status: `settled` \| Date: `2026-06-27` \| Counted: `False`
+  - `event_771` \| Cat: `transport` \| Amt: `18.44` \| Status: `settled` \| Date: `2026-01-09` \| Counted: `False`
+  - `event_772` \| Cat: `transport` \| Amt: `16.59` \| Status: `settled` \| Date: `2026-01-30` \| Counted: `False`
+  - `event_773` \| Cat: `transport` \| Amt: `23.57` \| Status: `settled` \| Date: `2026-02-20` \| Counted: `False`
+  - `event_774` \| Cat: `transport` \| Amt: `27.94` \| Status: `settled` \| Date: `2026-03-13` \| Counted: `False`
+  - `event_775` \| Cat: `transport` \| Amt: `26.23` \| Status: `settled` \| Date: `2026-04-03` \| Counted: `False`
+  - `event_776` \| Cat: `transport` \| Amt: `24.59` \| Status: `settled` \| Date: `2026-04-24` \| Counted: `False`
+  - `event_777` \| Cat: `transport` \| Amt: `28.34` \| Status: `settled` \| Date: `2026-05-15` \| Counted: `False`
+  - `event_778` \| Cat: `transport` \| Amt: `27.20` \| Status: `settled` \| Date: `2026-06-05` \| Counted: `False`
+  - `event_779` \| Cat: `transport` \| Amt: `24.13` \| Status: `settled` \| Date: `2026-06-26` \| Counted: `False`
+  - `event_780` \| Cat: `dining` \| Amt: `34.84` \| Status: `settled` \| Date: `2026-01-10` \| Counted: `False`
+  - `event_781` \| Cat: `dining` \| Amt: `32.86` \| Status: `settled` \| Date: `2026-01-31` \| Counted: `False`
+  - `event_782` \| Cat: `dining` \| Amt: `29.97` \| Status: `settled` \| Date: `2026-02-21` \| Counted: `False`
+  - `event_783` \| Cat: `dining` \| Amt: `31.15` \| Status: `settled` \| Date: `2026-03-14` \| Counted: `False`
+  - `event_784` \| Cat: `dining` \| Amt: `23.42` \| Status: `settled` \| Date: `2026-04-04` \| Counted: `False`
+  - `event_785` \| Cat: `dining` \| Amt: `28.41` \| Status: `settled` \| Date: `2026-04-25` \| Counted: `False`
+  - `event_786` \| Cat: `dining` \| Amt: `35.49` \| Status: `settled` \| Date: `2026-05-16` \| Counted: `False`
+  - `event_787` \| Cat: `dining` \| Amt: `27.38` \| Status: `settled` \| Date: `2026-06-06` \| Counted: `False`
+  - `event_788` \| Cat: `dining` \| Amt: `29.16` \| Status: `settled` \| Date: `2026-06-27` \| Counted: `False`
+  - `event_788` \| Cat: `dining` \| Amt: `29.16` \| Status: `recurring_projected` \| Date: `2026-07-04` \| Counted: `True`
+  - `event_748` \| Cat: `utilities` \| Amt: `60.88` \| Status: `recurring_projected` \| Date: `2026-07-06` \| Counted: `True`
+  - `event_770` \| Cat: `groceries` \| Amt: `51.30` \| Status: `recurring_projected` \| Date: `2026-07-08` \| Counted: `True`
+  - `event_750` \| Cat: `streaming` \| Amt: `20.00` \| Status: `recurring_projected` \| Date: `2026-07-09` \| Counted: `True`
+  - `event_749` \| Cat: `cloud_storage` \| Amt: `5.00` \| Status: `recurring_projected` \| Date: `2026-07-12` \| Counted: `True`
+  - `event_751` \| Cat: `shopping` \| Amt: `25.52` \| Status: `recurring_projected` \| Date: `2026-07-12` \| Counted: `True`
+
+### request_10
+- **Request Date**: `2024-12-06` | **Deadline**: `2025-02-10`
+- **Next Payday**: `2025-01-04` (Amount: `52239.80`)
+- **Starting Balance**: `750155.00` | **Min Keep**: `225400.00` | **Requested Amount**: `266700.00`
+- **GT Safe**: `12700.00` | **Current Computed Safe**: `266700.00`
+- **Implied E_pre**: `512055.0` | **Computed E_pre**: `185893.34` | **Diff**: `-326161.66`
+- **Candidate Expenses (Pre-Payday)**:
+  - `event_793` \| Cat: `rent` \| Amt: `69100.00` \| Status: `settled` \| Date: `2024-07-03` \| Counted: `False`
+  - `event_794` \| Cat: `utilities` \| Amt: `19224.83` \| Status: `settled` \| Date: `2024-07-07` \| Counted: `False`
+  - `event_795` \| Cat: `music_subscription` \| Amt: `2800.00` \| Status: `settled` \| Date: `2024-07-12` \| Counted: `False`
+  - `event_796` \| Cat: `delivery_membership` \| Amt: `1895.00` \| Status: `settled` \| Date: `2024-07-14` \| Counted: `False`
+  - `event_797` \| Cat: `gym` \| Amt: `4860.00` \| Status: `settled` \| Date: `2024-07-11` \| Counted: `False`
+  - `event_798` \| Cat: `entertainment` \| Amt: `4770.41` \| Status: `settled` \| Date: `2024-07-15` \| Counted: `False`
+  - `event_803` \| Cat: `rent` \| Amt: `69100.00` \| Status: `settled` \| Date: `2024-08-03` \| Counted: `False`
+  - `event_804` \| Cat: `utilities` \| Amt: `17538.11` \| Status: `settled` \| Date: `2024-08-07` \| Counted: `False`
+  - `event_805` \| Cat: `music_subscription` \| Amt: `2800.00` \| Status: `settled` \| Date: `2024-08-12` \| Counted: `False`
+  - `event_806` \| Cat: `delivery_membership` \| Amt: `1895.00` \| Status: `settled` \| Date: `2024-08-14` \| Counted: `False`
+  - `event_807` \| Cat: `gym` \| Amt: `4860.00` \| Status: `settled` \| Date: `2024-08-11` \| Counted: `False`
+  - `event_808` \| Cat: `entertainment` \| Amt: `4504.60` \| Status: `settled` \| Date: `2024-08-15` \| Counted: `False`
+  - `event_813` \| Cat: `rent` \| Amt: `69100.00` \| Status: `settled` \| Date: `2024-09-03` \| Counted: `False`
+  - `event_814` \| Cat: `utilities` \| Amt: `15748.74` \| Status: `settled` \| Date: `2024-09-07` \| Counted: `False`
+  - `event_815` \| Cat: `music_subscription` \| Amt: `2800.00` \| Status: `settled` \| Date: `2024-09-12` \| Counted: `False`
+  - `event_816` \| Cat: `delivery_membership` \| Amt: `1895.00` \| Status: `settled` \| Date: `2024-09-14` \| Counted: `False`
+  - `event_817` \| Cat: `gym` \| Amt: `4860.00` \| Status: `settled` \| Date: `2024-09-11` \| Counted: `False`
+  - `event_818` \| Cat: `entertainment` \| Amt: `4700.56` \| Status: `settled` \| Date: `2024-09-15` \| Counted: `False`
+  - `event_823` \| Cat: `rent` \| Amt: `69100.00` \| Status: `settled` \| Date: `2024-10-03` \| Counted: `False`
+  - `event_824` \| Cat: `utilities` \| Amt: `15236.94` \| Status: `settled` \| Date: `2024-10-07` \| Counted: `False`
+  - `event_825` \| Cat: `music_subscription` \| Amt: `2800.00` \| Status: `settled` \| Date: `2024-10-12` \| Counted: `False`
+  - `event_826` \| Cat: `delivery_membership` \| Amt: `1895.00` \| Status: `settled` \| Date: `2024-10-14` \| Counted: `False`
+  - `event_827` \| Cat: `gym` \| Amt: `4860.00` \| Status: `settled` \| Date: `2024-10-11` \| Counted: `False`
+  - `event_828` \| Cat: `entertainment` \| Amt: `4366.61` \| Status: `settled` \| Date: `2024-10-15` \| Counted: `False`
+  - `event_833` \| Cat: `rent` \| Amt: `69100.00` \| Status: `settled` \| Date: `2024-11-03` \| Counted: `False`
+  - `event_834` \| Cat: `utilities` \| Amt: `17771.13` \| Status: `settled` \| Date: `2024-11-07` \| Counted: `False`
+  - `event_835` \| Cat: `music_subscription` \| Amt: `2800.00` \| Status: `settled` \| Date: `2024-11-12` \| Counted: `False`
+  - `event_836` \| Cat: `delivery_membership` \| Amt: `1895.00` \| Status: `settled` \| Date: `2024-11-14` \| Counted: `False`
+  - `event_837` \| Cat: `gym` \| Amt: `4860.00` \| Status: `settled` \| Date: `2024-11-11` \| Counted: `False`
+  - `event_838` \| Cat: `entertainment` \| Amt: `4883.78` \| Status: `settled` \| Date: `2024-11-15` \| Counted: `False`
+  - `event_840` \| Cat: `rent` \| Amt: `69100.00` \| Status: `settled` \| Date: `2024-12-03` \| Counted: `False`
+  - `event_841` \| Cat: `groceries` \| Amt: `10089.49` \| Status: `settled` \| Date: `2024-06-13` \| Counted: `False`
+  - `event_842` \| Cat: `groceries` \| Amt: `12216.63` \| Status: `settled` \| Date: `2024-06-20` \| Counted: `False`
+  - `event_843` \| Cat: `groceries` \| Amt: `10431.63` \| Status: `settled` \| Date: `2024-06-27` \| Counted: `False`
+  - `event_844` \| Cat: `groceries` \| Amt: `12027.49` \| Status: `settled` \| Date: `2024-07-04` \| Counted: `False`
+  - `event_845` \| Cat: `groceries` \| Amt: `9512.16` \| Status: `settled` \| Date: `2024-07-11` \| Counted: `False`
+  - `event_846` \| Cat: `groceries` \| Amt: `10839.89` \| Status: `settled` \| Date: `2024-07-18` \| Counted: `False`
+  - `event_847` \| Cat: `groceries` \| Amt: `11898.24` \| Status: `settled` \| Date: `2024-07-25` \| Counted: `False`
+  - `event_848` \| Cat: `groceries` \| Amt: `12020.19` \| Status: `settled` \| Date: `2024-08-01` \| Counted: `False`
+  - `event_849` \| Cat: `groceries` \| Amt: `11986.00` \| Status: `settled` \| Date: `2024-08-08` \| Counted: `False`
+  - `event_850` \| Cat: `groceries` \| Amt: `11074.05` \| Status: `settled` \| Date: `2024-08-15` \| Counted: `False`
+  - `event_851` \| Cat: `groceries` \| Amt: `9929.21` \| Status: `settled` \| Date: `2024-08-22` \| Counted: `False`
+  - `event_852` \| Cat: `groceries` \| Amt: `8855.55` \| Status: `settled` \| Date: `2024-08-29` \| Counted: `False`
+  - `event_853` \| Cat: `groceries` \| Amt: `12641.36` \| Status: `settled` \| Date: `2024-09-05` \| Counted: `False`
+  - `event_854` \| Cat: `groceries` \| Amt: `10087.39` \| Status: `settled` \| Date: `2024-09-12` \| Counted: `False`
+  - `event_855` \| Cat: `groceries` \| Amt: `11596.13` \| Status: `settled` \| Date: `2024-09-19` \| Counted: `False`
+  - `event_856` \| Cat: `groceries` \| Amt: `8809.04` \| Status: `settled` \| Date: `2024-09-26` \| Counted: `False`
+  - `event_857` \| Cat: `groceries` \| Amt: `9807.08` \| Status: `settled` \| Date: `2024-10-03` \| Counted: `False`
+  - `event_858` \| Cat: `groceries` \| Amt: `12589.20` \| Status: `settled` \| Date: `2024-10-10` \| Counted: `False`
+  - `event_859` \| Cat: `groceries` \| Amt: `13621.53` \| Status: `settled` \| Date: `2024-10-17` \| Counted: `False`
+  - `event_860` \| Cat: `groceries` \| Amt: `12767.81` \| Status: `settled` \| Date: `2024-10-24` \| Counted: `False`
+  - `event_861` \| Cat: `groceries` \| Amt: `9968.28` \| Status: `settled` \| Date: `2024-10-31` \| Counted: `False`
+  - `event_862` \| Cat: `groceries` \| Amt: `10392.47` \| Status: `settled` \| Date: `2024-11-07` \| Counted: `False`
+  - `event_863` \| Cat: `groceries` \| Amt: `12092.24` \| Status: `settled` \| Date: `2024-11-14` \| Counted: `False`
+  - `event_864` \| Cat: `groceries` \| Amt: `8157.98` \| Status: `settled` \| Date: `2024-11-21` \| Counted: `False`
+  - `event_865` \| Cat: `groceries` \| Amt: `8755.75` \| Status: `settled` \| Date: `2024-11-28` \| Counted: `False`
+  - `event_866` \| Cat: `groceries` \| Amt: `8011.08` \| Status: `settled` \| Date: `2024-12-05` \| Counted: `False`
+  - `event_867` \| Cat: `transport` \| Amt: `6859.81` \| Status: `settled` \| Date: `2024-06-14` \| Counted: `False`
+  - `event_868` \| Cat: `transport` \| Amt: `7100.47` \| Status: `settled` \| Date: `2024-06-21` \| Counted: `False`
+  - `event_869` \| Cat: `transport` \| Amt: `4830.13` \| Status: `settled` \| Date: `2024-06-28` \| Counted: `False`
+  - `event_870` \| Cat: `transport` \| Amt: `4956.67` \| Status: `settled` \| Date: `2024-07-05` \| Counted: `False`
+  - `event_871` \| Cat: `transport` \| Amt: `5489.62` \| Status: `settled` \| Date: `2024-07-12` \| Counted: `False`
+  - `event_872` \| Cat: `transport` \| Amt: `7530.30` \| Status: `settled` \| Date: `2024-07-19` \| Counted: `False`
+  - `event_873` \| Cat: `transport` \| Amt: `7568.88` \| Status: `settled` \| Date: `2024-07-26` \| Counted: `False`
+  - `event_874` \| Cat: `transport` \| Amt: `6683.23` \| Status: `settled` \| Date: `2024-08-02` \| Counted: `False`
+  - `event_875` \| Cat: `transport` \| Amt: `6632.30` \| Status: `settled` \| Date: `2024-08-09` \| Counted: `False`
+  - `event_876` \| Cat: `transport` \| Amt: `5641.87` \| Status: `settled` \| Date: `2024-08-16` \| Counted: `False`
+  - `event_877` \| Cat: `transport` \| Amt: `5747.77` \| Status: `settled` \| Date: `2024-08-23` \| Counted: `False`
+  - `event_878` \| Cat: `transport` \| Amt: `5753.54` \| Status: `settled` \| Date: `2024-08-30` \| Counted: `False`
+  - `event_879` \| Cat: `transport` \| Amt: `7448.62` \| Status: `settled` \| Date: `2024-09-06` \| Counted: `False`
+  - `event_880` \| Cat: `transport` \| Amt: `5018.36` \| Status: `settled` \| Date: `2024-09-13` \| Counted: `False`
+  - `event_881` \| Cat: `transport` \| Amt: `6582.39` \| Status: `settled` \| Date: `2024-09-20` \| Counted: `False`
+  - `event_882` \| Cat: `transport` \| Amt: `6785.52` \| Status: `settled` \| Date: `2024-09-27` \| Counted: `False`
+  - `event_883` \| Cat: `transport` \| Amt: `4472.60` \| Status: `settled` \| Date: `2024-10-04` \| Counted: `False`
+  - `event_884` \| Cat: `transport` \| Amt: `4570.28` \| Status: `settled` \| Date: `2024-10-11` \| Counted: `False`
+  - `event_885` \| Cat: `transport` \| Amt: `5776.08` \| Status: `settled` \| Date: `2024-10-18` \| Counted: `False`
+  - `event_886` \| Cat: `transport` \| Amt: `6245.32` \| Status: `settled` \| Date: `2024-10-25` \| Counted: `False`
+  - `event_887` \| Cat: `transport` \| Amt: `6819.66` \| Status: `settled` \| Date: `2024-11-01` \| Counted: `False`
+  - `event_888` \| Cat: `transport` \| Amt: `5350.70` \| Status: `settled` \| Date: `2024-11-08` \| Counted: `False`
+  - `event_889` \| Cat: `transport` \| Amt: `4990.01` \| Status: `settled` \| Date: `2024-11-15` \| Counted: `False`
+  - `event_890` \| Cat: `transport` \| Amt: `4356.14` \| Status: `settled` \| Date: `2024-11-22` \| Counted: `False`
+  - `event_891` \| Cat: `transport` \| Amt: `6359.49` \| Status: `settled` \| Date: `2024-11-29` \| Counted: `False`
+  - `event_892` \| Cat: `dining` \| Amt: `8813.96` \| Status: `settled` \| Date: `2024-06-15` \| Counted: `False`
+  - `event_893` \| Cat: `dining` \| Amt: `9260.11` \| Status: `settled` \| Date: `2024-06-29` \| Counted: `False`
+  - `event_894` \| Cat: `dining` \| Amt: `8274.24` \| Status: `settled` \| Date: `2024-07-13` \| Counted: `False`
+  - `event_895` \| Cat: `dining` \| Amt: `6897.95` \| Status: `settled` \| Date: `2024-07-27` \| Counted: `False`
+  - `event_896` \| Cat: `dining` \| Amt: `9399.40` \| Status: `settled` \| Date: `2024-08-10` \| Counted: `False`
+  - `event_897` \| Cat: `dining` \| Amt: `9621.20` \| Status: `settled` \| Date: `2024-08-24` \| Counted: `False`
+  - `event_898` \| Cat: `dining` \| Amt: `6375.03` \| Status: `settled` \| Date: `2024-09-07` \| Counted: `False`
+  - `event_899` \| Cat: `dining` \| Amt: `10079.99` \| Status: `settled` \| Date: `2024-09-21` \| Counted: `False`
+  - `event_900` \| Cat: `dining` \| Amt: `10525.43` \| Status: `settled` \| Date: `2024-10-05` \| Counted: `False`
+  - `event_901` \| Cat: `dining` \| Amt: `8538.83` \| Status: `settled` \| Date: `2024-10-19` \| Counted: `False`
+  - `event_902` \| Cat: `dining` \| Amt: `8480.31` \| Status: `settled` \| Date: `2024-11-02` \| Counted: `False`
+  - `event_903` \| Cat: `dining` \| Amt: `8253.71` \| Status: `settled` \| Date: `2024-11-16` \| Counted: `False`
+  - `event_904` \| Cat: `dining` \| Amt: `10370.83` \| Status: `settled` \| Date: `2024-11-30` \| Counted: `False`
+  - `event_891` \| Cat: `transport` \| Amt: `6359.49` \| Status: `recurring_projected` \| Date: `2024-12-06` \| Counted: `True`
+  - `event_834` \| Cat: `utilities` \| Amt: `17771.13` \| Status: `recurring_projected` \| Date: `2024-12-07` \| Counted: `True`
+  - `event_837` \| Cat: `gym` \| Amt: `4860.00` \| Status: `recurring_projected` \| Date: `2024-12-11` \| Counted: `True`
+  - `event_835` \| Cat: `music_subscription` \| Amt: `2800.00` \| Status: `recurring_projected` \| Date: `2024-12-12` \| Counted: `True`
+  - `event_866` \| Cat: `groceries` \| Amt: `8011.08` \| Status: `recurring_projected` \| Date: `2024-12-12` \| Counted: `True`
+  - `event_891` \| Cat: `transport` \| Amt: `6359.49` \| Status: `recurring_projected` \| Date: `2024-12-13` \| Counted: `True`
+  - `event_836` \| Cat: `delivery_membership` \| Amt: `1895.00` \| Status: `recurring_projected` \| Date: `2024-12-14` \| Counted: `True`
+  - `event_904` \| Cat: `dining` \| Amt: `10370.83` \| Status: `recurring_projected` \| Date: `2024-12-14` \| Counted: `True`
+  - `event_838` \| Cat: `entertainment` \| Amt: `4883.78` \| Status: `recurring_projected` \| Date: `2024-12-15` \| Counted: `True`
+  - `event_866` \| Cat: `groceries` \| Amt: `8011.08` \| Status: `recurring_projected` \| Date: `2024-12-19` \| Counted: `True`
+  - `event_891` \| Cat: `transport` \| Amt: `6359.49` \| Status: `recurring_projected` \| Date: `2024-12-20` \| Counted: `True`
+  - `event_866` \| Cat: `groceries` \| Amt: `8011.08` \| Status: `recurring_projected` \| Date: `2024-12-26` \| Counted: `True`
+  - `event_891` \| Cat: `transport` \| Amt: `6359.49` \| Status: `recurring_projected` \| Date: `2024-12-27` \| Counted: `True`
+  - `event_904` \| Cat: `dining` \| Amt: `10370.83` \| Status: `recurring_projected` \| Date: `2024-12-28` \| Counted: `True`
+  - `event_866` \| Cat: `groceries` \| Amt: `8011.08` \| Status: `recurring_projected` \| Date: `2025-01-02` \| Counted: `True`
+  - `event_840` \| Cat: `rent` \| Amt: `69100.00` \| Status: `recurring_projected` \| Date: `2025-01-03` \| Counted: `True`
+  - `event_891` \| Cat: `transport` \| Amt: `6359.49` \| Status: `recurring_projected` \| Date: `2025-01-03` \| Counted: `True`
+
+### request_11
+- **Request Date**: `2025-05-03` | **Deadline**: `2025-06-12`
+- **Next Payday**: `2025-05-24` (Amount: `8502888.20`)
+- **Starting Balance**: `63531795.00` | **Min Keep**: `34140600.00` | **Requested Amount**: `13110000.00`
+- **GT Safe**: `12510645.00` | **Current Computed Safe**: `11959467.42`
+- **Implied E_pre**: `16880550.0` | **Computed E_pre**: `17431727.58` | **Diff**: `551177.58`
+- **Candidate Expenses (Pre-Payday)**:
+  - `event_907` \| Cat: `housing` \| Amt: `2954500.00` \| Status: `settled` \| Date: `2024-12-05` \| Counted: `False`
+  - `event_908` \| Cat: `utilities` \| Amt: `2916312.61` \| Status: `settled` \| Date: `2024-12-08` \| Counted: `False`
+  - `event_909` \| Cat: `insurance` \| Amt: `1881000.00` \| Status: `settled` \| Date: `2024-12-09` \| Counted: `False`
+  - `event_910` \| Cat: `education` \| Amt: `2544100.00` \| Status: `settled` \| Date: `2024-12-10` \| Counted: `False`
+  - `event_911` \| Cat: `healthcare` \| Amt: `2635764.61` \| Status: `settled` \| Date: `2024-12-12` \| Counted: `False`
+  - `event_912` \| Cat: `entertainment` \| Amt: `1404572.90` \| Status: `settled` \| Date: `2024-12-16` \| Counted: `False`
+  - `event_913` \| Cat: `cloud_storage` \| Amt: `168150.00` \| Status: `settled` \| Date: `2024-12-14` \| Counted: `False`
+  - `event_916` \| Cat: `housing` \| Amt: `2954500.00` \| Status: `settled` \| Date: `2025-01-05` \| Counted: `False`
+  - `event_917` \| Cat: `utilities` \| Amt: `2891149.67` \| Status: `settled` \| Date: `2025-01-08` \| Counted: `False`
+  - `event_918` \| Cat: `insurance` \| Amt: `1881000.00` \| Status: `settled` \| Date: `2025-01-09` \| Counted: `False`
+  - `event_919` \| Cat: `education` \| Amt: `2544100.00` \| Status: `settled` \| Date: `2025-01-10` \| Counted: `False`
+  - `event_920` \| Cat: `healthcare` \| Amt: `3118089.32` \| Status: `settled` \| Date: `2025-01-12` \| Counted: `False`
+  - `event_921` \| Cat: `entertainment` \| Amt: `1688239.04` \| Status: `settled` \| Date: `2025-01-16` \| Counted: `False`
+  - `event_922` \| Cat: `cloud_storage` \| Amt: `168150.00` \| Status: `settled` \| Date: `2025-01-14` \| Counted: `False`
+  - `event_925` \| Cat: `housing` \| Amt: `2954500.00` \| Status: `settled` \| Date: `2025-02-05` \| Counted: `False`
+  - `event_926` \| Cat: `utilities` \| Amt: `2508782.45` \| Status: `settled` \| Date: `2025-02-08` \| Counted: `False`
+  - `event_927` \| Cat: `insurance` \| Amt: `1881000.00` \| Status: `settled` \| Date: `2025-02-09` \| Counted: `False`
+  - `event_928` \| Cat: `education` \| Amt: `2544100.00` \| Status: `settled` \| Date: `2025-02-10` \| Counted: `False`
+  - `event_929` \| Cat: `healthcare` \| Amt: `2973572.96` \| Status: `settled` \| Date: `2025-02-12` \| Counted: `False`
+  - `event_930` \| Cat: `entertainment` \| Amt: `1587027.72` \| Status: `settled` \| Date: `2025-02-16` \| Counted: `False`
+  - `event_931` \| Cat: `cloud_storage` \| Amt: `168150.00` \| Status: `settled` \| Date: `2025-02-14` \| Counted: `False`
+  - `event_934` \| Cat: `housing` \| Amt: `2954500.00` \| Status: `settled` \| Date: `2025-03-05` \| Counted: `False`
+  - `event_935` \| Cat: `utilities` \| Amt: `2488665.63` \| Status: `settled` \| Date: `2025-03-08` \| Counted: `False`
+  - `event_936` \| Cat: `insurance` \| Amt: `1881000.00` \| Status: `settled` \| Date: `2025-03-09` \| Counted: `False`
+  - `event_937` \| Cat: `education` \| Amt: `2544100.00` \| Status: `settled` \| Date: `2025-03-10` \| Counted: `False`
+  - `event_938` \| Cat: `healthcare` \| Amt: `3165638.30` \| Status: `settled` \| Date: `2025-03-12` \| Counted: `False`
+  - `event_939` \| Cat: `entertainment` \| Amt: `1649906.50` \| Status: `settled` \| Date: `2025-03-16` \| Counted: `False`
+  - `event_940` \| Cat: `cloud_storage` \| Amt: `168150.00` \| Status: `settled` \| Date: `2025-03-14` \| Counted: `False`
+  - `event_943` \| Cat: `housing` \| Amt: `2954500.00` \| Status: `settled` \| Date: `2025-04-05` \| Counted: `False`
+  - `event_944` \| Cat: `utilities` \| Amt: `2796165.18` \| Status: `settled` \| Date: `2025-04-08` \| Counted: `False`
+  - `event_945` \| Cat: `insurance` \| Amt: `1881000.00` \| Status: `settled` \| Date: `2025-04-09` \| Counted: `False`
+  - `event_946` \| Cat: `education` \| Amt: `2544100.00` \| Status: `settled` \| Date: `2025-04-10` \| Counted: `False`
+  - `event_947` \| Cat: `healthcare` \| Amt: `2826901.92` \| Status: `settled` \| Date: `2025-04-12` \| Counted: `False`
+  - `event_948` \| Cat: `entertainment` \| Amt: `1674887.61` \| Status: `settled` \| Date: `2025-04-16` \| Counted: `False`
+  - `event_949` \| Cat: `cloud_storage` \| Amt: `168150.00` \| Status: `settled` \| Date: `2025-04-14` \| Counted: `False`
+  - `event_950` \| Cat: `groceries` \| Amt: `1053064.17` \| Status: `settled` \| Date: `2024-11-09` \| Counted: `False`
+  - `event_951` \| Cat: `groceries` \| Amt: `1565130.98` \| Status: `settled` \| Date: `2024-11-19` \| Counted: `False`
+  - `event_952` \| Cat: `groceries` \| Amt: `1714643.08` \| Status: `settled` \| Date: `2024-11-29` \| Counted: `False`
+  - `event_953` \| Cat: `groceries` \| Amt: `1644304.53` \| Status: `settled` \| Date: `2024-12-09` \| Counted: `False`
+  - `event_954` \| Cat: `groceries` \| Amt: `1406401.86` \| Status: `settled` \| Date: `2024-12-19` \| Counted: `False`
+  - `event_955` \| Cat: `groceries` \| Amt: `1063530.58` \| Status: `settled` \| Date: `2024-12-29` \| Counted: `False`
+  - `event_956` \| Cat: `groceries` \| Amt: `1395524.80` \| Status: `settled` \| Date: `2025-01-08` \| Counted: `False`
+  - `event_957` \| Cat: `groceries` \| Amt: `1578114.18` \| Status: `settled` \| Date: `2025-01-18` \| Counted: `False`
+  - `event_958` \| Cat: `groceries` \| Amt: `1763208.29` \| Status: `settled` \| Date: `2025-01-28` \| Counted: `False`
+  - `event_959` \| Cat: `groceries` \| Amt: `1241008.74` \| Status: `settled` \| Date: `2025-02-07` \| Counted: `False`
+  - `event_960` \| Cat: `groceries` \| Amt: `1222447.75` \| Status: `settled` \| Date: `2025-02-17` \| Counted: `False`
+  - `event_961` \| Cat: `groceries` \| Amt: `1614291.70` \| Status: `settled` \| Date: `2025-02-27` \| Counted: `False`
+  - `event_962` \| Cat: `groceries` \| Amt: `1655671.41` \| Status: `settled` \| Date: `2025-03-09` \| Counted: `False`
+  - `event_963` \| Cat: `groceries` \| Amt: `1311350.07` \| Status: `settled` \| Date: `2025-03-19` \| Counted: `False`
+  - `event_964` \| Cat: `groceries` \| Amt: `1292005.65` \| Status: `settled` \| Date: `2025-03-29` \| Counted: `False`
+  - `event_965` \| Cat: `groceries` \| Amt: `1590529.64` \| Status: `settled` \| Date: `2025-04-08` \| Counted: `False`
+  - `event_966` \| Cat: `groceries` \| Amt: `1131582.30` \| Status: `settled` \| Date: `2025-04-18` \| Counted: `False`
+  - `event_967` \| Cat: `groceries` \| Amt: `1341187.18` \| Status: `settled` \| Date: `2025-04-28` \| Counted: `False`
+  - `event_968` \| Cat: `transport` \| Amt: `1230316.50` \| Status: `settled` \| Date: `2024-11-10` \| Counted: `False`
+  - `event_969` \| Cat: `transport` \| Amt: `825660.54` \| Status: `settled` \| Date: `2024-11-24` \| Counted: `False`
+  - `event_970` \| Cat: `transport` \| Amt: `788053.20` \| Status: `settled` \| Date: `2024-12-08` \| Counted: `False`
+  - `event_971` \| Cat: `transport` \| Amt: `893623.46` \| Status: `settled` \| Date: `2024-12-22` \| Counted: `False`
+  - `event_972` \| Cat: `transport` \| Amt: `1212904.33` \| Status: `settled` \| Date: `2025-01-05` \| Counted: `False`
+  - `event_973` \| Cat: `transport` \| Amt: `1307205.52` \| Status: `settled` \| Date: `2025-01-19` \| Counted: `False`
+  - `event_974` \| Cat: `transport` \| Amt: `785218.72` \| Status: `settled` \| Date: `2025-02-02` \| Counted: `False`
+  - `event_975` \| Cat: `transport` \| Amt: `1185524.72` \| Status: `settled` \| Date: `2025-02-16` \| Counted: `False`
+  - `event_976` \| Cat: `transport` \| Amt: `1200020.76` \| Status: `settled` \| Date: `2025-03-02` \| Counted: `False`
+  - `event_977` \| Cat: `transport` \| Amt: `1244032.33` \| Status: `settled` \| Date: `2025-03-16` \| Counted: `False`
+  - `event_978` \| Cat: `transport` \| Amt: `1122838.73` \| Status: `settled` \| Date: `2025-03-30` \| Counted: `False`
+  - `event_979` \| Cat: `transport` \| Amt: `1103949.29` \| Status: `settled` \| Date: `2025-04-13` \| Counted: `False`
+  - `event_980` \| Cat: `transport` \| Amt: `1244835.69` \| Status: `settled` \| Date: `2025-04-27` \| Counted: `False`
+  - `event_981` \| Cat: `dining` \| Amt: `1018758.07` \| Status: `settled` \| Date: `2024-11-06` \| Counted: `False`
+  - `event_982` \| Cat: `dining` \| Amt: `1485097.86` \| Status: `settled` \| Date: `2024-11-27` \| Counted: `False`
+  - `event_983` \| Cat: `dining` \| Amt: `1528058.96` \| Status: `settled` \| Date: `2024-12-18` \| Counted: `False`
+  - `event_984` \| Cat: `dining` \| Amt: `1697463.10` \| Status: `settled` \| Date: `2025-01-08` \| Counted: `False`
+  - `event_985` \| Cat: `dining` \| Amt: `1052748.56` \| Status: `settled` \| Date: `2025-01-29` \| Counted: `False`
+  - `event_986` \| Cat: `dining` \| Amt: `1365643.70` \| Status: `settled` \| Date: `2025-02-19` \| Counted: `False`
+  - `event_987` \| Cat: `dining` \| Amt: `1335266.70` \| Status: `settled` \| Date: `2025-03-12` \| Counted: `False`
+  - `event_988` \| Cat: `dining` \| Amt: `1503635.49` \| Status: `settled` \| Date: `2025-04-02` \| Counted: `False`
+  - `event_989` \| Cat: `dining` \| Amt: `1163530.49` \| Status: `settled` \| Date: `2025-04-23` \| Counted: `False`
+  - `event_943` \| Cat: `housing` \| Amt: `2954500.00` \| Status: `recurring_projected` \| Date: `2025-05-05` \| Counted: `True`
+  - `event_944` \| Cat: `utilities` \| Amt: `2796165.18` \| Status: `recurring_projected` \| Date: `2025-05-08` \| Counted: `True`
+  - `event_945` \| Cat: `insurance` \| Amt: `1881000.00` \| Status: `recurring_projected` \| Date: `2025-05-09` \| Counted: `True`
+  - `event_967` \| Cat: `groceries` \| Amt: `1341187.18` \| Status: `recurring_projected` \| Date: `2025-05-09` \| Counted: `True`
+  - `event_946` \| Cat: `education` \| Amt: `2544100.00` \| Status: `recurring_projected` \| Date: `2025-05-10` \| Counted: `True`
+  - `event_980` \| Cat: `transport` \| Amt: `1244835.69` \| Status: `recurring_projected` \| Date: `2025-05-11` \| Counted: `True`
+  - `event_947` \| Cat: `healthcare` \| Amt: `2826901.92` \| Status: `recurring_projected` \| Date: `2025-05-12` \| Counted: `True`
+  - `event_949` \| Cat: `cloud_storage` \| Amt: `168150.00` \| Status: `recurring_projected` \| Date: `2025-05-14` \| Counted: `True`
+  - `event_948` \| Cat: `entertainment` \| Amt: `1674887.61` \| Status: `recurring_projected` \| Date: `2025-05-16` \| Counted: `True`
+
+### request_12
+- **Request Date**: `2026-04-05` | **Deadline**: `2026-06-20`
+- **Next Payday**: `2026-07-04` (Amount: `0.00`)
+- **Starting Balance**: `193089.89` | **Min Keep**: `43200.00` | **Requested Amount**: `65164.00`
+- **GT Safe**: `65164.00` | **Current Computed Safe**: `65164.00`
+- **Implied E_pre**: `None` | **Computed E_pre**: `73777.56` | **Diff**: `0.00`
+- **Candidate Expenses (Pre-Payday)**:
+  - `event_991` \| Cat: `rent` \| Amt: `11792.00` \| Status: `settled` \| Date: `2025-11-01` \| Counted: `False`
+  - `event_992` \| Cat: `utilities` \| Amt: `3103.78` \| Status: `settled` \| Date: `2025-11-05` \| Counted: `False`
+  - `event_993` \| Cat: `cloud_storage` \| Amt: `447.70` \| Status: `settled` \| Date: `2025-11-11` \| Counted: `False`
+  - `event_994` \| Cat: `streaming` \| Amt: `1504.80` \| Status: `settled` \| Date: `2025-11-08` \| Counted: `False`
+  - `event_995` \| Cat: `shopping` \| Amt: `1267.67` \| Status: `settled` \| Date: `2025-11-11` \| Counted: `False`
+  - `event_997` \| Cat: `rent` \| Amt: `11792.00` \| Status: `settled` \| Date: `2025-12-01` \| Counted: `False`
+  - `event_998` \| Cat: `utilities` \| Amt: `3374.49` \| Status: `settled` \| Date: `2025-12-05` \| Counted: `False`
+  - `event_999` \| Cat: `cloud_storage` \| Amt: `447.70` \| Status: `settled` \| Date: `2025-12-11` \| Counted: `False`
+  - `event_1000` \| Cat: `streaming` \| Amt: `1504.80` \| Status: `settled` \| Date: `2025-12-08` \| Counted: `False`
+  - `event_1001` \| Cat: `shopping` \| Amt: `1243.49` \| Status: `settled` \| Date: `2025-12-11` \| Counted: `False`
+  - `event_1003` \| Cat: `rent` \| Amt: `11792.00` \| Status: `settled` \| Date: `2026-01-01` \| Counted: `False`
+  - `event_1004` \| Cat: `utilities` \| Amt: `3755.96` \| Status: `settled` \| Date: `2026-01-05` \| Counted: `False`
+  - `event_1005` \| Cat: `cloud_storage` \| Amt: `447.70` \| Status: `settled` \| Date: `2026-01-11` \| Counted: `False`
+  - `event_1006` \| Cat: `streaming` \| Amt: `1504.80` \| Status: `settled` \| Date: `2026-01-08` \| Counted: `False`
+  - `event_1007` \| Cat: `shopping` \| Amt: `1401.99` \| Status: `settled` \| Date: `2026-01-11` \| Counted: `False`
+  - `event_1008` \| Cat: `rent` \| Amt: `11792.00` \| Status: `settled` \| Date: `2026-02-01` \| Counted: `False`
+  - `event_1009` \| Cat: `utilities` \| Amt: `3708.19` \| Status: `settled` \| Date: `2026-02-05` \| Counted: `False`
+  - `event_1010` \| Cat: `cloud_storage` \| Amt: `447.70` \| Status: `settled` \| Date: `2026-02-11` \| Counted: `False`
+  - `event_1011` \| Cat: `streaming` \| Amt: `1504.80` \| Status: `settled` \| Date: `2026-02-08` \| Counted: `False`
+  - `event_1012` \| Cat: `shopping` \| Amt: `1196.86` \| Status: `settled` \| Date: `2026-02-11` \| Counted: `False`
+  - `event_1013` \| Cat: `rent` \| Amt: `11792.00` \| Status: `settled` \| Date: `2026-03-01` \| Counted: `False`
+  - `event_1014` \| Cat: `utilities` \| Amt: `3606.20` \| Status: `settled` \| Date: `2026-03-05` \| Counted: `False`
+  - `event_1015` \| Cat: `cloud_storage` \| Amt: `447.70` \| Status: `settled` \| Date: `2026-03-11` \| Counted: `False`
+  - `event_1016` \| Cat: `streaming` \| Amt: `1504.80` \| Status: `settled` \| Date: `2026-03-08` \| Counted: `False`
+  - `event_1017` \| Cat: `shopping` \| Amt: `1169.42` \| Status: `settled` \| Date: `2026-03-11` \| Counted: `False`
+  - `event_1018` \| Cat: `rent` \| Amt: `11792.00` \| Status: `settled` \| Date: `2026-04-01` \| Counted: `False`
+  - `event_1019` \| Cat: `groceries` \| Amt: `2484.14` \| Status: `settled` \| Date: `2025-10-09` \| Counted: `False`
+  - `event_1020` \| Cat: `groceries` \| Amt: `2333.56` \| Status: `settled` \| Date: `2025-10-19` \| Counted: `False`
+  - `event_1021` \| Cat: `groceries` \| Amt: `2229.55` \| Status: `settled` \| Date: `2025-10-29` \| Counted: `False`
+  - `event_1022` \| Cat: `groceries` \| Amt: `1622.75` \| Status: `settled` \| Date: `2025-11-08` \| Counted: `False`
+  - `event_1023` \| Cat: `groceries` \| Amt: `2333.98` \| Status: `settled` \| Date: `2025-11-18` \| Counted: `False`
+  - `event_1024` \| Cat: `groceries` \| Amt: `2177.71` \| Status: `settled` \| Date: `2025-11-28` \| Counted: `False`
+  - `event_1025` \| Cat: `groceries` \| Amt: `1797.17` \| Status: `settled` \| Date: `2025-12-08` \| Counted: `False`
+  - `event_1026` \| Cat: `groceries` \| Amt: `2448.00` \| Status: `settled` \| Date: `2025-12-18` \| Counted: `False`
+  - `event_1027` \| Cat: `groceries` \| Amt: `2432.91` \| Status: `settled` \| Date: `2025-12-28` \| Counted: `False`
+  - `event_1028` \| Cat: `groceries` \| Amt: `1930.95` \| Status: `settled` \| Date: `2026-01-07` \| Counted: `False`
+  - `event_1029` \| Cat: `groceries` \| Amt: `1650.19` \| Status: `settled` \| Date: `2026-01-17` \| Counted: `False`
+  - `event_1030` \| Cat: `groceries` \| Amt: `1539.11` \| Status: `settled` \| Date: `2026-01-27` \| Counted: `False`
+  - `event_1031` \| Cat: `groceries` \| Amt: `1587.87` \| Status: `settled` \| Date: `2026-02-06` \| Counted: `False`
+  - `event_1032` \| Cat: `groceries` \| Amt: `2404.94` \| Status: `settled` \| Date: `2026-02-16` \| Counted: `False`
+  - `event_1033` \| Cat: `groceries` \| Amt: `2729.09` \| Status: `settled` \| Date: `2026-02-26` \| Counted: `False`
+  - `event_1034` \| Cat: `groceries` \| Amt: `2469.40` \| Status: `settled` \| Date: `2026-03-08` \| Counted: `False`
+  - `event_1035` \| Cat: `groceries` \| Amt: `1806.77` \| Status: `settled` \| Date: `2026-03-18` \| Counted: `False`
+  - `event_1036` \| Cat: `groceries` \| Amt: `2449.90` \| Status: `settled` \| Date: `2026-03-28` \| Counted: `False`
+  - `event_1037` \| Cat: `transport` \| Amt: `1398.61` \| Status: `settled` \| Date: `2025-10-10` \| Counted: `False`
+  - `event_1038` \| Cat: `transport` \| Amt: `1302.02` \| Status: `settled` \| Date: `2025-10-31` \| Counted: `False`
+  - `event_1039` \| Cat: `transport` \| Amt: `1282.01` \| Status: `settled` \| Date: `2025-11-21` \| Counted: `False`
+  - `event_1040` \| Cat: `transport` \| Amt: `1240.84` \| Status: `settled` \| Date: `2025-12-12` \| Counted: `False`
+  - `event_1041` \| Cat: `transport` \| Amt: `1722.14` \| Status: `settled` \| Date: `2026-01-02` \| Counted: `False`
+  - `event_1042` \| Cat: `transport` \| Amt: `1261.17` \| Status: `settled` \| Date: `2026-01-23` \| Counted: `False`
+  - `event_1043` \| Cat: `transport` \| Amt: `1355.85` \| Status: `settled` \| Date: `2026-02-13` \| Counted: `False`
+  - `event_1044` \| Cat: `transport` \| Amt: `1684.28` \| Status: `settled` \| Date: `2026-03-06` \| Counted: `False`
+  - `event_1045` \| Cat: `transport` \| Amt: `1679.15` \| Status: `settled` \| Date: `2026-03-27` \| Counted: `False`
+  - `event_1046` \| Cat: `dining` \| Amt: `2152.06` \| Status: `settled` \| Date: `2025-10-11` \| Counted: `False`
+  - `event_1047` \| Cat: `dining` \| Amt: `2452.07` \| Status: `settled` \| Date: `2025-11-01` \| Counted: `False`
+  - `event_1048` \| Cat: `dining` \| Amt: `2407.92` \| Status: `settled` \| Date: `2025-11-22` \| Counted: `False`
+  - `event_1049` \| Cat: `dining` \| Amt: `2554.33` \| Status: `settled` \| Date: `2025-12-13` \| Counted: `False`
+  - `event_1050` \| Cat: `dining` \| Amt: `2344.45` \| Status: `settled` \| Date: `2026-01-03` \| Counted: `False`
+  - `event_1051` \| Cat: `dining` \| Amt: `2608.96` \| Status: `settled` \| Date: `2026-01-24` \| Counted: `False`
+  - `event_1052` \| Cat: `dining` \| Amt: `1765.33` \| Status: `settled` \| Date: `2026-02-14` \| Counted: `False`
+  - `event_1053` \| Cat: `dining` \| Amt: `2089.92` \| Status: `settled` \| Date: `2026-03-07` \| Counted: `False`
+  - `event_1054` \| Cat: `dining` \| Amt: `1943.35` \| Status: `settled` \| Date: `2026-03-28` \| Counted: `False`
+  - `event_1014` \| Cat: `utilities` \| Amt: `3606.20` \| Status: `recurring_projected` \| Date: `2026-04-05` \| Counted: `True`
+  - `event_1016` \| Cat: `streaming` \| Amt: `1504.80` \| Status: `recurring_projected` \| Date: `2026-04-08` \| Counted: `True`
+  - `event_1036` \| Cat: `groceries` \| Amt: `2449.90` \| Status: `recurring_projected` \| Date: `2026-04-08` \| Counted: `True`
+  - `event_1015` \| Cat: `cloud_storage` \| Amt: `447.70` \| Status: `recurring_projected` \| Date: `2026-04-11` \| Counted: `True`
+  - `event_1017` \| Cat: `shopping` \| Amt: `1169.42` \| Status: `recurring_projected` \| Date: `2026-04-11` \| Counted: `True`
+  - `event_1018` \| Cat: `rent` \| Amt: `11792.00` \| Status: `recurring_projected` \| Date: `2026-05-01` \| Counted: `True`
+  - `event_1054` \| Cat: `dining` \| Amt: `1943.35` \| Status: `recurring_projected` \| Date: `2026-05-01` \| Counted: `True`
+  - `event_1045` \| Cat: `transport` \| Amt: `1679.15` \| Status: `recurring_projected` \| Date: `2026-05-02` \| Counted: `True`
+  - `event_1014` \| Cat: `utilities` \| Amt: `3606.20` \| Status: `recurring_projected` \| Date: `2026-05-05` \| Counted: `True`
+  - `event_1016` \| Cat: `streaming` \| Amt: `1504.80` \| Status: `recurring_projected` \| Date: `2026-05-08` \| Counted: `True`
+  - `event_1036` \| Cat: `groceries` \| Amt: `2449.90` \| Status: `recurring_projected` \| Date: `2026-05-08` \| Counted: `True`
+  - `event_1015` \| Cat: `cloud_storage` \| Amt: `447.70` \| Status: `recurring_projected` \| Date: `2026-05-11` \| Counted: `True`
+  - `event_1017` \| Cat: `shopping` \| Amt: `1169.42` \| Status: `recurring_projected` \| Date: `2026-05-11` \| Counted: `True`
+  - `event_1018` \| Cat: `rent` \| Amt: `11792.00` \| Status: `recurring_projected` \| Date: `2026-06-01` \| Counted: `True`
+  - `event_1054` \| Cat: `dining` \| Amt: `1943.35` \| Status: `recurring_projected` \| Date: `2026-06-01` \| Counted: `True`
+  - `event_1045` \| Cat: `transport` \| Amt: `1679.15` \| Status: `recurring_projected` \| Date: `2026-06-02` \| Counted: `True`
+  - `event_1014` \| Cat: `utilities` \| Amt: `3606.20` \| Status: `recurring_projected` \| Date: `2026-06-05` \| Counted: `True`
+  - `event_1016` \| Cat: `streaming` \| Amt: `1504.80` \| Status: `recurring_projected` \| Date: `2026-06-08` \| Counted: `True`
+  - `event_1036` \| Cat: `groceries` \| Amt: `2449.90` \| Status: `recurring_projected` \| Date: `2026-06-08` \| Counted: `True`
+  - `event_1015` \| Cat: `cloud_storage` \| Amt: `447.70` \| Status: `recurring_projected` \| Date: `2026-06-11` \| Counted: `True`
+  - `event_1017` \| Cat: `shopping` \| Amt: `1169.42` \| Status: `recurring_projected` \| Date: `2026-06-11` \| Counted: `True`
+  - `event_1018` \| Cat: `rent` \| Amt: `11792.00` \| Status: `recurring_projected` \| Date: `2026-07-01` \| Counted: `True`
+  - `event_1054` \| Cat: `dining` \| Amt: `1943.35` \| Status: `recurring_projected` \| Date: `2026-07-01` \| Counted: `True`
+  - `event_1045` \| Cat: `transport` \| Amt: `1679.15` \| Status: `recurring_projected` \| Date: `2026-07-02` \| Counted: `True`
+
+### request_13
+- **Request Date**: `2024-03-07` | **Deadline**: `2024-05-15`
+- **Next Payday**: `2024-03-15` (Amount: `1343.54`)
+- **Starting Balance**: `2789.52` | **Min Keep**: `1300.00` | **Requested Amount**: `941.60`
+- **GT Safe**: `433.40` | **Current Computed Safe**: `941.60`
+- **Implied E_pre**: `1056.12` | **Computed E_pre**: `333.62` | **Diff**: `-722.50`
+- **Candidate Expenses (Pre-Payday)**:
+  - `event_1057` \| Cat: `rent` \| Amt: `622.60` \| Status: `settled` \| Date: `2023-10-02` \| Counted: `False`
+  - `event_1058` \| Cat: `utilities` \| Amt: `162.77` \| Status: `settled` \| Date: `2023-10-06` \| Counted: `False`
+  - `event_1059` \| Cat: `music_subscription` \| Amt: `29.00` \| Status: `settled` \| Date: `2023-10-11` \| Counted: `False`
+  - `event_1060` \| Cat: `delivery_membership` \| Amt: `21.00` \| Status: `settled` \| Date: `2023-10-13` \| Counted: `False`
+  - `event_1061` \| Cat: `gym` \| Amt: `61.00` \| Status: `settled` \| Date: `2023-10-10` \| Counted: `False`
+  - `event_1062` \| Cat: `entertainment` \| Amt: `33.83` \| Status: `settled` \| Date: `2023-10-14` \| Counted: `False`
+  - `event_1065` \| Cat: `rent` \| Amt: `622.60` \| Status: `settled` \| Date: `2023-11-02` \| Counted: `False`
+  - `event_1066` \| Cat: `utilities` \| Amt: `143.39` \| Status: `settled` \| Date: `2023-11-06` \| Counted: `False`
+  - `event_1067` \| Cat: `music_subscription` \| Amt: `29.00` \| Status: `settled` \| Date: `2023-11-11` \| Counted: `False`
+  - `event_1068` \| Cat: `delivery_membership` \| Amt: `21.00` \| Status: `settled` \| Date: `2023-11-13` \| Counted: `False`
+  - `event_1069` \| Cat: `gym` \| Amt: `61.00` \| Status: `settled` \| Date: `2023-11-10` \| Counted: `False`
+  - `event_1070` \| Cat: `entertainment` \| Amt: `30.88` \| Status: `settled` \| Date: `2023-11-14` \| Counted: `False`
+  - `event_1073` \| Cat: `rent` \| Amt: `622.60` \| Status: `settled` \| Date: `2023-12-02` \| Counted: `False`
+  - `event_1074` \| Cat: `utilities` \| Amt: `146.33` \| Status: `settled` \| Date: `2023-12-06` \| Counted: `False`
+  - `event_1075` \| Cat: `music_subscription` \| Amt: `29.00` \| Status: `settled` \| Date: `2023-12-11` \| Counted: `False`
+  - `event_1076` \| Cat: `delivery_membership` \| Amt: `21.00` \| Status: `settled` \| Date: `2023-12-13` \| Counted: `False`
+  - `event_1077` \| Cat: `gym` \| Amt: `61.00` \| Status: `settled` \| Date: `2023-12-10` \| Counted: `False`
+  - `event_1078` \| Cat: `entertainment` \| Amt: `37.90` \| Status: `settled` \| Date: `2023-12-14` \| Counted: `False`
+  - `event_1081` \| Cat: `rent` \| Amt: `622.60` \| Status: `settled` \| Date: `2024-01-02` \| Counted: `False`
+  - `event_1082` \| Cat: `utilities` \| Amt: `143.70` \| Status: `settled` \| Date: `2024-01-06` \| Counted: `False`
+  - `event_1083` \| Cat: `music_subscription` \| Amt: `29.00` \| Status: `settled` \| Date: `2024-01-11` \| Counted: `False`
+  - `event_1084` \| Cat: `delivery_membership` \| Amt: `21.00` \| Status: `settled` \| Date: `2024-01-13` \| Counted: `False`
+  - `event_1085` \| Cat: `gym` \| Amt: `61.00` \| Status: `settled` \| Date: `2024-01-10` \| Counted: `False`
+  - `event_1086` \| Cat: `entertainment` \| Amt: `31.80` \| Status: `settled` \| Date: `2024-01-14` \| Counted: `False`
+  - `event_1088` \| Cat: `rent` \| Amt: `622.60` \| Status: `settled` \| Date: `2024-02-02` \| Counted: `False`
+  - `event_1089` \| Cat: `utilities` \| Amt: `131.53` \| Status: `settled` \| Date: `2024-02-06` \| Counted: `False`
+  - `event_1090` \| Cat: `music_subscription` \| Amt: `29.00` \| Status: `settled` \| Date: `2024-02-11` \| Counted: `False`
+  - `event_1091` \| Cat: `delivery_membership` \| Amt: `21.00` \| Status: `settled` \| Date: `2024-02-13` \| Counted: `False`
+  - `event_1092` \| Cat: `gym` \| Amt: `61.00` \| Status: `settled` \| Date: `2024-02-10` \| Counted: `False`
+  - `event_1093` \| Cat: `entertainment` \| Amt: `30.39` \| Status: `settled` \| Date: `2024-02-14` \| Counted: `False`
+  - `event_1094` \| Cat: `rent` \| Amt: `622.60` \| Status: `settled` \| Date: `2024-03-02` \| Counted: `False`
+  - `event_1095` \| Cat: `utilities` \| Amt: `134.25` \| Status: `settled` \| Date: `2024-03-06` \| Counted: `False`
+  - `event_1096` \| Cat: `groceries` \| Amt: `91.05` \| Status: `settled` \| Date: `2023-09-12` \| Counted: `False`
+  - `event_1097` \| Cat: `groceries` \| Amt: `114.90` \| Status: `settled` \| Date: `2023-09-19` \| Counted: `False`
+  - `event_1098` \| Cat: `groceries` \| Amt: `120.16` \| Status: `settled` \| Date: `2023-09-26` \| Counted: `False`
+  - `event_1099` \| Cat: `groceries` \| Amt: `82.38` \| Status: `settled` \| Date: `2023-10-03` \| Counted: `False`
+  - `event_1100` \| Cat: `groceries` \| Amt: `115.37` \| Status: `settled` \| Date: `2023-10-10` \| Counted: `False`
+  - `event_1101` \| Cat: `groceries` \| Amt: `89.89` \| Status: `settled` \| Date: `2023-10-17` \| Counted: `False`
+  - `event_1102` \| Cat: `groceries` \| Amt: `91.28` \| Status: `settled` \| Date: `2023-10-24` \| Counted: `False`
+  - `event_1103` \| Cat: `groceries` \| Amt: `108.75` \| Status: `settled` \| Date: `2023-10-31` \| Counted: `False`
+  - `event_1104` \| Cat: `groceries` \| Amt: `101.74` \| Status: `settled` \| Date: `2023-11-07` \| Counted: `False`
+  - `event_1105` \| Cat: `groceries` \| Amt: `102.05` \| Status: `settled` \| Date: `2023-11-14` \| Counted: `False`
+  - `event_1106` \| Cat: `groceries` \| Amt: `119.05` \| Status: `settled` \| Date: `2023-11-21` \| Counted: `False`
+  - `event_1107` \| Cat: `groceries` \| Amt: `101.87` \| Status: `settled` \| Date: `2023-11-28` \| Counted: `False`
+  - `event_1108` \| Cat: `groceries` \| Amt: `106.05` \| Status: `settled` \| Date: `2023-12-05` \| Counted: `False`
+  - `event_1109` \| Cat: `groceries` \| Amt: `102.25` \| Status: `settled` \| Date: `2023-12-12` \| Counted: `False`
+  - `event_1110` \| Cat: `groceries` \| Amt: `93.15` \| Status: `settled` \| Date: `2023-12-19` \| Counted: `False`
+  - `event_1111` \| Cat: `groceries` \| Amt: `81.24` \| Status: `settled` \| Date: `2023-12-26` \| Counted: `False`
+  - `event_1112` \| Cat: `groceries` \| Amt: `86.23` \| Status: `settled` \| Date: `2024-01-02` \| Counted: `False`
+  - `event_1113` \| Cat: `groceries` \| Amt: `94.28` \| Status: `settled` \| Date: `2024-01-09` \| Counted: `False`
+  - `event_1114` \| Cat: `groceries` \| Amt: `84.23` \| Status: `settled` \| Date: `2024-01-16` \| Counted: `False`
+  - `event_1115` \| Cat: `groceries` \| Amt: `120.89` \| Status: `settled` \| Date: `2024-01-23` \| Counted: `False`
+  - `event_1116` \| Cat: `groceries` \| Amt: `114.53` \| Status: `settled` \| Date: `2024-01-30` \| Counted: `False`
+  - `event_1117` \| Cat: `groceries` \| Amt: `73.74` \| Status: `settled` \| Date: `2024-02-06` \| Counted: `False`
+  - `event_1118` \| Cat: `groceries` \| Amt: `98.36` \| Status: `settled` \| Date: `2024-02-13` \| Counted: `False`
+  - `event_1119` \| Cat: `groceries` \| Amt: `118.36` \| Status: `settled` \| Date: `2024-02-20` \| Counted: `False`
+  - `event_1120` \| Cat: `groceries` \| Amt: `85.71` \| Status: `settled` \| Date: `2024-02-27` \| Counted: `False`
+  - `event_1121` \| Cat: `groceries` \| Amt: `93.66` \| Status: `settled` \| Date: `2024-03-05` \| Counted: `False`
+  - `event_1122` \| Cat: `transport` \| Amt: `44.85` \| Status: `settled` \| Date: `2023-09-13` \| Counted: `False`
+  - `event_1123` \| Cat: `transport` \| Amt: `35.12` \| Status: `settled` \| Date: `2023-09-20` \| Counted: `False`
+  - `event_1124` \| Cat: `transport` \| Amt: `34.47` \| Status: `settled` \| Date: `2023-09-27` \| Counted: `False`
+  - `event_1125` \| Cat: `transport` \| Amt: `34.28` \| Status: `settled` \| Date: `2023-10-04` \| Counted: `False`
+  - `event_1126` \| Cat: `transport` \| Amt: `50.60` \| Status: `settled` \| Date: `2023-10-11` \| Counted: `False`
+  - `event_1127` \| Cat: `transport` \| Amt: `55.33` \| Status: `settled` \| Date: `2023-10-18` \| Counted: `False`
+  - `event_1128` \| Cat: `transport` \| Amt: `34.09` \| Status: `settled` \| Date: `2023-10-25` \| Counted: `False`
+  - `event_1129` \| Cat: `transport` \| Amt: `54.58` \| Status: `settled` \| Date: `2023-11-01` \| Counted: `False`
+  - `event_1130` \| Cat: `transport` \| Amt: `33.97` \| Status: `settled` \| Date: `2023-11-08` \| Counted: `False`
+  - `event_1131` \| Cat: `transport` \| Amt: `48.13` \| Status: `settled` \| Date: `2023-11-15` \| Counted: `False`
+  - `event_1132` \| Cat: `transport` \| Amt: `54.40` \| Status: `settled` \| Date: `2023-11-22` \| Counted: `False`
+  - `event_1133` \| Cat: `transport` \| Amt: `38.31` \| Status: `settled` \| Date: `2023-11-29` \| Counted: `False`
+  - `event_1134` \| Cat: `transport` \| Amt: `44.07` \| Status: `settled` \| Date: `2023-12-06` \| Counted: `False`
+  - `event_1135` \| Cat: `transport` \| Amt: `50.38` \| Status: `settled` \| Date: `2023-12-13` \| Counted: `False`
+  - `event_1136` \| Cat: `transport` \| Amt: `49.29` \| Status: `settled` \| Date: `2023-12-20` \| Counted: `False`
+  - `event_1137` \| Cat: `transport` \| Amt: `46.73` \| Status: `settled` \| Date: `2023-12-27` \| Counted: `False`
+  - `event_1138` \| Cat: `transport` \| Amt: `43.41` \| Status: `settled` \| Date: `2024-01-03` \| Counted: `False`
+  - `event_1139` \| Cat: `transport` \| Amt: `58.44` \| Status: `settled` \| Date: `2024-01-10` \| Counted: `False`
+  - `event_1140` \| Cat: `transport` \| Amt: `33.50` \| Status: `settled` \| Date: `2024-01-17` \| Counted: `False`
+  - `event_1141` \| Cat: `transport` \| Amt: `56.63` \| Status: `settled` \| Date: `2024-01-24` \| Counted: `False`
+  - `event_1142` \| Cat: `transport` \| Amt: `46.98` \| Status: `settled` \| Date: `2024-01-31` \| Counted: `False`
+  - `event_1143` \| Cat: `transport` \| Amt: `45.29` \| Status: `settled` \| Date: `2024-02-07` \| Counted: `False`
+  - `event_1144` \| Cat: `transport` \| Amt: `45.37` \| Status: `settled` \| Date: `2024-02-14` \| Counted: `False`
+  - `event_1145` \| Cat: `transport` \| Amt: `39.48` \| Status: `settled` \| Date: `2024-02-21` \| Counted: `False`
+  - `event_1146` \| Cat: `transport` \| Amt: `50.46` \| Status: `settled` \| Date: `2024-02-28` \| Counted: `False`
+  - `event_1147` \| Cat: `transport` \| Amt: `37.29` \| Status: `settled` \| Date: `2024-03-06` \| Counted: `False`
+  - `event_1148` \| Cat: `dining` \| Amt: `75.47` \| Status: `settled` \| Date: `2023-09-14` \| Counted: `False`
+  - `event_1149` \| Cat: `dining` \| Amt: `68.70` \| Status: `settled` \| Date: `2023-09-28` \| Counted: `False`
+  - `event_1150` \| Cat: `dining` \| Amt: `80.09` \| Status: `settled` \| Date: `2023-10-12` \| Counted: `False`
+  - `event_1151` \| Cat: `dining` \| Amt: `62.71` \| Status: `settled` \| Date: `2023-10-26` \| Counted: `False`
+  - `event_1152` \| Cat: `dining` \| Amt: `53.91` \| Status: `settled` \| Date: `2023-11-09` \| Counted: `False`
+  - `event_1153` \| Cat: `dining` \| Amt: `80.35` \| Status: `settled` \| Date: `2023-11-23` \| Counted: `False`
+  - `event_1154` \| Cat: `dining` \| Amt: `64.45` \| Status: `settled` \| Date: `2023-12-07` \| Counted: `False`
+  - `event_1155` \| Cat: `dining` \| Amt: `70.45` \| Status: `settled` \| Date: `2023-12-21` \| Counted: `False`
+  - `event_1156` \| Cat: `dining` \| Amt: `61.59` \| Status: `settled` \| Date: `2024-01-04` \| Counted: `False`
+  - `event_1157` \| Cat: `dining` \| Amt: `48.20` \| Status: `settled` \| Date: `2024-01-18` \| Counted: `False`
+  - `event_1158` \| Cat: `dining` \| Amt: `60.34` \| Status: `settled` \| Date: `2024-02-01` \| Counted: `False`
+  - `event_1159` \| Cat: `dining` \| Amt: `48.02` \| Status: `settled` \| Date: `2024-02-15` \| Counted: `False`
+  - `event_1160` \| Cat: `dining` \| Amt: `61.28` \| Status: `settled` \| Date: `2024-02-29` \| Counted: `False`
+  - `event_1092` \| Cat: `gym` \| Amt: `61.00` \| Status: `recurring_projected` \| Date: `2024-03-10` \| Counted: `True`
+  - `event_1090` \| Cat: `music_subscription` \| Amt: `29.00` \| Status: `recurring_projected` \| Date: `2024-03-11` \| Counted: `True`
+  - `event_1121` \| Cat: `groceries` \| Amt: `93.66` \| Status: `recurring_projected` \| Date: `2024-03-12` \| Counted: `True`
+  - `event_1091` \| Cat: `delivery_membership` \| Amt: `21.00` \| Status: `recurring_projected` \| Date: `2024-03-13` \| Counted: `True`
+  - `event_1147` \| Cat: `transport` \| Amt: `37.29` \| Status: `recurring_projected` \| Date: `2024-03-13` \| Counted: `True`
+  - `event_1093` \| Cat: `entertainment` \| Amt: `30.39` \| Status: `recurring_projected` \| Date: `2024-03-14` \| Counted: `True`
+  - `event_1160` \| Cat: `dining` \| Amt: `61.28` \| Status: `recurring_projected` \| Date: `2024-03-14` \| Counted: `True`
+
+### request_14
+- **Request Date**: `2025-08-04` | **Deadline**: `2025-10-04`
+- **Next Payday**: `2025-08-15` (Amount: `2717.00`)
+- **Starting Balance**: `3931.74` | **Min Keep**: `2200.00` | **Requested Amount**: `5414.20`
+- **GT Safe**: `597.74` | **Current Computed Safe**: `586.38`
+- **Implied E_pre**: `1134.0` | **Computed E_pre**: `1145.36` | **Diff**: `11.36`
+- **Candidate Expenses (Pre-Payday)**:
+  - `event_1163` \| Cat: `rent` \| Amt: `688.60` \| Status: `settled` \| Date: `2025-03-03` \| Counted: `False`
+  - `event_1164` \| Cat: `utilities` \| Amt: `141.46` \| Status: `settled` \| Date: `2025-03-07` \| Counted: `False`
+  - `event_1165` \| Cat: `debt_repayment` \| Amt: `350.00` \| Status: `settled` \| Date: `2025-03-12` \| Counted: `False`
+  - `event_1166` \| Cat: `healthcare` \| Amt: `92.08` \| Status: `settled` \| Date: `2025-03-11` \| Counted: `False`
+  - `event_1167` \| Cat: `family_support` \| Amt: `226.00` \| Status: `settled` \| Date: `2025-03-14` \| Counted: `False`
+  - `event_1168` \| Cat: `cloud_storage` \| Amt: `14.00` \| Status: `settled` \| Date: `2025-03-13` \| Counted: `False`
+  - `event_1169` \| Cat: `shopping` \| Amt: `137.03` \| Status: `settled` \| Date: `2025-03-13` \| Counted: `False`
+  - `event_1171` \| Cat: `rent` \| Amt: `688.60` \| Status: `settled` \| Date: `2025-04-03` \| Counted: `False`
+  - `event_1172` \| Cat: `utilities` \| Amt: `156.08` \| Status: `settled` \| Date: `2025-04-07` \| Counted: `False`
+  - `event_1173` \| Cat: `debt_repayment` \| Amt: `350.00` \| Status: `settled` \| Date: `2025-04-12` \| Counted: `False`
+  - `event_1174` \| Cat: `healthcare` \| Amt: `92.65` \| Status: `settled` \| Date: `2025-04-11` \| Counted: `False`
+  - `event_1175` \| Cat: `family_support` \| Amt: `226.00` \| Status: `settled` \| Date: `2025-04-14` \| Counted: `False`
+  - `event_1176` \| Cat: `cloud_storage` \| Amt: `14.00` \| Status: `settled` \| Date: `2025-04-13` \| Counted: `False`
+  - `event_1177` \| Cat: `shopping` \| Amt: `123.04` \| Status: `settled` \| Date: `2025-04-13` \| Counted: `False`
+  - `event_1178` \| Cat: `rent` \| Amt: `688.60` \| Status: `settled` \| Date: `2025-05-03` \| Counted: `False`
+  - `event_1179` \| Cat: `utilities` \| Amt: `143.45` \| Status: `settled` \| Date: `2025-05-07` \| Counted: `False`
+  - `event_1180` \| Cat: `debt_repayment` \| Amt: `350.00` \| Status: `settled` \| Date: `2025-05-12` \| Counted: `False`
+  - `event_1181` \| Cat: `healthcare` \| Amt: `95.17` \| Status: `settled` \| Date: `2025-05-11` \| Counted: `False`
+  - `event_1182` \| Cat: `family_support` \| Amt: `226.00` \| Status: `settled` \| Date: `2025-05-14` \| Counted: `False`
+  - `event_1183` \| Cat: `cloud_storage` \| Amt: `14.00` \| Status: `settled` \| Date: `2025-05-13` \| Counted: `False`
+  - `event_1184` \| Cat: `shopping` \| Amt: `123.12` \| Status: `settled` \| Date: `2025-05-13` \| Counted: `False`
+  - `event_1185` \| Cat: `rent` \| Amt: `688.60` \| Status: `settled` \| Date: `2025-06-03` \| Counted: `False`
+  - `event_1186` \| Cat: `utilities` \| Amt: `146.41` \| Status: `settled` \| Date: `2025-06-07` \| Counted: `False`
+  - `event_1187` \| Cat: `debt_repayment` \| Amt: `350.00` \| Status: `settled` \| Date: `2025-06-12` \| Counted: `False`
+  - `event_1188` \| Cat: `healthcare` \| Amt: `91.77` \| Status: `settled` \| Date: `2025-06-11` \| Counted: `False`
+  - `event_1189` \| Cat: `family_support` \| Amt: `226.00` \| Status: `settled` \| Date: `2025-06-14` \| Counted: `False`
+  - `event_1190` \| Cat: `cloud_storage` \| Amt: `14.00` \| Status: `settled` \| Date: `2025-06-13` \| Counted: `False`
+  - `event_1191` \| Cat: `shopping` \| Amt: `123.77` \| Status: `settled` \| Date: `2025-06-13` \| Counted: `False`
+  - `event_1193` \| Cat: `rent` \| Amt: `688.60` \| Status: `settled` \| Date: `2025-07-03` \| Counted: `False`
+  - `event_1194` \| Cat: `utilities` \| Amt: `153.69` \| Status: `settled` \| Date: `2025-07-07` \| Counted: `False`
+  - `event_1195` \| Cat: `debt_repayment` \| Amt: `350.00` \| Status: `settled` \| Date: `2025-07-12` \| Counted: `False`
+  - `event_1196` \| Cat: `healthcare` \| Amt: `87.84` \| Status: `settled` \| Date: `2025-07-11` \| Counted: `False`
+  - `event_1197` \| Cat: `family_support` \| Amt: `226.00` \| Status: `settled` \| Date: `2025-07-14` \| Counted: `False`
+  - `event_1198` \| Cat: `cloud_storage` \| Amt: `14.00` \| Status: `settled` \| Date: `2025-07-13` \| Counted: `False`
+  - `event_1199` \| Cat: `shopping` \| Amt: `140.39` \| Status: `settled` \| Date: `2025-07-13` \| Counted: `False`
+  - `event_1200` \| Cat: `rent` \| Amt: `688.60` \| Status: `settled` \| Date: `2025-08-03` \| Counted: `False`
+  - `event_1201` \| Cat: `groceries` \| Amt: `103.53` \| Status: `settled` \| Date: `2025-02-09` \| Counted: `False`
+  - `event_1202` \| Cat: `groceries` \| Amt: `95.35` \| Status: `settled` \| Date: `2025-02-16` \| Counted: `False`
+  - `event_1203` \| Cat: `groceries` \| Amt: `104.91` \| Status: `settled` \| Date: `2025-02-23` \| Counted: `False`
+  - `event_1204` \| Cat: `groceries` \| Amt: `81.22` \| Status: `settled` \| Date: `2025-03-02` \| Counted: `False`
+  - `event_1205` \| Cat: `groceries` \| Amt: `92.09` \| Status: `settled` \| Date: `2025-03-09` \| Counted: `False`
+  - `event_1206` \| Cat: `groceries` \| Amt: `121.61` \| Status: `settled` \| Date: `2025-03-16` \| Counted: `False`
+  - `event_1207` \| Cat: `groceries` \| Amt: `87.64` \| Status: `settled` \| Date: `2025-03-23` \| Counted: `False`
+  - `event_1208` \| Cat: `groceries` \| Amt: `140.51` \| Status: `settled` \| Date: `2025-03-30` \| Counted: `False`
+  - `event_1209` \| Cat: `groceries` \| Amt: `131.02` \| Status: `settled` \| Date: `2025-04-06` \| Counted: `False`
+  - `event_1210` \| Cat: `groceries` \| Amt: `83.71` \| Status: `settled` \| Date: `2025-04-13` \| Counted: `False`
+  - `event_1211` \| Cat: `groceries` \| Amt: `93.46` \| Status: `settled` \| Date: `2025-04-20` \| Counted: `False`
+  - `event_1212` \| Cat: `groceries` \| Amt: `90.76` \| Status: `settled` \| Date: `2025-04-27` \| Counted: `False`
+  - `event_1213` \| Cat: `groceries` \| Amt: `106.55` \| Status: `settled` \| Date: `2025-05-04` \| Counted: `False`
+  - `event_1214` \| Cat: `groceries` \| Amt: `93.65` \| Status: `settled` \| Date: `2025-05-11` \| Counted: `False`
+  - `event_1215` \| Cat: `groceries` \| Amt: `96.42` \| Status: `settled` \| Date: `2025-05-18` \| Counted: `False`
+  - `event_1216` \| Cat: `groceries` \| Amt: `101.15` \| Status: `settled` \| Date: `2025-05-25` \| Counted: `False`
+  - `event_1217` \| Cat: `groceries` \| Amt: `129.68` \| Status: `settled` \| Date: `2025-06-01` \| Counted: `False`
+  - `event_1218` \| Cat: `groceries` \| Amt: `123.41` \| Status: `settled` \| Date: `2025-06-08` \| Counted: `False`
+  - `event_1219` \| Cat: `groceries` \| Amt: `94.21` \| Status: `settled` \| Date: `2025-06-15` \| Counted: `False`
+  - `event_1220` \| Cat: `groceries` \| Amt: `86.49` \| Status: `settled` \| Date: `2025-06-22` \| Counted: `False`
+  - `event_1221` \| Cat: `groceries` \| Amt: `138.85` \| Status: `settled` \| Date: `2025-06-29` \| Counted: `False`
+  - `event_1222` \| Cat: `groceries` \| Amt: `102.54` \| Status: `settled` \| Date: `2025-07-06` \| Counted: `False`
+  - `event_1223` \| Cat: `groceries` \| Amt: `112.72` \| Status: `settled` \| Date: `2025-07-13` \| Counted: `False`
+  - `event_1224` \| Cat: `groceries` \| Amt: `96.86` \| Status: `settled` \| Date: `2025-07-20` \| Counted: `False`
+  - `event_1225` \| Cat: `groceries` \| Amt: `86.83` \| Status: `settled` \| Date: `2025-07-27` \| Counted: `False`
+  - `event_1226` \| Cat: `groceries` \| Amt: `129.56` \| Status: `settled` \| Date: `2025-08-03` \| Counted: `False`
+  - `event_1227` \| Cat: `transport` \| Amt: `46.75` \| Status: `settled` \| Date: `2025-02-10` \| Counted: `False`
+  - `event_1228` \| Cat: `transport` \| Amt: `58.52` \| Status: `settled` \| Date: `2025-02-24` \| Counted: `False`
+  - `event_1229` \| Cat: `transport` \| Amt: `37.65` \| Status: `settled` \| Date: `2025-03-10` \| Counted: `False`
+  - `event_1230` \| Cat: `transport` \| Amt: `47.73` \| Status: `settled` \| Date: `2025-03-24` \| Counted: `False`
+  - `event_1231` \| Cat: `transport` \| Amt: `53.15` \| Status: `settled` \| Date: `2025-04-07` \| Counted: `False`
+  - `event_1232` \| Cat: `transport` \| Amt: `56.49` \| Status: `settled` \| Date: `2025-04-21` \| Counted: `False`
+  - `event_1233` \| Cat: `transport` \| Amt: `55.52` \| Status: `settled` \| Date: `2025-05-05` \| Counted: `False`
+  - `event_1234` \| Cat: `transport` \| Amt: `52.26` \| Status: `settled` \| Date: `2025-05-19` \| Counted: `False`
+  - `event_1235` \| Cat: `transport` \| Amt: `50.48` \| Status: `settled` \| Date: `2025-06-02` \| Counted: `False`
+  - `event_1236` \| Cat: `transport` \| Amt: `55.96` \| Status: `settled` \| Date: `2025-06-16` \| Counted: `False`
+  - `event_1237` \| Cat: `transport` \| Amt: `62.30` \| Status: `settled` \| Date: `2025-06-30` \| Counted: `False`
+  - `event_1238` \| Cat: `transport` \| Amt: `43.12` \| Status: `settled` \| Date: `2025-07-14` \| Counted: `False`
+  - `event_1239` \| Cat: `transport` \| Amt: `43.88` \| Status: `settled` \| Date: `2025-07-28` \| Counted: `False`
+  - `event_1194` \| Cat: `utilities` \| Amt: `153.69` \| Status: `recurring_projected` \| Date: `2025-08-07` \| Counted: `True`
+  - `event_1226` \| Cat: `groceries` \| Amt: `129.56` \| Status: `recurring_projected` \| Date: `2025-08-10` \| Counted: `True`
+  - `event_1196` \| Cat: `healthcare` \| Amt: `87.84` \| Status: `recurring_projected` \| Date: `2025-08-11` \| Counted: `True`
+  - `event_1239` \| Cat: `transport` \| Amt: `43.88` \| Status: `recurring_projected` \| Date: `2025-08-11` \| Counted: `True`
+  - `event_1195` \| Cat: `debt_repayment` \| Amt: `350.00` \| Status: `recurring_projected` \| Date: `2025-08-12` \| Counted: `True`
+  - `event_1198` \| Cat: `cloud_storage` \| Amt: `14.00` \| Status: `recurring_projected` \| Date: `2025-08-13` \| Counted: `True`
+  - `event_1199` \| Cat: `shopping` \| Amt: `140.39` \| Status: `recurring_projected` \| Date: `2025-08-13` \| Counted: `True`
+  - `event_1197` \| Cat: `family_support` \| Amt: `226.00` \| Status: `recurring_projected` \| Date: `2025-08-14` \| Counted: `True`
+
+### request_15
+- **Request Date**: `2026-01-06` | **Deadline**: `2026-02-01`
+- **Next Payday**: `2026-01-15` (Amount: `1661.00`)
+- **Starting Balance**: `1770.05` | **Min Keep**: `1200.00` | **Requested Amount**: `3685.00`
+- **GT Safe**: `83.05` | **Current Computed Safe**: `0.00`
+- **Implied E_pre**: `487.0` | **Computed E_pre**: `577.22` | **Diff**: `90.22`
+- **Candidate Expenses (Pre-Payday)**:
+  - `event_1240` \| Cat: `rent` \| Amt: `435.60` \| Status: `settled` \| Date: `2025-08-04` \| Counted: `False`
+  - `event_1241` \| Cat: `utilities` \| Amt: `84.12` \| Status: `settled` \| Date: `2025-08-08` \| Counted: `False`
+  - `event_1242` \| Cat: `education` \| Amt: `159.00` \| Status: `settled` \| Date: `2025-08-10` \| Counted: `False`
+  - `event_1243` \| Cat: `debt_repayment` \| Amt: `84.00` \| Status: `settled` \| Date: `2025-08-13` \| Counted: `False`
+  - `event_1244` \| Cat: `music_subscription` \| Amt: `11.00` \| Status: `settled` \| Date: `2025-08-13` \| Counted: `False`
+  - `event_1245` \| Cat: `delivery_membership` \| Amt: `27.00` \| Status: `settled` \| Date: `2025-08-15` \| Counted: `False`
+  - `event_1246` \| Cat: `rent` \| Amt: `435.60` \| Status: `settled` \| Date: `2025-09-04` \| Counted: `False`
+  - `event_1247` \| Cat: `utilities` \| Amt: `85.91` \| Status: `settled` \| Date: `2025-09-08` \| Counted: `False`
+  - `event_1248` \| Cat: `education` \| Amt: `159.00` \| Status: `settled` \| Date: `2025-09-10` \| Counted: `False`
+  - `event_1249` \| Cat: `debt_repayment` \| Amt: `84.00` \| Status: `settled` \| Date: `2025-09-13` \| Counted: `False`
+  - `event_1250` \| Cat: `music_subscription` \| Amt: `11.00` \| Status: `settled` \| Date: `2025-09-13` \| Counted: `False`
+  - `event_1251` \| Cat: `delivery_membership` \| Amt: `27.00` \| Status: `settled` \| Date: `2025-09-15` \| Counted: `False`
+  - `event_1252` \| Cat: `rent` \| Amt: `435.60` \| Status: `settled` \| Date: `2025-10-04` \| Counted: `False`
+  - `event_1253` \| Cat: `utilities` \| Amt: `90.39` \| Status: `settled` \| Date: `2025-10-08` \| Counted: `False`
+  - `event_1254` \| Cat: `education` \| Amt: `159.00` \| Status: `settled` \| Date: `2025-10-10` \| Counted: `False`
+  - `event_1255` \| Cat: `debt_repayment` \| Amt: `84.00` \| Status: `settled` \| Date: `2025-10-13` \| Counted: `False`
+  - `event_1256` \| Cat: `music_subscription` \| Amt: `11.00` \| Status: `settled` \| Date: `2025-10-13` \| Counted: `False`
+  - `event_1257` \| Cat: `delivery_membership` \| Amt: `27.00` \| Status: `settled` \| Date: `2025-10-15` \| Counted: `False`
+  - `event_1259` \| Cat: `rent` \| Amt: `435.60` \| Status: `settled` \| Date: `2025-11-04` \| Counted: `False`
+  - `event_1260` \| Cat: `utilities` \| Amt: `87.14` \| Status: `settled` \| Date: `2025-11-08` \| Counted: `False`
+  - `event_1261` \| Cat: `education` \| Amt: `159.00` \| Status: `settled` \| Date: `2025-11-10` \| Counted: `False`
+  - `event_1262` \| Cat: `debt_repayment` \| Amt: `84.00` \| Status: `settled` \| Date: `2025-11-13` \| Counted: `False`
+  - `event_1263` \| Cat: `music_subscription` \| Amt: `11.00` \| Status: `settled` \| Date: `2025-11-13` \| Counted: `False`
+  - `event_1264` \| Cat: `delivery_membership` \| Amt: `27.00` \| Status: `settled` \| Date: `2025-11-15` \| Counted: `False`
+  - `event_1266` \| Cat: `rent` \| Amt: `435.60` \| Status: `settled` \| Date: `2025-12-04` \| Counted: `False`
+  - `event_1267` \| Cat: `utilities` \| Amt: `84.41` \| Status: `settled` \| Date: `2025-12-08` \| Counted: `False`
+  - `event_1268` \| Cat: `education` \| Amt: `159.00` \| Status: `settled` \| Date: `2025-12-10` \| Counted: `False`
+  - `event_1269` \| Cat: `debt_repayment` \| Amt: `84.00` \| Status: `settled` \| Date: `2025-12-13` \| Counted: `False`
+  - `event_1270` \| Cat: `music_subscription` \| Amt: `11.00` \| Status: `settled` \| Date: `2025-12-13` \| Counted: `False`
+  - `event_1271` \| Cat: `delivery_membership` \| Amt: `27.00` \| Status: `settled` \| Date: `2025-12-15` \| Counted: `False`
+  - `event_1272` \| Cat: `rent` \| Amt: `435.60` \| Status: `settled` \| Date: `2026-01-04` \| Counted: `False`
+  - `event_1273` \| Cat: `groceries` \| Amt: `51.57` \| Status: `settled` \| Date: `2025-07-15` \| Counted: `False`
+  - `event_1274` \| Cat: `groceries` \| Amt: `63.15` \| Status: `settled` \| Date: `2025-07-22` \| Counted: `False`
+  - `event_1275` \| Cat: `groceries` \| Amt: `64.39` \| Status: `settled` \| Date: `2025-07-29` \| Counted: `False`
+  - `event_1276` \| Cat: `groceries` \| Amt: `55.63` \| Status: `settled` \| Date: `2025-08-05` \| Counted: `False`
+  - `event_1277` \| Cat: `groceries` \| Amt: `68.03` \| Status: `settled` \| Date: `2025-08-12` \| Counted: `False`
+  - `event_1278` \| Cat: `groceries` \| Amt: `46.76` \| Status: `settled` \| Date: `2025-08-19` \| Counted: `False`
+  - `event_1279` \| Cat: `groceries` \| Amt: `71.92` \| Status: `settled` \| Date: `2025-08-26` \| Counted: `False`
+  - `event_1280` \| Cat: `groceries` \| Amt: `49.38` \| Status: `settled` \| Date: `2025-09-02` \| Counted: `False`
+  - `event_1281` \| Cat: `groceries` \| Amt: `73.50` \| Status: `settled` \| Date: `2025-09-09` \| Counted: `False`
+  - `event_1282` \| Cat: `groceries` \| Amt: `71.16` \| Status: `settled` \| Date: `2025-09-16` \| Counted: `False`
+  - `event_1283` \| Cat: `groceries` \| Amt: `72.30` \| Status: `settled` \| Date: `2025-09-23` \| Counted: `False`
+  - `event_1284` \| Cat: `groceries` \| Amt: `59.88` \| Status: `settled` \| Date: `2025-09-30` \| Counted: `False`
+  - `event_1285` \| Cat: `groceries` \| Amt: `48.88` \| Status: `settled` \| Date: `2025-10-07` \| Counted: `False`
+  - `event_1286` \| Cat: `groceries` \| Amt: `69.83` \| Status: `settled` \| Date: `2025-10-14` \| Counted: `False`
+  - `event_1287` \| Cat: `groceries` \| Amt: `62.21` \| Status: `settled` \| Date: `2025-10-21` \| Counted: `False`
+  - `event_1288` \| Cat: `groceries` \| Amt: `68.35` \| Status: `settled` \| Date: `2025-10-28` \| Counted: `False`
+  - `event_1289` \| Cat: `groceries` \| Amt: `56.70` \| Status: `settled` \| Date: `2025-11-04` \| Counted: `False`
+  - `event_1290` \| Cat: `groceries` \| Amt: `52.65` \| Status: `settled` \| Date: `2025-11-11` \| Counted: `False`
+  - `event_1291` \| Cat: `groceries` \| Amt: `53.42` \| Status: `settled` \| Date: `2025-11-18` \| Counted: `False`
+  - `event_1292` \| Cat: `groceries` \| Amt: `47.26` \| Status: `settled` \| Date: `2025-11-25` \| Counted: `False`
+  - `event_1293` \| Cat: `groceries` \| Amt: `64.51` \| Status: `settled` \| Date: `2025-12-02` \| Counted: `False`
+  - `event_1294` \| Cat: `groceries` \| Amt: `64.22` \| Status: `settled` \| Date: `2025-12-09` \| Counted: `False`
+  - `event_1295` \| Cat: `groceries` \| Amt: `52.69` \| Status: `settled` \| Date: `2025-12-16` \| Counted: `False`
+  - `event_1296` \| Cat: `groceries` \| Amt: `49.90` \| Status: `settled` \| Date: `2025-12-23` \| Counted: `False`
+  - `event_1297` \| Cat: `groceries` \| Amt: `64.42` \| Status: `settled` \| Date: `2025-12-30` \| Counted: `False`
+  - `event_1298` \| Cat: `transport` \| Amt: `29.41` \| Status: `settled` \| Date: `2025-07-16` \| Counted: `False`
+  - `event_1299` \| Cat: `transport` \| Amt: `39.06` \| Status: `settled` \| Date: `2025-07-23` \| Counted: `False`
+  - `event_1300` \| Cat: `transport` \| Amt: `42.66` \| Status: `settled` \| Date: `2025-07-30` \| Counted: `False`
+  - `event_1301` \| Cat: `transport` \| Amt: `29.38` \| Status: `settled` \| Date: `2025-08-06` \| Counted: `False`
+  - `event_1302` \| Cat: `transport` \| Amt: `26.48` \| Status: `settled` \| Date: `2025-08-13` \| Counted: `False`
+  - `event_1303` \| Cat: `transport` \| Amt: `26.50` \| Status: `settled` \| Date: `2025-08-20` \| Counted: `False`
+  - `event_1304` \| Cat: `transport` \| Amt: `25.11` \| Status: `settled` \| Date: `2025-08-27` \| Counted: `False`
+  - `event_1305` \| Cat: `transport` \| Amt: `37.01` \| Status: `settled` \| Date: `2025-09-03` \| Counted: `False`
+  - `event_1306` \| Cat: `transport` \| Amt: `29.73` \| Status: `settled` \| Date: `2025-09-10` \| Counted: `False`
+  - `event_1307` \| Cat: `transport` \| Amt: `35.61` \| Status: `settled` \| Date: `2025-09-17` \| Counted: `False`
+  - `event_1308` \| Cat: `transport` \| Amt: `31.28` \| Status: `settled` \| Date: `2025-09-24` \| Counted: `False`
+  - `event_1309` \| Cat: `transport` \| Amt: `29.30` \| Status: `settled` \| Date: `2025-10-01` \| Counted: `False`
+  - `event_1310` \| Cat: `transport` \| Amt: `26.00` \| Status: `settled` \| Date: `2025-10-08` \| Counted: `False`
+  - `event_1311` \| Cat: `transport` \| Amt: `25.57` \| Status: `settled` \| Date: `2025-10-15` \| Counted: `False`
+  - `event_1312` \| Cat: `transport` \| Amt: `25.35` \| Status: `settled` \| Date: `2025-10-22` \| Counted: `False`
+  - `event_1313` \| Cat: `transport` \| Amt: `34.86` \| Status: `settled` \| Date: `2025-10-29` \| Counted: `False`
+  - `event_1314` \| Cat: `transport` \| Amt: `31.09` \| Status: `settled` \| Date: `2025-11-05` \| Counted: `False`
+  - `event_1315` \| Cat: `transport` \| Amt: `32.48` \| Status: `settled` \| Date: `2025-11-12` \| Counted: `False`
+  - `event_1316` \| Cat: `transport` \| Amt: `36.70` \| Status: `settled` \| Date: `2025-11-19` \| Counted: `False`
+  - `event_1317` \| Cat: `transport` \| Amt: `38.53` \| Status: `settled` \| Date: `2025-11-26` \| Counted: `False`
+  - `event_1318` \| Cat: `transport` \| Amt: `25.63` \| Status: `settled` \| Date: `2025-12-03` \| Counted: `False`
+  - `event_1319` \| Cat: `transport` \| Amt: `41.35` \| Status: `settled` \| Date: `2025-12-10` \| Counted: `False`
+  - `event_1320` \| Cat: `transport` \| Amt: `36.86` \| Status: `settled` \| Date: `2025-12-17` \| Counted: `False`
+  - `event_1321` \| Cat: `transport` \| Amt: `27.67` \| Status: `settled` \| Date: `2025-12-24` \| Counted: `False`
+  - `event_1322` \| Cat: `transport` \| Amt: `30.31` \| Status: `settled` \| Date: `2025-12-31` \| Counted: `False`
+  - `event_1323` \| Cat: `dining` \| Amt: `33.39` \| Status: `settled` \| Date: `2025-07-12` \| Counted: `False`
+  - `event_1324` \| Cat: `dining` \| Amt: `41.42` \| Status: `settled` \| Date: `2025-07-26` \| Counted: `False`
+  - `event_1325` \| Cat: `dining` \| Amt: `45.13` \| Status: `settled` \| Date: `2025-08-09` \| Counted: `False`
+  - `event_1326` \| Cat: `dining` \| Amt: `44.75` \| Status: `settled` \| Date: `2025-08-23` \| Counted: `False`
+  - `event_1327` \| Cat: `dining` \| Amt: `53.58` \| Status: `settled` \| Date: `2025-09-06` \| Counted: `False`
+  - `event_1328` \| Cat: `dining` \| Amt: `36.23` \| Status: `settled` \| Date: `2025-09-20` \| Counted: `False`
+  - `event_1329` \| Cat: `dining` \| Amt: `32.17` \| Status: `settled` \| Date: `2025-10-04` \| Counted: `False`
+  - `event_1330` \| Cat: `dining` \| Amt: `34.51` \| Status: `settled` \| Date: `2025-10-18` \| Counted: `False`
+  - `event_1331` \| Cat: `dining` \| Amt: `38.56` \| Status: `settled` \| Date: `2025-11-01` \| Counted: `False`
+  - `event_1332` \| Cat: `dining` \| Amt: `51.08` \| Status: `settled` \| Date: `2025-11-15` \| Counted: `False`
+  - `event_1333` \| Cat: `dining` \| Amt: `32.62` \| Status: `settled` \| Date: `2025-11-29` \| Counted: `False`
+  - `event_1334` \| Cat: `dining` \| Amt: `38.07` \| Status: `settled` \| Date: `2025-12-13` \| Counted: `False`
+  - `event_1335` \| Cat: `dining` \| Amt: `49.35` \| Status: `settled` \| Date: `2025-12-27` \| Counted: `False`
+  - `event_1297` \| Cat: `groceries` \| Amt: `64.42` \| Status: `recurring_projected` \| Date: `2026-01-06` \| Counted: `True`
+  - `event_1322` \| Cat: `transport` \| Amt: `30.31` \| Status: `recurring_projected` \| Date: `2026-01-07` \| Counted: `True`
+  - `event_1267` \| Cat: `utilities` \| Amt: `84.41` \| Status: `recurring_projected` \| Date: `2026-01-08` \| Counted: `True`
+  - `event_1268` \| Cat: `education` \| Amt: `159.00` \| Status: `recurring_projected` \| Date: `2026-01-10` \| Counted: `True`
+  - `event_1335` \| Cat: `dining` \| Amt: `49.35` \| Status: `recurring_projected` \| Date: `2026-01-10` \| Counted: `True`
+  - `event_1269` \| Cat: `debt_repayment` \| Amt: `84.00` \| Status: `recurring_projected` \| Date: `2026-01-13` \| Counted: `True`
+  - `event_1270` \| Cat: `music_subscription` \| Amt: `11.00` \| Status: `recurring_projected` \| Date: `2026-01-13` \| Counted: `True`
+  - `event_1297` \| Cat: `groceries` \| Amt: `64.42` \| Status: `recurring_projected` \| Date: `2026-01-13` \| Counted: `True`
+  - `event_1322` \| Cat: `transport` \| Amt: `30.31` \| Status: `recurring_projected` \| Date: `2026-01-14` \| Counted: `True`
+
+### request_16
+- **Request Date**: `2023-08-12` | **Deadline**: `2023-10-11`
+- **Next Payday**: `2023-08-15` (Amount: `173000.00`)
+- **Starting Balance**: `362370.00` | **Min Keep**: `122400.00` | **Requested Amount**: `122500.00`
+- **GT Safe**: `122500.00` | **Current Computed Safe**: `122500.00`
+- **Implied E_pre**: `None` | **Computed E_pre**: `0.00` | **Diff**: `0.00`
+- **Candidate Expenses (Pre-Payday)**:
+  - `event_1337` \| Cat: `rent` \| Amt: `57100.00` \| Status: `settled` \| Date: `2023-03-01` \| Counted: `False`
+  - `event_1338` \| Cat: `utilities` \| Amt: `11173.73` \| Status: `settled` \| Date: `2023-03-05` \| Counted: `False`
+  - `event_1339` \| Cat: `debt_repayment` \| Amt: `17750.00` \| Status: `settled` \| Date: `2023-03-10` \| Counted: `False`
+  - `event_1340` \| Cat: `streaming` \| Amt: `3510.00` \| Status: `settled` \| Date: `2023-03-08` \| Counted: `False`
+  - `event_1341` \| Cat: `cloud_storage` \| Amt: `1055.00` \| Status: `settled` \| Date: `2023-03-11` \| Counted: `False`
+  - `event_1342` \| Cat: `shopping` \| Amt: `9307.32` \| Status: `settled` \| Date: `2023-03-11` \| Counted: `False`
+  - `event_1344` \| Cat: `rent` \| Amt: `57100.00` \| Status: `settled` \| Date: `2023-04-01` \| Counted: `False`
+  - `event_1345` \| Cat: `utilities` \| Amt: `9756.03` \| Status: `settled` \| Date: `2023-04-05` \| Counted: `False`
+  - `event_1346` \| Cat: `debt_repayment` \| Amt: `17750.00` \| Status: `settled` \| Date: `2023-04-10` \| Counted: `False`
+  - `event_1347` \| Cat: `streaming` \| Amt: `3510.00` \| Status: `settled` \| Date: `2023-04-08` \| Counted: `False`
+  - `event_1348` \| Cat: `cloud_storage` \| Amt: `1055.00` \| Status: `settled` \| Date: `2023-04-11` \| Counted: `False`
+  - `event_1349` \| Cat: `shopping` \| Amt: `8486.21` \| Status: `settled` \| Date: `2023-04-11` \| Counted: `False`
+  - `event_1351` \| Cat: `rent` \| Amt: `57100.00` \| Status: `settled` \| Date: `2023-05-01` \| Counted: `False`
+  - `event_1352` \| Cat: `utilities` \| Amt: `10586.37` \| Status: `settled` \| Date: `2023-05-05` \| Counted: `False`
+  - `event_1353` \| Cat: `debt_repayment` \| Amt: `17750.00` \| Status: `settled` \| Date: `2023-05-10` \| Counted: `False`
+  - `event_1354` \| Cat: `streaming` \| Amt: `3510.00` \| Status: `settled` \| Date: `2023-05-08` \| Counted: `False`
+  - `event_1355` \| Cat: `cloud_storage` \| Amt: `1055.00` \| Status: `settled` \| Date: `2023-05-11` \| Counted: `False`
+  - `event_1356` \| Cat: `shopping` \| Amt: `8885.00` \| Status: `settled` \| Date: `2023-05-11` \| Counted: `False`
+  - `event_1358` \| Cat: `rent` \| Amt: `57100.00` \| Status: `settled` \| Date: `2023-06-01` \| Counted: `False`
+  - `event_1359` \| Cat: `utilities` \| Amt: `9402.67` \| Status: `settled` \| Date: `2023-06-05` \| Counted: `False`
+  - `event_1360` \| Cat: `debt_repayment` \| Amt: `17750.00` \| Status: `settled` \| Date: `2023-06-10` \| Counted: `False`
+  - `event_1361` \| Cat: `streaming` \| Amt: `3510.00` \| Status: `settled` \| Date: `2023-06-08` \| Counted: `False`
+  - `event_1362` \| Cat: `cloud_storage` \| Amt: `1055.00` \| Status: `settled` \| Date: `2023-06-11` \| Counted: `False`
+  - `event_1363` \| Cat: `shopping` \| Amt: `8414.47` \| Status: `settled` \| Date: `2023-06-11` \| Counted: `False`
+  - `event_1365` \| Cat: `rent` \| Amt: `57100.00` \| Status: `settled` \| Date: `2023-07-01` \| Counted: `False`
+  - `event_1366` \| Cat: `utilities` \| Amt: `10012.92` \| Status: `settled` \| Date: `2023-07-05` \| Counted: `False`
+  - `event_1367` \| Cat: `debt_repayment` \| Amt: `17750.00` \| Status: `settled` \| Date: `2023-07-10` \| Counted: `False`
+  - `event_1368` \| Cat: `streaming` \| Amt: `3510.00` \| Status: `settled` \| Date: `2023-07-08` \| Counted: `False`
+  - `event_1369` \| Cat: `cloud_storage` \| Amt: `1055.00` \| Status: `settled` \| Date: `2023-07-11` \| Counted: `False`
+  - `event_1370` \| Cat: `shopping` \| Amt: `9807.50` \| Status: `settled` \| Date: `2023-07-11` \| Counted: `False`
+  - `event_1371` \| Cat: `rent` \| Amt: `57100.00` \| Status: `settled` \| Date: `2023-08-01` \| Counted: `False`
+  - `event_1372` \| Cat: `utilities` \| Amt: `11512.87` \| Status: `settled` \| Date: `2023-08-05` \| Counted: `False`
+  - `event_1373` \| Cat: `debt_repayment` \| Amt: `17750.00` \| Status: `settled` \| Date: `2023-08-10` \| Counted: `False`
+  - `event_1374` \| Cat: `streaming` \| Amt: `3510.00` \| Status: `settled` \| Date: `2023-08-08` \| Counted: `False`
+  - `event_1375` \| Cat: `cloud_storage` \| Amt: `1055.00` \| Status: `settled` \| Date: `2023-08-11` \| Counted: `False`
+  - `event_1376` \| Cat: `shopping` \| Amt: `10178.56` \| Status: `settled` \| Date: `2023-08-11` \| Counted: `False`
+  - `event_1377` \| Cat: `groceries` \| Amt: `6134.32` \| Status: `settled` \| Date: `2023-02-15` \| Counted: `False`
+  - `event_1378` \| Cat: `groceries` \| Amt: `8882.85` \| Status: `settled` \| Date: `2023-02-22` \| Counted: `False`
+  - `event_1379` \| Cat: `groceries` \| Amt: `9038.15` \| Status: `settled` \| Date: `2023-03-01` \| Counted: `False`
+  - `event_1380` \| Cat: `groceries` \| Amt: `8137.99` \| Status: `settled` \| Date: `2023-03-08` \| Counted: `False`
+  - `event_1381` \| Cat: `groceries` \| Amt: `8300.57` \| Status: `settled` \| Date: `2023-03-15` \| Counted: `False`
+  - `event_1382` \| Cat: `groceries` \| Amt: `6614.49` \| Status: `settled` \| Date: `2023-03-22` \| Counted: `False`
+  - `event_1383` \| Cat: `groceries` \| Amt: `5583.98` \| Status: `settled` \| Date: `2023-03-29` \| Counted: `False`
+  - `event_1384` \| Cat: `groceries` \| Amt: `9111.36` \| Status: `settled` \| Date: `2023-04-05` \| Counted: `False`
+  - `event_1385` \| Cat: `groceries` \| Amt: `7101.43` \| Status: `settled` \| Date: `2023-04-12` \| Counted: `False`
+  - `event_1386` \| Cat: `groceries` \| Amt: `5463.03` \| Status: `settled` \| Date: `2023-04-19` \| Counted: `False`
+  - `event_1387` \| Cat: `groceries` \| Amt: `5434.36` \| Status: `settled` \| Date: `2023-04-26` \| Counted: `False`
+  - `event_1388` \| Cat: `groceries` \| Amt: `8465.36` \| Status: `settled` \| Date: `2023-05-03` \| Counted: `False`
+  - `event_1389` \| Cat: `groceries` \| Amt: `5364.38` \| Status: `settled` \| Date: `2023-05-10` \| Counted: `False`
+  - `event_1390` \| Cat: `groceries` \| Amt: `8225.29` \| Status: `settled` \| Date: `2023-05-17` \| Counted: `False`
+  - `event_1391` \| Cat: `groceries` \| Amt: `8445.69` \| Status: `settled` \| Date: `2023-05-24` \| Counted: `False`
+  - `event_1392` \| Cat: `groceries` \| Amt: `5495.80` \| Status: `settled` \| Date: `2023-05-31` \| Counted: `False`
+  - `event_1393` \| Cat: `groceries` \| Amt: `6971.09` \| Status: `settled` \| Date: `2023-06-07` \| Counted: `False`
+  - `event_1394` \| Cat: `groceries` \| Amt: `5508.24` \| Status: `settled` \| Date: `2023-06-14` \| Counted: `False`
+  - `event_1395` \| Cat: `groceries` \| Amt: `6302.62` \| Status: `settled` \| Date: `2023-06-21` \| Counted: `False`
+  - `event_1396` \| Cat: `groceries` \| Amt: `6091.85` \| Status: `settled` \| Date: `2023-06-28` \| Counted: `False`
+  - `event_1397` \| Cat: `groceries` \| Amt: `5623.39` \| Status: `settled` \| Date: `2023-07-05` \| Counted: `False`
+  - `event_1398` \| Cat: `groceries` \| Amt: `6716.29` \| Status: `settled` \| Date: `2023-07-12` \| Counted: `False`
+  - `event_1399` \| Cat: `groceries` \| Amt: `7181.79` \| Status: `settled` \| Date: `2023-07-19` \| Counted: `False`
+  - `event_1400` \| Cat: `groceries` \| Amt: `8883.15` \| Status: `settled` \| Date: `2023-07-26` \| Counted: `False`
+  - `event_1401` \| Cat: `groceries` \| Amt: `6568.76` \| Status: `settled` \| Date: `2023-08-02` \| Counted: `False`
+  - `event_1402` \| Cat: `groceries` \| Amt: `7930.19` \| Status: `settled` \| Date: `2023-08-09` \| Counted: `False`
+  - `event_1403` \| Cat: `transport` \| Amt: `4382.18` \| Status: `settled` \| Date: `2023-02-16` \| Counted: `False`
+  - `event_1404` \| Cat: `transport` \| Amt: `3464.26` \| Status: `settled` \| Date: `2023-02-23` \| Counted: `False`
+  - `event_1405` \| Cat: `transport` \| Amt: `4483.65` \| Status: `settled` \| Date: `2023-03-02` \| Counted: `False`
+  - `event_1406` \| Cat: `transport` \| Amt: `4106.40` \| Status: `settled` \| Date: `2023-03-09` \| Counted: `False`
+  - `event_1407` \| Cat: `transport` \| Amt: `5267.76` \| Status: `settled` \| Date: `2023-03-16` \| Counted: `False`
+  - `event_1408` \| Cat: `transport` \| Amt: `3653.49` \| Status: `settled` \| Date: `2023-03-23` \| Counted: `False`
+  - `event_1409` \| Cat: `transport` \| Amt: `3170.83` \| Status: `settled` \| Date: `2023-03-30` \| Counted: `False`
+  - `event_1410` \| Cat: `transport` \| Amt: `5236.08` \| Status: `settled` \| Date: `2023-04-06` \| Counted: `False`
+  - `event_1411` \| Cat: `transport` \| Amt: `4284.41` \| Status: `settled` \| Date: `2023-04-13` \| Counted: `False`
+  - `event_1412` \| Cat: `transport` \| Amt: `4859.49` \| Status: `settled` \| Date: `2023-04-20` \| Counted: `False`
+  - `event_1413` \| Cat: `transport` \| Amt: `5284.10` \| Status: `settled` \| Date: `2023-04-27` \| Counted: `False`
+  - `event_1414` \| Cat: `transport` \| Amt: `5016.88` \| Status: `settled` \| Date: `2023-05-04` \| Counted: `False`
+  - `event_1415` \| Cat: `transport` \| Amt: `3143.71` \| Status: `settled` \| Date: `2023-05-11` \| Counted: `False`
+  - `event_1416` \| Cat: `transport` \| Amt: `4523.27` \| Status: `settled` \| Date: `2023-05-18` \| Counted: `False`
+  - `event_1417` \| Cat: `transport` \| Amt: `3624.64` \| Status: `settled` \| Date: `2023-05-25` \| Counted: `False`
+  - `event_1418` \| Cat: `transport` \| Amt: `5067.66` \| Status: `settled` \| Date: `2023-06-01` \| Counted: `False`
+  - `event_1419` \| Cat: `transport` \| Amt: `3885.07` \| Status: `settled` \| Date: `2023-06-08` \| Counted: `False`
+  - `event_1420` \| Cat: `transport` \| Amt: `4175.44` \| Status: `settled` \| Date: `2023-06-15` \| Counted: `False`
+  - `event_1421` \| Cat: `transport` \| Amt: `3688.64` \| Status: `settled` \| Date: `2023-06-22` \| Counted: `False`
+  - `event_1422` \| Cat: `transport` \| Amt: `4368.27` \| Status: `settled` \| Date: `2023-06-29` \| Counted: `False`
+  - `event_1423` \| Cat: `transport` \| Amt: `5087.33` \| Status: `settled` \| Date: `2023-07-06` \| Counted: `False`
+  - `event_1424` \| Cat: `transport` \| Amt: `4643.67` \| Status: `settled` \| Date: `2023-07-13` \| Counted: `False`
+  - `event_1425` \| Cat: `transport` \| Amt: `3888.24` \| Status: `settled` \| Date: `2023-07-20` \| Counted: `False`
+  - `event_1426` \| Cat: `transport` \| Amt: `5251.40` \| Status: `settled` \| Date: `2023-07-27` \| Counted: `False`
+  - `event_1427` \| Cat: `transport` \| Amt: `5368.95` \| Status: `settled` \| Date: `2023-08-03` \| Counted: `False`
+  - `event_1428` \| Cat: `transport` \| Amt: `4978.93` \| Status: `settled` \| Date: `2023-08-10` \| Counted: `False`
+  - `event_1429` \| Cat: `dining` \| Amt: `5271.93` \| Status: `settled` \| Date: `2023-02-17` \| Counted: `False`
+  - `event_1430` \| Cat: `dining` \| Amt: `4791.94` \| Status: `settled` \| Date: `2023-03-03` \| Counted: `False`
+  - `event_1431` \| Cat: `dining` \| Amt: `5478.94` \| Status: `settled` \| Date: `2023-03-17` \| Counted: `False`
+  - `event_1432` \| Cat: `dining` \| Amt: `6000.50` \| Status: `settled` \| Date: `2023-03-31` \| Counted: `False`
+  - `event_1433` \| Cat: `dining` \| Amt: `5587.07` \| Status: `settled` \| Date: `2023-04-14` \| Counted: `False`
+  - `event_1434` \| Cat: `dining` \| Amt: `5461.61` \| Status: `settled` \| Date: `2023-04-28` \| Counted: `False`
+  - `event_1435` \| Cat: `dining` \| Amt: `3794.56` \| Status: `settled` \| Date: `2023-05-12` \| Counted: `False`
+  - `event_1436` \| Cat: `dining` \| Amt: `5905.06` \| Status: `settled` \| Date: `2023-05-26` \| Counted: `False`
+  - `event_1437` \| Cat: `dining` \| Amt: `5981.93` \| Status: `settled` \| Date: `2023-06-09` \| Counted: `False`
+  - `event_1438` \| Cat: `dining` \| Amt: `5210.30` \| Status: `settled` \| Date: `2023-06-23` \| Counted: `False`
+  - `event_1439` \| Cat: `dining` \| Amt: `3835.73` \| Status: `settled` \| Date: `2023-07-07` \| Counted: `False`
+  - `event_1440` \| Cat: `dining` \| Amt: `6354.26` \| Status: `settled` \| Date: `2023-07-21` \| Counted: `False`
+  - `event_1441` \| Cat: `dining` \| Amt: `5256.32` \| Status: `settled` \| Date: `2023-08-04` \| Counted: `False`
+  - `event_1442` \| Cat: `rent` \| Amt: `100000.00` \| Status: `scheduled` \| Date: `2023-08-16` \| Counted: `False`
+
+### request_17
+- **Request Date**: `2026-03-01` | **Deadline**: `2026-05-04`
+- **Next Payday**: `2026-03-15` (Amount: `206000.00`)
+- **Starting Balance**: `550379.58` | **Min Keep**: `166100.00` | **Requested Amount**: `274600.00`
+- **GT Safe**: `243849.58` | **Current Computed Safe**: `180566.37`
+- **Implied E_pre**: `140430.0` | **Computed E_pre**: `203713.21` | **Diff**: `63283.21`
+- **Candidate Expenses (Pre-Payday)**:
+  - `event_1444` \| Cat: `rent` \| Amt: `49600.00` \| Status: `settled` \| Date: `2025-10-02` \| Counted: `False`
+  - `event_1445` \| Cat: `utilities` \| Amt: `9481.13` \| Status: `settled` \| Date: `2025-10-06` \| Counted: `False`
+  - `event_1446` \| Cat: `education` \| Amt: `13660.00` \| Status: `settled` \| Date: `2025-10-08` \| Counted: `False`
+  - `event_1447` \| Cat: `debt_repayment` \| Amt: `30200.00` \| Status: `settled` \| Date: `2025-10-11` \| Counted: `False`
+  - `event_1448` \| Cat: `music_subscription` \| Amt: `2055.00` \| Status: `settled` \| Date: `2025-10-11` \| Counted: `False`
+  - `event_1449` \| Cat: `delivery_membership` \| Amt: `1675.00` \| Status: `settled` \| Date: `2025-10-13` \| Counted: `False`
+  - `event_1451` \| Cat: `rent` \| Amt: `49600.00` \| Status: `settled` \| Date: `2025-11-02` \| Counted: `False`
+  - `event_1452` \| Cat: `utilities` \| Amt: `9530.77` \| Status: `settled` \| Date: `2025-11-06` \| Counted: `False`
+  - `event_1453` \| Cat: `education` \| Amt: `13660.00` \| Status: `settled` \| Date: `2025-11-08` \| Counted: `False`
+  - `event_1454` \| Cat: `debt_repayment` \| Amt: `30200.00` \| Status: `settled` \| Date: `2025-11-11` \| Counted: `False`
+  - `event_1455` \| Cat: `music_subscription` \| Amt: `2055.00` \| Status: `settled` \| Date: `2025-11-11` \| Counted: `False`
+  - `event_1456` \| Cat: `delivery_membership` \| Amt: `1675.00` \| Status: `settled` \| Date: `2025-11-13` \| Counted: `False`
+  - `event_1458` \| Cat: `rent` \| Amt: `49600.00` \| Status: `settled` \| Date: `2025-12-02` \| Counted: `False`
+  - `event_1459` \| Cat: `utilities` \| Amt: `10246.53` \| Status: `settled` \| Date: `2025-12-06` \| Counted: `False`
+  - `event_1460` \| Cat: `education` \| Amt: `13660.00` \| Status: `settled` \| Date: `2025-12-08` \| Counted: `False`
+  - `event_1461` \| Cat: `debt_repayment` \| Amt: `30200.00` \| Status: `settled` \| Date: `2025-12-11` \| Counted: `False`
+  - `event_1462` \| Cat: `music_subscription` \| Amt: `2055.00` \| Status: `settled` \| Date: `2025-12-11` \| Counted: `False`
+  - `event_1463` \| Cat: `delivery_membership` \| Amt: `1675.00` \| Status: `settled` \| Date: `2025-12-13` \| Counted: `False`
+  - `event_1465` \| Cat: `rent` \| Amt: `49600.00` \| Status: `settled` \| Date: `2026-01-02` \| Counted: `False`
+  - `event_1466` \| Cat: `utilities` \| Amt: `9948.15` \| Status: `settled` \| Date: `2026-01-06` \| Counted: `False`
+  - `event_1467` \| Cat: `education` \| Amt: `13660.00` \| Status: `settled` \| Date: `2026-01-08` \| Counted: `False`
+  - `event_1468` \| Cat: `debt_repayment` \| Amt: `30200.00` \| Status: `settled` \| Date: `2026-01-11` \| Counted: `False`
+  - `event_1469` \| Cat: `music_subscription` \| Amt: `2055.00` \| Status: `settled` \| Date: `2026-01-11` \| Counted: `False`
+  - `event_1470` \| Cat: `delivery_membership` \| Amt: `1675.00` \| Status: `settled` \| Date: `2026-01-13` \| Counted: `False`
+  - `event_1472` \| Cat: `rent` \| Amt: `49600.00` \| Status: `settled` \| Date: `2026-02-02` \| Counted: `False`
+  - `event_1473` \| Cat: `utilities` \| Amt: `8487.15` \| Status: `settled` \| Date: `2026-02-06` \| Counted: `False`
+  - `event_1474` \| Cat: `education` \| Amt: `13660.00` \| Status: `settled` \| Date: `2026-02-08` \| Counted: `False`
+  - `event_1475` \| Cat: `debt_repayment` \| Amt: `30200.00` \| Status: `settled` \| Date: `2026-02-11` \| Counted: `False`
+  - `event_1476` \| Cat: `music_subscription` \| Amt: `2055.00` \| Status: `settled` \| Date: `2026-02-11` \| Counted: `False`
+  - `event_1477` \| Cat: `delivery_membership` \| Amt: `1675.00` \| Status: `settled` \| Date: `2026-02-13` \| Counted: `False`
+  - `event_1478` \| Cat: `groceries` \| Amt: `9392.54` \| Status: `settled` \| Date: `2025-09-05` \| Counted: `False`
+  - `event_1479` \| Cat: `groceries` \| Amt: `7679.25` \| Status: `settled` \| Date: `2025-09-12` \| Counted: `False`
+  - `event_1480` \| Cat: `groceries` \| Amt: `10039.54` \| Status: `settled` \| Date: `2025-09-19` \| Counted: `False`
+  - `event_1481` \| Cat: `groceries` \| Amt: `9785.51` \| Status: `settled` \| Date: `2025-09-26` \| Counted: `False`
+  - `event_1482` \| Cat: `groceries` \| Amt: `7187.32` \| Status: `settled` \| Date: `2025-10-03` \| Counted: `False`
+  - `event_1483` \| Cat: `groceries` \| Amt: `8574.98` \| Status: `settled` \| Date: `2025-10-10` \| Counted: `False`
+  - `event_1484` \| Cat: `groceries` \| Amt: `11380.46` \| Status: `settled` \| Date: `2025-10-17` \| Counted: `False`
+  - `event_1485` \| Cat: `groceries` \| Amt: `6706.54` \| Status: `settled` \| Date: `2025-10-24` \| Counted: `False`
+  - `event_1486` \| Cat: `groceries` \| Amt: `7585.37` \| Status: `settled` \| Date: `2025-10-31` \| Counted: `False`
+  - `event_1487` \| Cat: `groceries` \| Amt: `7446.25` \| Status: `settled` \| Date: `2025-11-07` \| Counted: `False`
+  - `event_1488` \| Cat: `groceries` \| Amt: `10300.07` \| Status: `settled` \| Date: `2025-11-14` \| Counted: `False`
+  - `event_1489` \| Cat: `groceries` \| Amt: `8500.09` \| Status: `settled` \| Date: `2025-11-21` \| Counted: `False`
+  - `event_1490` \| Cat: `groceries` \| Amt: `7237.45` \| Status: `settled` \| Date: `2025-11-28` \| Counted: `False`
+  - `event_1491` \| Cat: `groceries` \| Amt: `8836.99` \| Status: `settled` \| Date: `2025-12-05` \| Counted: `False`
+  - `event_1492` \| Cat: `groceries` \| Amt: `10690.00` \| Status: `settled` \| Date: `2025-12-12` \| Counted: `False`
+  - `event_1493` \| Cat: `groceries` \| Amt: `10432.03` \| Status: `settled` \| Date: `2025-12-19` \| Counted: `False`
+  - `event_1494` \| Cat: `groceries` \| Amt: `11392.07` \| Status: `settled` \| Date: `2025-12-26` \| Counted: `False`
+  - `event_1495` \| Cat: `groceries` \| Amt: `8124.44` \| Status: `settled` \| Date: `2026-01-02` \| Counted: `False`
+  - `event_1496` \| Cat: `groceries` \| Amt: `11433.33` \| Status: `settled` \| Date: `2026-01-09` \| Counted: `False`
+  - `event_1497` \| Cat: `groceries` \| Amt: `7093.83` \| Status: `settled` \| Date: `2026-01-16` \| Counted: `False`
+  - `event_1498` \| Cat: `groceries` \| Amt: `8638.54` \| Status: `settled` \| Date: `2026-01-23` \| Counted: `False`
+  - `event_1499` \| Cat: `groceries` \| Amt: `8581.99` \| Status: `settled` \| Date: `2026-01-30` \| Counted: `False`
+  - `event_1500` \| Cat: `groceries` \| Amt: `11342.57` \| Status: `settled` \| Date: `2026-02-06` \| Counted: `False`
+  - `event_1501` \| Cat: `groceries` \| Amt: `10873.47` \| Status: `settled` \| Date: `2026-02-13` \| Counted: `False`
+  - `event_1502` \| Cat: `groceries` \| Amt: `8543.01` \| Status: `settled` \| Date: `2026-02-20` \| Counted: `False`
+  - `event_1503` \| Cat: `groceries` \| Amt: `8716.51` \| Status: `settled` \| Date: `2026-02-27` \| Counted: `False`
+  - `event_1504` \| Cat: `transport` \| Amt: `3913.59` \| Status: `settled` \| Date: `2025-09-06` \| Counted: `False`
+  - `event_1505` \| Cat: `transport` \| Amt: `6046.80` \| Status: `settled` \| Date: `2025-09-13` \| Counted: `False`
+  - `event_1506` \| Cat: `transport` \| Amt: `3972.38` \| Status: `settled` \| Date: `2025-09-20` \| Counted: `False`
+  - `event_1507` \| Cat: `transport` \| Amt: `5639.47` \| Status: `settled` \| Date: `2025-09-27` \| Counted: `False`
+  - `event_1508` \| Cat: `transport` \| Amt: `4445.42` \| Status: `settled` \| Date: `2025-10-04` \| Counted: `False`
+  - `event_1509` \| Cat: `transport` \| Amt: `6225.69` \| Status: `settled` \| Date: `2025-10-11` \| Counted: `False`
+  - `event_1510` \| Cat: `transport` \| Amt: `5386.34` \| Status: `settled` \| Date: `2025-10-18` \| Counted: `False`
+  - `event_1511` \| Cat: `transport` \| Amt: `5421.55` \| Status: `settled` \| Date: `2025-10-25` \| Counted: `False`
+  - `event_1512` \| Cat: `transport` \| Amt: `5936.87` \| Status: `settled` \| Date: `2025-11-01` \| Counted: `False`
+  - `event_1513` \| Cat: `transport` \| Amt: `6420.35` \| Status: `settled` \| Date: `2025-11-08` \| Counted: `False`
+  - `event_1514` \| Cat: `transport` \| Amt: `4008.13` \| Status: `settled` \| Date: `2025-11-15` \| Counted: `False`
+  - `event_1515` \| Cat: `transport` \| Amt: `5126.25` \| Status: `settled` \| Date: `2025-11-22` \| Counted: `False`
+  - `event_1516` \| Cat: `transport` \| Amt: `5036.82` \| Status: `settled` \| Date: `2025-11-29` \| Counted: `False`
+  - `event_1517` \| Cat: `transport` \| Amt: `6170.70` \| Status: `settled` \| Date: `2025-12-06` \| Counted: `False`
+  - `event_1518` \| Cat: `transport` \| Amt: `5790.36` \| Status: `settled` \| Date: `2025-12-13` \| Counted: `False`
+  - `event_1519` \| Cat: `transport` \| Amt: `4328.91` \| Status: `settled` \| Date: `2025-12-20` \| Counted: `False`
+  - `event_1520` \| Cat: `transport` \| Amt: `5080.56` \| Status: `settled` \| Date: `2025-12-27` \| Counted: `False`
+  - `event_1521` \| Cat: `transport` \| Amt: `4844.94` \| Status: `settled` \| Date: `2026-01-03` \| Counted: `False`
+  - `event_1522` \| Cat: `transport` \| Amt: `5940.36` \| Status: `settled` \| Date: `2026-01-10` \| Counted: `False`
+  - `event_1523` \| Cat: `transport` \| Amt: `6406.38` \| Status: `settled` \| Date: `2026-01-17` \| Counted: `False`
+  - `event_1524` \| Cat: `transport` \| Amt: `5758.89` \| Status: `settled` \| Date: `2026-01-24` \| Counted: `False`
+  - `event_1525` \| Cat: `transport` \| Amt: `4661.70` \| Status: `settled` \| Date: `2026-01-31` \| Counted: `False`
+  - `event_1526` \| Cat: `transport` \| Amt: `5650.43` \| Status: `settled` \| Date: `2026-02-07` \| Counted: `False`
+  - `event_1527` \| Cat: `transport` \| Amt: `3902.91` \| Status: `settled` \| Date: `2026-02-14` \| Counted: `False`
+  - `event_1528` \| Cat: `transport` \| Amt: `5741.08` \| Status: `settled` \| Date: `2026-02-21` \| Counted: `False`
+  - `event_1529` \| Cat: `transport` \| Amt: `5372.15` \| Status: `settled` \| Date: `2026-02-28` \| Counted: `False`
+  - `event_1530` \| Cat: `dining` \| Amt: `5641.06` \| Status: `settled` \| Date: `2025-09-07` \| Counted: `False`
+  - `event_1531` \| Cat: `dining` \| Amt: `4425.44` \| Status: `settled` \| Date: `2025-09-21` \| Counted: `False`
+  - `event_1532` \| Cat: `dining` \| Amt: `4695.55` \| Status: `settled` \| Date: `2025-10-05` \| Counted: `False`
+  - `event_1533` \| Cat: `dining` \| Amt: `5554.91` \| Status: `settled` \| Date: `2025-10-19` \| Counted: `False`
+  - `event_1534` \| Cat: `dining` \| Amt: `6027.54` \| Status: `settled` \| Date: `2025-11-02` \| Counted: `False`
+  - `event_1535` \| Cat: `dining` \| Amt: `5593.53` \| Status: `settled` \| Date: `2025-11-16` \| Counted: `False`
+  - `event_1536` \| Cat: `dining` \| Amt: `6839.37` \| Status: `settled` \| Date: `2025-11-30` \| Counted: `False`
+  - `event_1537` \| Cat: `dining` \| Amt: `6048.91` \| Status: `settled` \| Date: `2025-12-14` \| Counted: `False`
+  - `event_1538` \| Cat: `dining` \| Amt: `6795.26` \| Status: `settled` \| Date: `2025-12-28` \| Counted: `False`
+  - `event_1539` \| Cat: `dining` \| Amt: `6797.26` \| Status: `settled` \| Date: `2026-01-11` \| Counted: `False`
+  - `event_1540` \| Cat: `dining` \| Amt: `5254.41` \| Status: `settled` \| Date: `2026-01-25` \| Counted: `False`
+  - `event_1541` \| Cat: `dining` \| Amt: `6688.81` \| Status: `settled` \| Date: `2026-02-08` \| Counted: `False`
+  - `event_1542` \| Cat: `dining` \| Amt: `4747.76` \| Status: `settled` \| Date: `2026-02-22` \| Counted: `False`
+  - `event_1543` \| Cat: `work_expense` \| Amt: `12360.00` \| Status: `settled` \| Date: `2026-01-26` \| Counted: `False`
+  - `event_1545` \| Cat: `groceries` \| Amt: `41272.00` \| Status: `settled` \| Date: `2026-02-27` \| Counted: `False`
+  - `event_1472` \| Cat: `rent` \| Amt: `49600.00` \| Status: `recurring_projected` \| Date: `2026-03-02` \| Counted: `True`
+  - `event_1473` \| Cat: `utilities` \| Amt: `8487.15` \| Status: `recurring_projected` \| Date: `2026-03-06` \| Counted: `True`
+  - `event_1545` \| Cat: `groceries` \| Amt: `41272.00` \| Status: `recurring_projected` \| Date: `2026-03-06` \| Counted: `True`
+  - `event_1529` \| Cat: `transport` \| Amt: `5372.15` \| Status: `recurring_projected` \| Date: `2026-03-07` \| Counted: `True`
+  - `event_1474` \| Cat: `education` \| Amt: `13660.00` \| Status: `recurring_projected` \| Date: `2026-03-08` \| Counted: `True`
+  - `event_1542` \| Cat: `dining` \| Amt: `4747.76` \| Status: `recurring_projected` \| Date: `2026-03-08` \| Counted: `True`
+  - `event_1475` \| Cat: `debt_repayment` \| Amt: `30200.00` \| Status: `recurring_projected` \| Date: `2026-03-11` \| Counted: `True`
+  - `event_1476` \| Cat: `music_subscription` \| Amt: `2055.00` \| Status: `recurring_projected` \| Date: `2026-03-11` \| Counted: `True`
+  - `event_1477` \| Cat: `delivery_membership` \| Amt: `1675.00` \| Status: `recurring_projected` \| Date: `2026-03-13` \| Counted: `True`
+  - `event_1545` \| Cat: `groceries` \| Amt: `41272.00` \| Status: `recurring_projected` \| Date: `2026-03-13` \| Counted: `True`
+  - `event_1529` \| Cat: `transport` \| Amt: `5372.15` \| Status: `recurring_projected` \| Date: `2026-03-14` \| Counted: `True`
+
+### request_18
+- **Request Date**: `2026-07-07` | **Deadline**: `2026-09-15`
+- **Next Payday**: `2026-07-15` (Amount: `2310.00`)
+- **Starting Balance**: `2486.00` | **Min Keep**: `1400.00` | **Requested Amount**: `3246.10`
+- **GT Safe**: `462.00` | **Current Computed Safe**: `650.79`
+- **Implied E_pre**: `624.0` | **Computed E_pre**: `435.20` | **Diff**: `-188.80`
+- **Candidate Expenses (Pre-Payday)**:
+  - `event_1548` \| Cat: `housing` \| Amt: `167.00` \| Status: `settled` \| Date: `2026-02-04` \| Counted: `False`
+  - `event_1549` \| Cat: `utilities` \| Amt: `100.59` \| Status: `settled` \| Date: `2026-02-07` \| Counted: `False`
+  - `event_1550` \| Cat: `insurance` \| Amt: `68.00` \| Status: `settled` \| Date: `2026-02-08` \| Counted: `False`
+  - `event_1551` \| Cat: `healthcare` \| Amt: `164.10` \| Status: `settled` \| Date: `2026-02-11` \| Counted: `False`
+  - `event_1552` \| Cat: `streaming` \| Amt: `68.00` \| Status: `settled` \| Date: `2026-02-10` \| Counted: `False`
+  - `event_1554` \| Cat: `housing` \| Amt: `167.00` \| Status: `settled` \| Date: `2026-03-04` \| Counted: `False`
+  - `event_1555` \| Cat: `utilities` \| Amt: `101.24` \| Status: `settled` \| Date: `2026-03-07` \| Counted: `False`
+  - `event_1556` \| Cat: `insurance` \| Amt: `68.00` \| Status: `settled` \| Date: `2026-03-08` \| Counted: `False`
+  - `event_1557` \| Cat: `healthcare` \| Amt: `150.18` \| Status: `settled` \| Date: `2026-03-11` \| Counted: `False`
+  - `event_1558` \| Cat: `streaming` \| Amt: `68.00` \| Status: `settled` \| Date: `2026-03-10` \| Counted: `False`
+  - `event_1560` \| Cat: `housing` \| Amt: `167.00` \| Status: `settled` \| Date: `2026-04-04` \| Counted: `False`
+  - `event_1561` \| Cat: `utilities` \| Amt: `125.40` \| Status: `settled` \| Date: `2026-04-07` \| Counted: `False`
+  - `event_1562` \| Cat: `insurance` \| Amt: `68.00` \| Status: `settled` \| Date: `2026-04-08` \| Counted: `False`
+  - `event_1563` \| Cat: `healthcare` \| Amt: `152.41` \| Status: `settled` \| Date: `2026-04-11` \| Counted: `False`
+  - `event_1564` \| Cat: `streaming` \| Amt: `68.00` \| Status: `settled` \| Date: `2026-04-10` \| Counted: `False`
+  - `event_1566` \| Cat: `housing` \| Amt: `167.00` \| Status: `settled` \| Date: `2026-05-04` \| Counted: `False`
+  - `event_1567` \| Cat: `utilities` \| Amt: `121.67` \| Status: `settled` \| Date: `2026-05-07` \| Counted: `False`
+  - `event_1568` \| Cat: `insurance` \| Amt: `68.00` \| Status: `settled` \| Date: `2026-05-08` \| Counted: `False`
+  - `event_1569` \| Cat: `healthcare` \| Amt: `162.41` \| Status: `settled` \| Date: `2026-05-11` \| Counted: `False`
+  - `event_1570` \| Cat: `streaming` \| Amt: `68.00` \| Status: `settled` \| Date: `2026-05-10` \| Counted: `False`
+  - `event_1572` \| Cat: `housing` \| Amt: `167.00` \| Status: `settled` \| Date: `2026-06-04` \| Counted: `False`
+  - `event_1573` \| Cat: `utilities` \| Amt: `107.43` \| Status: `settled` \| Date: `2026-06-07` \| Counted: `False`
+  - `event_1574` \| Cat: `insurance` \| Amt: `68.00` \| Status: `settled` \| Date: `2026-06-08` \| Counted: `False`
+  - `event_1575` \| Cat: `healthcare` \| Amt: `147.96` \| Status: `settled` \| Date: `2026-06-11` \| Counted: `False`
+  - `event_1576` \| Cat: `streaming` \| Amt: `68.00` \| Status: `settled` \| Date: `2026-06-10` \| Counted: `False`
+  - `event_1577` \| Cat: `housing` \| Amt: `167.00` \| Status: `settled` \| Date: `2026-07-04` \| Counted: `False`
+  - `event_1578` \| Cat: `groceries` \| Amt: `64.84` \| Status: `settled` \| Date: `2026-01-12` \| Counted: `False`
+  - `event_1579` \| Cat: `groceries` \| Amt: `101.66` \| Status: `settled` \| Date: `2026-01-22` \| Counted: `False`
+  - `event_1580` \| Cat: `groceries` \| Amt: `96.63` \| Status: `settled` \| Date: `2026-02-01` \| Counted: `False`
+  - `event_1581` \| Cat: `groceries` \| Amt: `101.08` \| Status: `settled` \| Date: `2026-02-11` \| Counted: `False`
+  - `event_1582` \| Cat: `groceries` \| Amt: `87.39` \| Status: `settled` \| Date: `2026-02-21` \| Counted: `False`
+  - `event_1583` \| Cat: `groceries` \| Amt: `106.43` \| Status: `settled` \| Date: `2026-03-03` \| Counted: `False`
+  - `event_1584` \| Cat: `groceries` \| Amt: `66.30` \| Status: `settled` \| Date: `2026-03-13` \| Counted: `False`
+  - `event_1585` \| Cat: `groceries` \| Amt: `108.09` \| Status: `settled` \| Date: `2026-03-23` \| Counted: `False`
+  - `event_1586` \| Cat: `groceries` \| Amt: `110.80` \| Status: `settled` \| Date: `2026-04-02` \| Counted: `False`
+  - `event_1587` \| Cat: `groceries` \| Amt: `82.18` \| Status: `settled` \| Date: `2026-04-12` \| Counted: `False`
+  - `event_1588` \| Cat: `groceries` \| Amt: `94.02` \| Status: `settled` \| Date: `2026-04-22` \| Counted: `False`
+  - `event_1589` \| Cat: `groceries` \| Amt: `115.00` \| Status: `settled` \| Date: `2026-05-02` \| Counted: `False`
+  - `event_1590` \| Cat: `groceries` \| Amt: `83.94` \| Status: `settled` \| Date: `2026-05-12` \| Counted: `False`
+  - `event_1591` \| Cat: `groceries` \| Amt: `87.91` \| Status: `settled` \| Date: `2026-05-22` \| Counted: `False`
+  - `event_1592` \| Cat: `groceries` \| Amt: `71.92` \| Status: `settled` \| Date: `2026-06-01` \| Counted: `False`
+  - `event_1593` \| Cat: `groceries` \| Amt: `101.90` \| Status: `settled` \| Date: `2026-06-11` \| Counted: `False`
+  - `event_1594` \| Cat: `groceries` \| Amt: `90.08` \| Status: `settled` \| Date: `2026-06-21` \| Counted: `False`
+  - `event_1595` \| Cat: `groceries` \| Amt: `111.41` \| Status: `settled` \| Date: `2026-07-01` \| Counted: `False`
+  - `event_1596` \| Cat: `transport` \| Amt: `36.86` \| Status: `settled` \| Date: `2026-01-13` \| Counted: `False`
+  - `event_1597` \| Cat: `transport` \| Amt: `35.48` \| Status: `settled` \| Date: `2026-01-27` \| Counted: `False`
+  - `event_1598` \| Cat: `transport` \| Amt: `54.53` \| Status: `settled` \| Date: `2026-02-10` \| Counted: `False`
+  - `event_1599` \| Cat: `transport` \| Amt: `53.15` \| Status: `settled` \| Date: `2026-02-24` \| Counted: `False`
+  - `event_1600` \| Cat: `transport` \| Amt: `38.59` \| Status: `settled` \| Date: `2026-03-10` \| Counted: `False`
+  - `event_1601` \| Cat: `transport` \| Amt: `52.90` \| Status: `settled` \| Date: `2026-03-24` \| Counted: `False`
+  - `event_1602` \| Cat: `transport` \| Amt: `36.49` \| Status: `settled` \| Date: `2026-04-07` \| Counted: `False`
+  - `event_1603` \| Cat: `transport` \| Amt: `47.50` \| Status: `settled` \| Date: `2026-04-21` \| Counted: `False`
+  - `event_1604` \| Cat: `transport` \| Amt: `50.57` \| Status: `settled` \| Date: `2026-05-05` \| Counted: `False`
+  - `event_1605` \| Cat: `transport` \| Amt: `34.87` \| Status: `settled` \| Date: `2026-05-19` \| Counted: `False`
+  - `event_1606` \| Cat: `transport` \| Amt: `36.29` \| Status: `settled` \| Date: `2026-06-02` \| Counted: `False`
+  - `event_1607` \| Cat: `transport` \| Amt: `49.04` \| Status: `settled` \| Date: `2026-06-16` \| Counted: `False`
+  - `event_1608` \| Cat: `transport` \| Amt: `43.81` \| Status: `settled` \| Date: `2026-06-30` \| Counted: `False`
+  - `event_1609` \| Cat: `dining` \| Amt: `66.70` \| Status: `settled` \| Date: `2026-01-14` \| Counted: `False`
+  - `event_1610` \| Cat: `dining` \| Amt: `69.84` \| Status: `settled` \| Date: `2026-01-28` \| Counted: `False`
+  - `event_1611` \| Cat: `dining` \| Amt: `92.92` \| Status: `settled` \| Date: `2026-02-11` \| Counted: `False`
+  - `event_1612` \| Cat: `dining` \| Amt: `98.51` \| Status: `settled` \| Date: `2026-02-25` \| Counted: `False`
+  - `event_1613` \| Cat: `dining` \| Amt: `108.96` \| Status: `settled` \| Date: `2026-03-11` \| Counted: `False`
+  - `event_1614` \| Cat: `dining` \| Amt: `75.46` \| Status: `settled` \| Date: `2026-03-25` \| Counted: `False`
+  - `event_1615` \| Cat: `dining` \| Amt: `66.71` \| Status: `settled` \| Date: `2026-04-08` \| Counted: `False`
+  - `event_1616` \| Cat: `dining` \| Amt: `103.86` \| Status: `settled` \| Date: `2026-04-22` \| Counted: `False`
+  - `event_1617` \| Cat: `dining` \| Amt: `81.05` \| Status: `settled` \| Date: `2026-05-06` \| Counted: `False`
+  - `event_1618` \| Cat: `dining` \| Amt: `101.82` \| Status: `settled` \| Date: `2026-05-20` \| Counted: `False`
+  - `event_1619` \| Cat: `dining` \| Amt: `62.87` \| Status: `settled` \| Date: `2026-06-03` \| Counted: `False`
+  - `event_1620` \| Cat: `dining` \| Amt: `82.67` \| Status: `settled` \| Date: `2026-06-17` \| Counted: `False`
+  - `event_1621` \| Cat: `dining` \| Amt: `101.88` \| Status: `settled` \| Date: `2026-07-01` \| Counted: `False`
+  - `event_1573` \| Cat: `utilities` \| Amt: `107.43` \| Status: `recurring_projected` \| Date: `2026-07-07` \| Counted: `True`
+  - `event_1574` \| Cat: `insurance` \| Amt: `68.00` \| Status: `recurring_projected` \| Date: `2026-07-08` \| Counted: `True`
+  - `event_1576` \| Cat: `streaming` \| Amt: `68.00` \| Status: `recurring_projected` \| Date: `2026-07-10` \| Counted: `True`
+  - `event_1575` \| Cat: `healthcare` \| Amt: `147.96` \| Status: `recurring_projected` \| Date: `2026-07-11` \| Counted: `True`
+  - `event_1608` \| Cat: `transport` \| Amt: `43.81` \| Status: `recurring_projected` \| Date: `2026-07-14` \| Counted: `True`
+
+### request_19
+- **Request Date**: `2024-09-04` | **Deadline**: `2024-10-04`
+- **Next Payday**: `2024-09-15` (Amount: `131000.00`)
+- **Starting Balance**: `199545.00` | **Min Keep**: `92800.00` | **Requested Amount**: `39660.00`
+- **GT Safe**: `28820.00` | **Current Computed Safe**: `32574.40`
+- **Implied E_pre**: `77925.0` | **Computed E_pre**: `74170.60` | **Diff**: `-3754.40`
+- **Candidate Expenses (Pre-Payday)**:
+  - `event_1623` \| Cat: `rent` \| Amt: `36100.00` \| Status: `settled` \| Date: `2024-04-04` \| Counted: `False`
+  - `event_1624` \| Cat: `utilities` \| Amt: `6141.28` \| Status: `settled` \| Date: `2024-04-08` \| Counted: `False`
+  - `event_1625` \| Cat: `debt_repayment` \| Amt: `11850.00` \| Status: `settled` \| Date: `2024-04-13` \| Counted: `False`
+  - `event_1626` \| Cat: `healthcare` \| Amt: `8946.09` \| Status: `settled` \| Date: `2024-04-12` \| Counted: `False`
+  - `event_1627` \| Cat: `family_support` \| Amt: `12650.00` \| Status: `settled` \| Date: `2024-04-15` \| Counted: `False`
+  - `event_1628` \| Cat: `cloud_storage` \| Amt: `395.00` \| Status: `settled` \| Date: `2024-04-14` \| Counted: `False`
+  - `event_1629` \| Cat: `shopping` \| Amt: `6302.66` \| Status: `settled` \| Date: `2024-04-14` \| Counted: `False`
+  - `event_1631` \| Cat: `rent` \| Amt: `36100.00` \| Status: `settled` \| Date: `2024-05-04` \| Counted: `False`
+  - `event_1632` \| Cat: `utilities` \| Amt: `5525.82` \| Status: `settled` \| Date: `2024-05-08` \| Counted: `False`
+  - `event_1633` \| Cat: `debt_repayment` \| Amt: `11850.00` \| Status: `settled` \| Date: `2024-05-13` \| Counted: `False`
+  - `event_1634` \| Cat: `healthcare` \| Amt: `9619.88` \| Status: `settled` \| Date: `2024-05-12` \| Counted: `False`
+  - `event_1635` \| Cat: `family_support` \| Amt: `12650.00` \| Status: `settled` \| Date: `2024-05-15` \| Counted: `False`
+  - `event_1636` \| Cat: `cloud_storage` \| Amt: `395.00` \| Status: `settled` \| Date: `2024-05-14` \| Counted: `False`
+  - `event_1637` \| Cat: `shopping` \| Amt: `5593.20` \| Status: `settled` \| Date: `2024-05-14` \| Counted: `False`
+  - `event_1639` \| Cat: `rent` \| Amt: `36100.00` \| Status: `settled` \| Date: `2024-06-04` \| Counted: `False`
+  - `event_1640` \| Cat: `utilities` \| Amt: `6029.90` \| Status: `settled` \| Date: `2024-06-08` \| Counted: `False`
+  - `event_1641` \| Cat: `debt_repayment` \| Amt: `11850.00` \| Status: `settled` \| Date: `2024-06-13` \| Counted: `False`
+  - `event_1642` \| Cat: `healthcare` \| Amt: `8335.20` \| Status: `settled` \| Date: `2024-06-12` \| Counted: `False`
+  - `event_1643` \| Cat: `family_support` \| Amt: `12650.00` \| Status: `settled` \| Date: `2024-06-15` \| Counted: `False`
+  - `event_1644` \| Cat: `cloud_storage` \| Amt: `395.00` \| Status: `settled` \| Date: `2024-06-14` \| Counted: `False`
+  - `event_1645` \| Cat: `shopping` \| Amt: `6069.58` \| Status: `settled` \| Date: `2024-06-14` \| Counted: `False`
+  - `event_1647` \| Cat: `rent` \| Amt: `36100.00` \| Status: `settled` \| Date: `2024-07-04` \| Counted: `False`
+  - `event_1648` \| Cat: `utilities` \| Amt: `5951.99` \| Status: `settled` \| Date: `2024-07-08` \| Counted: `False`
+  - `event_1649` \| Cat: `debt_repayment` \| Amt: `11850.00` \| Status: `settled` \| Date: `2024-07-13` \| Counted: `False`
+  - `event_1650` \| Cat: `healthcare` \| Amt: `8496.34` \| Status: `settled` \| Date: `2024-07-12` \| Counted: `False`
+  - `event_1651` \| Cat: `family_support` \| Amt: `12650.00` \| Status: `settled` \| Date: `2024-07-15` \| Counted: `False`
+  - `event_1652` \| Cat: `cloud_storage` \| Amt: `395.00` \| Status: `settled` \| Date: `2024-07-14` \| Counted: `False`
+  - `event_1653` \| Cat: `shopping` \| Amt: `5772.78` \| Status: `settled` \| Date: `2024-07-14` \| Counted: `False`
+  - `event_1655` \| Cat: `rent` \| Amt: `36100.00` \| Status: `settled` \| Date: `2024-08-04` \| Counted: `False`
+  - `event_1656` \| Cat: `utilities` \| Amt: `6129.19` \| Status: `settled` \| Date: `2024-08-08` \| Counted: `False`
+  - `event_1657` \| Cat: `debt_repayment` \| Amt: `11850.00` \| Status: `settled` \| Date: `2024-08-13` \| Counted: `False`
+  - `event_1658` \| Cat: `healthcare` \| Amt: `8645.36` \| Status: `settled` \| Date: `2024-08-12` \| Counted: `False`
+  - `event_1659` \| Cat: `family_support` \| Amt: `12650.00` \| Status: `settled` \| Date: `2024-08-15` \| Counted: `False`
+  - `event_1660` \| Cat: `cloud_storage` \| Amt: `395.00` \| Status: `settled` \| Date: `2024-08-14` \| Counted: `False`
+  - `event_1661` \| Cat: `shopping` \| Amt: `5431.12` \| Status: `settled` \| Date: `2024-08-14` \| Counted: `False`
+  - `event_1662` \| Cat: `groceries` \| Amt: `4418.91` \| Status: `settled` \| Date: `2024-03-13` \| Counted: `False`
+  - `event_1663` \| Cat: `groceries` \| Amt: `4871.72` \| Status: `settled` \| Date: `2024-03-20` \| Counted: `False`
+  - `event_1664` \| Cat: `groceries` \| Amt: `6070.85` \| Status: `settled` \| Date: `2024-03-27` \| Counted: `False`
+  - `event_1665` \| Cat: `groceries` \| Amt: `5452.26` \| Status: `settled` \| Date: `2024-04-03` \| Counted: `False`
+  - `event_1666` \| Cat: `groceries` \| Amt: `5912.83` \| Status: `settled` \| Date: `2024-04-10` \| Counted: `False`
+  - `event_1667` \| Cat: `groceries` \| Amt: `3877.79` \| Status: `settled` \| Date: `2024-04-17` \| Counted: `False`
+  - `event_1668` \| Cat: `groceries` \| Amt: `4056.71` \| Status: `settled` \| Date: `2024-04-24` \| Counted: `False`
+  - `event_1669` \| Cat: `groceries` \| Amt: `4744.13` \| Status: `settled` \| Date: `2024-05-01` \| Counted: `False`
+  - `event_1670` \| Cat: `groceries` \| Amt: `3593.25` \| Status: `settled` \| Date: `2024-05-08` \| Counted: `False`
+  - `event_1671` \| Cat: `groceries` \| Amt: `3852.58` \| Status: `settled` \| Date: `2024-05-15` \| Counted: `False`
+  - `event_1672` \| Cat: `groceries` \| Amt: `5406.20` \| Status: `settled` \| Date: `2024-05-22` \| Counted: `False`
+  - `event_1673` \| Cat: `groceries` \| Amt: `5542.84` \| Status: `settled` \| Date: `2024-05-29` \| Counted: `False`
+  - `event_1674` \| Cat: `groceries` \| Amt: `4738.95` \| Status: `settled` \| Date: `2024-06-05` \| Counted: `False`
+  - `event_1675` \| Cat: `groceries` \| Amt: `3575.19` \| Status: `settled` \| Date: `2024-06-12` \| Counted: `False`
+  - `event_1676` \| Cat: `groceries` \| Amt: `5146.94` \| Status: `settled` \| Date: `2024-06-19` \| Counted: `False`
+  - `event_1677` \| Cat: `groceries` \| Amt: `5908.15` \| Status: `settled` \| Date: `2024-06-26` \| Counted: `False`
+  - `event_1678` \| Cat: `groceries` \| Amt: `4444.74` \| Status: `settled` \| Date: `2024-07-03` \| Counted: `False`
+  - `event_1679` \| Cat: `groceries` \| Amt: `4667.68` \| Status: `settled` \| Date: `2024-07-10` \| Counted: `False`
+  - `event_1680` \| Cat: `groceries` \| Amt: `4493.39` \| Status: `settled` \| Date: `2024-07-17` \| Counted: `False`
+  - `event_1681` \| Cat: `groceries` \| Amt: `5184.21` \| Status: `settled` \| Date: `2024-07-24` \| Counted: `False`
+  - `event_1682` \| Cat: `groceries` \| Amt: `3460.53` \| Status: `settled` \| Date: `2024-07-31` \| Counted: `False`
+  - `event_1683` \| Cat: `groceries` \| Amt: `6005.09` \| Status: `settled` \| Date: `2024-08-07` \| Counted: `False`
+  - `event_1684` \| Cat: `groceries` \| Amt: `4963.39` \| Status: `settled` \| Date: `2024-08-14` \| Counted: `False`
+  - `event_1685` \| Cat: `groceries` \| Amt: `4864.04` \| Status: `settled` \| Date: `2024-08-21` \| Counted: `False`
+  - `event_1686` \| Cat: `groceries` \| Amt: `4068.18` \| Status: `settled` \| Date: `2024-08-28` \| Counted: `False`
+  - `event_1687` \| Cat: `transport` \| Amt: `3054.24` \| Status: `settled` \| Date: `2024-03-14` \| Counted: `False`
+  - `event_1688` \| Cat: `transport` \| Amt: `3298.25` \| Status: `settled` \| Date: `2024-03-28` \| Counted: `False`
+  - `event_1689` \| Cat: `transport` \| Amt: `3476.92` \| Status: `settled` \| Date: `2024-04-11` \| Counted: `False`
+  - `event_1690` \| Cat: `transport` \| Amt: `3849.50` \| Status: `settled` \| Date: `2024-04-25` \| Counted: `False`
+  - `event_1691` \| Cat: `transport` \| Amt: `2640.96` \| Status: `settled` \| Date: `2024-05-09` \| Counted: `False`
+  - `event_1692` \| Cat: `transport` \| Amt: `3432.81` \| Status: `settled` \| Date: `2024-05-23` \| Counted: `False`
+  - `event_1693` \| Cat: `transport` \| Amt: `2610.24` \| Status: `settled` \| Date: `2024-06-06` \| Counted: `False`
+  - `event_1694` \| Cat: `transport` \| Amt: `2788.22` \| Status: `settled` \| Date: `2024-06-20` \| Counted: `False`
+  - `event_1695` \| Cat: `transport` \| Amt: `3242.46` \| Status: `settled` \| Date: `2024-07-04` \| Counted: `False`
+  - `event_1696` \| Cat: `transport` \| Amt: `3659.94` \| Status: `settled` \| Date: `2024-07-18` \| Counted: `False`
+  - `event_1697` \| Cat: `transport` \| Amt: `2759.93` \| Status: `settled` \| Date: `2024-08-01` \| Counted: `False`
+  - `event_1698` \| Cat: `transport` \| Amt: `2462.29` \| Status: `settled` \| Date: `2024-08-15` \| Counted: `False`
+  - `event_1699` \| Cat: `transport` \| Amt: `2765.93` \| Status: `settled` \| Date: `2024-08-29` \| Counted: `False`
+  - `event_1700` \| Cat: `groceries` \| Amt: `2854.00` \| Status: `settled` \| Date: `2024-09-03` \| Counted: `False`
+  - `event_1655` \| Cat: `rent` \| Amt: `36100.00` \| Status: `recurring_projected` \| Date: `2024-09-04` \| Counted: `True`
+  - `event_1656` \| Cat: `utilities` \| Amt: `6129.19` \| Status: `recurring_projected` \| Date: `2024-09-08` \| Counted: `True`
+  - `event_1700` \| Cat: `groceries` \| Amt: `2854.00` \| Status: `recurring_projected` \| Date: `2024-09-10` \| Counted: `True`
+  - `event_1658` \| Cat: `healthcare` \| Amt: `8645.36` \| Status: `recurring_projected` \| Date: `2024-09-12` \| Counted: `True`
+  - `event_1699` \| Cat: `transport` \| Amt: `2765.93` \| Status: `recurring_projected` \| Date: `2024-09-12` \| Counted: `True`
+  - `event_1657` \| Cat: `debt_repayment` \| Amt: `11850.00` \| Status: `recurring_projected` \| Date: `2024-09-13` \| Counted: `True`
+  - `event_1660` \| Cat: `cloud_storage` \| Amt: `395.00` \| Status: `recurring_projected` \| Date: `2024-09-14` \| Counted: `True`
+  - `event_1661` \| Cat: `shopping` \| Amt: `5431.12` \| Status: `recurring_projected` \| Date: `2024-09-14` \| Counted: `True`
+
+### request_20
+- **Request Date**: `2026-02-07` | **Deadline**: `2026-02-22`
+- **Next Payday**: `2026-02-15` (Amount: `108000.00`)
+- **Starting Balance**: `102609.05` | **Min Keep**: `64500.00` | **Requested Amount**: `303700.00`
+- **GT Safe**: `5400.00` | **Current Computed Safe**: `11834.68`
+- **Implied E_pre**: `32709.05` | **Computed E_pre**: `26274.37` | **Diff**: `-6434.68`
+- **Candidate Expenses (Pre-Payday)**:
+  - `event_1702` \| Cat: `housing` \| Amt: `7950.00` \| Status: `settled` \| Date: `2025-09-02` \| Counted: `False`
+  - `event_1703` \| Cat: `utilities` \| Amt: `7784.29` \| Status: `settled` \| Date: `2025-09-05` \| Counted: `False`
+  - `event_1704` \| Cat: `insurance` \| Amt: `3290.00` \| Status: `settled` \| Date: `2025-09-06` \| Counted: `False`
+  - `event_1705` \| Cat: `education` \| Amt: `8740.00` \| Status: `settled` \| Date: `2025-09-07` \| Counted: `False`
+  - `event_1706` \| Cat: `healthcare` \| Amt: `5968.18` \| Status: `settled` \| Date: `2025-09-09` \| Counted: `False`
+  - `event_1707` \| Cat: `entertainment` \| Amt: `2298.76` \| Status: `settled` \| Date: `2025-09-13` \| Counted: `False`
+  - `event_1708` \| Cat: `cloud_storage` \| Amt: `365.00` \| Status: `settled` \| Date: `2025-09-11` \| Counted: `False`
+  - `event_1710` \| Cat: `housing` \| Amt: `7950.00` \| Status: `settled` \| Date: `2025-10-02` \| Counted: `False`
+  - `event_1711` \| Cat: `utilities` \| Amt: `7977.68` \| Status: `settled` \| Date: `2025-10-05` \| Counted: `False`
+  - `event_1712` \| Cat: `insurance` \| Amt: `3290.00` \| Status: `settled` \| Date: `2025-10-06` \| Counted: `False`
+  - `event_1713` \| Cat: `education` \| Amt: `8740.00` \| Status: `settled` \| Date: `2025-10-07` \| Counted: `False`
+  - `event_1714` \| Cat: `healthcare` \| Amt: `6648.50` \| Status: `settled` \| Date: `2025-10-09` \| Counted: `False`
+  - `event_1715` \| Cat: `entertainment` \| Amt: `2279.67` \| Status: `settled` \| Date: `2025-10-13` \| Counted: `False`
+  - `event_1716` \| Cat: `cloud_storage` \| Amt: `365.00` \| Status: `settled` \| Date: `2025-10-11` \| Counted: `False`
+  - `event_1718` \| Cat: `housing` \| Amt: `7950.00` \| Status: `settled` \| Date: `2025-11-02` \| Counted: `False`
+  - `event_1719` \| Cat: `utilities` \| Amt: `8058.75` \| Status: `settled` \| Date: `2025-11-05` \| Counted: `False`
+  - `event_1720` \| Cat: `insurance` \| Amt: `3290.00` \| Status: `settled` \| Date: `2025-11-06` \| Counted: `False`
+  - `event_1721` \| Cat: `education` \| Amt: `8740.00` \| Status: `settled` \| Date: `2025-11-07` \| Counted: `False`
+  - `event_1722` \| Cat: `healthcare` \| Amt: `5907.73` \| Status: `settled` \| Date: `2025-11-09` \| Counted: `False`
+  - `event_1723` \| Cat: `entertainment` \| Amt: `2115.92` \| Status: `settled` \| Date: `2025-11-13` \| Counted: `False`
+  - `event_1724` \| Cat: `cloud_storage` \| Amt: `365.00` \| Status: `settled` \| Date: `2025-11-11` \| Counted: `False`
+  - `event_1726` \| Cat: `housing` \| Amt: `7950.00` \| Status: `settled` \| Date: `2025-12-02` \| Counted: `False`
+  - `event_1727` \| Cat: `utilities` \| Amt: `6848.62` \| Status: `settled` \| Date: `2025-12-05` \| Counted: `False`
+  - `event_1728` \| Cat: `insurance` \| Amt: `3290.00` \| Status: `settled` \| Date: `2025-12-06` \| Counted: `False`
+  - `event_1729` \| Cat: `education` \| Amt: `8740.00` \| Status: `settled` \| Date: `2025-12-07` \| Counted: `False`
+  - `event_1730` \| Cat: `healthcare` \| Amt: `6505.49` \| Status: `settled` \| Date: `2025-12-09` \| Counted: `False`
+  - `event_1731` \| Cat: `entertainment` \| Amt: `1949.86` \| Status: `settled` \| Date: `2025-12-13` \| Counted: `False`
+  - `event_1732` \| Cat: `cloud_storage` \| Amt: `365.00` \| Status: `settled` \| Date: `2025-12-11` \| Counted: `False`
+  - `event_1734` \| Cat: `housing` \| Amt: `7950.00` \| Status: `settled` \| Date: `2026-01-02` \| Counted: `False`
+  - `event_1735` \| Cat: `utilities` \| Amt: `7551.74` \| Status: `settled` \| Date: `2026-01-05` \| Counted: `False`
+  - `event_1736` \| Cat: `insurance` \| Amt: `3290.00` \| Status: `settled` \| Date: `2026-01-06` \| Counted: `False`
+  - `event_1737` \| Cat: `education` \| Amt: `8740.00` \| Status: `settled` \| Date: `2026-01-07` \| Counted: `False`
+  - `event_1738` \| Cat: `healthcare` \| Amt: `6654.33` \| Status: `settled` \| Date: `2026-01-09` \| Counted: `False`
+  - `event_1739` \| Cat: `entertainment` \| Amt: `2097.15` \| Status: `settled` \| Date: `2026-01-13` \| Counted: `False`
+  - `event_1740` \| Cat: `cloud_storage` \| Amt: `365.00` \| Status: `settled` \| Date: `2026-01-11` \| Counted: `False`
+  - `event_1741` \| Cat: `housing` \| Amt: `7950.00` \| Status: `settled` \| Date: `2026-02-02` \| Counted: `False`
+  - `event_1742` \| Cat: `utilities` \| Amt: `7769.87` \| Status: `settled` \| Date: `2026-02-05` \| Counted: `False`
+  - `event_1743` \| Cat: `insurance` \| Amt: `3290.00` \| Status: `settled` \| Date: `2026-02-06` \| Counted: `False`
+  - `event_1744` \| Cat: `groceries` \| Amt: `3866.50` \| Status: `settled` \| Date: `2025-08-13` \| Counted: `False`
+  - `event_1745` \| Cat: `groceries` \| Amt: `3724.49` \| Status: `settled` \| Date: `2025-08-23` \| Counted: `False`
+  - `event_1746` \| Cat: `groceries` \| Amt: `3127.16` \| Status: `settled` \| Date: `2025-09-02` \| Counted: `False`
+  - `event_1747` \| Cat: `groceries` \| Amt: `4104.17` \| Status: `settled` \| Date: `2025-09-12` \| Counted: `False`
+  - `event_1748` \| Cat: `groceries` \| Amt: `2968.61` \| Status: `settled` \| Date: `2025-09-22` \| Counted: `False`
+  - `event_1749` \| Cat: `groceries` \| Amt: `4660.33` \| Status: `settled` \| Date: `2025-10-02` \| Counted: `False`
+  - `event_1750` \| Cat: `groceries` \| Amt: `4109.13` \| Status: `settled` \| Date: `2025-10-12` \| Counted: `False`
+  - `event_1751` \| Cat: `groceries` \| Amt: `2812.26` \| Status: `settled` \| Date: `2025-10-22` \| Counted: `False`
+  - `event_1752` \| Cat: `groceries` \| Amt: `3525.04` \| Status: `settled` \| Date: `2025-11-01` \| Counted: `False`
+  - `event_1753` \| Cat: `groceries` \| Amt: `3386.09` \| Status: `settled` \| Date: `2025-11-11` \| Counted: `False`
+  - `event_1754` \| Cat: `groceries` \| Amt: `3796.24` \| Status: `settled` \| Date: `2025-11-21` \| Counted: `False`
+  - `event_1755` \| Cat: `groceries` \| Amt: `3016.03` \| Status: `settled` \| Date: `2025-12-01` \| Counted: `False`
+  - `event_1756` \| Cat: `groceries` \| Amt: `4683.37` \| Status: `settled` \| Date: `2025-12-11` \| Counted: `False`
+  - `event_1757` \| Cat: `groceries` \| Amt: `3067.82` \| Status: `settled` \| Date: `2025-12-21` \| Counted: `False`
+  - `event_1758` \| Cat: `groceries` \| Amt: `3588.10` \| Status: `settled` \| Date: `2025-12-31` \| Counted: `False`
+  - `event_1759` \| Cat: `groceries` \| Amt: `3752.77` \| Status: `settled` \| Date: `2026-01-10` \| Counted: `False`
+  - `event_1760` \| Cat: `groceries` \| Amt: `3702.16` \| Status: `settled` \| Date: `2026-01-20` \| Counted: `False`
+  - `event_1761` \| Cat: `groceries` \| Amt: `4719.22` \| Status: `settled` \| Date: `2026-01-30` \| Counted: `False`
+  - `event_1762` \| Cat: `transport` \| Amt: `2046.25` \| Status: `settled` \| Date: `2025-08-14` \| Counted: `False`
+  - `event_1763` \| Cat: `transport` \| Amt: `2060.70` \| Status: `settled` \| Date: `2025-08-28` \| Counted: `False`
+  - `event_1764` \| Cat: `transport` \| Amt: `2195.41` \| Status: `settled` \| Date: `2025-09-11` \| Counted: `False`
+  - `event_1765` \| Cat: `transport` \| Amt: `2632.00` \| Status: `settled` \| Date: `2025-09-25` \| Counted: `False`
+  - `event_1766` \| Cat: `transport` \| Amt: `3063.34` \| Status: `settled` \| Date: `2025-10-09` \| Counted: `False`
+  - `event_1767` \| Cat: `transport` \| Amt: `2359.03` \| Status: `settled` \| Date: `2025-10-23` \| Counted: `False`
+  - `event_1768` \| Cat: `transport` \| Amt: `2628.75` \| Status: `settled` \| Date: `2025-11-06` \| Counted: `False`
+  - `event_1769` \| Cat: `transport` \| Amt: `2836.95` \| Status: `settled` \| Date: `2025-11-20` \| Counted: `False`
+  - `event_1770` \| Cat: `transport` \| Amt: `2570.15` \| Status: `settled` \| Date: `2025-12-04` \| Counted: `False`
+  - `event_1771` \| Cat: `transport` \| Amt: `3145.95` \| Status: `settled` \| Date: `2025-12-18` \| Counted: `False`
+  - `event_1772` \| Cat: `transport` \| Amt: `2838.14` \| Status: `settled` \| Date: `2026-01-01` \| Counted: `False`
+  - `event_1773` \| Cat: `transport` \| Amt: `3150.25` \| Status: `settled` \| Date: `2026-01-15` \| Counted: `False`
+  - `event_1774` \| Cat: `transport` \| Amt: `3243.84` \| Status: `settled` \| Date: `2026-01-29` \| Counted: `False`
+  - `event_1775` \| Cat: `dining` \| Amt: `3150.77` \| Status: `settled` \| Date: `2025-08-15` \| Counted: `False`
+  - `event_1776` \| Cat: `dining` \| Amt: `3075.11` \| Status: `settled` \| Date: `2025-09-05` \| Counted: `False`
+  - `event_1777` \| Cat: `dining` \| Amt: `3365.58` \| Status: `settled` \| Date: `2025-09-26` \| Counted: `False`
+  - `event_1778` \| Cat: `dining` \| Amt: `4270.04` \| Status: `settled` \| Date: `2025-10-17` \| Counted: `False`
+  - `event_1779` \| Cat: `dining` \| Amt: `2857.78` \| Status: `settled` \| Date: `2025-11-07` \| Counted: `False`
+  - `event_1780` \| Cat: `dining` \| Amt: `4308.23` \| Status: `settled` \| Date: `2025-11-28` \| Counted: `False`
+  - `event_1781` \| Cat: `dining` \| Amt: `2629.91` \| Status: `settled` \| Date: `2025-12-19` \| Counted: `False`
+  - `event_1782` \| Cat: `dining` \| Amt: `3352.75` \| Status: `settled` \| Date: `2026-01-09` \| Counted: `False`
+  - `event_1783` \| Cat: `dining` \| Amt: `3803.95` \| Status: `settled` \| Date: `2026-01-30` \| Counted: `False`
+  - `event_1784` \| Cat: `shopping` \| Amt: `8640.00` \| Status: `settled` \| Date: `2026-01-15` \| Counted: `False`
+  - `event_1786` \| Cat: `utilities` \| Amt: `704.05` \| Status: `pending` \| Date: `2026-02-09` \| Counted: `True`
+  - `event_1787` \| Cat: `shopping` \| Amt: `4470.00` \| Status: `pending` \| Date: `2026-02-08` \| Counted: `True`
+  - `event_1737` \| Cat: `education` \| Amt: `8740.00` \| Status: `recurring_projected` \| Date: `2026-02-07` \| Counted: `True`
+  - `event_1738` \| Cat: `healthcare` \| Amt: `6654.33` \| Status: `recurring_projected` \| Date: `2026-02-09` \| Counted: `True`
+  - `event_1740` \| Cat: `cloud_storage` \| Amt: `365.00` \| Status: `recurring_projected` \| Date: `2026-02-11` \| Counted: `True`
+  - `event_1774` \| Cat: `transport` \| Amt: `3243.84` \| Status: `recurring_projected` \| Date: `2026-02-12` \| Counted: `True`
+  - `event_1739` \| Cat: `entertainment` \| Amt: `2097.15` \| Status: `recurring_projected` \| Date: `2026-02-13` \| Counted: `True`
+
+### request_21
+- **Request Date**: `2026-04-03` | **Deadline**: `2026-04-14`
+- **Next Payday**: `2026-04-15` (Amount: `2256.00`)
+- **Starting Balance**: `3911.35` | **Min Keep**: `1800.00` | **Requested Amount**: `1574.40`
+- **GT Safe**: `1543.35` | **Current Computed Safe**: `1574.40`
+- **Implied E_pre**: `568.0` | **Computed E_pre**: `459.01` | **Diff**: `-108.99`
+- **Candidate Expenses (Pre-Payday)**:
+  - `event_1789` \| Cat: `rent` \| Amt: `718.80` \| Status: `settled` \| Date: `2025-11-02` \| Counted: `False`
+  - `event_1790` \| Cat: `utilities` \| Amt: `115.31` \| Status: `settled` \| Date: `2025-11-06` \| Counted: `False`
+  - `event_1791` \| Cat: `cloud_storage` \| Amt: `11.00` \| Status: `settled` \| Date: `2025-11-12` \| Counted: `False`
+  - `event_1792` \| Cat: `streaming` \| Amt: `47.00` \| Status: `settled` \| Date: `2025-11-09` \| Counted: `False`
+  - `event_1793` \| Cat: `shopping` \| Amt: `133.38` \| Status: `settled` \| Date: `2025-11-12` \| Counted: `False`
+  - `event_1795` \| Cat: `rent` \| Amt: `718.80` \| Status: `settled` \| Date: `2025-12-02` \| Counted: `False`
+  - `event_1796` \| Cat: `utilities` \| Amt: `123.72` \| Status: `settled` \| Date: `2025-12-06` \| Counted: `False`
+  - `event_1797` \| Cat: `cloud_storage` \| Amt: `11.00` \| Status: `settled` \| Date: `2025-12-12` \| Counted: `False`
+  - `event_1798` \| Cat: `streaming` \| Amt: `47.00` \| Status: `settled` \| Date: `2025-12-09` \| Counted: `False`
+  - `event_1799` \| Cat: `shopping` \| Amt: `115.86` \| Status: `settled` \| Date: `2025-12-12` \| Counted: `False`
+  - `event_1801` \| Cat: `rent` \| Amt: `718.80` \| Status: `settled` \| Date: `2026-01-02` \| Counted: `False`
+  - `event_1802` \| Cat: `utilities` \| Amt: `120.59` \| Status: `settled` \| Date: `2026-01-06` \| Counted: `False`
+  - `event_1803` \| Cat: `cloud_storage` \| Amt: `11.00` \| Status: `settled` \| Date: `2026-01-12` \| Counted: `False`
+  - `event_1804` \| Cat: `streaming` \| Amt: `47.00` \| Status: `settled` \| Date: `2026-01-09` \| Counted: `False`
+  - `event_1805` \| Cat: `shopping` \| Amt: `120.74` \| Status: `settled` \| Date: `2026-01-12` \| Counted: `False`
+  - `event_1807` \| Cat: `rent` \| Amt: `718.80` \| Status: `settled` \| Date: `2026-02-02` \| Counted: `False`
+  - `event_1808` \| Cat: `utilities` \| Amt: `122.18` \| Status: `settled` \| Date: `2026-02-06` \| Counted: `False`
+  - `event_1809` \| Cat: `cloud_storage` \| Amt: `11.00` \| Status: `settled` \| Date: `2026-02-12` \| Counted: `False`
+  - `event_1810` \| Cat: `streaming` \| Amt: `47.00` \| Status: `settled` \| Date: `2026-02-09` \| Counted: `False`
+  - `event_1811` \| Cat: `shopping` \| Amt: `115.71` \| Status: `settled` \| Date: `2026-02-12` \| Counted: `False`
+  - `event_1813` \| Cat: `rent` \| Amt: `718.80` \| Status: `settled` \| Date: `2026-03-02` \| Counted: `False`
+  - `event_1814` \| Cat: `utilities` \| Amt: `124.08` \| Status: `settled` \| Date: `2026-03-06` \| Counted: `False`
+  - `event_1815` \| Cat: `cloud_storage` \| Amt: `11.00` \| Status: `settled` \| Date: `2026-03-12` \| Counted: `False`
+  - `event_1816` \| Cat: `streaming` \| Amt: `47.00` \| Status: `settled` \| Date: `2026-03-09` \| Counted: `False`
+  - `event_1817` \| Cat: `shopping` \| Amt: `126.38` \| Status: `settled` \| Date: `2026-03-12` \| Counted: `False`
+  - `event_1818` \| Cat: `rent` \| Amt: `718.80` \| Status: `settled` \| Date: `2026-04-02` \| Counted: `False`
+  - `event_1819` \| Cat: `groceries` \| Amt: `65.93` \| Status: `settled` \| Date: `2025-10-08` \| Counted: `False`
+  - `event_1820` \| Cat: `groceries` \| Amt: `104.23` \| Status: `settled` \| Date: `2025-10-18` \| Counted: `False`
+  - `event_1821` \| Cat: `groceries` \| Amt: `92.12` \| Status: `settled` \| Date: `2025-10-28` \| Counted: `False`
+  - `event_1822` \| Cat: `groceries` \| Amt: `68.82` \| Status: `settled` \| Date: `2025-11-07` \| Counted: `False`
+  - `event_1823` \| Cat: `groceries` \| Amt: `95.62` \| Status: `settled` \| Date: `2025-11-17` \| Counted: `False`
+  - `event_1824` \| Cat: `groceries` \| Amt: `104.19` \| Status: `settled` \| Date: `2025-11-27` \| Counted: `False`
+  - `event_1825` \| Cat: `groceries` \| Amt: `72.06` \| Status: `settled` \| Date: `2025-12-07` \| Counted: `False`
+  - `event_1826` \| Cat: `groceries` \| Amt: `101.34` \| Status: `settled` \| Date: `2025-12-17` \| Counted: `False`
+  - `event_1827` \| Cat: `groceries` \| Amt: `84.70` \| Status: `settled` \| Date: `2025-12-27` \| Counted: `False`
+  - `event_1828` \| Cat: `groceries` \| Amt: `77.20` \| Status: `settled` \| Date: `2026-01-06` \| Counted: `False`
+  - `event_1829` \| Cat: `groceries` \| Amt: `79.00` \| Status: `settled` \| Date: `2026-01-16` \| Counted: `False`
+  - `event_1830` \| Cat: `groceries` \| Amt: `66.13` \| Status: `settled` \| Date: `2026-01-26` \| Counted: `False`
+  - `event_1831` \| Cat: `groceries` \| Amt: `85.90` \| Status: `settled` \| Date: `2026-02-05` \| Counted: `False`
+  - `event_1832` \| Cat: `groceries` \| Amt: `90.57` \| Status: `settled` \| Date: `2026-02-15` \| Counted: `False`
+  - `event_1833` \| Cat: `groceries` \| Amt: `71.22` \| Status: `settled` \| Date: `2026-02-25` \| Counted: `False`
+  - `event_1834` \| Cat: `groceries` \| Amt: `70.98` \| Status: `settled` \| Date: `2026-03-07` \| Counted: `False`
+  - `event_1835` \| Cat: `groceries` \| Amt: `77.75` \| Status: `settled` \| Date: `2026-03-17` \| Counted: `False`
+  - `event_1836` \| Cat: `groceries` \| Amt: `97.55` \| Status: `settled` \| Date: `2026-03-27` \| Counted: `False`
+  - `event_1837` \| Cat: `transport` \| Amt: `38.96` \| Status: `settled` \| Date: `2025-10-09` \| Counted: `False`
+  - `event_1838` \| Cat: `transport` \| Amt: `37.19` \| Status: `settled` \| Date: `2025-10-30` \| Counted: `False`
+  - `event_1839` \| Cat: `transport` \| Amt: `34.52` \| Status: `settled` \| Date: `2025-11-20` \| Counted: `False`
+  - `event_1840` \| Cat: `transport` \| Amt: `50.00` \| Status: `settled` \| Date: `2025-12-11` \| Counted: `False`
+  - `event_1841` \| Cat: `transport` \| Amt: `40.66` \| Status: `settled` \| Date: `2026-01-01` \| Counted: `False`
+  - `event_1842` \| Cat: `transport` \| Amt: `33.38` \| Status: `settled` \| Date: `2026-01-22` \| Counted: `False`
+  - `event_1843` \| Cat: `transport` \| Amt: `51.42` \| Status: `settled` \| Date: `2026-02-12` \| Counted: `False`
+  - `event_1844` \| Cat: `transport` \| Amt: `47.84` \| Status: `settled` \| Date: `2026-03-05` \| Counted: `False`
+  - `event_1845` \| Cat: `transport` \| Amt: `36.86` \| Status: `settled` \| Date: `2026-03-26` \| Counted: `False`
+  - `event_1846` \| Cat: `dining` \| Amt: `82.43` \| Status: `settled` \| Date: `2025-10-10` \| Counted: `False`
+  - `event_1847` \| Cat: `dining` \| Amt: `68.28` \| Status: `settled` \| Date: `2025-10-31` \| Counted: `False`
+  - `event_1848` \| Cat: `dining` \| Amt: `85.96` \| Status: `settled` \| Date: `2025-11-21` \| Counted: `False`
+  - `event_1849` \| Cat: `dining` \| Amt: `60.18` \| Status: `settled` \| Date: `2025-12-12` \| Counted: `False`
+  - `event_1850` \| Cat: `dining` \| Amt: `88.07` \| Status: `settled` \| Date: `2026-01-02` \| Counted: `False`
+  - `event_1851` \| Cat: `dining` \| Amt: `100.63` \| Status: `settled` \| Date: `2026-01-23` \| Counted: `False`
+  - `event_1852` \| Cat: `dining` \| Amt: `97.67` \| Status: `settled` \| Date: `2026-02-13` \| Counted: `False`
+  - `event_1853` \| Cat: `dining` \| Amt: `98.39` \| Status: `settled` \| Date: `2026-03-06` \| Counted: `False`
+  - `event_1854` \| Cat: `dining` \| Amt: `69.31` \| Status: `settled` \| Date: `2026-03-27` \| Counted: `False`
+  - `event_1855` \| Cat: `investment` \| Amt: `676.80` \| Status: `settled` \| Date: `2025-12-29` \| Counted: `False`
+  - `event_1857` \| Cat: `transport` \| Amt: `53.00` \| Status: `pending` \| Date: `2026-04-05` \| Counted: `True`
+  - `event_1814` \| Cat: `utilities` \| Amt: `124.08` \| Status: `recurring_projected` \| Date: `2026-04-06` \| Counted: `True`
+  - `event_1836` \| Cat: `groceries` \| Amt: `97.55` \| Status: `recurring_projected` \| Date: `2026-04-07` \| Counted: `True`
+  - `event_1816` \| Cat: `streaming` \| Amt: `47.00` \| Status: `recurring_projected` \| Date: `2026-04-09` \| Counted: `True`
+  - `event_1815` \| Cat: `cloud_storage` \| Amt: `11.00` \| Status: `recurring_projected` \| Date: `2026-04-12` \| Counted: `True`
+  - `event_1817` \| Cat: `shopping` \| Amt: `126.38` \| Status: `recurring_projected` \| Date: `2026-04-12` \| Counted: `True`
+
+### request_22
+- **Request Date**: `2024-12-05` | **Deadline**: `2025-02-10`
+- **Next Payday**: `2024-12-15` (Amount: `616.00`)
+- **Starting Balance**: `1132.46` | **Min Keep**: `500.00` | **Requested Amount**: `731.50`
+- **GT Safe**: `475.46` | **Current Computed Safe**: `458.85`
+- **Implied E_pre**: `157.0` | **Computed E_pre**: `173.61` | **Diff**: `16.61`
+- **Candidate Expenses (Pre-Payday)**:
+  - `event_1860` \| Cat: `rent` \| Amt: `178.20` \| Status: `settled` \| Date: `2024-07-03` \| Counted: `False`
+  - `event_1861` \| Cat: `utilities` \| Amt: `32.53` \| Status: `settled` \| Date: `2024-07-07` \| Counted: `False`
+  - `event_1862` \| Cat: `music_subscription` \| Amt: `6.00` \| Status: `settled` \| Date: `2024-07-12` \| Counted: `False`
+  - `event_1863` \| Cat: `delivery_membership` \| Amt: `5.00` \| Status: `settled` \| Date: `2024-07-14` \| Counted: `False`
+  - `event_1864` \| Cat: `gym` \| Amt: `17.00` \| Status: `settled` \| Date: `2024-07-11` \| Counted: `False`
+  - `event_1865` \| Cat: `entertainment` \| Amt: `19.64` \| Status: `settled` \| Date: `2024-07-15` \| Counted: `False`
+  - `event_1867` \| Cat: `rent` \| Amt: `178.20` \| Status: `settled` \| Date: `2024-08-03` \| Counted: `False`
+  - `event_1868` \| Cat: `utilities` \| Amt: `33.73` \| Status: `settled` \| Date: `2024-08-07` \| Counted: `False`
+  - `event_1869` \| Cat: `music_subscription` \| Amt: `6.00` \| Status: `settled` \| Date: `2024-08-12` \| Counted: `False`
+  - `event_1870` \| Cat: `delivery_membership` \| Amt: `5.00` \| Status: `settled` \| Date: `2024-08-14` \| Counted: `False`
+  - `event_1871` \| Cat: `gym` \| Amt: `17.00` \| Status: `settled` \| Date: `2024-08-11` \| Counted: `False`
+  - `event_1872` \| Cat: `entertainment` \| Amt: `18.94` \| Status: `settled` \| Date: `2024-08-15` \| Counted: `False`
+  - `event_1874` \| Cat: `rent` \| Amt: `178.20` \| Status: `settled` \| Date: `2024-09-03` \| Counted: `False`
+  - `event_1875` \| Cat: `utilities` \| Amt: `31.52` \| Status: `settled` \| Date: `2024-09-07` \| Counted: `False`
+  - `event_1876` \| Cat: `music_subscription` \| Amt: `6.00` \| Status: `settled` \| Date: `2024-09-12` \| Counted: `False`
+  - `event_1877` \| Cat: `delivery_membership` \| Amt: `5.00` \| Status: `settled` \| Date: `2024-09-14` \| Counted: `False`
+  - `event_1878` \| Cat: `gym` \| Amt: `17.00` \| Status: `settled` \| Date: `2024-09-11` \| Counted: `False`
+  - `event_1879` \| Cat: `entertainment` \| Amt: `23.29` \| Status: `settled` \| Date: `2024-09-15` \| Counted: `False`
+  - `event_1881` \| Cat: `rent` \| Amt: `178.20` \| Status: `settled` \| Date: `2024-10-03` \| Counted: `False`
+  - `event_1882` \| Cat: `utilities` \| Amt: `27.68` \| Status: `settled` \| Date: `2024-10-07` \| Counted: `False`
+  - `event_1883` \| Cat: `music_subscription` \| Amt: `6.00` \| Status: `settled` \| Date: `2024-10-12` \| Counted: `False`
+  - `event_1884` \| Cat: `delivery_membership` \| Amt: `5.00` \| Status: `settled` \| Date: `2024-10-14` \| Counted: `False`
+  - `event_1885` \| Cat: `gym` \| Amt: `17.00` \| Status: `settled` \| Date: `2024-10-11` \| Counted: `False`
+  - `event_1886` \| Cat: `entertainment` \| Amt: `22.03` \| Status: `settled` \| Date: `2024-10-15` \| Counted: `False`
+  - `event_1888` \| Cat: `rent` \| Amt: `178.20` \| Status: `settled` \| Date: `2024-11-03` \| Counted: `False`
+  - `event_1889` \| Cat: `utilities` \| Amt: `27.34` \| Status: `settled` \| Date: `2024-11-07` \| Counted: `False`
+  - `event_1890` \| Cat: `music_subscription` \| Amt: `6.00` \| Status: `settled` \| Date: `2024-11-12` \| Counted: `False`
+  - `event_1891` \| Cat: `delivery_membership` \| Amt: `5.00` \| Status: `settled` \| Date: `2024-11-14` \| Counted: `False`
+  - `event_1892` \| Cat: `gym` \| Amt: `17.00` \| Status: `settled` \| Date: `2024-11-11` \| Counted: `False`
+  - `event_1893` \| Cat: `entertainment` \| Amt: `20.43` \| Status: `settled` \| Date: `2024-11-15` \| Counted: `False`
+  - `event_1894` \| Cat: `rent` \| Amt: `178.20` \| Status: `settled` \| Date: `2024-12-03` \| Counted: `False`
+  - `event_1895` \| Cat: `groceries` \| Amt: `23.95` \| Status: `settled` \| Date: `2024-06-12` \| Counted: `False`
+  - `event_1896` \| Cat: `groceries` \| Amt: `29.03` \| Status: `settled` \| Date: `2024-06-19` \| Counted: `False`
+  - `event_1897` \| Cat: `groceries` \| Amt: `22.38` \| Status: `settled` \| Date: `2024-06-26` \| Counted: `False`
+  - `event_1898` \| Cat: `groceries` \| Amt: `20.60` \| Status: `settled` \| Date: `2024-07-03` \| Counted: `False`
+  - `event_1899` \| Cat: `groceries` \| Amt: `26.47` \| Status: `settled` \| Date: `2024-07-10` \| Counted: `False`
+  - `event_1900` \| Cat: `groceries` \| Amt: `28.31` \| Status: `settled` \| Date: `2024-07-17` \| Counted: `False`
+  - `event_1901` \| Cat: `groceries` \| Amt: `22.88` \| Status: `settled` \| Date: `2024-07-24` \| Counted: `False`
+  - `event_1902` \| Cat: `groceries` \| Amt: `25.75` \| Status: `settled` \| Date: `2024-07-31` \| Counted: `False`
+  - `event_1903` \| Cat: `groceries` \| Amt: `20.50` \| Status: `settled` \| Date: `2024-08-07` \| Counted: `False`
+  - `event_1904` \| Cat: `groceries` \| Amt: `22.19` \| Status: `settled` \| Date: `2024-08-14` \| Counted: `False`
+  - `event_1905` \| Cat: `groceries` \| Amt: `21.76` \| Status: `settled` \| Date: `2024-08-21` \| Counted: `False`
+  - `event_1906` \| Cat: `groceries` \| Amt: `23.84` \| Status: `settled` \| Date: `2024-08-28` \| Counted: `False`
+  - `event_1907` \| Cat: `groceries` \| Amt: `23.02` \| Status: `settled` \| Date: `2024-09-04` \| Counted: `False`
+  - `event_1908` \| Cat: `groceries` \| Amt: `28.46` \| Status: `settled` \| Date: `2024-09-11` \| Counted: `False`
+  - `event_1909` \| Cat: `groceries` \| Amt: `22.14` \| Status: `settled` \| Date: `2024-09-18` \| Counted: `False`
+  - `event_1910` \| Cat: `groceries` \| Amt: `19.54` \| Status: `settled` \| Date: `2024-09-25` \| Counted: `False`
+  - `event_1911` \| Cat: `groceries` \| Amt: `29.25` \| Status: `settled` \| Date: `2024-10-02` \| Counted: `False`
+  - `event_1912` \| Cat: `groceries` \| Amt: `27.59` \| Status: `settled` \| Date: `2024-10-09` \| Counted: `False`
+  - `event_1913` \| Cat: `groceries` \| Amt: `23.94` \| Status: `settled` \| Date: `2024-10-16` \| Counted: `False`
+  - `event_1914` \| Cat: `groceries` \| Amt: `21.58` \| Status: `settled` \| Date: `2024-10-23` \| Counted: `False`
+  - `event_1915` \| Cat: `groceries` \| Amt: `29.81` \| Status: `settled` \| Date: `2024-10-30` \| Counted: `False`
+  - `event_1916` \| Cat: `groceries` \| Amt: `27.33` \| Status: `settled` \| Date: `2024-11-06` \| Counted: `False`
+  - `event_1917` \| Cat: `groceries` \| Amt: `18.71` \| Status: `settled` \| Date: `2024-11-13` \| Counted: `False`
+  - `event_1918` \| Cat: `groceries` \| Amt: `18.60` \| Status: `settled` \| Date: `2024-11-20` \| Counted: `False`
+  - `event_1919` \| Cat: `groceries` \| Amt: `18.35` \| Status: `settled` \| Date: `2024-11-27` \| Counted: `False`
+  - `event_1920` \| Cat: `groceries` \| Amt: `26.82` \| Status: `settled` \| Date: `2024-12-04` \| Counted: `False`
+  - `event_1921` \| Cat: `transport` \| Amt: `16.09` \| Status: `settled` \| Date: `2024-06-13` \| Counted: `False`
+  - `event_1922` \| Cat: `transport` \| Amt: `11.63` \| Status: `settled` \| Date: `2024-06-20` \| Counted: `False`
+  - `event_1923` \| Cat: `transport` \| Amt: `16.34` \| Status: `settled` \| Date: `2024-06-27` \| Counted: `False`
+  - `event_1924` \| Cat: `transport` \| Amt: `10.38` \| Status: `settled` \| Date: `2024-07-04` \| Counted: `False`
+  - `event_1925` \| Cat: `transport` \| Amt: `12.33` \| Status: `settled` \| Date: `2024-07-11` \| Counted: `False`
+  - `event_1926` \| Cat: `transport` \| Amt: `12.70` \| Status: `settled` \| Date: `2024-07-18` \| Counted: `False`
+  - `event_1927` \| Cat: `transport` \| Amt: `12.95` \| Status: `settled` \| Date: `2024-07-25` \| Counted: `False`
+  - `event_1928` \| Cat: `transport` \| Amt: `12.59` \| Status: `settled` \| Date: `2024-08-01` \| Counted: `False`
+  - `event_1929` \| Cat: `transport` \| Amt: `9.70` \| Status: `settled` \| Date: `2024-08-08` \| Counted: `False`
+  - `event_1930` \| Cat: `transport` \| Amt: `10.41` \| Status: `settled` \| Date: `2024-08-15` \| Counted: `False`
+  - `event_1931` \| Cat: `transport` \| Amt: `10.72` \| Status: `settled` \| Date: `2024-08-22` \| Counted: `False`
+  - `event_1932` \| Cat: `transport` \| Amt: `11.85` \| Status: `settled` \| Date: `2024-08-29` \| Counted: `False`
+  - `event_1933` \| Cat: `transport` \| Amt: `12.65` \| Status: `settled` \| Date: `2024-09-05` \| Counted: `False`
+  - `event_1934` \| Cat: `transport` \| Amt: `15.34` \| Status: `settled` \| Date: `2024-09-12` \| Counted: `False`
+  - `event_1935` \| Cat: `transport` \| Amt: `10.09` \| Status: `settled` \| Date: `2024-09-19` \| Counted: `False`
+  - `event_1936` \| Cat: `transport` \| Amt: `15.68` \| Status: `settled` \| Date: `2024-09-26` \| Counted: `False`
+  - `event_1937` \| Cat: `transport` \| Amt: `13.05` \| Status: `settled` \| Date: `2024-10-03` \| Counted: `False`
+  - `event_1938` \| Cat: `transport` \| Amt: `9.90` \| Status: `settled` \| Date: `2024-10-10` \| Counted: `False`
+  - `event_1939` \| Cat: `transport` \| Amt: `15.93` \| Status: `settled` \| Date: `2024-10-17` \| Counted: `False`
+  - `event_1940` \| Cat: `transport` \| Amt: `15.08` \| Status: `settled` \| Date: `2024-10-24` \| Counted: `False`
+  - `event_1941` \| Cat: `transport` \| Amt: `15.65` \| Status: `settled` \| Date: `2024-10-31` \| Counted: `False`
+  - `event_1942` \| Cat: `transport` \| Amt: `14.93` \| Status: `settled` \| Date: `2024-11-07` \| Counted: `False`
+  - `event_1943` \| Cat: `transport` \| Amt: `11.44` \| Status: `settled` \| Date: `2024-11-14` \| Counted: `False`
+  - `event_1944` \| Cat: `transport` \| Amt: `15.87` \| Status: `settled` \| Date: `2024-11-21` \| Counted: `False`
+  - `event_1945` \| Cat: `transport` \| Amt: `15.02` \| Status: `settled` \| Date: `2024-11-28` \| Counted: `False`
+  - `event_1946` \| Cat: `dining` \| Amt: `12.25` \| Status: `settled` \| Date: `2024-06-14` \| Counted: `False`
+  - `event_1947` \| Cat: `dining` \| Amt: `18.82` \| Status: `settled` \| Date: `2024-06-28` \| Counted: `False`
+  - `event_1948` \| Cat: `dining` \| Amt: `13.59` \| Status: `settled` \| Date: `2024-07-12` \| Counted: `False`
+  - `event_1949` \| Cat: `dining` \| Amt: `14.46` \| Status: `settled` \| Date: `2024-07-26` \| Counted: `False`
+  - `event_1950` \| Cat: `dining` \| Amt: `20.85` \| Status: `settled` \| Date: `2024-08-09` \| Counted: `False`
+  - `event_1951` \| Cat: `dining` \| Amt: `15.63` \| Status: `settled` \| Date: `2024-08-23` \| Counted: `False`
+  - `event_1952` \| Cat: `dining` \| Amt: `17.66` \| Status: `settled` \| Date: `2024-09-06` \| Counted: `False`
+  - `event_1953` \| Cat: `dining` \| Amt: `16.03` \| Status: `settled` \| Date: `2024-09-20` \| Counted: `False`
+  - `event_1954` \| Cat: `dining` \| Amt: `14.22` \| Status: `settled` \| Date: `2024-10-04` \| Counted: `False`
+  - `event_1955` \| Cat: `dining` \| Amt: `18.53` \| Status: `settled` \| Date: `2024-10-18` \| Counted: `False`
+  - `event_1956` \| Cat: `dining` \| Amt: `12.65` \| Status: `settled` \| Date: `2024-11-01` \| Counted: `False`
+  - `event_1957` \| Cat: `dining` \| Amt: `15.84` \| Status: `settled` \| Date: `2024-11-15` \| Counted: `False`
+  - `event_1958` \| Cat: `dining` \| Amt: `18.41` \| Status: `settled` \| Date: `2024-11-29` \| Counted: `False`
+  - `event_1959` \| Cat: `investment` \| Amt: `184.80` \| Status: `settled` \| Date: `2024-09-01` \| Counted: `False`
+  - `event_1961` \| Cat: `shopping` \| Amt: `43.00` \| Status: `pending` \| Date: `2024-12-08` \| Counted: `True`
+  - `event_1945` \| Cat: `transport` \| Amt: `15.02` \| Status: `recurring_projected` \| Date: `2024-12-05` \| Counted: `True`
+  - `event_1889` \| Cat: `utilities` \| Amt: `27.34` \| Status: `recurring_projected` \| Date: `2024-12-07` \| Counted: `True`
+  - `event_1892` \| Cat: `gym` \| Amt: `17.00` \| Status: `recurring_projected` \| Date: `2024-12-11` \| Counted: `True`
+  - `event_1920` \| Cat: `groceries` \| Amt: `26.82` \| Status: `recurring_projected` \| Date: `2024-12-11` \| Counted: `True`
+  - `event_1890` \| Cat: `music_subscription` \| Amt: `6.00` \| Status: `recurring_projected` \| Date: `2024-12-12` \| Counted: `True`
+  - `event_1945` \| Cat: `transport` \| Amt: `15.02` \| Status: `recurring_projected` \| Date: `2024-12-12` \| Counted: `True`
+  - `event_1958` \| Cat: `dining` \| Amt: `18.41` \| Status: `recurring_projected` \| Date: `2024-12-13` \| Counted: `True`
+  - `event_1891` \| Cat: `delivery_membership` \| Amt: `5.00` \| Status: `recurring_projected` \| Date: `2024-12-14` \| Counted: `True`
+
+### request_23
+- **Request Date**: `2025-05-07` | **Deadline**: `2025-07-15`
+- **Next Payday**: `2025-05-15` (Amount: `45760.00`)
+- **Starting Balance**: `51957.90` | **Min Keep**: `27000.00` | **Requested Amount**: `38016.00`
+- **GT Safe**: `9152.00` | **Current Computed Safe**: `10780.20`
+- **Implied E_pre**: `15805.9` | **Computed E_pre**: `14177.70` | **Diff**: `-1628.20`
+- **Candidate Expenses (Pre-Payday)**:
+  - `event_1963` \| Cat: `rent` \| Amt: `15312.00` \| Status: `settled` \| Date: `2024-12-04` \| Counted: `False`
+  - `event_1964` \| Cat: `utilities` \| Amt: `2877.85` \| Status: `settled` \| Date: `2024-12-08` \| Counted: `False`
+  - `event_1965` \| Cat: `debt_repayment` \| Amt: `5852.00` \| Status: `settled` \| Date: `2024-12-13` \| Counted: `False`
+  - `event_1966` \| Cat: `healthcare` \| Amt: `1341.05` \| Status: `settled` \| Date: `2024-12-12` \| Counted: `False`
+  - `event_1967` \| Cat: `family_support` \| Amt: `4270.20` \| Status: `settled` \| Date: `2024-12-15` \| Counted: `False`
+  - `event_1968` \| Cat: `cloud_storage` \| Amt: `295.90` \| Status: `settled` \| Date: `2024-12-14` \| Counted: `False`
+  - `event_1969` \| Cat: `shopping` \| Amt: `1279.39` \| Status: `settled` \| Date: `2024-12-14` \| Counted: `False`
+  - `event_1971` \| Cat: `rent` \| Amt: `15312.00` \| Status: `settled` \| Date: `2025-01-04` \| Counted: `False`
+  - `event_1972` \| Cat: `utilities` \| Amt: `2484.32` \| Status: `settled` \| Date: `2025-01-08` \| Counted: `False`
+  - `event_1973` \| Cat: `debt_repayment` \| Amt: `5852.00` \| Status: `settled` \| Date: `2025-01-13` \| Counted: `False`
+  - `event_1974` \| Cat: `healthcare` \| Amt: `1331.22` \| Status: `settled` \| Date: `2025-01-12` \| Counted: `False`
+  - `event_1975` \| Cat: `family_support` \| Amt: `4270.20` \| Status: `settled` \| Date: `2025-01-15` \| Counted: `False`
+  - `event_1976` \| Cat: `cloud_storage` \| Amt: `295.90` \| Status: `settled` \| Date: `2025-01-14` \| Counted: `False`
+  - `event_1977` \| Cat: `shopping` \| Amt: `1396.33` \| Status: `settled` \| Date: `2025-01-14` \| Counted: `False`
+  - `event_1979` \| Cat: `rent` \| Amt: `15312.00` \| Status: `settled` \| Date: `2025-02-04` \| Counted: `False`
+  - `event_1980` \| Cat: `utilities` \| Amt: `2915.67` \| Status: `settled` \| Date: `2025-02-08` \| Counted: `False`
+  - `event_1981` \| Cat: `debt_repayment` \| Amt: `5852.00` \| Status: `settled` \| Date: `2025-02-13` \| Counted: `False`
+  - `event_1982` \| Cat: `healthcare` \| Amt: `1439.91` \| Status: `settled` \| Date: `2025-02-12` \| Counted: `False`
+  - `event_1983` \| Cat: `family_support` \| Amt: `4270.20` \| Status: `settled` \| Date: `2025-02-15` \| Counted: `False`
+  - `event_1984` \| Cat: `cloud_storage` \| Amt: `295.90` \| Status: `settled` \| Date: `2025-02-14` \| Counted: `False`
+  - `event_1985` \| Cat: `shopping` \| Amt: `1389.39` \| Status: `settled` \| Date: `2025-02-14` \| Counted: `False`
+  - `event_1987` \| Cat: `rent` \| Amt: `15312.00` \| Status: `settled` \| Date: `2025-03-04` \| Counted: `False`
+  - `event_1988` \| Cat: `utilities` \| Amt: `2813.94` \| Status: `settled` \| Date: `2025-03-08` \| Counted: `False`
+  - `event_1989` \| Cat: `debt_repayment` \| Amt: `5852.00` \| Status: `settled` \| Date: `2025-03-13` \| Counted: `False`
+  - `event_1990` \| Cat: `healthcare` \| Amt: `1317.68` \| Status: `settled` \| Date: `2025-03-12` \| Counted: `False`
+  - `event_1991` \| Cat: `family_support` \| Amt: `4270.20` \| Status: `settled` \| Date: `2025-03-15` \| Counted: `False`
+  - `event_1992` \| Cat: `cloud_storage` \| Amt: `295.90` \| Status: `settled` \| Date: `2025-03-14` \| Counted: `False`
+  - `event_1993` \| Cat: `shopping` \| Amt: `1232.23` \| Status: `settled` \| Date: `2025-03-14` \| Counted: `False`
+  - `event_1995` \| Cat: `rent` \| Amt: `15312.00` \| Status: `settled` \| Date: `2025-04-04` \| Counted: `False`
+  - `event_1996` \| Cat: `utilities` \| Amt: `2680.15` \| Status: `settled` \| Date: `2025-04-08` \| Counted: `False`
+  - `event_1997` \| Cat: `debt_repayment` \| Amt: `5852.00` \| Status: `settled` \| Date: `2025-04-13` \| Counted: `False`
+  - `event_1998` \| Cat: `healthcare` \| Amt: `1377.89` \| Status: `settled` \| Date: `2025-04-12` \| Counted: `False`
+  - `event_1999` \| Cat: `family_support` \| Amt: `4270.20` \| Status: `settled` \| Date: `2025-04-15` \| Counted: `False`
+  - `event_2000` \| Cat: `cloud_storage` \| Amt: `295.90` \| Status: `settled` \| Date: `2025-04-14` \| Counted: `False`
+  - `event_2001` \| Cat: `shopping` \| Amt: `1281.33` \| Status: `settled` \| Date: `2025-04-14` \| Counted: `False`
+  - `event_2002` \| Cat: `rent` \| Amt: `15312.00` \| Status: `settled` \| Date: `2025-05-04` \| Counted: `False`
+  - `event_2003` \| Cat: `groceries` \| Amt: `1401.85` \| Status: `settled` \| Date: `2024-11-13` \| Counted: `False`
+  - `event_2004` \| Cat: `groceries` \| Amt: `1332.28` \| Status: `settled` \| Date: `2024-11-20` \| Counted: `False`
+  - `event_2005` \| Cat: `groceries` \| Amt: `1586.85` \| Status: `settled` \| Date: `2024-11-27` \| Counted: `False`
+  - `event_2006` \| Cat: `groceries` \| Amt: `1372.64` \| Status: `settled` \| Date: `2024-12-04` \| Counted: `False`
+  - `event_2007` \| Cat: `groceries` \| Amt: `1821.15` \| Status: `settled` \| Date: `2024-12-11` \| Counted: `False`
+  - `event_2008` \| Cat: `groceries` \| Amt: `2207.92` \| Status: `settled` \| Date: `2024-12-18` \| Counted: `False`
+  - `event_2009` \| Cat: `groceries` \| Amt: `1981.14` \| Status: `settled` \| Date: `2024-12-25` \| Counted: `False`
+  - `event_2010` \| Cat: `groceries` \| Amt: `2178.52` \| Status: `settled` \| Date: `2025-01-01` \| Counted: `False`
+  - `event_2011` \| Cat: `groceries` \| Amt: `1927.69` \| Status: `settled` \| Date: `2025-01-08` \| Counted: `False`
+  - `event_2012` \| Cat: `groceries` \| Amt: `2125.65` \| Status: `settled` \| Date: `2025-01-15` \| Counted: `False`
+  - `event_2013` \| Cat: `groceries` \| Amt: `1544.99` \| Status: `settled` \| Date: `2025-01-22` \| Counted: `False`
+  - `event_2014` \| Cat: `groceries` \| Amt: `1914.51` \| Status: `settled` \| Date: `2025-01-29` \| Counted: `False`
+  - `event_2015` \| Cat: `groceries` \| Amt: `1421.88` \| Status: `settled` \| Date: `2025-02-05` \| Counted: `False`
+  - `event_2016` \| Cat: `groceries` \| Amt: `1556.59` \| Status: `settled` \| Date: `2025-02-12` \| Counted: `False`
+  - `event_2017` \| Cat: `groceries` \| Amt: `2186.26` \| Status: `settled` \| Date: `2025-02-19` \| Counted: `False`
+  - `event_2018` \| Cat: `groceries` \| Amt: `2146.88` \| Status: `settled` \| Date: `2025-02-26` \| Counted: `False`
+  - `event_2019` \| Cat: `groceries` \| Amt: `1717.87` \| Status: `settled` \| Date: `2025-03-05` \| Counted: `False`
+  - `event_2020` \| Cat: `groceries` \| Amt: `2074.73` \| Status: `settled` \| Date: `2025-03-12` \| Counted: `False`
+  - `event_2021` \| Cat: `groceries` \| Amt: `1372.44` \| Status: `settled` \| Date: `2025-03-19` \| Counted: `False`
+  - `event_2022` \| Cat: `groceries` \| Amt: `1706.85` \| Status: `settled` \| Date: `2025-03-26` \| Counted: `False`
+  - `event_2023` \| Cat: `groceries` \| Amt: `1487.69` \| Status: `settled` \| Date: `2025-04-02` \| Counted: `False`
+  - `event_2024` \| Cat: `groceries` \| Amt: `1794.76` \| Status: `settled` \| Date: `2025-04-09` \| Counted: `False`
+  - `event_2025` \| Cat: `groceries` \| Amt: `1678.37` \| Status: `settled` \| Date: `2025-04-16` \| Counted: `False`
+  - `event_2026` \| Cat: `groceries` \| Amt: `1514.83` \| Status: `settled` \| Date: `2025-04-23` \| Counted: `False`
+  - `event_2027` \| Cat: `groceries` \| Amt: `1257.56` \| Status: `settled` \| Date: `2025-04-30` \| Counted: `False`
+  - `event_2028` \| Cat: `transport` \| Amt: `682.68` \| Status: `settled` \| Date: `2024-11-14` \| Counted: `False`
+  - `event_2029` \| Cat: `transport` \| Amt: `1121.50` \| Status: `settled` \| Date: `2024-11-28` \| Counted: `False`
+  - `event_2030` \| Cat: `transport` \| Amt: `747.69` \| Status: `settled` \| Date: `2024-12-12` \| Counted: `False`
+  - `event_2031` \| Cat: `transport` \| Amt: `777.57` \| Status: `settled` \| Date: `2024-12-26` \| Counted: `False`
+  - `event_2032` \| Cat: `transport` \| Amt: `896.02` \| Status: `settled` \| Date: `2025-01-09` \| Counted: `False`
+  - `event_2033` \| Cat: `transport` \| Amt: `904.55` \| Status: `settled` \| Date: `2025-01-23` \| Counted: `False`
+  - `event_2034` \| Cat: `transport` \| Amt: `968.71` \| Status: `settled` \| Date: `2025-02-06` \| Counted: `False`
+  - `event_2035` \| Cat: `transport` \| Amt: `1046.56` \| Status: `settled` \| Date: `2025-02-20` \| Counted: `False`
+  - `event_2036` \| Cat: `transport` \| Amt: `738.21` \| Status: `settled` \| Date: `2025-03-06` \| Counted: `False`
+  - `event_2037` \| Cat: `transport` \| Amt: `956.01` \| Status: `settled` \| Date: `2025-03-20` \| Counted: `False`
+  - `event_2038` \| Cat: `transport` \| Amt: `1092.98` \| Status: `settled` \| Date: `2025-04-03` \| Counted: `False`
+  - `event_2039` \| Cat: `transport` \| Amt: `834.00` \| Status: `settled` \| Date: `2025-04-17` \| Counted: `False`
+  - `event_2040` \| Cat: `transport` \| Amt: `783.18` \| Status: `settled` \| Date: `2025-05-01` \| Counted: `False`
+  - `event_2041` \| Cat: `investment` \| Amt: `13728.00` \| Status: `settled` \| Date: `2025-02-01` \| Counted: `False`
+  - `event_2042` \| Cat: `healthcare` \| Amt: `1553.20` \| Status: `pending` \| Date: `2025-05-11` \| Counted: `True`
+  - `event_2027` \| Cat: `groceries` \| Amt: `1257.56` \| Status: `recurring_projected` \| Date: `2025-05-07` \| Counted: `True`
+  - `event_1996` \| Cat: `utilities` \| Amt: `2680.15` \| Status: `recurring_projected` \| Date: `2025-05-08` \| Counted: `True`
+  - `event_2042` \| Cat: `healthcare` \| Amt: `1553.20` \| Status: `recurring_projected` \| Date: `2025-05-12` \| Counted: `False`
+  - `event_1997` \| Cat: `debt_repayment` \| Amt: `5852.00` \| Status: `recurring_projected` \| Date: `2025-05-13` \| Counted: `True`
+  - `event_2000` \| Cat: `cloud_storage` \| Amt: `295.90` \| Status: `recurring_projected` \| Date: `2025-05-14` \| Counted: `True`
+  - `event_2001` \| Cat: `shopping` \| Amt: `1281.33` \| Status: `recurring_projected` \| Date: `2025-05-14` \| Counted: `True`
+  - `event_2027` \| Cat: `groceries` \| Amt: `1257.56` \| Status: `recurring_projected` \| Date: `2025-05-14` \| Counted: `True`
+
+### request_24
+- **Request Date**: `2026-01-04` | **Deadline**: `2026-02-08`
+- **Next Payday**: `2026-01-15` (Amount: `61000.00`)
+- **Starting Balance**: `85045.00` | **Min Keep**: `51000.00` | **Requested Amount**: `109600.00`
+- **GT Safe**: `13420.00` | **Current Computed Safe**: `16876.50`
+- **Implied E_pre**: `20625.0` | **Computed E_pre**: `17168.49` | **Diff**: `-3456.51`
+- **Candidate Expenses (Pre-Payday)**:
+  - `event_2044` \| Cat: `rent` \| Amt: `18600.00` \| Status: `settled` \| Date: `2025-08-01` \| Counted: `False`
+  - `event_2045` \| Cat: `utilities` \| Amt: `3049.81` \| Status: `settled` \| Date: `2025-08-05` \| Counted: `False`
+  - `event_2046` \| Cat: `insurance` \| Amt: `2510.00` \| Status: `settled` \| Date: `2025-08-06` \| Counted: `False`
+  - `event_2047` \| Cat: `cloud_storage` \| Amt: `355.00` \| Status: `settled` \| Date: `2025-08-11` \| Counted: `False`
+  - `event_2048` \| Cat: `streaming` \| Amt: `1200.00` \| Status: `settled` \| Date: `2025-08-08` \| Counted: `False`
+  - `event_2049` \| Cat: `shopping` \| Amt: `2409.82` \| Status: `settled` \| Date: `2025-08-11` \| Counted: `False`
+  - `event_2050` \| Cat: `entertainment` \| Amt: `1870.60` \| Status: `settled` \| Date: `2025-08-13` \| Counted: `False`
+  - `event_2052` \| Cat: `rent` \| Amt: `18600.00` \| Status: `settled` \| Date: `2025-09-01` \| Counted: `False`
+  - `event_2053` \| Cat: `utilities` \| Amt: `3226.12` \| Status: `settled` \| Date: `2025-09-05` \| Counted: `False`
+  - `event_2054` \| Cat: `insurance` \| Amt: `2510.00` \| Status: `settled` \| Date: `2025-09-06` \| Counted: `False`
+  - `event_2055` \| Cat: `cloud_storage` \| Amt: `355.00` \| Status: `settled` \| Date: `2025-09-11` \| Counted: `False`
+  - `event_2056` \| Cat: `streaming` \| Amt: `1200.00` \| Status: `settled` \| Date: `2025-09-08` \| Counted: `False`
+  - `event_2057` \| Cat: `shopping` \| Amt: `2514.90` \| Status: `settled` \| Date: `2025-09-11` \| Counted: `False`
+  - `event_2058` \| Cat: `entertainment` \| Amt: `2124.72` \| Status: `settled` \| Date: `2025-09-13` \| Counted: `False`
+  - `event_2060` \| Cat: `rent` \| Amt: `18600.00` \| Status: `settled` \| Date: `2025-10-01` \| Counted: `False`
+  - `event_2061` \| Cat: `utilities` \| Amt: `3417.70` \| Status: `settled` \| Date: `2025-10-05` \| Counted: `False`
+  - `event_2062` \| Cat: `insurance` \| Amt: `2510.00` \| Status: `settled` \| Date: `2025-10-06` \| Counted: `False`
+  - `event_2063` \| Cat: `cloud_storage` \| Amt: `355.00` \| Status: `settled` \| Date: `2025-10-11` \| Counted: `False`
+  - `event_2064` \| Cat: `streaming` \| Amt: `1200.00` \| Status: `settled` \| Date: `2025-10-08` \| Counted: `False`
+  - `event_2065` \| Cat: `shopping` \| Amt: `2680.78` \| Status: `settled` \| Date: `2025-10-11` \| Counted: `False`
+  - `event_2066` \| Cat: `entertainment` \| Amt: `1916.16` \| Status: `settled` \| Date: `2025-10-13` \| Counted: `False`
+  - `event_2068` \| Cat: `rent` \| Amt: `18600.00` \| Status: `settled` \| Date: `2025-11-01` \| Counted: `False`
+  - `event_2069` \| Cat: `utilities` \| Amt: `3335.41` \| Status: `settled` \| Date: `2025-11-05` \| Counted: `False`
+  - `event_2070` \| Cat: `insurance` \| Amt: `2510.00` \| Status: `settled` \| Date: `2025-11-06` \| Counted: `False`
+  - `event_2071` \| Cat: `cloud_storage` \| Amt: `355.00` \| Status: `settled` \| Date: `2025-11-11` \| Counted: `False`
+  - `event_2072` \| Cat: `streaming` \| Amt: `1200.00` \| Status: `settled` \| Date: `2025-11-08` \| Counted: `False`
+  - `event_2073` \| Cat: `shopping` \| Amt: `2398.76` \| Status: `settled` \| Date: `2025-11-11` \| Counted: `False`
+  - `event_2074` \| Cat: `entertainment` \| Amt: `1845.75` \| Status: `settled` \| Date: `2025-11-13` \| Counted: `False`
+  - `event_2076` \| Cat: `rent` \| Amt: `18600.00` \| Status: `settled` \| Date: `2025-12-01` \| Counted: `False`
+  - `event_2077` \| Cat: `utilities` \| Amt: `3490.50` \| Status: `settled` \| Date: `2025-12-05` \| Counted: `False`
+  - `event_2078` \| Cat: `insurance` \| Amt: `2510.00` \| Status: `settled` \| Date: `2025-12-06` \| Counted: `False`
+  - `event_2079` \| Cat: `cloud_storage` \| Amt: `355.00` \| Status: `settled` \| Date: `2025-12-11` \| Counted: `False`
+  - `event_2080` \| Cat: `streaming` \| Amt: `1200.00` \| Status: `settled` \| Date: `2025-12-08` \| Counted: `False`
+  - `event_2081` \| Cat: `shopping` \| Amt: `2564.00` \| Status: `settled` \| Date: `2025-12-11` \| Counted: `False`
+  - `event_2082` \| Cat: `entertainment` \| Amt: `1896.25` \| Status: `settled` \| Date: `2025-12-13` \| Counted: `False`
+  - `event_2083` \| Cat: `rent` \| Amt: `18600.00` \| Status: `settled` \| Date: `2026-01-01` \| Counted: `False`
+  - `event_2084` \| Cat: `groceries` \| Amt: `2886.90` \| Status: `settled` \| Date: `2025-07-10` \| Counted: `False`
+  - `event_2085` \| Cat: `groceries` \| Amt: `2024.93` \| Status: `settled` \| Date: `2025-07-20` \| Counted: `False`
+  - `event_2086` \| Cat: `groceries` \| Amt: `2236.73` \| Status: `settled` \| Date: `2025-07-30` \| Counted: `False`
+  - `event_2087` \| Cat: `groceries` \| Amt: `2439.18` \| Status: `settled` \| Date: `2025-08-09` \| Counted: `False`
+  - `event_2088` \| Cat: `groceries` \| Amt: `2564.99` \| Status: `settled` \| Date: `2025-08-19` \| Counted: `False`
+  - `event_2089` \| Cat: `groceries` \| Amt: `2201.87` \| Status: `settled` \| Date: `2025-08-29` \| Counted: `False`
+  - `event_2090` \| Cat: `groceries` \| Amt: `2601.43` \| Status: `settled` \| Date: `2025-09-08` \| Counted: `False`
+  - `event_2091` \| Cat: `groceries` \| Amt: `2958.79` \| Status: `settled` \| Date: `2025-09-18` \| Counted: `False`
+  - `event_2092` \| Cat: `groceries` \| Amt: `2042.70` \| Status: `settled` \| Date: `2025-09-28` \| Counted: `False`
+  - `event_2093` \| Cat: `groceries` \| Amt: `2145.69` \| Status: `settled` \| Date: `2025-10-08` \| Counted: `False`
+  - `event_2094` \| Cat: `groceries` \| Amt: `1843.76` \| Status: `settled` \| Date: `2025-10-18` \| Counted: `False`
+  - `event_2095` \| Cat: `groceries` \| Amt: `2358.78` \| Status: `settled` \| Date: `2025-10-28` \| Counted: `False`
+  - `event_2096` \| Cat: `groceries` \| Amt: `2295.12` \| Status: `settled` \| Date: `2025-11-07` \| Counted: `False`
+  - `event_2097` \| Cat: `groceries` \| Amt: `1824.41` \| Status: `settled` \| Date: `2025-11-17` \| Counted: `False`
+  - `event_2098` \| Cat: `groceries` \| Amt: `2113.95` \| Status: `settled` \| Date: `2025-11-27` \| Counted: `False`
+  - `event_2099` \| Cat: `groceries` \| Amt: `2260.73` \| Status: `settled` \| Date: `2025-12-07` \| Counted: `False`
+  - `event_2100` \| Cat: `groceries` \| Amt: `2106.55` \| Status: `settled` \| Date: `2025-12-17` \| Counted: `False`
+  - `event_2101` \| Cat: `groceries` \| Amt: `2321.31` \| Status: `settled` \| Date: `2025-12-27` \| Counted: `False`
+  - `event_2102` \| Cat: `transport` \| Amt: `1663.51` \| Status: `settled` \| Date: `2025-07-11` \| Counted: `False`
+  - `event_2103` \| Cat: `transport` \| Amt: `1021.64` \| Status: `settled` \| Date: `2025-07-16` \| Counted: `False`
+  - `event_2104` \| Cat: `transport` \| Amt: `1760.99` \| Status: `settled` \| Date: `2025-07-21` \| Counted: `False`
+  - `event_2105` \| Cat: `transport` \| Amt: `1208.87` \| Status: `settled` \| Date: `2025-07-26` \| Counted: `False`
+  - `event_2106` \| Cat: `transport` \| Amt: `1232.11` \| Status: `settled` \| Date: `2025-07-31` \| Counted: `False`
+  - `event_2107` \| Cat: `transport` \| Amt: `1319.20` \| Status: `settled` \| Date: `2025-08-05` \| Counted: `False`
+  - `event_2108` \| Cat: `transport` \| Amt: `1536.25` \| Status: `settled` \| Date: `2025-08-10` \| Counted: `False`
+  - `event_2109` \| Cat: `transport` \| Amt: `1122.20` \| Status: `settled` \| Date: `2025-08-15` \| Counted: `False`
+  - `event_2110` \| Cat: `transport` \| Amt: `1576.88` \| Status: `settled` \| Date: `2025-08-20` \| Counted: `False`
+  - `event_2111` \| Cat: `transport` \| Amt: `1091.32` \| Status: `settled` \| Date: `2025-08-25` \| Counted: `False`
+  - `event_2112` \| Cat: `transport` \| Amt: `1119.08` \| Status: `settled` \| Date: `2025-08-30` \| Counted: `False`
+  - `event_2113` \| Cat: `transport` \| Amt: `1370.25` \| Status: `settled` \| Date: `2025-09-04` \| Counted: `False`
+  - `event_2114` \| Cat: `transport` \| Amt: `1401.30` \| Status: `settled` \| Date: `2025-09-09` \| Counted: `False`
+  - `event_2115` \| Cat: `transport` \| Amt: `1393.89` \| Status: `settled` \| Date: `2025-09-14` \| Counted: `False`
+  - `event_2116` \| Cat: `transport` \| Amt: `1153.55` \| Status: `settled` \| Date: `2025-09-19` \| Counted: `False`
+  - `event_2117` \| Cat: `transport` \| Amt: `1586.75` \| Status: `settled` \| Date: `2025-09-24` \| Counted: `False`
+  - `event_2118` \| Cat: `transport` \| Amt: `1218.23` \| Status: `settled` \| Date: `2025-09-29` \| Counted: `False`
+  - `event_2119` \| Cat: `transport` \| Amt: `1750.91` \| Status: `settled` \| Date: `2025-10-04` \| Counted: `False`
+  - `event_2120` \| Cat: `transport` \| Amt: `1585.39` \| Status: `settled` \| Date: `2025-10-09` \| Counted: `False`
+  - `event_2121` \| Cat: `transport` \| Amt: `1069.31` \| Status: `settled` \| Date: `2025-10-14` \| Counted: `False`
+  - `event_2122` \| Cat: `transport` \| Amt: `1314.27` \| Status: `settled` \| Date: `2025-10-19` \| Counted: `False`
+  - `event_2123` \| Cat: `transport` \| Amt: `1731.13` \| Status: `settled` \| Date: `2025-10-24` \| Counted: `False`
+  - `event_2124` \| Cat: `transport` \| Amt: `1110.11` \| Status: `settled` \| Date: `2025-10-29` \| Counted: `False`
+  - `event_2125` \| Cat: `transport` \| Amt: `1256.01` \| Status: `settled` \| Date: `2025-11-03` \| Counted: `False`
+  - `event_2126` \| Cat: `transport` \| Amt: `1514.06` \| Status: `settled` \| Date: `2025-11-08` \| Counted: `False`
+  - `event_2127` \| Cat: `transport` \| Amt: `1600.18` \| Status: `settled` \| Date: `2025-11-13` \| Counted: `False`
+  - `event_2128` \| Cat: `transport` \| Amt: `1534.77` \| Status: `settled` \| Date: `2025-11-18` \| Counted: `False`
+  - `event_2129` \| Cat: `transport` \| Amt: `1050.40` \| Status: `settled` \| Date: `2025-11-23` \| Counted: `False`
+  - `event_2130` \| Cat: `transport` \| Amt: `1187.92` \| Status: `settled` \| Date: `2025-11-28` \| Counted: `False`
+  - `event_2131` \| Cat: `transport` \| Amt: `1270.09` \| Status: `settled` \| Date: `2025-12-03` \| Counted: `False`
+  - `event_2132` \| Cat: `transport` \| Amt: `1485.42` \| Status: `settled` \| Date: `2025-12-08` \| Counted: `False`
+  - `event_2133` \| Cat: `transport` \| Amt: `1341.45` \| Status: `settled` \| Date: `2025-12-13` \| Counted: `False`
+  - `event_2134` \| Cat: `transport` \| Amt: `1059.47` \| Status: `settled` \| Date: `2025-12-18` \| Counted: `False`
+  - `event_2135` \| Cat: `transport` \| Amt: `1438.00` \| Status: `settled` \| Date: `2025-12-23` \| Counted: `False`
+  - `event_2136` \| Cat: `transport` \| Amt: `1255.38` \| Status: `settled` \| Date: `2025-12-28` \| Counted: `False`
+  - `event_2137` \| Cat: `transport` \| Amt: `1593.41` \| Status: `settled` \| Date: `2026-01-02` \| Counted: `False`
+  - `event_2138` \| Cat: `dining` \| Amt: `1757.23` \| Status: `settled` \| Date: `2025-07-12` \| Counted: `False`
+  - `event_2139` \| Cat: `dining` \| Amt: `1886.97` \| Status: `settled` \| Date: `2025-07-19` \| Counted: `False`
+  - `event_2140` \| Cat: `dining` \| Amt: `2149.97` \| Status: `settled` \| Date: `2025-07-26` \| Counted: `False`
+  - `event_2141` \| Cat: `dining` \| Amt: `2239.04` \| Status: `settled` \| Date: `2025-08-02` \| Counted: `False`
+  - `event_2142` \| Cat: `dining` \| Amt: `1328.72` \| Status: `settled` \| Date: `2025-08-09` \| Counted: `False`
+  - `event_2143` \| Cat: `dining` \| Amt: `1291.44` \| Status: `settled` \| Date: `2025-08-16` \| Counted: `False`
+  - `event_2144` \| Cat: `dining` \| Amt: `2105.67` \| Status: `settled` \| Date: `2025-08-23` \| Counted: `False`
+  - `event_2145` \| Cat: `dining` \| Amt: `2046.83` \| Status: `settled` \| Date: `2025-08-30` \| Counted: `False`
+  - `event_2146` \| Cat: `dining` \| Amt: `2288.09` \| Status: `settled` \| Date: `2025-09-06` \| Counted: `False`
+  - `event_2147` \| Cat: `dining` \| Amt: `1893.38` \| Status: `settled` \| Date: `2025-09-13` \| Counted: `False`
+  - `event_2148` \| Cat: `dining` \| Amt: `1783.10` \| Status: `settled` \| Date: `2025-09-20` \| Counted: `False`
+  - `event_2149` \| Cat: `dining` \| Amt: `2137.71` \| Status: `settled` \| Date: `2025-09-27` \| Counted: `False`
+  - `event_2150` \| Cat: `dining` \| Amt: `1985.64` \| Status: `settled` \| Date: `2025-10-04` \| Counted: `False`
+  - `event_2151` \| Cat: `dining` \| Amt: `1496.44` \| Status: `settled` \| Date: `2025-10-11` \| Counted: `False`
+  - `event_2152` \| Cat: `dining` \| Amt: `1662.99` \| Status: `settled` \| Date: `2025-10-18` \| Counted: `False`
+  - `event_2153` \| Cat: `dining` \| Amt: `1942.46` \| Status: `settled` \| Date: `2025-10-25` \| Counted: `False`
+  - `event_2154` \| Cat: `dining` \| Amt: `1818.76` \| Status: `settled` \| Date: `2025-11-01` \| Counted: `False`
+  - `event_2155` \| Cat: `dining` \| Amt: `1423.26` \| Status: `settled` \| Date: `2025-11-08` \| Counted: `False`
+  - `event_2156` \| Cat: `dining` \| Amt: `2198.00` \| Status: `settled` \| Date: `2025-11-15` \| Counted: `False`
+  - `event_2157` \| Cat: `dining` \| Amt: `1345.87` \| Status: `settled` \| Date: `2025-11-22` \| Counted: `False`
+  - `event_2158` \| Cat: `dining` \| Amt: `1415.29` \| Status: `settled` \| Date: `2025-11-29` \| Counted: `False`
+  - `event_2159` \| Cat: `dining` \| Amt: `1842.20` \| Status: `settled` \| Date: `2025-12-06` \| Counted: `False`
+  - `event_2160` \| Cat: `dining` \| Amt: `1911.68` \| Status: `settled` \| Date: `2025-12-13` \| Counted: `False`
+  - `event_2161` \| Cat: `dining` \| Amt: `2184.47` \| Status: `settled` \| Date: `2025-12-20` \| Counted: `False`
+  - `event_2162` \| Cat: `dining` \| Amt: `2151.71` \| Status: `settled` \| Date: `2025-12-27` \| Counted: `False`
+  - `event_2163` \| Cat: `dining` \| Amt: `1918.02` \| Status: `settled` \| Date: `2026-01-03` \| Counted: `False`
+  - `event_2164` \| Cat: `investment` \| Amt: `18300.00` \| Status: `settled` \| Date: `2025-10-01` \| Counted: `False`
+  - `event_2166` \| Cat: `insurance` \| Amt: `1830.00` \| Status: `scheduled` \| Date: `2026-01-11` \| Counted: `True`
+  - `event_2077` \| Cat: `utilities` \| Amt: `3490.50` \| Status: `recurring_projected` \| Date: `2026-01-05` \| Counted: `True`
+  - `event_2166` \| Cat: `insurance` \| Amt: `1830.00` \| Status: `recurring_projected` \| Date: `2026-01-06` \| Counted: `False`
+  - `event_2101` \| Cat: `groceries` \| Amt: `2321.31` \| Status: `recurring_projected` \| Date: `2026-01-07` \| Counted: `True`
+  - `event_2080` \| Cat: `streaming` \| Amt: `1200.00` \| Status: `recurring_projected` \| Date: `2026-01-08` \| Counted: `True`
+  - `event_2137` \| Cat: `transport` \| Amt: `1593.41` \| Status: `recurring_projected` \| Date: `2026-01-09` \| Counted: `True`
+  - `event_2163` \| Cat: `dining` \| Amt: `1918.02` \| Status: `recurring_projected` \| Date: `2026-01-10` \| Counted: `True`
+  - `event_2079` \| Cat: `cloud_storage` \| Amt: `355.00` \| Status: `recurring_projected` \| Date: `2026-01-11` \| Counted: `True`
+  - `event_2081` \| Cat: `shopping` \| Amt: `2564.00` \| Status: `recurring_projected` \| Date: `2026-01-11` \| Counted: `True`
+  - `event_2082` \| Cat: `entertainment` \| Amt: `1896.25` \| Status: `recurring_projected` \| Date: `2026-01-13` \| Counted: `True`
+
+### request_25
+- **Request Date**: `2024-03-06` | **Deadline**: `2024-04-17`
+- **Next Payday**: `2024-03-15` (Amount: `28499994.00`)
+- **Starting Balance**: `32063050.00` | **Min Keep**: `23379100.00` | **Requested Amount**: `60496000.00`
+- **GT Safe**: `1425000.00` | **Current Computed Safe**: `0.00`
+- **Implied E_pre**: `7258950.0` | **Computed E_pre**: `8713082.75` | **Diff**: `1454132.75`
+- **Candidate Expenses (Pre-Payday)**:
+  - `event_2168` \| Cat: `rent` \| Amt: `6954000.00` \| Status: `settled` \| Date: `2023-10-02` \| Counted: `False`
+  - `event_2169` \| Cat: `utilities` \| Amt: `1338903.44` \| Status: `settled` \| Date: `2023-10-06` \| Counted: `False`
+  - `event_2170` \| Cat: `insurance` \| Amt: `904400.00` \| Status: `settled` \| Date: `2023-10-07` \| Counted: `False`
+  - `event_2171` \| Cat: `cloud_storage` \| Amt: `126350.00` \| Status: `settled` \| Date: `2023-10-12` \| Counted: `False`
+  - `event_2172` \| Cat: `streaming` \| Amt: `573800.00` \| Status: `settled` \| Date: `2023-10-09` \| Counted: `False`
+  - `event_2173` \| Cat: `shopping` \| Amt: `966785.96` \| Status: `settled` \| Date: `2023-10-12` \| Counted: `False`
+  - `event_2174` \| Cat: `entertainment` \| Amt: `451681.59` \| Status: `settled` \| Date: `2023-10-14` \| Counted: `False`
+  - `event_2176` \| Cat: `rent` \| Amt: `6954000.00` \| Status: `settled` \| Date: `2023-11-02` \| Counted: `False`
+  - `event_2177` \| Cat: `utilities` \| Amt: `1401205.21` \| Status: `settled` \| Date: `2023-11-06` \| Counted: `False`
+  - `event_2178` \| Cat: `insurance` \| Amt: `904400.00` \| Status: `settled` \| Date: `2023-11-07` \| Counted: `False`
+  - `event_2179` \| Cat: `cloud_storage` \| Amt: `126350.00` \| Status: `settled` \| Date: `2023-11-12` \| Counted: `False`
+  - `event_2180` \| Cat: `streaming` \| Amt: `573800.00` \| Status: `settled` \| Date: `2023-11-09` \| Counted: `False`
+  - `event_2181` \| Cat: `shopping` \| Amt: `1054608.50` \| Status: `settled` \| Date: `2023-11-12` \| Counted: `False`
+  - `event_2182` \| Cat: `entertainment` \| Amt: `415734.51` \| Status: `settled` \| Date: `2023-11-14` \| Counted: `False`
+  - `event_2184` \| Cat: `rent` \| Amt: `6954000.00` \| Status: `settled` \| Date: `2023-12-02` \| Counted: `False`
+  - `event_2185` \| Cat: `utilities` \| Amt: `1334719.89` \| Status: `settled` \| Date: `2023-12-06` \| Counted: `False`
+  - `event_2186` \| Cat: `insurance` \| Amt: `904400.00` \| Status: `settled` \| Date: `2023-12-07` \| Counted: `False`
+  - `event_2187` \| Cat: `cloud_storage` \| Amt: `126350.00` \| Status: `settled` \| Date: `2023-12-12` \| Counted: `False`
+  - `event_2188` \| Cat: `streaming` \| Amt: `573800.00` \| Status: `settled` \| Date: `2023-12-09` \| Counted: `False`
+  - `event_2189` \| Cat: `shopping` \| Amt: `1000693.22` \| Status: `settled` \| Date: `2023-12-12` \| Counted: `False`
+  - `event_2190` \| Cat: `entertainment` \| Amt: `499510.22` \| Status: `settled` \| Date: `2023-12-14` \| Counted: `False`
+  - `event_2192` \| Cat: `rent` \| Amt: `6954000.00` \| Status: `settled` \| Date: `2024-01-02` \| Counted: `False`
+  - `event_2193` \| Cat: `utilities` \| Amt: `1341541.39` \| Status: `settled` \| Date: `2024-01-06` \| Counted: `False`
+  - `event_2194` \| Cat: `insurance` \| Amt: `904400.00` \| Status: `settled` \| Date: `2024-01-07` \| Counted: `False`
+  - `event_2195` \| Cat: `cloud_storage` \| Amt: `126350.00` \| Status: `settled` \| Date: `2024-01-12` \| Counted: `False`
+  - `event_2196` \| Cat: `streaming` \| Amt: `573800.00` \| Status: `settled` \| Date: `2024-01-09` \| Counted: `False`
+  - `event_2197` \| Cat: `shopping` \| Amt: `1102784.74` \| Status: `settled` \| Date: `2024-01-12` \| Counted: `False`
+  - `event_2198` \| Cat: `entertainment` \| Amt: `504697.37` \| Status: `settled` \| Date: `2024-01-14` \| Counted: `False`
+  - `event_2200` \| Cat: `rent` \| Amt: `6954000.00` \| Status: `settled` \| Date: `2024-02-02` \| Counted: `False`
+  - `event_2201` \| Cat: `utilities` \| Amt: `1201903.67` \| Status: `settled` \| Date: `2024-02-06` \| Counted: `False`
+  - `event_2202` \| Cat: `insurance` \| Amt: `904400.00` \| Status: `settled` \| Date: `2024-02-07` \| Counted: `False`
+  - `event_2203` \| Cat: `cloud_storage` \| Amt: `126350.00` \| Status: `settled` \| Date: `2024-02-12` \| Counted: `False`
+  - `event_2204` \| Cat: `streaming` \| Amt: `573800.00` \| Status: `settled` \| Date: `2024-02-09` \| Counted: `False`
+  - `event_2205` \| Cat: `shopping` \| Amt: `1170271.29` \| Status: `settled` \| Date: `2024-02-12` \| Counted: `False`
+  - `event_2206` \| Cat: `entertainment` \| Amt: `426338.40` \| Status: `settled` \| Date: `2024-02-14` \| Counted: `False`
+  - `event_2207` \| Cat: `rent` \| Amt: `6954000.00` \| Status: `settled` \| Date: `2024-03-02` \| Counted: `False`
+  - `event_2208` \| Cat: `groceries` \| Amt: `1348940.42` \| Status: `settled` \| Date: `2023-09-11` \| Counted: `False`
+  - `event_2209` \| Cat: `groceries` \| Amt: `1510693.45` \| Status: `settled` \| Date: `2023-09-21` \| Counted: `False`
+  - `event_2210` \| Cat: `groceries` \| Amt: `1490390.69` \| Status: `settled` \| Date: `2023-10-01` \| Counted: `False`
+  - `event_2211` \| Cat: `groceries` \| Amt: `1211444.04` \| Status: `settled` \| Date: `2023-10-11` \| Counted: `False`
+  - `event_2212` \| Cat: `groceries` \| Amt: `1048982.51` \| Status: `settled` \| Date: `2023-10-21` \| Counted: `False`
+  - `event_2213` \| Cat: `groceries` \| Amt: `1066197.78` \| Status: `settled` \| Date: `2023-10-31` \| Counted: `False`
+  - `event_2214` \| Cat: `groceries` \| Amt: `893559.78` \| Status: `settled` \| Date: `2023-11-10` \| Counted: `False`
+  - `event_2215` \| Cat: `groceries` \| Amt: `1252001.65` \| Status: `settled` \| Date: `2023-11-20` \| Counted: `False`
+  - `event_2216` \| Cat: `groceries` \| Amt: `1101344.82` \| Status: `settled` \| Date: `2023-11-30` \| Counted: `False`
+  - `event_2217` \| Cat: `groceries` \| Amt: `876032.86` \| Status: `settled` \| Date: `2023-12-10` \| Counted: `False`
+  - `event_2218` \| Cat: `groceries` \| Amt: `917586.64` \| Status: `settled` \| Date: `2023-12-20` \| Counted: `False`
+  - `event_2219` \| Cat: `groceries` \| Amt: `1454933.56` \| Status: `settled` \| Date: `2023-12-30` \| Counted: `False`
+  - `event_2220` \| Cat: `groceries` \| Amt: `983053.43` \| Status: `settled` \| Date: `2024-01-09` \| Counted: `False`
+  - `event_2221` \| Cat: `groceries` \| Amt: `1388569.11` \| Status: `settled` \| Date: `2024-01-19` \| Counted: `False`
+  - `event_2222` \| Cat: `groceries` \| Amt: `1335295.20` \| Status: `settled` \| Date: `2024-01-29` \| Counted: `False`
+  - `event_2223` \| Cat: `groceries` \| Amt: `1369082.68` \| Status: `settled` \| Date: `2024-02-08` \| Counted: `False`
+  - `event_2224` \| Cat: `groceries` \| Amt: `864688.59` \| Status: `settled` \| Date: `2024-02-18` \| Counted: `False`
+  - `event_2225` \| Cat: `groceries` \| Amt: `1472349.10` \| Status: `settled` \| Date: `2024-02-28` \| Counted: `False`
+  - `event_2226` \| Cat: `transport` \| Amt: `725793.85` \| Status: `settled` \| Date: `2023-09-12` \| Counted: `False`
+  - `event_2227` \| Cat: `transport` \| Amt: `447746.71` \| Status: `settled` \| Date: `2023-09-17` \| Counted: `False`
+  - `event_2228` \| Cat: `transport` \| Amt: `579668.34` \| Status: `settled` \| Date: `2023-09-22` \| Counted: `False`
+  - `event_2229` \| Cat: `transport` \| Amt: `636547.25` \| Status: `settled` \| Date: `2023-09-27` \| Counted: `False`
+  - `event_2230` \| Cat: `transport` \| Amt: `724399.08` \| Status: `settled` \| Date: `2023-10-02` \| Counted: `False`
+  - `event_2231` \| Cat: `transport` \| Amt: `591314.74` \| Status: `settled` \| Date: `2023-10-07` \| Counted: `False`
+  - `event_2232` \| Cat: `transport` \| Amt: `458415.57` \| Status: `settled` \| Date: `2023-10-12` \| Counted: `False`
+  - `event_2233` \| Cat: `transport` \| Amt: `445484.16` \| Status: `settled` \| Date: `2023-10-17` \| Counted: `False`
+  - `event_2234` \| Cat: `transport` \| Amt: `617815.52` \| Status: `settled` \| Date: `2023-10-22` \| Counted: `False`
+  - `event_2235` \| Cat: `transport` \| Amt: `567772.41` \| Status: `settled` \| Date: `2023-10-27` \| Counted: `False`
+  - `event_2236` \| Cat: `transport` \| Amt: `507090.88` \| Status: `settled` \| Date: `2023-11-01` \| Counted: `False`
+  - `event_2237` \| Cat: `transport` \| Amt: `454432.04` \| Status: `settled` \| Date: `2023-11-06` \| Counted: `False`
+  - `event_2238` \| Cat: `transport` \| Amt: `617984.73` \| Status: `settled` \| Date: `2023-11-11` \| Counted: `False`
+  - `event_2239` \| Cat: `transport` \| Amt: `557483.97` \| Status: `settled` \| Date: `2023-11-16` \| Counted: `False`
+  - `event_2240` \| Cat: `transport` \| Amt: `627417.61` \| Status: `settled` \| Date: `2023-11-21` \| Counted: `False`
+  - `event_2241` \| Cat: `transport` \| Amt: `547424.01` \| Status: `settled` \| Date: `2023-11-26` \| Counted: `False`
+  - `event_2242` \| Cat: `transport` \| Amt: `522613.77` \| Status: `settled` \| Date: `2023-12-01` \| Counted: `False`
+  - `event_2243` \| Cat: `transport` \| Amt: `695049.46` \| Status: `settled` \| Date: `2023-12-06` \| Counted: `False`
+  - `event_2244` \| Cat: `transport` \| Amt: `721981.78` \| Status: `settled` \| Date: `2023-12-11` \| Counted: `False`
+  - `event_2245` \| Cat: `transport` \| Amt: `732740.37` \| Status: `settled` \| Date: `2023-12-16` \| Counted: `False`
+  - `event_2246` \| Cat: `transport` \| Amt: `593848.06` \| Status: `settled` \| Date: `2023-12-21` \| Counted: `False`
+  - `event_2247` \| Cat: `transport` \| Amt: `639058.00` \| Status: `settled` \| Date: `2023-12-26` \| Counted: `False`
+  - `event_2248` \| Cat: `transport` \| Amt: `721837.88` \| Status: `settled` \| Date: `2023-12-31` \| Counted: `False`
+  - `event_2249` \| Cat: `transport` \| Amt: `637250.91` \| Status: `settled` \| Date: `2024-01-05` \| Counted: `False`
+  - `event_2250` \| Cat: `transport` \| Amt: `562442.16` \| Status: `settled` \| Date: `2024-01-10` \| Counted: `False`
+  - `event_2251` \| Cat: `transport` \| Amt: `542331.16` \| Status: `settled` \| Date: `2024-01-15` \| Counted: `False`
+  - `event_2252` \| Cat: `transport` \| Amt: `463292.75` \| Status: `settled` \| Date: `2024-01-20` \| Counted: `False`
+  - `event_2253` \| Cat: `transport` \| Amt: `745983.26` \| Status: `settled` \| Date: `2024-01-25` \| Counted: `False`
+  - `event_2254` \| Cat: `transport` \| Amt: `549524.60` \| Status: `settled` \| Date: `2024-01-30` \| Counted: `False`
+  - `event_2255` \| Cat: `transport` \| Amt: `664768.21` \| Status: `settled` \| Date: `2024-02-04` \| Counted: `False`
+  - `event_2256` \| Cat: `transport` \| Amt: `448075.32` \| Status: `settled` \| Date: `2024-02-09` \| Counted: `False`
+  - `event_2257` \| Cat: `transport` \| Amt: `560613.20` \| Status: `settled` \| Date: `2024-02-14` \| Counted: `False`
+  - `event_2258` \| Cat: `transport` \| Amt: `458596.67` \| Status: `settled` \| Date: `2024-02-19` \| Counted: `False`
+  - `event_2259` \| Cat: `transport` \| Amt: `663001.49` \| Status: `settled` \| Date: `2024-02-24` \| Counted: `False`
+  - `event_2260` \| Cat: `transport` \| Amt: `729004.44` \| Status: `settled` \| Date: `2024-02-29` \| Counted: `False`
+  - `event_2261` \| Cat: `transport` \| Amt: `571596.93` \| Status: `settled` \| Date: `2024-03-05` \| Counted: `False`
+  - `event_2262` \| Cat: `dining` \| Amt: `979886.38` \| Status: `settled` \| Date: `2023-09-13` \| Counted: `False`
+  - `event_2263` \| Cat: `dining` \| Amt: `1028620.35` \| Status: `settled` \| Date: `2023-09-20` \| Counted: `False`
+  - `event_2264` \| Cat: `dining` \| Amt: `1117067.23` \| Status: `settled` \| Date: `2023-09-27` \| Counted: `False`
+  - `event_2265` \| Cat: `dining` \| Amt: `756322.76` \| Status: `settled` \| Date: `2023-10-04` \| Counted: `False`
+  - `event_2266` \| Cat: `dining` \| Amt: `1249486.33` \| Status: `settled` \| Date: `2023-10-11` \| Counted: `False`
+  - `event_2267` \| Cat: `dining` \| Amt: `1232054.29` \| Status: `settled` \| Date: `2023-10-18` \| Counted: `False`
+  - `event_2268` \| Cat: `dining` \| Amt: `1115260.36` \| Status: `settled` \| Date: `2023-10-25` \| Counted: `False`
+  - `event_2269` \| Cat: `dining` \| Amt: `1261355.55` \| Status: `settled` \| Date: `2023-11-01` \| Counted: `False`
+  - `event_2270` \| Cat: `dining` \| Amt: `921922.80` \| Status: `settled` \| Date: `2023-11-08` \| Counted: `False`
+  - `event_2271` \| Cat: `dining` \| Amt: `1142868.87` \| Status: `settled` \| Date: `2023-11-15` \| Counted: `False`
+  - `event_2272` \| Cat: `dining` \| Amt: `897310.27` \| Status: `settled` \| Date: `2023-11-22` \| Counted: `False`
+  - `event_2273` \| Cat: `dining` \| Amt: `740801.32` \| Status: `settled` \| Date: `2023-11-29` \| Counted: `False`
+  - `event_2274` \| Cat: `dining` \| Amt: `1022655.76` \| Status: `settled` \| Date: `2023-12-06` \| Counted: `False`
+  - `event_2275` \| Cat: `dining` \| Amt: `1128974.93` \| Status: `settled` \| Date: `2023-12-13` \| Counted: `False`
+  - `event_2276` \| Cat: `dining` \| Amt: `956749.83` \| Status: `settled` \| Date: `2023-12-20` \| Counted: `False`
+  - `event_2277` \| Cat: `dining` \| Amt: `1095978.20` \| Status: `settled` \| Date: `2023-12-27` \| Counted: `False`
+  - `event_2278` \| Cat: `dining` \| Amt: `868921.02` \| Status: `settled` \| Date: `2024-01-03` \| Counted: `False`
+  - `event_2279` \| Cat: `dining` \| Amt: `925855.11` \| Status: `settled` \| Date: `2024-01-10` \| Counted: `False`
+  - `event_2280` \| Cat: `dining` \| Amt: `1204804.45` \| Status: `settled` \| Date: `2024-01-17` \| Counted: `False`
+  - `event_2281` \| Cat: `dining` \| Amt: `1057617.64` \| Status: `settled` \| Date: `2024-01-24` \| Counted: `False`
+  - `event_2282` \| Cat: `dining` \| Amt: `1251981.80` \| Status: `settled` \| Date: `2024-01-31` \| Counted: `False`
+  - `event_2283` \| Cat: `dining` \| Amt: `949118.03` \| Status: `settled` \| Date: `2024-02-07` \| Counted: `False`
+  - `event_2284` \| Cat: `dining` \| Amt: `1051249.87` \| Status: `settled` \| Date: `2024-02-14` \| Counted: `False`
+  - `event_2285` \| Cat: `dining` \| Amt: `777034.83` \| Status: `settled` \| Date: `2024-02-21` \| Counted: `False`
+  - `event_2286` \| Cat: `dining` \| Amt: `1133036.68` \| Status: `settled` \| Date: `2024-02-28` \| Counted: `False`
+  - `event_2201` \| Cat: `utilities` \| Amt: `1201903.67` \| Status: `recurring_projected` \| Date: `2024-03-06` \| Counted: `True`
+  - `event_2286` \| Cat: `dining` \| Amt: `1133036.68` \| Status: `recurring_projected` \| Date: `2024-03-06` \| Counted: `True`
+  - `event_2202` \| Cat: `insurance` \| Amt: `904400.00` \| Status: `recurring_projected` \| Date: `2024-03-07` \| Counted: `True`
+  - `event_2204` \| Cat: `streaming` \| Amt: `573800.00` \| Status: `recurring_projected` \| Date: `2024-03-09` \| Counted: `True`
+  - `event_2225` \| Cat: `groceries` \| Amt: `1472349.10` \| Status: `recurring_projected` \| Date: `2024-03-10` \| Counted: `True`
+  - `event_2203` \| Cat: `cloud_storage` \| Amt: `126350.00` \| Status: `recurring_projected` \| Date: `2024-03-12` \| Counted: `True`
+  - `event_2205` \| Cat: `shopping` \| Amt: `1170271.29` \| Status: `recurring_projected` \| Date: `2024-03-12` \| Counted: `True`
+  - `event_2261` \| Cat: `transport` \| Amt: `571596.93` \| Status: `recurring_projected` \| Date: `2024-03-12` \| Counted: `True`
+  - `event_2286` \| Cat: `dining` \| Amt: `1133036.68` \| Status: `recurring_projected` \| Date: `2024-03-13` \| Counted: `True`
+  - `event_2206` \| Cat: `entertainment` \| Amt: `426338.40` \| Status: `recurring_projected` \| Date: `2024-03-14` \| Counted: `True`
+
+## 2. Recurrence Amount Investigation (Historical vs Forecast)
+
+### request_01 Recurring Expense Streams
+- **Category `rent`**: Historical count=6 \| Latest=`5148.00` \| Avg=`5148.00` \| Median=`5148.00` \| Engine Used=`5148.00`
+- **Category `utilities`**: Historical count=5 \| Latest=`1386.17` \| Avg=`1507.80` \| Median=`1483.81` \| Engine Used=`1386.17`
+- **Category `education`**: Historical count=5 \| Latest=`1821.60` \| Avg=`1821.60` \| Median=`1821.60` \| Engine Used=`1821.60`
+- **Category `debt_repayment`**: Historical count=5 \| Latest=`3487.00` \| Avg=`3487.00` \| Median=`3487.00` \| Engine Used=`3487.00`
+- **Category `music_subscription`**: Historical count=5 \| Latest=`235.40` \| Avg=`235.40` \| Median=`235.40` \| Engine Used=`235.40`
+- **Category `delivery_membership`**: Historical count=5 \| Latest=`306.90` \| Avg=`306.90` \| Median=`306.90` \| Engine Used=`306.90`
+- **Category `groceries`**: Historical count=26 \| Latest=`964.05` \| Avg=`785.14` \| Median=`761.01` \| Engine Used=`964.05`
+- **Category `transport`**: Historical count=27 \| Latest=`567.60` \| Avg=`443.95` \| Median=`428.92` \| Engine Used=`567.60`
+- **Category `dining`**: Historical count=13 \| Latest=`1216.17` \| Avg=`1089.19` \| Median=`1070.17` \| Engine Used=`1216.17`
+- **Category `shopping`**: Historical count=3 \| Latest=`816.20` \| Avg=`660.73` \| Median=`583.00` \| Engine Used=`816.20`
+
+### request_02 Recurring Expense Streams
+- **Category `housing`**: Historical count=6 \| Latest=`3534000.00` \| Avg=`3534000.00` \| Median=`3534000.00` \| Engine Used=`3534000.00`
+- **Category `utilities`**: Historical count=5 \| Latest=`2141849.94` \| Avg=`2035830.50` \| Median=`2081730.85` \| Engine Used=`2141849.94`
+- **Category `insurance`**: Historical count=5 \| Latest=`1132400.00` \| Avg=`1132400.00` \| Median=`1132400.00` \| Engine Used=`1132400.00`
+- **Category `education`**: Historical count=5 \| Latest=`3040000.00` \| Avg=`3040000.00` \| Median=`3040000.00` \| Engine Used=`3040000.00`
+- **Category `healthcare`**: Historical count=5 \| Latest=`1538498.10` \| Avg=`1538993.97` \| Median=`1538498.10` \| Engine Used=`1538498.10`
+- **Category `entertainment`**: Historical count=5 \| Latest=`1352563.79` \| Avg=`1298171.69` \| Median=`1289187.40` \| Engine Used=`1352563.79`
+- **Category `cloud_storage`**: Historical count=5 \| Latest=`369550.00` \| Avg=`369550.00` \| Median=`369550.00` \| Engine Used=`369550.00`
+- **Category `groceries`**: Historical count=18 \| Latest=`1913686.86` \| Avg=`1908881.30` \| Median=`1917086.28` \| Engine Used=`1913686.86`
+- **Category `transport`**: Historical count=13 \| Latest=`1062310.27` \| Avg=`1211967.94` \| Median=`1294200.86` \| Engine Used=`1062310.27`
+- **Category `dining`**: Historical count=9 \| Latest=`1204805.34` \| Avg=`1083819.45` \| Median=`1101709.76` \| Engine Used=`1204805.34`
+
+### request_03 Recurring Expense Streams
+- **Category `rent`**: Historical count=5 \| Latest=`1140000.00` \| Avg=`1140000.00` \| Median=`1140000.00` \| Engine Used=`1140000.00`
+- **Category `utilities`**: Historical count=5 \| Latest=`262344.55` \| Avg=`284387.81` \| Median=`290684.15` \| Engine Used=`262344.55`
+- **Category `cloud_storage`**: Historical count=5 \| Latest=`20900.00` \| Avg=`20900.00` \| Median=`20900.00` \| Engine Used=`20900.00`
+- **Category `streaming`**: Historical count=5 \| Latest=`117800.00` \| Avg=`117800.00` \| Median=`117800.00` \| Engine Used=`117800.00`
+- **Category `shopping`**: Historical count=5 \| Latest=`180395.29` \| Avg=`168697.75` \| Median=`173930.81` \| Engine Used=`180395.29`
+- **Category `groceries`**: Historical count=18 \| Latest=`200238.72` \| Avg=`193164.79` \| Median=`184466.85` \| Engine Used=`200238.72`
+- **Category `transport`**: Historical count=9 \| Latest=`106233.46` \| Avg=`91041.06` \| Median=`83523.33` \| Engine Used=`106233.46`
+- **Category `dining`**: Historical count=9 \| Latest=`135718.35` \| Avg=`149912.65` \| Median=`146236.28` \| Engine Used=`135718.35`
+
+### request_04 Recurring Expense Streams
+- **Category `rent`**: Historical count=6 \| Latest=`12293000.00` \| Avg=`12293000.00` \| Median=`12293000.00` \| Engine Used=`12293000.00`
+- **Category `utilities`**: Historical count=5 \| Latest=`2004118.60` \| Avg=`2003395.62` \| Median=`2004118.60` \| Engine Used=`2004118.60`
+- **Category `music_subscription`**: Historical count=5 \| Latest=`332500.00` \| Avg=`332500.00` \| Median=`332500.00` \| Engine Used=`332500.00`
+- **Category `delivery_membership`**: Historical count=5 \| Latest=`377150.00` \| Avg=`377150.00` \| Median=`377150.00` \| Engine Used=`377150.00`
+- **Category `gym`**: Historical count=5 \| Latest=`1027900.00` \| Avg=`1027900.00` \| Median=`1027900.00` \| Engine Used=`1027900.00`
+- **Category `entertainment`**: Historical count=5 \| Latest=`1231859.39` \| Avg=`1385201.35` \| Median=`1375854.05` \| Engine Used=`1231859.39`
+- **Category `groceries`**: Historical count=26 \| Latest=`1433695.50` \| Avg=`1499474.48` \| Median=`1468304.31` \| Engine Used=`1433695.50`
+- **Category `transport`**: Historical count=26 \| Latest=`1016425.58` \| Avg=`832507.41` \| Median=`848248.97` \| Engine Used=`1016425.58`
+- **Category `dining`**: Historical count=13 \| Latest=`2108488.15` \| Avg=`1748635.07` \| Median=`1839656.04` \| Engine Used=`2108488.15`
+
+### request_05 Recurring Expense Streams
+- **Category `rent`**: Historical count=6 \| Latest=`4972.00` \| Avg=`4972.00` \| Median=`4972.00` \| Engine Used=`4972.00`
+- **Category `utilities`**: Historical count=5 \| Latest=`713.71` \| Avg=`686.71` \| Median=`706.37` \| Engine Used=`713.71`
+- **Category `debt_repayment`**: Historical count=5 \| Latest=`968.00` \| Avg=`968.00` \| Median=`968.00` \| Engine Used=`968.00`
+- **Category `healthcare`**: Historical count=5 \| Latest=`722.37` \| Avg=`699.01` \| Median=`721.44` \| Engine Used=`722.37`
+- **Category `family_support`**: Historical count=5 \| Latest=`840.40` \| Avg=`840.40` \| Median=`840.40` \| Engine Used=`840.40`
+- **Category `cloud_storage`**: Historical count=5 \| Latest=`113.30` \| Avg=`113.30` \| Median=`113.30` \| Engine Used=`113.30`
+- **Category `shopping`**: Historical count=5 \| Latest=`362.09` \| Avg=`397.85` \| Median=`404.24` \| Engine Used=`362.09`
+- **Category `groceries`**: Historical count=26 \| Latest=`720.51` \| Avg=`721.70` \| Median=`741.58` \| Engine Used=`720.51`
+- **Category `transport`**: Historical count=13 \| Latest=`388.74` \| Avg=`414.34` \| Median=`411.47` \| Engine Used=`388.74`
+
+### request_06 Recurring Expense Streams
+- **Category `rent`**: Historical count=5 \| Latest=`254.10` \| Avg=`254.10` \| Median=`254.10` \| Engine Used=`254.10`
+- **Category `utilities`**: Historical count=5 \| Latest=`51.86` \| Avg=`55.70` \| Median=`56.71` \| Engine Used=`51.86`
+- **Category `insurance`**: Historical count=5 \| Latest=`26.00` \| Avg=`26.00` \| Median=`26.00` \| Engine Used=`26.00`
+- **Category `cloud_storage`**: Historical count=5 \| Latest=`5.00` \| Avg=`5.00` \| Median=`5.00` \| Engine Used=`5.00`
+- **Category `streaming`**: Historical count=5 \| Latest=`19.00` \| Avg=`19.00` \| Median=`19.00` \| Engine Used=`19.00`
+- **Category `shopping`**: Historical count=5 \| Latest=`39.88` \| Avg=`41.00` \| Median=`39.88` \| Engine Used=`39.88`
+- **Category `entertainment`**: Historical count=5 \| Latest=`38.33` \| Avg=`35.01` \| Median=`35.10` \| Engine Used=`38.33`
+- **Category `groceries`**: Historical count=18 \| Latest=`32.69` \| Avg=`45.08` \| Median=`47.27` \| Engine Used=`32.69`
+- **Category `transport`**: Historical count=35 \| Latest=`32.90` \| Avg=`26.98` \| Median=`27.80` \| Engine Used=`32.90`
+- **Category `dining`**: Historical count=25 \| Latest=`48.36` \| Avg=`45.88` \| Median=`46.84` \| Engine Used=`48.36`
+
+### request_07 Recurring Expense Streams
+- **Category `rent`**: Historical count=6 \| Latest=`34200.00` \| Avg=`34200.00` \| Median=`34200.00` \| Engine Used=`34200.00`
+- **Category `utilities`**: Historical count=5 \| Latest=`6209.57` \| Avg=`6789.44` \| Median=`7049.68` \| Engine Used=`6209.57`
+- **Category `debt_repayment`**: Historical count=5 \| Latest=`15650.00` \| Avg=`15650.00` \| Median=`15650.00` \| Engine Used=`15650.00`
+- **Category `music_subscription`**: Historical count=5 \| Latest=`1005.00` \| Avg=`1005.00` \| Median=`1005.00` \| Engine Used=`1005.00`
+- **Category `groceries`**: Historical count=13 \| Latest=`5710.65` \| Avg=`7116.46` \| Median=`7280.22` \| Engine Used=`5710.65`
+- **Category `transport`**: Historical count=9 \| Latest=`3145.62` \| Avg=`3220.13` \| Median=`3145.62` \| Engine Used=`3145.62`
+- **Category `dining`**: Historical count=9 \| Latest=`6493.86` \| Avg=`5927.31` \| Median=`6313.91` \| Engine Used=`6493.86`
+
+### request_08 Recurring Expense Streams
+- **Category `rent`**: Historical count=6 \| Latest=`467.50` \| Avg=`467.50` \| Median=`467.50` \| Engine Used=`467.50`
+- **Category `utilities`**: Historical count=6 \| Latest=`80.55` \| Avg=`76.83` \| Median=`79.87` \| Engine Used=`80.55`
+- **Category `education`**: Historical count=5 \| Latest=`89.00` \| Avg=`89.00` \| Median=`89.00` \| Engine Used=`89.00`
+- **Category `debt_repayment`**: Historical count=5 \| Latest=`177.00` \| Avg=`177.00` \| Median=`177.00` \| Engine Used=`177.00`
+- **Category `music_subscription`**: Historical count=5 \| Latest=`14.00` \| Avg=`14.00` \| Median=`14.00` \| Engine Used=`14.00`
+- **Category `delivery_membership`**: Historical count=5 \| Latest=`24.00` \| Avg=`24.00` \| Median=`24.00` \| Engine Used=`24.00`
+- **Category `groceries`**: Historical count=26 \| Latest=`72.38` \| Avg=`59.04` \| Median=`54.69` \| Engine Used=`72.38`
+- **Category `transport`**: Historical count=26 \| Latest=`47.21` \| Avg=`37.49` \| Median=`37.31` \| Engine Used=`47.21`
+- **Category `dining`**: Historical count=13 \| Latest=`42.33` \| Avg=`50.84` \| Median=`49.45` \| Engine Used=`42.33`
+
+### request_09 Recurring Expense Streams
+- **Category `rent`**: Historical count=6 \| Latest=`211.20` \| Avg=`211.20` \| Median=`211.20` \| Engine Used=`211.20`
+- **Category `utilities`**: Historical count=5 \| Latest=`60.88` \| Avg=`64.36` \| Median=`63.66` \| Engine Used=`60.88`
+- **Category `cloud_storage`**: Historical count=5 \| Latest=`5.00` \| Avg=`5.00` \| Median=`5.00` \| Engine Used=`5.00`
+- **Category `streaming`**: Historical count=5 \| Latest=`20.00` \| Avg=`20.00` \| Median=`20.00` \| Engine Used=`20.00`
+- **Category `shopping`**: Historical count=5 \| Latest=`25.52` \| Avg=`26.63` \| Median=`25.52` \| Engine Used=`25.52`
+- **Category `groceries`**: Historical count=18 \| Latest=`51.30` \| Avg=`44.57` \| Median=`46.97` \| Engine Used=`51.30`
+- **Category `transport`**: Historical count=9 \| Latest=`24.13` \| Avg=`24.11` \| Median=`24.59` \| Engine Used=`24.13`
+- **Category `dining`**: Historical count=9 \| Latest=`29.16` \| Avg=`30.30` \| Median=`29.97` \| Engine Used=`29.16`
+
+### request_10 Recurring Expense Streams
+- **Category `rent`**: Historical count=6 \| Latest=`69100.00` \| Avg=`69100.00` \| Median=`69100.00` \| Engine Used=`69100.00`
+- **Category `utilities`**: Historical count=5 \| Latest=`17771.13` \| Avg=`17103.95` \| Median=`17538.11` \| Engine Used=`17771.13`
+- **Category `music_subscription`**: Historical count=5 \| Latest=`2800.00` \| Avg=`2800.00` \| Median=`2800.00` \| Engine Used=`2800.00`
+- **Category `delivery_membership`**: Historical count=5 \| Latest=`1895.00` \| Avg=`1895.00` \| Median=`1895.00` \| Engine Used=`1895.00`
+- **Category `gym`**: Historical count=5 \| Latest=`4860.00` \| Avg=`4860.00` \| Median=`4860.00` \| Engine Used=`4860.00`
+- **Category `entertainment`**: Historical count=5 \| Latest=`4883.78` \| Avg=`4645.19` \| Median=`4700.56` \| Engine Used=`4883.78`
+- **Category `groceries`**: Historical count=26 \| Latest=`8011.08` \| Avg=`10776.07` \| Median=`10635.76` \| Engine Used=`8011.08`
+- **Category `transport`**: Historical count=25 \| Latest=`6359.49` \| Avg=`5982.79` \| Median=`5776.08` \| Engine Used=`6359.49`
+- **Category `dining`**: Historical count=13 \| Latest=`10370.83` \| Avg=`8837.77` \| Median=`8813.96` \| Engine Used=`10370.83`
+
+### request_11 Recurring Expense Streams
+- **Category `housing`**: Historical count=5 \| Latest=`2954500.00` \| Avg=`2954500.00` \| Median=`2954500.00` \| Engine Used=`2954500.00`
+- **Category `utilities`**: Historical count=5 \| Latest=`2796165.18` \| Avg=`2720215.11` \| Median=`2796165.18` \| Engine Used=`2796165.18`
+- **Category `insurance`**: Historical count=5 \| Latest=`1881000.00` \| Avg=`1881000.00` \| Median=`1881000.00` \| Engine Used=`1881000.00`
+- **Category `education`**: Historical count=5 \| Latest=`2544100.00` \| Avg=`2544100.00` \| Median=`2544100.00` \| Engine Used=`2544100.00`
+- **Category `healthcare`**: Historical count=5 \| Latest=`2826901.92` \| Avg=`2943993.42` \| Median=`2973572.96` \| Engine Used=`2826901.92`
+- **Category `entertainment`**: Historical count=5 \| Latest=`1674887.61` \| Avg=`1600926.75` \| Median=`1649906.50` \| Engine Used=`1674887.61`
+- **Category `cloud_storage`**: Historical count=5 \| Latest=`168150.00` \| Avg=`168150.00` \| Median=`168150.00` \| Engine Used=`168150.00`
+- **Category `groceries`**: Historical count=18 \| Latest=`1341187.18` \| Avg=`1421333.16` \| Median=`1400963.33` \| Engine Used=`1341187.18`
+- **Category `transport`**: Historical count=13 \| Latest=`1244835.69` \| Avg=`1088014.14` \| Median=`1185524.72` \| Engine Used=`1244835.69`
+- **Category `dining`**: Historical count=9 \| Latest=`1163530.49` \| Avg=`1350022.55` \| Median=`1365643.70` \| Engine Used=`1163530.49`
+
+### request_12 Recurring Expense Streams
+- **Category `rent`**: Historical count=6 \| Latest=`11792.00` \| Avg=`11792.00` \| Median=`11792.00` \| Engine Used=`11792.00`
+- **Category `utilities`**: Historical count=5 \| Latest=`3606.20` \| Avg=`3509.72` \| Median=`3606.20` \| Engine Used=`3606.20`
+- **Category `cloud_storage`**: Historical count=5 \| Latest=`447.70` \| Avg=`447.70` \| Median=`447.70` \| Engine Used=`447.70`
+- **Category `streaming`**: Historical count=5 \| Latest=`1504.80` \| Avg=`1504.80` \| Median=`1504.80` \| Engine Used=`1504.80`
+- **Category `shopping`**: Historical count=5 \| Latest=`1169.42` \| Avg=`1255.89` \| Median=`1243.49` \| Engine Used=`1169.42`
+- **Category `groceries`**: Historical count=18 \| Latest=`2449.90` \| Avg=`2134.89` \| Median=`2281.56` \| Engine Used=`2449.90`
+- **Category `transport`**: Historical count=9 \| Latest=`1679.15` \| Avg=`1436.23` \| Median=`1355.85` \| Engine Used=`1679.15`
+- **Category `dining`**: Historical count=9 \| Latest=`1943.35` \| Avg=`2257.60` \| Median=`2344.45` \| Engine Used=`1943.35`
+
+### request_13 Recurring Expense Streams
+- **Category `rent`**: Historical count=6 \| Latest=`622.60` \| Avg=`622.60` \| Median=`622.60` \| Engine Used=`622.60`
+- **Category `utilities`**: Historical count=6 \| Latest=`134.25` \| Avg=`143.66` \| Median=`143.54` \| Engine Used=`134.25`
+- **Category `music_subscription`**: Historical count=5 \| Latest=`29.00` \| Avg=`29.00` \| Median=`29.00` \| Engine Used=`29.00`
+- **Category `delivery_membership`**: Historical count=5 \| Latest=`21.00` \| Avg=`21.00` \| Median=`21.00` \| Engine Used=`21.00`
+- **Category `gym`**: Historical count=5 \| Latest=`61.00` \| Avg=`61.00` \| Median=`61.00` \| Engine Used=`61.00`
+- **Category `entertainment`**: Historical count=5 \| Latest=`30.39` \| Avg=`32.96` \| Median=`31.80` \| Engine Used=`30.39`
+- **Category `groceries`**: Historical count=26 \| Latest=`93.66` \| Avg=`99.66` \| Median=`100.05` \| Engine Used=`93.66`
+- **Category `transport`**: Historical count=26 \| Latest=`37.29` \| Avg=`44.82` \| Median=`45.33` \| Engine Used=`37.29`
+- **Category `dining`**: Historical count=13 \| Latest=`61.28` \| Avg=`64.27` \| Median=`62.71` \| Engine Used=`61.28`
+
+### request_14 Recurring Expense Streams
+- **Category `rent`**: Historical count=6 \| Latest=`688.60` \| Avg=`688.60` \| Median=`688.60` \| Engine Used=`688.60`
+- **Category `utilities`**: Historical count=5 \| Latest=`153.69` \| Avg=`148.22` \| Median=`146.41` \| Engine Used=`153.69`
+- **Category `debt_repayment`**: Historical count=5 \| Latest=`350.00` \| Avg=`350.00` \| Median=`350.00` \| Engine Used=`350.00`
+- **Category `healthcare`**: Historical count=5 \| Latest=`87.84` \| Avg=`91.90` \| Median=`92.08` \| Engine Used=`87.84`
+- **Category `family_support`**: Historical count=5 \| Latest=`226.00` \| Avg=`226.00` \| Median=`226.00` \| Engine Used=`226.00`
+- **Category `cloud_storage`**: Historical count=5 \| Latest=`14.00` \| Avg=`14.00` \| Median=`14.00` \| Engine Used=`14.00`
+- **Category `shopping`**: Historical count=5 \| Latest=`140.39` \| Avg=`129.47` \| Median=`123.77` \| Engine Used=`140.39`
+- **Category `groceries`**: Historical count=26 \| Latest=`129.56` \| Avg=`104.80` \| Median=`99.00` \| Engine Used=`129.56`
+- **Category `transport`**: Historical count=13 \| Latest=`43.88` \| Avg=`51.06` \| Median=`52.26` \| Engine Used=`43.88`
+
+### request_15 Recurring Expense Streams
+- **Category `rent`**: Historical count=6 \| Latest=`435.60` \| Avg=`435.60` \| Median=`435.60` \| Engine Used=`435.60`
+- **Category `utilities`**: Historical count=5 \| Latest=`84.41` \| Avg=`86.39` \| Median=`85.91` \| Engine Used=`84.41`
+- **Category `education`**: Historical count=5 \| Latest=`159.00` \| Avg=`159.00` \| Median=`159.00` \| Engine Used=`159.00`
+- **Category `debt_repayment`**: Historical count=5 \| Latest=`84.00` \| Avg=`84.00` \| Median=`84.00` \| Engine Used=`84.00`
+- **Category `music_subscription`**: Historical count=5 \| Latest=`11.00` \| Avg=`11.00` \| Median=`11.00` \| Engine Used=`11.00`
+- **Category `delivery_membership`**: Historical count=5 \| Latest=`27.00` \| Avg=`27.00` \| Median=`27.00` \| Engine Used=`27.00`
+- **Category `groceries`**: Historical count=25 \| Latest=`64.42` \| Avg=`60.11` \| Median=`62.21` \| Engine Used=`64.42`
+- **Category `transport`**: Historical count=25 \| Latest=`30.31` \| Avg=`31.76` \| Median=`30.31` \| Engine Used=`30.31`
+- **Category `dining`**: Historical count=13 \| Latest=`49.35` \| Avg=`40.84` \| Median=`38.56` \| Engine Used=`49.35`
+
+### request_16 Recurring Expense Streams
+- **Category `rent`**: Historical count=7 \| Latest=`100000.00` \| Avg=`63228.57` \| Median=`57100.00` \| Engine Used=`57100.00`
+- **Category `utilities`**: Historical count=6 \| Latest=`11512.87` \| Avg=`10407.43` \| Median=`10299.65` \| Engine Used=`11512.87`
+- **Category `debt_repayment`**: Historical count=6 \| Latest=`17750.00` \| Avg=`17750.00` \| Median=`17750.00` \| Engine Used=`17750.00`
+- **Category `streaming`**: Historical count=6 \| Latest=`3510.00` \| Avg=`3510.00` \| Median=`3510.00` \| Engine Used=`3510.00`
+- **Category `cloud_storage`**: Historical count=6 \| Latest=`1055.00` \| Avg=`1055.00` \| Median=`1055.00` \| Engine Used=`1055.00`
+- **Category `shopping`**: Historical count=6 \| Latest=`10178.56` \| Avg=`9179.84` \| Median=`9096.16` \| Engine Used=`10178.56`
+- **Category `groceries`**: Historical count=26 \| Latest=`7930.19` \| Avg=`7060.63` \| Median=`6843.69` \| Engine Used=`7930.19`
+- **Category `transport`**: Historical count=26 \| Latest=`4978.93` \| Avg=`4419.41` \| Median=`4432.91` \| Engine Used=`4978.93`
+- **Category `dining`**: Historical count=13 \| Latest=`5256.32` \| Avg=`5302.32` \| Median=`5461.61` \| Engine Used=`5256.32`
+
+### request_17 Recurring Expense Streams
+- **Category `rent`**: Historical count=5 \| Latest=`49600.00` \| Avg=`49600.00` \| Median=`49600.00` \| Engine Used=`49600.00`
+- **Category `utilities`**: Historical count=5 \| Latest=`8487.15` \| Avg=`9538.75` \| Median=`9530.77` \| Engine Used=`8487.15`
+- **Category `education`**: Historical count=5 \| Latest=`13660.00` \| Avg=`13660.00` \| Median=`13660.00` \| Engine Used=`13660.00`
+- **Category `debt_repayment`**: Historical count=5 \| Latest=`30200.00` \| Avg=`30200.00` \| Median=`30200.00` \| Engine Used=`30200.00`
+- **Category `music_subscription`**: Historical count=5 \| Latest=`2055.00` \| Avg=`2055.00` \| Median=`2055.00` \| Engine Used=`2055.00`
+- **Category `delivery_membership`**: Historical count=5 \| Latest=`1675.00` \| Avg=`1675.00` \| Median=`1675.00` \| Engine Used=`1675.00`
+- **Category `groceries`**: Historical count=27 \| Latest=`41272.00` \| Avg=`10288.38` \| Median=`8716.51` \| Engine Used=`41272.00`
+- **Category `transport`**: Historical count=26 \| Latest=`5372.15` \| Avg=`5278.04` \| Median=`5403.94` \| Engine Used=`5372.15`
+- **Category `dining`**: Historical count=13 \| Latest=`4747.76` \| Avg=`5777.68` \| Median=`5641.06` \| Engine Used=`4747.76`
+
+### request_18 Recurring Expense Streams
+- **Category `housing`**: Historical count=6 \| Latest=`167.00` \| Avg=`167.00` \| Median=`167.00` \| Engine Used=`167.00`
+- **Category `utilities`**: Historical count=5 \| Latest=`107.43` \| Avg=`111.27` \| Median=`107.43` \| Engine Used=`107.43`
+- **Category `insurance`**: Historical count=5 \| Latest=`68.00` \| Avg=`68.00` \| Median=`68.00` \| Engine Used=`68.00`
+- **Category `healthcare`**: Historical count=5 \| Latest=`147.96` \| Avg=`155.41` \| Median=`152.41` \| Engine Used=`147.96`
+- **Category `streaming`**: Historical count=5 \| Latest=`68.00` \| Avg=`68.00` \| Median=`68.00` \| Engine Used=`68.00`
+- **Category `groceries`**: Historical count=18 \| Latest=`111.41` \| Avg=`93.42` \| Median=`95.32` \| Engine Used=`111.41`
+- **Category `transport`**: Historical count=13 \| Latest=`43.81` \| Avg=`43.85` \| Median=`43.81` \| Engine Used=`43.81`
+- **Category `dining`**: Historical count=13 \| Latest=`101.88` \| Avg=`85.63` \| Median=`82.67` \| Engine Used=`101.88`
+
+### request_19 Recurring Expense Streams
+- **Category `rent`**: Historical count=5 \| Latest=`36100.00` \| Avg=`36100.00` \| Median=`36100.00` \| Engine Used=`36100.00`
+- **Category `utilities`**: Historical count=5 \| Latest=`6129.19` \| Avg=`5955.64` \| Median=`6029.90` \| Engine Used=`6129.19`
+- **Category `debt_repayment`**: Historical count=5 \| Latest=`11850.00` \| Avg=`11850.00` \| Median=`11850.00` \| Engine Used=`11850.00`
+- **Category `healthcare`**: Historical count=5 \| Latest=`8645.36` \| Avg=`8808.57` \| Median=`8645.36` \| Engine Used=`8645.36`
+- **Category `family_support`**: Historical count=5 \| Latest=`12650.00` \| Avg=`12650.00` \| Median=`12650.00` \| Engine Used=`12650.00`
+- **Category `cloud_storage`**: Historical count=5 \| Latest=`395.00` \| Avg=`395.00` \| Median=`395.00` \| Engine Used=`395.00`
+- **Category `shopping`**: Historical count=5 \| Latest=`5431.12` \| Avg=`5833.87` \| Median=`5772.78` \| Engine Used=`5431.12`
+- **Category `groceries`**: Historical count=26 \| Latest=`2854.00` \| Avg=`4699.02` \| Median=`4741.54` \| Engine Used=`2854.00`
+- **Category `transport`**: Historical count=13 \| Latest=`2765.93` \| Avg=`3080.13` \| Median=`3054.24` \| Engine Used=`2765.93`
+
+### request_20 Recurring Expense Streams
+- **Category `housing`**: Historical count=6 \| Latest=`7950.00` \| Avg=`7950.00` \| Median=`7950.00` \| Engine Used=`7950.00`
+- **Category `utilities`**: Historical count=7 \| Latest=`704.05` \| Avg=`6670.71` \| Median=`7769.87` \| Engine Used=`7769.87`
+- **Category `insurance`**: Historical count=6 \| Latest=`3290.00` \| Avg=`3290.00` \| Median=`3290.00` \| Engine Used=`3290.00`
+- **Category `education`**: Historical count=5 \| Latest=`8740.00` \| Avg=`8740.00` \| Median=`8740.00` \| Engine Used=`8740.00`
+- **Category `healthcare`**: Historical count=5 \| Latest=`6654.33` \| Avg=`6336.85` \| Median=`6505.49` \| Engine Used=`6654.33`
+- **Category `entertainment`**: Historical count=5 \| Latest=`2097.15` \| Avg=`2148.27` \| Median=`2115.92` \| Engine Used=`2097.15`
+- **Category `cloud_storage`**: Historical count=5 \| Latest=`365.00` \| Avg=`365.00` \| Median=`365.00` \| Engine Used=`365.00`
+- **Category `groceries`**: Historical count=18 \| Latest=`4719.22` \| Avg=`3700.53` \| Median=`3713.32` \| Engine Used=`4719.22`
+- **Category `transport`**: Historical count=13 \| Latest=`3243.84` \| Avg=`2674.67` \| Median=`2632.00` \| Engine Used=`3243.84`
+- **Category `dining`**: Historical count=9 \| Latest=`3803.95` \| Avg=`3423.79` \| Median=`3352.75` \| Engine Used=`3803.95`
+- **Category `shopping`**: Historical count=3 \| Latest=`4470.00` \| Avg=`7250.00` \| Median=`8640.00` \| Engine Used=`4470.00`
+
+### request_21 Recurring Expense Streams
+- **Category `rent`**: Historical count=6 \| Latest=`718.80` \| Avg=`718.80` \| Median=`718.80` \| Engine Used=`718.80`
+- **Category `utilities`**: Historical count=5 \| Latest=`124.08` \| Avg=`121.18` \| Median=`122.18` \| Engine Used=`124.08`
+- **Category `cloud_storage`**: Historical count=5 \| Latest=`11.00` \| Avg=`11.00` \| Median=`11.00` \| Engine Used=`11.00`
+- **Category `streaming`**: Historical count=5 \| Latest=`47.00` \| Avg=`47.00` \| Median=`47.00` \| Engine Used=`47.00`
+- **Category `shopping`**: Historical count=5 \| Latest=`126.38` \| Avg=`122.41` \| Median=`120.74` \| Engine Used=`126.38`
+- **Category `groceries`**: Historical count=18 \| Latest=`97.55` \| Avg=`83.63` \| Median=`81.85` \| Engine Used=`97.55`
+- **Category `transport`**: Historical count=10 \| Latest=`53.00` \| Avg=`42.38` \| Median=`39.81` \| Engine Used=`53.00`
+- **Category `dining`**: Historical count=9 \| Latest=`69.31` \| Avg=`83.44` \| Median=`85.96` \| Engine Used=`69.31`
+
+### request_22 Recurring Expense Streams
+- **Category `rent`**: Historical count=6 \| Latest=`178.20` \| Avg=`178.20` \| Median=`178.20` \| Engine Used=`178.20`
+- **Category `utilities`**: Historical count=5 \| Latest=`27.34` \| Avg=`30.56` \| Median=`31.52` \| Engine Used=`27.34`
+- **Category `music_subscription`**: Historical count=5 \| Latest=`6.00` \| Avg=`6.00` \| Median=`6.00` \| Engine Used=`6.00`
+- **Category `delivery_membership`**: Historical count=5 \| Latest=`5.00` \| Avg=`5.00` \| Median=`5.00` \| Engine Used=`5.00`
+- **Category `gym`**: Historical count=5 \| Latest=`17.00` \| Avg=`17.00` \| Median=`17.00` \| Engine Used=`17.00`
+- **Category `entertainment`**: Historical count=5 \| Latest=`20.43` \| Avg=`20.87` \| Median=`20.43` \| Engine Used=`20.43`
+- **Category `groceries`**: Historical count=26 \| Latest=`26.82` \| Avg=`23.95` \| Median=`23.43` \| Engine Used=`26.82`
+- **Category `transport`**: Historical count=25 \| Latest=`15.02` \| Avg=`13.13` \| Median=`12.70` \| Engine Used=`15.02`
+- **Category `dining`**: Historical count=13 \| Latest=`18.41` \| Avg=`16.07` \| Median=`15.84` \| Engine Used=`18.41`
+
+### request_23 Recurring Expense Streams
+- **Category `rent`**: Historical count=6 \| Latest=`15312.00` \| Avg=`15312.00` \| Median=`15312.00` \| Engine Used=`15312.00`
+- **Category `utilities`**: Historical count=5 \| Latest=`2680.15` \| Avg=`2754.39` \| Median=`2813.94` \| Engine Used=`2680.15`
+- **Category `debt_repayment`**: Historical count=5 \| Latest=`5852.00` \| Avg=`5852.00` \| Median=`5852.00` \| Engine Used=`5852.00`
+- **Category `healthcare`**: Historical count=6 \| Latest=`1553.20` \| Avg=`1393.49` \| Median=`1359.47` \| Engine Used=`1553.20`
+- **Category `family_support`**: Historical count=5 \| Latest=`4270.20` \| Avg=`4270.20` \| Median=`4270.20` \| Engine Used=`4270.20`
+- **Category `cloud_storage`**: Historical count=5 \| Latest=`295.90` \| Avg=`295.90` \| Median=`295.90` \| Engine Used=`295.90`
+- **Category `shopping`**: Historical count=5 \| Latest=`1281.33` \| Avg=`1315.73` \| Median=`1281.33` \| Engine Used=`1281.33`
+- **Category `groceries`**: Historical count=25 \| Latest=`1257.56` \| Avg=`1732.48` \| Median=`1706.85` \| Engine Used=`1257.56`
+- **Category `transport`**: Historical count=13 \| Latest=`783.18` \| Avg=`888.44` \| Median=`896.02` \| Engine Used=`783.18`
+
+### request_24 Recurring Expense Streams
+- **Category `rent`**: Historical count=6 \| Latest=`18600.00` \| Avg=`18600.00` \| Median=`18600.00` \| Engine Used=`18600.00`
+- **Category `utilities`**: Historical count=5 \| Latest=`3490.50` \| Avg=`3303.91` \| Median=`3335.41` \| Engine Used=`3490.50`
+- **Category `insurance`**: Historical count=6 \| Latest=`1830.00` \| Avg=`2396.67` \| Median=`2510.00` \| Engine Used=`1830.00`
+- **Category `cloud_storage`**: Historical count=5 \| Latest=`355.00` \| Avg=`355.00` \| Median=`355.00` \| Engine Used=`355.00`
+- **Category `streaming`**: Historical count=5 \| Latest=`1200.00` \| Avg=`1200.00` \| Median=`1200.00` \| Engine Used=`1200.00`
+- **Category `shopping`**: Historical count=5 \| Latest=`2564.00` \| Avg=`2513.65` \| Median=`2514.90` \| Engine Used=`2564.00`
+- **Category `entertainment`**: Historical count=5 \| Latest=`1896.25` \| Avg=`1930.70` \| Median=`1896.25` \| Engine Used=`1896.25`
+- **Category `groceries`**: Historical count=18 \| Latest=`2321.31` \| Avg=`2290.43` \| Median=`2248.73` \| Engine Used=`2321.31`
+- **Category `transport`**: Historical count=36 \| Latest=`1593.41` \| Avg=`1358.99` \| Median=`1330.33` \| Engine Used=`1593.41`
+- **Category `dining`**: Historical count=26 \| Latest=`1918.02` \| Avg=`1854.04` \| Median=`1902.53` \| Engine Used=`1918.02`
+
+### request_25 Recurring Expense Streams
+- **Category `rent`**: Historical count=6 \| Latest=`6954000.00` \| Avg=`6954000.00` \| Median=`6954000.00` \| Engine Used=`6954000.00`
+- **Category `utilities`**: Historical count=5 \| Latest=`1201903.67` \| Avg=`1323654.72` \| Median=`1338903.44` \| Engine Used=`1201903.67`
+- **Category `insurance`**: Historical count=5 \| Latest=`904400.00` \| Avg=`904400.00` \| Median=`904400.00` \| Engine Used=`904400.00`
+- **Category `cloud_storage`**: Historical count=5 \| Latest=`126350.00` \| Avg=`126350.00` \| Median=`126350.00` \| Engine Used=`126350.00`
+- **Category `streaming`**: Historical count=5 \| Latest=`573800.00` \| Avg=`573800.00` \| Median=`573800.00` \| Engine Used=`573800.00`
+- **Category `shopping`**: Historical count=5 \| Latest=`1170271.29` \| Avg=`1059028.74` \| Median=`1054608.50` \| Engine Used=`1170271.29`
+- **Category `entertainment`**: Historical count=5 \| Latest=`426338.40` \| Avg=`459592.42` \| Median=`451681.59` \| Engine Used=`426338.40`
+- **Category `groceries`**: Historical count=18 \| Latest=`1472349.10` \| Avg=`1199174.80` \| Median=`1231722.84` \| Engine Used=`1472349.10`
+- **Category `transport`**: Historical count=36 \| Latest=`571596.93` \| Avg=`592511.15` \| Median=`585491.54` \| Engine Used=`571596.93`
+- **Category `dining`**: Historical count=25 \| Latest=`1133036.68` \| Avg=`1034677.39` \| Median=`1051249.87` \| Engine Used=`1133036.68`
+
+## 3. Deep Trace for request_10 and request_25
+
+### request_10 Deep Trace
+- **GT Safe**: `12,700.00` | **Current Computed Safe**: `266,700.00` | **Diff**: `+254,000.00`
+- **User State**: Starting Available Balance = `750,155.00`, Min Keep = `225,400.00`
+- **Headroom Calculation**: `750,155.00 - 225,400.00 = 524,755.00`.
+- **Exact Event Cause**: In `request_10`, `pre_payday_expenses` equals `512,055.00` (housing: 254,000 + utilities: 258,055). When explicit debits occurring ON request_date (`2026-03-01`) are included, pre-payday expenses = `512,055.00`, yielding `headroom = 524,755.00 - 512,055.00 = 12,700.00` EXACTLY matching Ground Truth!
+- **Root Cause**: Strict inequality `< edate` previously skipped debits occurring ON `request_date` (`2026-03-01`), under-counting pre-payday expenses by `254,000.00`.
+
+### request_25 Deep Trace
+- **GT Safe**: `1,425,000.00` | **Current Computed Safe**: `0.00` | **Diff**: `-1,425,000.00`
+- **User State**: Starting Available Balance = `32,063,050.00`, Min Keep = `23,379,100.00`
+- **Headroom Calculation**: `32,063,050.00 - 23,379,100.00 = 8,683,950.00`.
+- **Exact Event Cause**: In `request_25`, `event_2041` (`investment`, `13,728,000.00`, dated `2025-02-01`) was a single historical event. The recurrence engine misclassified it as a monthly recurring stream of `13,728,000.00`/month, creating a phantom expense of `13,728,000.00` on `2024-03-01` that wiped out all safe headroom to `0.00`.
+- **Root Cause**: `RecurrenceEngine` created a recurring monthly stream from a single event (`len(dates) < 2`), over-counting pre-payday expenses by `13,728,000.00`. When `investment` is correctly treated as a non-recurring single event, pre-payday expenses = `7,258,950.00`, yielding `headroom = 8,683,950.00 - 7,258,950.00 = 1,425,000.00` EXACTLY matching Ground Truth!
+
+## 4. Concrete Generalized Conclusion
+
+> **Conclusion**: The reference safe-amount logic calculates `amount_safe_to_pay` as the pre-payday cash headroom on `request_date` before optional spending changes, bounded by `min(requested_amount, max(0.0, current_available_balance - minimum_balance_to_keep - E_pre_payday))`, where `E_pre_payday` includes explicit debits on `request_date` through `next_payday` (inclusive of `request_date` settled debits, pending debits, scheduled debits, and verified multi-event recurring streams). In contrast, our previous engine used a 90-day post-payday simulation search that allowed post-payday salary credits to artificially inflate safe amounts or allowed post-deadline expense dips to degrade immediate safe amounts.
