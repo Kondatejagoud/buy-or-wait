@@ -101,9 +101,16 @@ class RecurrenceEngine:
             days_of_month = [d.day for d in dates]
             common_day = max(set(days_of_month), key=days_of_month.count)
 
+            fixed_cats = {
+                "rent", "housing", "insurance", "debt_payment", "debt_repayment",
+                "subscription", "music_subscription", "cloud_storage", "streaming",
+                "gym", "delivery_membership", "salary"
+            }
+            chosen_amt = avg_amt if cat not in fixed_cats else typical_amt
+
             pattern = {
                 "category": cat,
-                "amount": typical_amt,
+                "amount": chosen_amt,
                 "avg_amount": avg_amt,
                 "frequency": freq,
                 "day_of_month": common_day,
